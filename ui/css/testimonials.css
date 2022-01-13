@@ -24,7 +24,7 @@ a:visited {
 	margin:0 auto;
 	padding: 20px 28px;
 	background-color:#000;
-	background-image:url(bg.jpg);
+	background-image:url(../img/testimonials/popup/bg.jpg);
 	background-position:top;
 	background-repeat:no-repeat;
 	position:relative;
@@ -43,7 +43,7 @@ h1 {
 	width:253px;
 	height:119px;	
 	float:left;
-	background-image:url(logo.png);
+	background-image:url(../img/testimonials/popup/logo.png);
 	background-repeat:no-repeat;
 }
 
@@ -56,7 +56,7 @@ h2 {
 	right:20px;
 	top:50px;
 	text-indent:-9999px;
-	background-image:url(h2.png);
+	background-image:url(../img/testimonials/popup/h2.png);
 	background-repeat:no-repeat;
 }
 
@@ -80,20 +80,20 @@ h2 {
 		width:34px;
 		height:31px;
 		margin-left:5px;
-		background-image:url(quote_left.png);
+		background-image:url(../img/testimonials/popup/quote_left.png);
 		background-repeat:no-repeat;
 		text-indent:-9999px;
 		float:left;
 	}
 	#testimonials #quoteTop {
-		background-image:url(quote_top.jpg);
+		background-image:url(../img/testimonials/popup/quote_top.jpg);
 		background-position:top;
 		background-repeat:no-repeat;
 		padding-top:20px;
 	}
 
 	#testimonials #entry {
-	background-image:url(quote_bottom.jpg);
+	background-image:url(../img/testimonials/popup/quote_bottom.jpg);
 	background-position:bottom;
 	background-repeat:no-repeat;
 	width:645px;
@@ -137,7 +137,7 @@ h3 a:link {
 	display:block;
 	margin:0 auto;
 	text-indent:-9999px;
-	background-image:url(btn_getthegame.jpg);
+	background-image:url(../img/testimonials/popup/btn_getthegame.jpg);
 	background-position:left;
 }
 
@@ -147,7 +147,7 @@ h3 a:visited {
 	display:block;
 	margin:0 auto;
 	text-indent:-9999px;
-	background-image:url(btn_getthegame.jpg);
+	background-image:url(../img/testimonials/popup/btn_getthegame.jpg);
 	background-position:left;
 }
 
