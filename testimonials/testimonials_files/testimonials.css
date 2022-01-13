@@ -1,0 +1,158 @@
+/* Window Width: 798px */
+
+body {
+	padding:0;
+	margin:0;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#646566;
+	background-color:#000;
+}
+
+a:link {
+	color: #666;
+}
+a:hover {
+	color: #666;
+}
+
+a:visited {
+	color: #666;
+}
+
+#wrapper {
+	width:702px;
+	margin:0 auto;
+	padding: 20px 28px;
+	background-color:#000;
+	background-image:url(bg.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	position:relative;
+}
+#clear {
+	clear:both;
+}
+
+img {
+	border:none;
+}
+
+
+h1 {
+	text-indent:-9999px;
+	width:253px;
+	height:119px;	
+	float:left;
+	background-image:url(logo.png);
+	background-repeat:no-repeat;
+}
+
+h2 {
+	font-size:16px;
+	font-weight:normal;
+	width:430px;
+	height:88px;
+	position:absolute;
+	right:20px;
+	top:50px;
+	text-indent:-9999px;
+	background-image:url(h2.png);
+	background-repeat:no-repeat;
+}
+
+
+
+#testimonial_container {
+	width:720px;
+	margin:0 auto;
+}
+
+
+#testimonial_container #testimonials {
+	width:680px;
+	margin:0 auto;
+	background-color:#faf7f7;
+	font-size:14px;
+	padding:0 20px;
+}
+
+	#testimonials #quoteOpen {
+		width:34px;
+		height:31px;
+		margin-left:5px;
+		background-image:url(quote_left.png);
+		background-repeat:no-repeat;
+		text-indent:-9999px;
+		float:left;
+	}
+	#testimonials #quoteTop {
+		background-image:url(quote_top.jpg);
+		background-position:top;
+		background-repeat:no-repeat;
+		padding-top:20px;
+	}
+
+	#testimonials #entry {
+	background-image:url(quote_bottom.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	width:645px;
+	margin:0px auto;
+	padding: 0px 0 5px;
+	position:relative;
+	font-size:18px;		
+	}
+		#testimonials #entry p {
+			display:block;
+			width:540px;
+			margin:0px 0 0 50px;
+			padding:0 0 50px 0;
+		}
+		
+		#testimonials #entry b {
+			font-size:22px;
+		}
+		
+		#testimonials #entry #user {
+			position:absolute;
+			right:0px;
+			width:100px;
+			bottom:0px;
+			font-size:14px;
+		}
+
+#footer {
+	width:680px;
+	padding:20px;
+	margin:0 auto;
+	background-color:#000;
+	font-size:10px;
+}
+
+/* get the game */
+
+h3 a:link { 
+	width:278px;
+	height:153px;
+	display:block;
+	margin:0 auto;
+	text-indent:-9999px;
+	background-image:url(btn_getthegame.jpg);
+	background-position:left;
+}
+
+h3 a:visited { 
+	width:278px;
+	height:153px;
+	display:block;
+	margin:0 auto;
+	text-indent:-9999px;
+	background-image:url(btn_getthegame.jpg);
+	background-position:left;
+}
+
+
+
+h3 a:hover {
+	background-position:right;
+}

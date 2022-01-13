@@ -1,0 +1,1063 @@
+/*	-----------------------------------------------
+
+	Resets And Primitives
+
+	----------------------------------------------- */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,iframe {
+	padding:0;
+	margin:0;
+}
+body {
+	background: #000 url(../img/bg/bg-main.jpg) no-repeat center 0;
+	color: #000;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 62.5%;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1em;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.2em;
+}
+h3 {
+	font-size: 1.8em;
+}
+h4 {
+	font-size: 1.8em;
+}
+h5 {
+	font-size: 1.6em;
+}
+h6 {
+	font-size: 1.4em;
+}
+p {
+	font-size: 1.2em; 
+}
+address,caption,cite,code,dfn,th,var { 
+	font-style: normal; 
+	font-weight: normal; 
+}
+ul,ol {
+	font-size: 1.2em; 
+}
+a { 
+	color: #000;
+	text-decoration: underline; 
+}
+a:hover {
+	text-decoration: underline; 
+}
+object {
+	outline: none;
+}
+img {
+	border: 0; 
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic; 
+}
+table {
+	border-collapse: collapse;
+}
+caption,th,td {
+	font-weight: normal;
+	text-align: left;
+}
+
+/*	-----------------------------------------------
+
+	Custom Primitives
+
+	----------------------------------------------- */
+
+div.hr {
+	border-top: 1px solid #000;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+	div.hr hr {
+		display: none;
+	}
+div.clear {
+	clear: both;
+	height: 1px;
+	margin-top: -1px;
+	overflow: hidden;
+}
+a.btn {
+	cursor: pointer;
+	display: block;
+	position: relative;
+}
+	a.btn span {
+		left: -999999px;
+		position: absolute;
+		top: -999999px;
+	}
+ul.link-list-horz {
+	list-style: none;	
+}
+	ul.link-list-horz li {
+		float: left;
+	}
+
+/*	-----------------------------------------------
+
+	Utility Classes
+
+	----------------------------------------------- */
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.invisible {
+	display: none;
+}
+.offscreen {
+	display: block;
+	left: -999999px;
+	position: absolute;
+	top: -999999px;
+}
+.clear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0px;
+	margin-top: -1px;
+	visibility: hidden;
+}
+
+/*	-----------------------------------------------
+
+	Nintendo Utility Strip
+
+	----------------------------------------------- */
+
+div#globalNav {
+	background: transparent url(../img/nav/strip/bg-strip.gif) repeat-x;
+	height: 34px;
+	position: relative;
+}
+	div#globalNav div.inner {
+		min-height: 34px !important;
+		position: relative !important;
+	}
+	div#globalNav ul {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		list-style: none;
+		margin: 0 auto;
+		width: 970px;
+	}
+		div#globalNav ul li {
+			background: transparent url(../img/nav/strip/divider.gif) no-repeat top right;
+			color: #727272;
+			float: left;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+		}
+			div#globalNav ul li a {
+				color: #727272;
+				display: block;
+				outline: none;
+				text-decoration: none;
+			}
+			div#globalNav ul li a:hover {
+				background: transparent url(../img/nav/strip/bg-strip-hover.gif) repeat-x;
+			}
+		div#globalNav ul li#nintendo {
+			background: transparent url(../img/nav/strip/navNintendo.gif) no-repeat;
+			height: 34px;
+			width: 110px;
+			display:block;
+		}
+			
+			div#globalNav ul li#nintendo a {
+				width:110px;
+				height:30px;
+				display:block;
+				background: none;
+				text-indent:-9999px;
+			}
+			div#globalNav ul li#nintendo a:hover {
+				background: none;	
+			}
+		div#globalNav ul li#wii {
+			width: 70px;	
+		}
+		div#globalNav ul li#dsi {
+			width: 111px;	
+		}
+		div#globalNav ul li#games {
+			width: 75px;	
+		}
+		div#globalNav ul li#support {
+			width: 85px;	
+		}
+		div#globalNav ul li#club {
+			width: 125px;	
+		}
+		div#globalNav ul li#share,
+		div#globalNav ul li#facebook,
+		div#globalNav ul li#twitter {
+			float: right;
+			font-size: 10px;
+		}
+		div#globalNav ul li#share {
+			background: none;
+			width: 60px;
+		}
+		div#globalNav ul li#facebook {
+			background: url(../img/nav/strip/navSharefbook.gif) no-repeat left center;
+			width: 78px;
+		}
+			div#globalNav ul li#facebook a:hover,
+			div#globalNav li#twitter a:hover {
+				background: none;
+				color: #0090C7;
+			}
+		div#globalNav ul li#twitter  {
+			background: url(../img/nav/strip/navShareTwitter.gif)  no-repeat left center;
+			width: 60px;
+		}
+
+/*** Nintendo Utility Strip - French Rules ***/
+
+		body.french div#globalNav ul li#wii {
+			width: 50px;	
+		}
+		body.french div#globalNav ul li#dsi {
+			width: 100px;	
+		}
+		body.french div#globalNav ul li#games {
+			width: 110px;
+		}
+		body.french div#globalNav ul li#support {
+			width: 140px;	
+		}
+		body.french div#globalNav ul li#club {
+			width: 110px;	
+		}
+
+/*** Nintendo Utility Strip - Spanish Rules ***/
+
+		body.spanish div#globalNav ul li#games {
+			width: 65px;
+		}
+		body.spanish div#globalNav ul li#support {
+			width: 130px;	
+		}
+
+/*	-----------------------------------------------
+
+	Chrome
+
+	----------------------------------------------- */
+
+div#wrapper-top {
+	min-width: 1045px;
+}
+	div#wrapper-top div.inner {
+		margin: 0 auto;
+		min-height: 708px;
+		position: relative;
+		width: 1045px;
+	}
+div#wrapper-bottom { }
+div#column-nav {
+	float: left;
+	margin-bottom: 100px;
+	position: relative;
+	width: 300px;
+	z-index: 2;
+}
+div#content {
+	float: left;
+	margin-bottom: 50px;
+	position: relative;
+	width: 724px;
+}
+	div#content h1 {
+		background: transparent url(../img/bg/bg-hdr.png) no-repeat 0 0;
+		color: #fff;
+		height: 1em;
+		margin: 50px 0 20px 24px;
+		padding: 16px;
+		text-shadow: 1px 1px 1px #1B39A6, -1px 1px 1px #1B39A6, 1px -1px 1px #1B39A6, -1px -1px 1px #1B39A6, 2px 2px 7px #2C2EA4;
+		width: 700px;
+	}
+		div#content h1 small {
+			font-size: 0.5em;
+			position: relative;
+			top: -15px;
+		}
+	div#content div.columns {
+		background: transparent url(../img/bg/bg-content-box-724.png) no-repeat 0 0;
+		clear: both;
+		margin-bottom: 65px;
+		min-height: 150px;
+		padding: 55px 30px 0;
+		position: relative;
+		right: -10px;
+	}
+		div#content div.columns h2 {
+			color: #2C2EA4;
+			font-size: 5em;
+			margin-top: 50px;
+			text-align: center;
+			text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff, 2px 2px 7px #2C2EA4;
+		}
+		div#content div.columns div.bottom {
+			background: transparent url(../img/bg/bg-content-box-724.png) no-repeat 0 bottom;
+			bottom: -55px;
+			height: 55px;
+			left: 0;
+			position: absolute;
+			width: 100%;
+		}
+		div#content div.columns div.image {
+			padding: 0 30px;
+			width: 302px;
+		}
+		div#content div.columns div.copy {
+			padding: 0 30px;
+			width: 242px;
+		}
+			div#content div.columns div.copy h3 {
+				color: #1d6dc6;
+				margin-bottom: 10px;
+				text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff, 2px 2px 2px #999;
+			}
+			div#content div.columns div.copy p {
+				color: #29abf7;
+				font-size: 1.4em;
+				line-height: 1.2em;
+				text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff, 1px 1px 2px #aaa;
+			}
+			div#content div.columns div.copy p.note {
+				font-size: 1.2em;
+				margin-top: 15px;
+			}
+		div#content div.columns ul.gallery {
+			list-style: none;
+			margin: 0 auto;
+			width: 610px;
+		}
+			div#content div.columns ul.gallery li {
+				float: left;
+				margin: 15px 20px 15px 0;
+				width: 285px;
+			}
+				div#content div.columns ul.gallery li a {
+					text-decoration: none;
+				}
+					div#content div.columns ul.gallery li a img.thumb {
+						background: transparent url(../img/bg/bg-gallery-118x67.png) no-repeat 0 0;
+						float: left;
+						padding: 2px;
+					}
+					div#content div.columns ul.gallery li a:hover img.thumb {
+						background-position: 0 -71px;
+					}
+					div#content div.columns ul.gallery li a span.detail {
+						color: #29abf7;
+						float: left;
+						margin-left: 10px;
+					}
+					div#content div.columns ul.gallery li a:hover span.detail {
+						color: #1d6dc6;
+						text-decoration: underline;
+					}
+						div#content div.columns ul.gallery li a span.detail strong {
+							display: block;
+						}
+	div#content ul.link-list-callouts {
+		position: absolute;
+		top: 570px;
+	}
+		div#content ul.link-list-callouts li {
+			height: 123px;
+			margin-right: -20px;
+			width: 375px;
+		}
+			div#content ul.link-list-callouts li a {
+				background: transparent url(../img/btn/btn-sprite-callout.png) no-repeat 0 0;
+			}
+			div#content ul.link-list-callouts li a#callout-iwata {
+				background-position: 0 0;
+			}
+			div#content ul.link-list-callouts li a#callout-iwata:hover {
+				background-position: 0 -123px;
+			}
+			div#content ul.link-list-callouts li a#callout-mario-games {
+				background-position: -375px 0;
+			}
+			div#content ul.link-list-callouts li a#callout-mario-games:hover {
+				background-position: -375px -123px;
+			}
+		body.overview div#content div.columns {
+			background: none;
+		}
+			body.overview div#content div.columns div.image { }
+				body.overview div#content div.columns div.image div.char {
+					position: absolute;
+					z-index: 1;
+				}
+				body.overview div#content div.columns div.image div.char-yoshi-bulb-berry {
+					background: transparent url(../img/char/char-yoshi-bulb-berry.png) no-repeat 0 0;
+					height: 575px;
+					left: -95px;
+					top: -10px;
+					width: 579px;
+				}
+				body.overview div#content div.columns div.image div.char-group {
+					background: transparent url(../img/char/char-group.png) no-repeat 0 0;
+					height: 492px;
+					left: -55px;
+					top: -10px;
+					width: 550px;
+					z-index: 2;
+				}
+			body.overview div#content div.columns div.copy {
+				background: transparent url(../img/bg/bg-content-box-370.png) no-repeat 0 0;
+				float: right;
+				margin: 3px -32px 0;
+				padding: 55px 60px 0;
+				position: relative;
+				width: 260px;
+			}
+				body.overview div#content div.columns div.copy p { }
+				body.overview div#content div.columns div.copy div.bottom {
+					background: transparent url(../img/bg/bg-content-box-370.png) no-repeat 0 bottom;
+				}
+div#footer {
+	color: #fff;
+	clear: both;
+	height: 118px;
+	margin: 0 auto;
+	position: relative;
+	width: 961px;
+}
+	div#footer a {
+		color: #fff;
+		text-decoration: none;
+	}
+		div#footer a:hover {
+			text-decoration: underline;
+		}
+div#footer p#copyright {
+	bottom: 0;
+	font-size: 1em;
+	left: 0;
+	line-height: 1.2em;
+	padding: 18px 0 18px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+/*** Language Navigation ***/
+
+	div#globalNav div#wrapper-lang {
+		height: 34px;
+		position: absolute;
+		right: 245px;
+		top: 0;
+		width: 185px;
+	}
+	div#wrapper-lang h4 {
+		color: #727272;
+		float: left;
+		font-size: 1em;
+		font-weight: normal;
+		margin: 12px 10px 0 25px;
+	}
+	div#wrapper-lang ul#nav-lang {
+		background: transparent url(../img/bg/bg-nav-lang.png) no-repeat center bottom;
+		float: left;
+		font-size: 1em;
+		list-style: none;
+		padding: 20px 0 3px;
+		position: relative;
+		top: 7px;
+		width: 91px;
+		z-index: 1;
+	}
+		div#wrapper-lang ul#nav-lang li {
+			background: transparent url(../img/bg/bg-dotted.png) repeat-x center bottom;
+			clear: both;
+			height: 20px;
+			line-height: 1.2em;
+			margin-left: 3px;
+			text-align: left;
+			text-indent: 10px;
+			width: 86px;
+		}
+		div#wrapper-lang ul#nav-lang li.last {
+			background: none;
+		}
+			div#wrapper-lang ul#nav-lang li a {
+				color: #707070;
+				cursor: pointer;
+				height: 16px;
+				padding-top: 4px;
+			}
+			div#wrapper-lang ul#nav-lang li a:hover {
+				background: none;
+				text-decoration: underline;
+			}
+		div#wrapper-lang ul#nav-lang li.in {
+			background: transparent url(../img/bg/bg-nav-item.png) no-repeat center 0;
+			height: 21px;
+			margin: -20px 0 0;
+			width: 100%;
+		}
+			div#wrapper-lang ul#nav-lang li.in a {
+				color: #fff;
+			}
+			div#wrapper-lang ul#nav-lang li.in a:hover {
+				text-decoration: none;
+			}
+
+/*** Utility Navigation ***/
+
+ul#nav-utility {
+	list-style: none;
+}
+	ul#nav-utility li {
+		height: 63px;
+		position: absolute;
+		width: 260px;
+	}
+		ul#nav-utility li a {
+			background: transparent url(../img/btn/btn-sprite.png) no-repeat 0 0;
+		}
+	ul#nav-utility li#nav-buy-now {
+		bottom: 80px;
+		left: 12px;
+	}
+		ul#nav-utility li#nav-buy-now a {
+			background-position: 0 0;
+		}
+		ul#nav-utility li#nav-buy-now a:hover {
+			background-position: 0 -63px;
+		}
+	ul#nav-utility li#nav-newsletter {
+		bottom: -70px;
+		left: 19px;
+	}
+		ul#nav-utility li#nav-newsletter a {
+			background-position: 0 -126px;
+		}
+		ul#nav-utility li#nav-newsletter a:hover {
+			background-position: 0 -189px;
+		}
+div.box-art {
+	background: transparent url(../img/misc/box-art-wii.png) no-repeat 0 0;
+	height: 147px;
+	position: absolute;
+	right: -35px;
+	top: -50px;
+	width: 180px;
+	z-index: 1;
+}
+	div.box-art a.btn {
+		background: none !important;
+	}
+
+/*** Main Navigation ***/
+
+ul#nav-main {
+	background: transparent url(../img/bg/bg-nav.png) no-repeat 0 0;
+	float: left;
+	list-style: none;
+	margin: 190px 13px 0;
+	padding: 45px 0 160px;
+	width: 274px;
+}
+	ul#nav-main li#nav-home {
+		height: 134px;
+		left: 12px;
+		position: absolute;
+		top: 30px;
+		width: 285px;
+	}
+		ul#nav-main li#nav-home a.btn {
+			background: transparent url(../img/nav/nav-logo.png) no-repeat 0 0;
+			height: 134px;
+		}
+			ul#nav-main li#nav-home a.btn span {
+				background: none;
+			}
+	ul#nav-main li {
+		margin: 0 auto;
+		text-shadow: 1px 1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff, -1px -1px 1px #fff, 2px 2px 2px #999;
+		width: 223px;
+	}
+		ul#nav-main li a.btn {
+			background: transparent url(../img/nav/nav-lozenge.png) no-repeat 0 0;
+			height: 41px;
+		}
+		ul#nav-main li a.btn:hover {
+			background-position: 0 -41px;
+		}
+		ul#nav-main li.in a.btn {
+			background-position: 0 -82px;
+		}
+		ul#nav-main li ul {
+			color: #1d61b9;
+			left: -999999px;
+			list-style: none;
+			padding: 10px 0 10px;
+			position: absolute;
+			top: -999999px;
+		}
+		ul#nav-main li.in ul {
+			left: auto;
+			position: static;
+			top: auto;
+		}
+			ul#nav-main li ul li {
+				height: 20px;
+			}
+			ul#nav-main li ul li.tall {
+				height: 40px;
+			}
+				ul#nav-main li ul li a {
+					background: transparent url(../img/misc/bullet-blue.png) no-repeat 28px 4px;
+					color: #22aaf7;
+					float: left;
+					font-size: 0.972em;
+					outline: none;
+					padding-left: 40px;
+					text-decoration: none;
+				}
+				ul#nav-main li ul li a:hover {
+					background-position: 28px -36px;
+					color: #1d61b9;
+				}
+				ul#nav-main li ul li a.on {
+					background-position: 28px -36px;
+					color: #1d61b9;
+					font-weight: bold;
+				}
+			ul#nav-main li a.btn span {
+				background: transparent url(../img/nav/nav-sprite.png) no-repeat 0 0;
+				display: block;
+				height: 20px;
+				left: 20px;
+				position: relative;
+				text-indent: -999999px;
+				top: 10px;
+				width: 190px;
+			}
+			ul#nav-main li#nav-mario-and-yoshi a.btn span {
+				background-position: 0 0;
+			}
+			ul#nav-main li#nav-mario-and-yoshi.in a.btn span {
+				background-position: 0 -20px;
+			}
+			ul#nav-main li#nav-how-to-play a.btn span {
+				background-position: 0 -40px;
+			}
+			ul#nav-main li#nav-how-to-play.in a.btn span {
+				background-position: 0 -60px;
+			}
+			ul#nav-main li#nav-friends-and-foes a.btn span {
+				background-position: 0 -80px;
+			}
+			ul#nav-main li#nav-friends-and-foes.in a.btn span {
+				background-position: 0 -100px;
+			}
+			ul#nav-main li#nav-gallery a.btn span {
+				background-position: 0 -120px;
+			}
+			ul#nav-main li#nav-gallery.in a.btn span {
+				background-position: 0 -140px;
+			}
+div#nav-cap-bottom {
+	background: transparent url(../img/bg/bg-nav.png) no-repeat 0 bottom;
+	float: left;
+	height: 48px;
+	margin: 0 13px;
+	width: 274px;
+}
+
+/*** Footer Navigation ***/
+
+ul#nav-footer {
+	height: 70px;
+	list-style: none;
+}
+	ul#nav-footer li {
+		float: left;
+		height: 70px;
+		margin-left: 21px;
+	}
+		ul#nav-footer li a {
+			background: transparent url(../img/nav/nav-footer.png) no-repeat 0 0;
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+	ul#nav-footer li#nav-wii {
+		margin-left: 0;
+		width: 117px;
+	}
+		ul#nav-footer li#nav-wii a {
+			background-position: 0 0;
+		}
+	ul#nav-footer li#nav-dolby {
+		width: 102px;
+	}
+		ul#nav-footer li#nav-dolby a {
+			background-position: -117px 0;
+		}
+	ul#nav-footer li#nav-club-nin {
+		width: 67px;
+	}
+		ul#nav-footer li#nav-club-nin a {
+			background-position: -219px 0;
+		}
+	ul#nav-footer li#nav-privacy {
+		width: 145px;
+	}
+		ul#nav-footer li#nav-privacy a {
+			background-position: -286px 0;
+		}
+	ul#nav-footer li#nav-esrb {
+		width: 145px;
+	}
+		ul#nav-footer li#nav-esrb a {
+			background-position: -431px 0;
+		}
+	ul#nav-footer li#nav-smg-original {
+		width: 280px;
+	}
+		ul#nav-footer li#nav-smg-original a {
+			background-position: -576px 0;
+		}
+	/*ul#nav-footer li#nav-lang {
+		height: 14px;
+		margin: 0;
+		padding: 18px 0 18px;
+		position: relative;
+		width: 200px;
+	}
+		ul#nav-footer li#nav-lang span {
+			color: #fff;
+			float: left;
+			font-size: 0.916em;
+			margin-right: 10px;
+		}
+		ul#nav-footer li#nav-lang ul {
+			list-style: none;
+			height: 14px;
+		}
+			ul#nav-footer li#nav-lang ul li {
+				height: 100%;
+				margin-left: 0;
+			}
+				ul#nav-footer li#nav-lang ul li a {
+					font-size: 0.764em;
+					text-decoration: underline;
+				}
+				ul#nav-footer li#nav-lang ul li a:hover {
+					color: #d9d9d9;
+				}
+			ul#nav-footer li#nav-lang ul li#nav-lang-french {
+				background: transparent url(../img/misc/pipe-white.png) no-repeat right center;
+				margin-right: 4px;
+				padding-right: 7px;
+			}*/
+
+/*** Buttons ***/
+
+a.btn {
+	cursor: pointer;
+	height: 100%;
+	display: block;
+	outline: none;
+	position: relative;
+	width: 100%;
+}
+	a.btn span {
+		left: -999999px;
+		position: absolute;
+		top: -999999px;
+	}
+
+/*** Characters ***/
+
+div.char-art {
+	margin: -55px 0;
+	position: relative;
+	z-index: 1;
+}
+	div.char-art div.char-300x260 {
+		height: 260px;
+		width: 300px;
+	}
+		div.char-400x433 div.char {
+			height: 433px;
+			left: -40px;
+			top: -5px;
+			width: 400px;
+		}
+div.char-bee-mushroom {
+	background: transparent url(../img/char/300x260/char-bee-mushroom.png) no-repeat 0 0;
+}
+div.char-blimp-fruit {
+	background: transparent url(../img/char/300x260/char-blimp-fruit.png) no-repeat 0 0;
+}
+div.char-boo-mushroom {
+	background: transparent url(../img/char/300x260/char-boo-mushroom.png) no-repeat 0 0;
+}
+div.char-bulb-berry {
+	background: transparent url(../img/char/300x260/char-bulb-berry.png) no-repeat 0 0;
+}
+div.char-cloud-flower {
+	background: transparent url(../img/char/300x260/char-cloud-flower.png) no-repeat 0 0;
+}
+div.char-dash-pepper {
+	background: transparent url(../img/char/300x260/char-dash-pepper.png) no-repeat 0 0;
+}
+div.char-fire-flower {
+	background: transparent url(../img/char/300x260/char-fire-flower.png) no-repeat 0 0;
+}
+div.char-rainbow-star {
+	background: transparent url(../img/char/300x260/char-rainbow-star.png) no-repeat 0 0;
+}
+div.char-rock-mushroom {
+	background: transparent url(../img/char/300x260/char-rock-mushroom.png) no-repeat 0 0;
+}
+div.char-spring-mushroom {
+	background: transparent url(../img/char/300x260/char-spring-mushroom.png) no-repeat 0 0;
+}
+div.char-starship-mario {
+	background: transparent url(../img/char/400x433/char-starship-mario.png) no-repeat 0 0;
+}
+div.char-lubba {
+	background: transparent url(../img/char/400x433/char-lubba.png) no-repeat 0 0;
+}
+div.char-baby-luma {
+	background: transparent url(../img/char/400x433/char-baby-luma.png) no-repeat 0 0;
+}
+div.char-bee-luigi {
+	background: transparent url(../img/char/400x433/char-bee-luigi.png) no-repeat 0 0;
+}
+div.char-peach {
+	background: transparent url(../img/char/400x433/char-peach.png) no-repeat 0 0;
+}
+div.char-bowser {
+	background: transparent url(../img/char/400x433/char-koopa.png) no-repeat 0 0;
+}
+div.char-bowser-jr {
+	background: transparent url(../img/char/400x433/char-koopa-jr.png) no-repeat 0 0;
+}
+div.char-kamek {
+	background: transparent url(../img/char/400x433/char-kamek.png) no-repeat 0 0;
+}
+
+/*** Flash Enabled ***/
+
+body.flash-enabled { }
+	body.flash-enabled div#wrapper-top {
+		height: 100%;
+		margin: 0 auto -128px;
+		min-height: 855px !important;
+		min-width: 1024px;
+		overflow: hidden;
+		width: 100%;
+	}
+	body.flash-enabled div#flash-target,
+	body.flash-enabled object#flash-target {
+		height: 100%;
+		min-height: 855px;
+		width: 100%;
+		z-index: 2;
+	}
+	body.flash-enabled div.push {
+		height: 128px;
+	}
+
+/*	-----------------------------------------------
+
+	Widgets
+
+	----------------------------------------------- */
+
+/*** Modal Window ***/
+
+div#overlay {
+	background: #000;
+	display: none;
+	min-height: 100%;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+div#modal-window {
+	background: transparent url(../img/bg/bg-modal-window.png) no-repeat 0 0;
+	display: none;
+	height: 496px;
+	margin: 0 auto;
+	position: fixed;
+	width: 725px;
+	z-index: 101;
+}
+	div#modal-wrapper {
+		height: 171px;
+		padding: 25px 30px 5px;
+		width: 576px;
+	}
+	div#modal-window a#btn-modal-close {
+		background: transparent url(../img/btn/btn-modal-close.png) no-repeat 0 0;
+		height: 54px;
+		left: -10px;
+		position: absolute;
+		top: -10px;
+		width: 54px;
+	}
+	div#modal-window a#btn-modal-close:hover {
+		background-position: 0 -54px;
+		cursor: pointer;
+	}
+	div#modal-window img {
+		padding: 42px 42px 30px;
+	}
+	div#modal-window h3 {
+		color: #1d6dc6;
+		text-align: center;
+	}
+
+/*	-----------------------------------------------
+
+	Page Specific Style
+
+	----------------------------------------------- */
+
+/*** Home ***/
+
+body#page-home { }
+	body#page-home div#wrapper-top {
+		background: transparent url("../img/bg/bg-home.jpg") no-repeat center 0;
+		height: 100%;
+		min-height: 620px;
+		position: relative;
+		width: 100%;
+	}
+
+/*	-----------------------------------------------
+
+	Localizations
+
+	----------------------------------------------- */
+
+/*** Spanish ***/
+
+body.spanish { }
+	body.spanish div#content { }
+		body.spanish div#content div.columns { }
+			body.spanish div#content div.columns div.image { }
+				body.spanish div#content div.columns div.image div.char-group {
+					top: 30px;
+				}
+	body.spanish div#content ul.link-list-callouts { }
+		body.spanish div#content ul.link-list-callouts li { }
+			body.spanish div#content ul.link-list-callouts li a {
+				background: transparent url(../img/es/btn/btn-sprite-callout.png) no-repeat 0 0;
+			}
+	body.spanish ul#nav-main {
+		padding-bottom: 20px;
+	}
+		body.spanish ul#nav-main li { }
+			body.spanish ul#nav-main li a.btn { }
+				body.spanish ul#nav-main li a.btn span {
+					background: transparent url(../img/es/nav/nav-sprite.png) no-repeat 0 0;
+				}
+	body.spanish ul#nav-footer { }
+		body.spanish ul#nav-footer li {
+			display: inline;
+			margin-left: 90px;
+		}
+			body.spanish ul#nav-footer li a {
+				background: transparent url(../img/es/nav/nav-footer.png) no-repeat 0 0;
+			}
+		/*body.spanish ul#nav-footer li#nav-lang { }
+			body.spanish ul#nav-footer li#nav-lang ul { }
+				body.spanish ul#nav-footer li#nav-lang ul li#nav-lang-english {
+					background: transparent url(../img/misc/pipe-white.png) no-repeat right center;
+					margin-right: 4px;
+					padding-right: 7px;
+				}
+				body.spanish ul#nav-footer li#nav-lang ul li#nav-lang-french {
+					background: none;
+					margin-right: 0;
+					padding-right: 0;
+				}*/
+
+/*** French ***/
+
+body.french { }
+	body.french div#content { }
+		body.french div#content div.columns { }
+			body.french div#content div.columns div.image { }
+				body.french div#content div.columns div.image div.char-group {
+					top: 10px;
+				}
+	body.french div#content ul.link-list-callouts { }
+		body.french div#content ul.link-list-callouts li { }
+			body.french div#content ul.link-list-callouts li a {
+				background: transparent url(../img/fr/btn/btn-sprite-callout.png) no-repeat 0 0;
+			}
+	body.french div#globalNav { }
+		body.french div#globalNav div#wrapper-lang {
+			right: 222px;
+		}
+	body.french ul#nav-utility { }
+		body.french ul#nav-utility li { }
+			body.french ul#nav-utility li a {
+				background: transparent url(../img/fr/btn/btn-sprite.png) no-repeat 0 0;
+			}
+	body.french ul#nav-main { }
+		body.french ul#nav-main li { }
+			body.french ul#nav-main li a.btn { }
+				body.french ul#nav-main li a.btn span {
+					background: transparent url(../img/fr/nav/nav-sprite.png) no-repeat 0 0;
+				}
+	body.french ul#nav-footer { }
+		body.french ul#nav-footer li {
+			float: left;
+			height: 70px;
+			margin-left: 21px;
+		}
+			body.french ul#nav-footer li a {
+				background: transparent url(../img/fr/nav/nav-footer.png) no-repeat 0 0;
+			}
+		/*body.french ul#nav-footer li#nav-lang { }
+			body.french ul#nav-footer li#nav-lang ul { }
+				body.french ul#nav-footer li#nav-lang ul li#nav-lang-english {
+					background: transparent url(../img/misc/pipe-white.png) no-repeat right center;
+					margin-right: 4px;
+					padding-right: 7px;
+				}*/
