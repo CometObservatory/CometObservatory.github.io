@@ -150,39 +150,3 @@ $(function(){
 	navLanguage();
 	navAccordian();
 });
-
-/*** DoubleClick Floodlight Tags: Please do not remove  ***/
-// Activity name of this tag: SMG2: Home Page 
-function flsHomePage(){
-	var axel = Math.random() + ""; 
-	var a = axel * 10000000000000; 
-	var px=new Image(1,1);px.src="http://fls.doubleclick.net/activityi;src=911828;type=super461;cat=smg2h414;ord="+a+"?";
-} 
-
-// Activity name of this tag: SMG2: How To Play
-function flsHowToPlay(){
-	var axel = Math.random() + ""; 
-	var a = axel * 10000000000000; 
-	var px=new Image(1,1);px.src="http://fls.doubleclick.net/activityi;src=911828;type=super461;cat=smg2h243;ord="+a+"?";
-}
-
-// Activity name of this tag: SMG2: Mario & Yoshi
-function flsMarioYoshi(){
-	var axel = Math.random() + ""; 
-	var a = axel * 10000000000000; 
-	var px=new Image(1,1);px.src="http://fls.doubleclick.net/activityi;src=911828;type=super461;cat=smg2m274;ord="+a+"?";
-}
-
-// Activity name of this tag: SMG2: Buy Now 
-function flsBuyNow(){
-	var axel = Math.random() + ""; 
-	var a = axel * 10000000000000; 
-	var px=new Image(1,1);px.src="http://fls.doubleclick.net/activityi;src=911828;type=super461;cat=smg2b033;ord="+a+"?";
-}
-
-// Activity name of this tag: SMG2: Game Guide
-function flsGameGuide(){
-	var axel = Math.random() + ""; 
-	var a = axel * 10000000000000; 
-	var px=new Image(1,1);px.src="http://fls.doubleclick.net/activityi;src=911828;type=super461;cat=smg2g534;ord="+a+"?";
-}
