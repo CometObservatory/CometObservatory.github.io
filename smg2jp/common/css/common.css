@@ -1,0 +1,237 @@
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	name : commoon.css
+	last-update : 2007.11.15
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+
+/* ********************************************************************************
+
+	1-1.Yahoo UI Library Fonts CSS
+	*Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+	*http://developer.yahoo.com/yui/license.txt
+	
+	Font-size Adjustment
+	
+	77% = 10px	|	112% = 16px	|	167% = 22px	
+	85% = 11px	|	129% = 17px	|	174% = 23px
+	92% = 12px	|	136% = 18px	|	182% = 24px
+	100% = 13px	|	144% = 19px	|	189% = 25px
+	107% = 14px	|	152% = 20px	|	197% = 26px
+	114% = 15px	|	159% = 21px	|
+
+ * ******************************************************************************** */
+ 
+ 
+body {
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+select,
+input,
+textarea {
+	font-size: 99%;
+}
+
+
+/* ********************************************************************************
+ * ブラウザスタイルの初期化
+ * ******************************************************************************** */
+ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+/* Firefoxのスクロールバーの有無でセンタリング位置がズレる件を解消用 */
+html {
+	overflow-y:scroll;
+}
+
+img {
+	border: none;
+}
+
+a img {
+	border:none;
+	text-decoration:none;
+	outline:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+ul,ol {
+	list-style-type:none;
+}
+
+
+/* ********************************************************************************
+ * デフォルトスタイル
+ * ******************************************************************************** */
+
+object,
+param {
+	border: 0;
+	vertical-align: bottom;
+}
+
+input{
+	verticalalign: middle;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+strong {
+	font-weight: bold;
+	text-decoration: none;
+}	
+
+	
+/* ********************************************************************************
+ * LINK
+ * ******************************************************************************** */
+
+a {
+	color: #002169;
+	outline:0;
+}
+
+/* Hides from IE-mac \*/
+a {
+	overflow: hidden;
+}
+/* End Hides from IE-mac */
+	
+/*a:visited {
+	text-decoration: none;
+	color: #165689;
+}*/
+	
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+}
+
+
+
+/* ********************************************************************************
+ * 凡庸クラススタイル
+ * ******************************************************************************** */
+
+.hover {
+}
+
+img.preload,
+.hidden {
+	position: absolute;
+	left: -9999px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+/* 右へfloat */
+.alignRight {
+	float: right;
+}
+	
+/* 左へfloat */
+.alignLeft {
+	float: left;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+/* floatをクリア　ここから */
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix { display: inline-block; }
+
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End Hides from IE-mac */
+/* floatをクリア　ここまで */
+
+
+/* ********************************************************************************
+ * 基本レイアウト
+ * ******************************************************************************** */
+
+body {
+	font-family: "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", Osaka, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3";
+	text-align: center; /* for IE6 */
+	color: #666666;
+}
+#top_container {
+	width: 100%;
+	height: 741px;
+	background: url(../../images/container_bg.jpg) top center no-repeat;
+}
+#container {
+	width: 100%;
+	height: 608px;
+	background: url(../images/container_bg.jpg) top center no-repeat;
+}
+table#footer {
+	font-size: 10px;
+	line-height: 1.1;
+	color: #002169;
+}
+table#footer a {
+	text-decoration: underline;
+}
+table#footer a:hover {
+	text-decoration: none;
+	color: #153F9B;
+}
+table#footer #copyright {
+	letter-spacing: 0.1em;
+	color: #002169;
+}
+
+span.closed {
+	color: #8E8E8E;
+}
+
+
+/* トップページボタン
+------------------------------------------------------------*/ 
+table td p#btn {
+	position: relative;
+}
+table td p#btn a#btnDownload {
+	position: absolute;
+	top: 23px;
+	left: 116px;
+	z-index: 10;
+}
+
+
