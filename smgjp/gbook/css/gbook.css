@@ -1,0 +1,306 @@
+@charset "Shift_JIS";
+
+/*↓ブラウザ初期化====================*/
+* {
+	margin:0;
+	padding:0;
+	border:none;
+	background-color:transparent;
+	font:normal normal normal 100%/1.6 "ＭＳ ゴシック",Osaka;
+	}
+
+/*↓基本設定====================*/
+body {
+	background-color:#000e43;
+	color:#0087cb;
+	text-align:center;
+	font-size:12px;
+	line-height:1.6em;
+	background-image:url("../images/bg.jpg");
+	background-position:center top;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	}
+
+img {
+	border:none;
+	margin:0;
+	padding:0;
+	}
+
+p {
+	border:none;
+	margin:0;
+	padding:0;
+	}
+
+.cbox {
+	zoom:100%;
+	}
+.cbox:after {
+	content:" ";
+	clear: both;
+	height:0;
+	display:block;
+	visibility:hidden;
+	}
+
+/*↓基本リンク指定====================*/
+a, a:link {
+	color:#3300ff;
+	text-decoration:underline;
+	}
+a:visited {
+	color:#3300ff;
+	text-decoration:underline;
+	}
+a:hover {
+	color:#3300ff;
+	text-decoration:underline;
+	}
+a:active {
+	color:#3300ff;
+	text-decoration:underline;
+	}
+
+div#CONTENT {
+	width:620px;
+	height:auto;/*背景画像を下に表示するため*/
+	margin:0;
+	padding:0;
+	text-align:left;
+	}
+
+div#GBOOKBASE1 {
+	width:620px;
+	height:463px;
+	margin:13px 0 20px 0;
+	padding:0;
+	background-image:url("../images/gbook_bg1.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	}
+div#GBOOK1 {
+	width:540px;
+	height:286px;
+	margin:0 40px;
+	padding:0;
+	}
+
+div#GBOOKBASE2 {
+	width:620px;
+	height:736px;
+	margin:13px 0 20px 0;
+	padding:0;
+	background-image:url("../images/gbook_bg2.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	}
+div#GBOOK2 {
+	width:540px;
+	height:559px;
+	margin:0 40px;
+	padding:0;
+	}
+
+div#GBOOKBASE3 {
+	width:620px;
+	height:683px;
+	margin:13px 0 20px 0;
+	padding:0;
+	background-image:url("../images/gbook_bg3.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	}
+div#GBOOK3 {
+	width:540px;
+	height:486px;
+	margin:0 40px;
+	padding:0;
+	}
+
+div#GBOOKBASE4 {
+	width:620px;
+	height:413px;
+	margin:13px 0 20px 0;
+	padding:0;
+	background-image:url("../images/gbook_bg4.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	}
+div#GBOOK4 {
+	width:540px;
+	height:318px;
+	margin:0 40px;
+	padding:0;
+	}
+
+/*↓本設定（共通）====================*/
+.midashi {
+	width:540px;
+	height:95px;
+	margin:0 40px;
+	padding:0;
+	}
+.midashiimg {
+	width:540px;
+	height:33px;
+	margin:42px 0 20px 0;
+	padding:0;
+	}
+.hyoshiimg {
+	width:161px;
+	height:224px;
+	margin:0 5px 0 5px;
+	padding:0;
+	}
+.lh1em {
+	font-size:12px;
+	line-height:13px;
+	}
+/*.spectext {
+	width:339px;
+	height:auto;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	line-height:1.6em;
+	color:#0087cb;
+	vertical-align:middle;
+	}*/
+.infotext {
+	height:auto;
+	margin:10px auto auto auto;
+	line-height:18px;
+	color:#003e5d;
+	text-align:left;
+	}
+
+
+/*↓本個別設定====================*/
+.hyoshi1 {
+	width:181px;
+	height:286px;
+	margin:0;
+	padding:0;
+	float:left;
+	}
+.textblock1 {
+	width:359px;
+	height:286px;
+	margin:0;
+	padding:0;
+	float:right;
+	text-align:left;
+	vertical-align:top;
+	}
+.spec1 {
+	width:350px;
+	height:70px;
+	margin:0;
+	padding:5px 0 0 7px;
+	/*overflow:hidden;*/
+	}
+.text1 {
+	width:359px;
+	height:216px;
+	margin:0;
+	padding:0;
+	/*overflow:hidden;*/
+	}
+.info1 {
+	width:540px;
+	height:51px;
+	vertical-align:top;
+	margin:0 40px;
+	padding:0;
+	}
+
+.hyoshi2 {
+	width:181px;
+	height:559px;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+	float:left;
+	}
+.textblock2 {
+	width:359px;
+	height:559px;
+	margin:0;
+	padding:0;
+	float:right;
+	text-align:left;
+	vertical-align:top;
+	}
+.text2 {
+	width:359px;
+	height:489px;
+	margin:0;
+	padding:0;
+	/*overflow:hidden;*/
+	}
+
+.hyoshi3 {
+	width:181px;
+	height:486px;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+	float:left;
+	}
+.textblock3 {
+	width:359px;
+	height:486px;
+	margin:0;
+	padding:0;
+	float:right;
+	text-align:left;
+	vertical-align:top;
+	}
+.spec3 {
+	width:350px;
+	height:107px;
+	margin:0;
+	padding:5px 0 0 7px;
+	/*overflow:hidden;*/
+	}
+.text3 {
+	width:359px;
+	height:379px;
+	margin:0;
+	padding:0;
+	/*overflow:hidden;*/
+	}
+.info3 {
+	width:540px;
+	height:71px;
+	vertical-align:top;
+	margin:0 40px;
+	padding:0;
+	}
+
+.hyoshi4 {
+	width:181px;
+	height:318px;
+	vertical-align:top;
+	margin:0;
+	padding:0;
+	float:left;
+	}
+.textblock4 {
+	width:359px;
+	height:318px;
+	margin:0;
+	padding:0;
+	float:right;
+	text-align:left;
+	vertical-align:top;
+	}
+.text4 {
+	width:359px;
+	height:216px;
+	margin:0;
+	padding:0;
+	/*overflow:hidden;*/
+	}

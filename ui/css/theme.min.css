@@ -13,7 +13,7 @@ body {
     display: flex;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
-    align-items: flex-end
+    align-items: flex-end;
 }
 .slider-pagination .pagination-bullet {
     background-color: #151515 !important;
@@ -22,26 +22,17 @@ body {
     background-color: #fff !important
 }
 .slider-content {
-    padding: 10px;
-    margin: 40px;
+    margin: 5%;
     max-width: 4200px;
 }
 .slider-content .heading {
-    font-weight: 700;
-    font-size: 90px;
     color: #fff;
     text-shadow: 3px 3px #000;
 }
 .slider-content .line {
-    margin: 20px 0;
-    width: 150px;
-    height: 2px;
     background-color: #fff;
-    border: 0;
 }
 .slider-content .desc {
-    font-size: 39px;
-    line-height: 40px;
     color: #eee;
     text-shadow: 2px 2px #000;
 }
@@ -52,12 +43,8 @@ body {
     background-color: #fff
 }
 .slider-content .link {
-    font-size: 36px;
     color: #151515;
     text-decoration: none;
-    display: inline-block;
-    padding: 24px 36px;
-    margin-top: 15px;
     background-color: #fff;
     transition: all .2s;
     border-radius: 50px;
@@ -65,4 +52,31 @@ body {
 .slider-content .link:focus, .slider-content .link:hover {
     color: #fff;
     background-color: #151515
+}
+
+#doit{
+    width: 100%;
+    font-size:5vw;
+}
+
+#doit .line{
+    margin: 3% 0%;
+    width: 90%;
+    height: 1%;
+}
+
+#doit .desc{
+    font-size:2vw;
+    line-height: 100%;
+}
+
+#doit .link{
+    font-size:1.4vw;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
+#doit .pagination-bullet{
+    width: 3%;
+    margin: 0.2%;
 }
