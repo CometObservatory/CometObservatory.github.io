@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<meta http-equiv="content-script-type" content="text/javascript">
+	<title>スーパーマリオギャラクシー 2：かんたん解説DVD</title>
+	<meta http-equiv="imagetoolbar" content="no">
+<link href="../favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="dvd.css">
+	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<script type="text/javascript">
+		window.RufflePlayer.config = {
+	    "autoplay": "on",
+	    "unmuteOverlay": "hidden",
+	};
+	</script>
+	<script type="text/javascript" src="../assets/scripts/swfobject.js"></script>
+</head>
+
+<body id="dvd2">
+	<div id="header">
+		<p id="logoNintendo"><img src="images/logo_nintendo.gif" alt="Nintendo" title="Nintendo"></p>
+		<p id="logoWii"><img src="images/logo_wii.gif" alt="Wii" title="Wii"></p>
+	</div><!-- //#header -->
+	
+	<div id="content">
+		<div id="contentTop"></div>
+		
+		<div id="main">
+			<h1><img src="images/dvd_title.gif" alt="「はじめてのスーパーマリオギャラクシー2」サンプル映像" title="「はじめてのスーパーマリオギャラクシー2」サンプル映像"></h1>
+			<ul class="nav clearfix">
+				<li class="nav_1" title="(1) マリオの動かし方"><a href="dvd1.html">(1) マリオの動かし方</a></li>
+				<li class="nav_2" title="(2) ゲームの進め方">(2) ゲームの進め方</li>
+				<li class="nav_3" title="(3) 他にはこんな映像も"><a href="dvd3.html">(3) 他にはこんな映像も</a></li>
+			</ul>
+			
+			<div id="video"><img src="images/dvd2_img_1.jpg" alt=""></div>
+			<script type="text/javascript">
+			// <![CDATA[
+				var u = navigator.userAgent;
+				
+				if (u.indexOf("Nitro") != -1 || u.indexOf("DSi") != -1) 
+				{
+					/* for DS */
+				} else {
+					/* for PC */
+		
+					var flashvars = {};
+					var params = {};
+					params.bgcolor = "#ffffff";
+					params.base = ".";
+					var attributes = {};
+				
+					swfobject.embedSWF("swf/howtogame.swf", "video", "333", "212", "8.0.0","", flashvars, params, attributes);
+				}
+			// ]]>
+			</script>
+					
+			<p class="txt_1"><img src="images/dvd2_txt_1.gif" alt="これらの映像はDVD「はじめてのスーパーマリオギャラクシー２」に収録されています。" title="これらの映像はDVD「はじめてのスーパーマリオギャラクシー２」に収録されています。"></p>
+			<p class="btn_return"><a href="index.html">トップにもどる</a></p>
+		</div><!-- //#main -->
+		<div id="contentBottom"></div>
+	</div><!-- //#content -->
+	
+	<p class="btnClose" title="ウィンドウをとじる"><a href="javascript:void(0);" onclick="window.close();">ウィンドウをとじる</a></p>
+</body>
+</html>

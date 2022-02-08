@@ -1,0 +1,287 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : dvd.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import "../assets/styles/reset.css";
+@import "../assets/styles/class.css";
+
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #00aa00;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #00aa00;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #00aa00;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #00aa00;
+	text-decoration: underline;
+}
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html,body {
+	height: 100%;
+}
+/* body */
+body {
+	background: #ffe438;
+	font-family: "メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	text-align: left;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	position: relative;
+	width: 676px;
+	height: 69px;
+	margin: 0 auto;
+	text-align: left;
+}
+/* p#logoNintendo */
+div#header p#logoNintendo {
+	position:absolute; top:24px; left:0;
+}
+/* p#logoWii */
+div#header p#logoWii {
+	position:absolute; top:15px; right:0;
+}
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	width: 676px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+/* div#contentTop */
+div#contentTop {
+	width: 676px;
+	height: 10px;
+	background: url(images/bg_content_top.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div#contentBottom */
+div#contentBottom {
+	width: 676px;
+	height: 10px;
+	background: url(images/bg_content_bottom.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* div#main
+ * ================================================================================ */
+div#content div#main {
+	position: relative;
+	width: 616px;
+	height: 416px;
+	margin: 0 auto;
+}
+/* p.btn_return */
+div#content p.btn_return {
+	position:absolute; top:389px; left:0;
+	z-index: 100;
+}
+div#content p.btn_return a {
+	display: block;
+	width: 89px;
+	height: 25px;
+	background: url(images/btn_return.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+div#content p.btn_return a:hover {
+	background-position: 0 100%;
+}
+/* ul.nav
+------------------------------------------------------------*/
+ul.nav {
+	position: relative;
+	width: 616px;
+	border-bottom: 3px solid #00aa00;
+}
+ul.nav li {
+	float: left;
+	height: 33px;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+ul.nav li a {
+	display: block;
+	height: 33px;
+}
+ul.nav li.nav_1 {
+	margin-left: 17px;
+	display: inline;
+}
+ul.nav li.nav_1,
+ul.nav li.nav_1 a {
+	width: 195px;
+	background: url(images/tab_1.gif) 0 0 no-repeat;
+}
+ul.nav li.nav_2,
+ul.nav li.nav_2 a {
+	width: 193px;
+	background: url(images/tab_2.gif) 0 0 no-repeat;
+}
+ul.nav li.nav_3,
+ul.nav li.nav_3 a {
+	width: 194px;
+	background: url(images/tab_3.gif) 0 0 no-repeat;
+}
+ul.nav li.nav_1,
+ul.nav li.nav_1 a:hover,
+ul.nav li.nav_2,
+ul.nav li.nav_2 a:hover,
+ul.nav li.nav_3,
+ul.nav li.nav_3 a:hover {
+	background-position: 0 100%;
+}
+
+/* p.btnClose */
+p.btnClose {
+	width: 113px;
+	margin: 20px auto 20px;
+}
+p.btnClose a {
+	display: block;
+	width: 113px;
+	height: 11px;
+	background: url(images/btn_close.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+p.btnClose a:hover {
+	background-position: 0 100%;
+}
+
+
+/* ********************************************************************************
+ * ■DVD「はじめてのスーパーマリオギャラクシー 2」がついています。
+ * file path : /dvd/index.html
+ * body id name : body#top
+ * ******************************************************************************** */
+
+/* h1 */
+body#top h1 {
+	padding: 21px 0 38px;
+	text-align: center;
+}
+/* p.txt_1 */
+body#top p.txt_1 {
+	margin: 0 0 30px;
+	text-align: center;
+}
+/* p.btn_sample */
+body#top p.btn_sample {
+	width: 410px;
+	margin: 0 auto;
+}
+body#top p.btn_sample a {
+	display: block;
+	width: 410px;
+	height: 49px;
+	background: url(images/index_btn_sample.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#top p.btn_sample a:hover {
+	background-position: 0 100%;
+}
+
+/* ********************************************************************************
+ * ■「はじめてのスーパーマリオギャラクシー 2」サンプル映像
+ * file path : /dvd/dvd1.html
+ * body id name : body#dvd1
+ * ******************************************************************************** */
+
+/* h1 */
+body#dvd1 h1 {
+	padding: 19px 0 28px;
+}
+/* div#video */
+body#dvd1 #video {
+	margin: 20px 0 20px 140px;
+}
+/* p.txt_1 */
+body#dvd1 p.txt_1 {
+	text-align: center;
+}
+
+/* ********************************************************************************
+ * ■ (2) ゲームの進め方
+ * file path : /dvd/dvd2.html
+ * body id name : body#dvd2
+ * ******************************************************************************** */
+
+/* h1 */
+body#dvd2 h1 {
+	padding: 19px 0 28px;
+}
+/* div#video */
+body#dvd2 #video {
+	margin: 20px 0 20px 140px;
+}
+/* p.txt_1 */
+body#dvd2 p.txt_1 {
+	text-align: center;
+}
+
+/* ********************************************************************************
+ * ■ (3) 他にはこんな映像も
+ * file path : /dvd/dvd3.html
+ * body id name : body#dvd3
+ * ******************************************************************************** */
+
+/* h1 */
+body#dvd3 h1 {
+	padding: 19px 0 28px;
+}
+/* p.txt_1 */
+body#dvd3 p.txt_1 {
+	margin: 19px 0 18px 14px;
+}
+/* ul.sample */
+body#dvd3 ul.sample {
+	width: 590px;
+	margin: 0 0 0 14px;
+}
+body#dvd3 ul.sample li.sample_1 {
+	float: left;
+}
+body#dvd3 ul.sample li.sample_2 {
+	float: right;
+}

@@ -1,0 +1,67 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : reset.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+/* ********************************************************************************
+ * Browser Style Reset
+ * ******************************************************************************** */
+ 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+
+html { overflow-y:scroll; }
+
+img { border:none; }
+
+a img { border:none; text-decoration:none; outline:0; }
+
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+
+ul,ol { list-style-type:none; }
+
+
+/* ********************************************************************************
+ * Default Style
+ * ******************************************************************************** */
+
+hr { display:none; }
+
+object,embed { border:0; vertical-align:bottom; outline:none; }
+
+table { border-collapse:collapse; }
+
+input{ verticalalign:middle; }
+
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+
+strong { font-weight:bold; text-decoration:none; }	
+
+label { cursor:pointer; }
+
+select option { padding:0 3px; }
+
+
+/* ********************************************************************************
+ *	
+ *	Font-size Adjustment
+ *	
+ *	77% = 10px	|	112% = 16px	|	167% = 22px	
+ *	85% = 11px	|	129% = 17px	|	174% = 23px
+ *	92% = 12px	|	136% = 18px	|	182% = 24px
+ *	100% = 13px	|	144% = 19px	|	189% = 25px
+ *	107% = 14px	|	152% = 20px	|	197% = 26px
+ *	114% = 15px	|	159% = 21px	|
+ *
+ * ******************************************************************************** */
+ 
+body { font-size:13px; *font-size:small; *font:x-small; }
+
+table { font-size:inherit; font:100%; }
+
+select,input,textarea { font-size:99%; }

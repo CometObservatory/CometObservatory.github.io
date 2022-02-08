@@ -1,0 +1,155 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : guidebook.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import "../assets/styles/reset.css";
+@import "../assets/styles/class.css";
+
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #2800bd;
+	text-decoration: underline;
+}
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html,body {
+	height: 100%;
+}
+/* body */
+body {
+	background: #2200b5;
+	font-family: "ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+	text-align: left;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	position: relative;
+	width: 615px;
+	height: 88px;
+	margin: 0 auto;
+	text-align: left;
+}
+/* h1 */
+div#header h1 {
+	position:absolute; top:50px; left:0;
+}
+/* p#logo */
+div#header p#logo {
+	position:absolute; top:8px; left:470px;
+}
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	width: 615px;
+	margin: 0 auto;
+}
+/* div.section
+ * ================================================================================ */
+div.section {
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}	
+/* div.sectionTop */
+div.section div.sectionTop {
+	width: 615px;
+	height: 20px;
+	background: url(images/bg_section_top.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div.sectionBottom */
+div.section div.sectionBottom {
+	width: 615px;
+	height: 20px;
+	background: url(images/bg_section_bottom.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div.sectionContent
+ * -------------------------------------------------------------------------------- */
+div.section div.sectionContent {
+	width: 575px;
+	margin: 0 auto;
+}
+/* div.leftColumn
+------------------------------------------------------------*/
+div.sectionContent div.leftColumn {
+	float: left;
+	width: 385px;
+}
+/* h2 */
+div.sectionContent div.leftColumn h2 {
+	margin-bottom: 20px;
+}
+/* p.cover */
+div.sectionContent p.cover {
+	float: right;
+	padding-right: 30px;
+}
+/* dl.summary
+------------------------------------------------------------*/
+div.sectionContent dl.summary {
+	clear: both;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+div.sectionContent dl.summary dd {
+	margin: 5px 3px 0;
+	line-height: 1.6;
+}
+
+/* p.btnClose */
+p.btnClose {
+	width: 113px;
+	margin: 0 auto 0;
+	padding: 10px 0 20px;
+}
+p.btnClose a {
+	display: block;
+	width: 113px;
+	height: 11px;
+	background: url(images/btn_close.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+p.btnClose a:hover {
+	background-position: 0 100%;
+}

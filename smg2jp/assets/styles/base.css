@@ -1,0 +1,1959 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : base.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+/* ********************************************************************************
+ * CLEARFIX
+ * ******************************************************************************** */
+
+ul#nav:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+ul#nav {
+	display: inline-block;
+}
+* html ul#nav {
+	height: 1%;
+}
+ul#nav {
+	display: block;
+}
+
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html,body {
+	height: 100%;
+}
+/* body */
+body {
+	min-width: 768px;
+	background: url(../images/bg_html.gif) 50% 0 repeat-y #fff;
+	font-family: "ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+	text-align: left;
+	color: #162d4c;
+	height: 100%;
+}
+/* div#conteiner */
+div#conteiner {
+	width: 100%;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	background: url(../images/bg_header.png) 50% 0 no-repeat;
+	width: 100%;
+}
+/* div#headerInner */
+div#headerInner {
+	position: relative;
+	width: 768px;
+	height: 74px;
+	margin: 0 auto;
+	background: url(../images/bg_header_inner.png) 50% 0 no-repeat;
+}
+/* p#logoNintendo */
+div#header p#logoNintendo {
+	position:absolute; top:22px; left:9px;
+}
+/* p#logoWii */
+div#header p#logoWii {
+	position:absolute; top:13px; right:9px;
+}
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	position: relative;
+	width: 768px;
+	height: 508px;
+	margin: 0 auto;
+	text-align: left;
+}
+/* p#title */
+div#content p#title {
+	position:absolute; top:3px; left:600px;
+	font-size: 0;
+	line-height: 0;
+	z-index: 100;
+}
+
+/* ********************************************************************************
+ * div#footer
+ * ******************************************************************************** */
+div#footer {
+	width: 100%;
+	background: url(../images/bg_footer.png) 50% 0 no-repeat;
+}
+/* div#footerInner */
+div#footerInner {
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	padding: 0 0 10px;
+	background: url(../images/bg_footer_inner.png) 50% 0 no-repeat;
+	text-align: center;
+}
+
+/* ul#nav 
+------------------------------------------------------------*/
+div#footerInner ul#nav {
+	padding-top: 6px;
+	margin: 0 0 0 25px;
+	font-size: 0;
+	line-height: 0;
+}
+/* li */
+div#footerInner ul#nav li {
+	float: left;
+	width: 180px;
+	height: 57px;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999px;
+}
+div#footerInner ul#nav li.space {
+	background: url(../images/nav_space.png) 0 100% no-repeat;
+	_background: url(../images/nav_space_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.action {
+	background: url(../images/nav_action.png) 0 100% no-repeat;
+	_background: url(../images/nav_action_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.adventure {
+	background: url(../images/nav_adventure.png) 0 100% no-repeat;
+	_background: url(../images/nav_adventure_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.support {
+	background: url(../images/nav_support.png) 0 100% no-repeat;
+	_background: url(../images/nav_support_on.png) 0 0 no-repeat;
+}
+/* a */
+div#footerInner ul#nav li a {
+	display: block;
+	width: 180px;
+	height: 57px;
+	font-size: 0;
+	line-height: 0;
+}
+div#footerInner ul#nav li.space a {
+	background: url(../images/nav_space.png) 0 0 no-repeat;
+	_background: url(../images/nav_space_ie.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.action a {
+	background: url(../images/nav_action.png) 0 0 no-repeat;
+	_background: url(../images/nav_action_ie.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.adventure a {
+	background: url(../images/nav_adventure.png) 0 0 no-repeat;
+	_background: url(../images/nav_adventure_ie.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.support a {
+	background: url(../images/nav_support.png) 0 0 no-repeat;
+	_background: url(../images/nav_support_ie.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.space a:hover,
+div#footerInner ul#nav li.action a:hover,
+div#footerInner ul#nav li.adventure a:hover,
+div#footerInner ul#nav li.support a:hover {
+	background-position: 0 100%;
+}
+/* for IE6 */
+div#footerInner ul#nav li.space a:hover {
+	_background: url(../images/nav_space_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.action a:hover {
+	_background: url(../images/nav_action_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.adventure a:hover {
+	_background: url(../images/nav_adventure_on.png) 0 0 no-repeat;
+}
+div#footerInner ul#nav li.support a:hover {
+	_background: url(../images/nav_support_on.png) 0 0 no-repeat;
+}
+
+/* p#footerNavi
+------------------------------------------------------------*/
+div#footer p#footerNavi {
+	margin: 40px 0 6px;
+	text-align: center;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #fde919;
+}
+/* span.off */
+div#footer p#footerNavi span.off {
+	font-weight: normal;
+	color: #cce1ff;
+}
+div#footer p#footerNavi a {
+	text-decoration: none;
+	font-weight: normal;
+}
+div#footer p#footerNavi a:hover {
+	text-decoration: underline;
+}
+/* span.separator */
+div#footer p#footerNavi span.separator {
+	padding: 0 1px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN", "ÉqÉâÉMÉmäpÉS Pro W3", Osaka;
+	font-weight: normal;
+	color: #ffffff;
+}
+/* p#nintendoNavi
+------------------------------------------------------------*/
+div#footer p#nintendoNavi {
+	text-align: center;
+	font-size: 85%;
+	line-height: 1.2;
+	color: #fde919;
+}
+div#footer p#nintendoNavi a {
+	text-decoration: none;
+	font-weight: normal;
+}
+div#footer p#nintendoNavi a:hover {
+	text-decoration: underline;
+}
+/* span.separator */
+div#footer p#nintendoNavi span.separator {
+	padding: 0 1px;
+	font-family: "ÇlÇr ÇoÉSÉVÉbÉN", "ÉqÉâÉMÉmäpÉS Pro W3", Osaka;
+	font-weight: normal;
+	color: #ffffff;
+}
+/* p#copyright */
+div#footer p#copyright {
+	margin: 6px 0;
+	text-align: center;
+	font-size: 85%;
+	line-height: 1.1;
+	color: #ffffff;
+}
+
+
+/* ********************************************************************************
+ * Å°É}ÉäÉIÅAâFíàÇ…îÚÇ—óßÇ¬
+ * file path : /space/index.html
+ * body id name : body#space
+ * ******************************************************************************** */
+
+/* div#conteiner */
+body#space div#conteiner {
+	background: url(../../space/images/bg_main.jpg) 50% 0 no-repeat;
+}
+
+/* div#panel
+ * ================================================================================ */
+body#space div#panel {
+	position:absolute; top:34px; left:18px;
+	width: 736px;
+	height: 468px;
+	background: url(../../space/images/bg_panel.png) 0 0 no-repeat;
+}
+/* h1 */
+body#space div#panel h1 {
+	padding: 17px 0 0 29px;
+	margin-bottom: 29px;
+	font-size: 0;
+	line-height: 0;
+}
+/* div#sectionConteiner
+ * -------------------------------------------------------------------------------- */
+body#space div#sectionConteiner {
+	position: relative;
+	width: 722px;
+}
+
+/* div.section
+ * -------------------------------------------------------------------------------- */
+body#space div#sectionConteiner div.section {
+	position:absolute; top:0; left:5px;
+	width: 722px;
+	height: 273px;
+}
+/* div#story
+ * -------------------------------------------------------------------------------- */
+/* p.txt_1 */
+body#space div#sectionConteiner div#story p.txt_1 {
+	position:absolute; top:0; left:32px;
+}
+/* p.txt_2 */
+body#space div#sectionConteiner div#story p.txt_2 {
+	position:absolute; top:64px; left:32px;
+}
+/* p.btn_story */
+body#space div#sectionConteiner div#story p.btn_story {
+	position:absolute; top:159px; left:94px;
+}
+body#space div#sectionConteiner div#story p.btn_story a {
+	display: block;
+	width: 100px;
+	height:60px;
+	background: url(../../space/images/btn_story_2.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_story_2_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#space div#sectionConteiner div#story p.btn_story a:hover {
+	background-position: 0 100%;
+	_background: url(../../space/images/btn_story_2_on.png) 0 0 no-repeat;
+}
+
+/* ul.thumbnails */
+body#space div#sectionConteiner div#story ul.thumbnails {
+	position:absolute; top:0; left:286px;
+	width: 424px;
+}
+body#space div#sectionConteiner div#story ul.thumbnails li {
+	float: left;
+	width: 212px;
+	margin-bottom: 10px;
+}
+/* div#yoshi
+ * -------------------------------------------------------------------------------- */
+body#space div#sectionConteiner div#yoshi {
+	display: none;
+}
+/* p.txt_1 */
+body#space div#sectionConteiner div#yoshi p.txt_1 {
+	position:absolute; top:0; left:32px;
+}
+/* p.txt_2 */
+body#space div#sectionConteiner div#yoshi p.txt_2 {
+	position:absolute; top:64px; left:32px;
+}
+/* ul.thumbnails */
+body#space div#sectionConteiner div#yoshi ul.thumbnails {
+	position:absolute; top:0; left:286px;
+	width: 424px;
+}
+body#space div#sectionConteiner div#yoshi ul.thumbnails li {
+	float: left;
+	width: 212px;
+	margin-bottom: 10px;
+}
+/* div#assist
+ * -------------------------------------------------------------------------------- */
+body#space div#sectionConteiner div#assist {
+	display: none;
+}
+/* p.txt_1 */
+body#space div#sectionConteiner div#assist p.txt_1 {
+	position:absolute; top:0; left:32px;
+}
+/* p.txt_2 */
+body#space div#sectionConteiner div#assist p.txt_2 {
+	position:absolute; top:38px; left:32px;
+}
+/* p.img_1 */
+body#space div#sectionConteiner div#assist p.img_1 {
+	position:absolute; top:0; left:306px;
+}
+/* p.img_2 */
+body#space div#sectionConteiner div#assist p.img_2 {
+	position:absolute; top:127px; left:64px;
+}
+
+/* ul.page_nav
+------------------------------------------------------------*/
+body#space div#panel ul.page_nav {
+	position:absolute; top:374px; left:30px;
+	width: 684px;
+}
+body#space div#panel ul.page_nav li {
+	position: relative;
+	float: left;
+	width: 216px;
+	height: 57px;
+	margin-right: 12px;
+	text-indent: -9000px;
+	overflow: hidden;
+}
+/* p.new */
+body#space div#panel p.new {
+	position:absolute; top:365px; left:482px;
+	z-index: 100;
+}
+body#space div#panel ul.page_nav li a {
+	display: block;
+	width: 216px;
+	height: 57px;
+}
+body#space div#panel ul.page_nav li.story a {
+	background: url(../../space/images/btn_story.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_story_ie.png) 0 0 no-repeat;
+}
+body#space div#panel ul.page_nav li.yoshi a {
+	background: url(../../space/images/btn_yoshi.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_yoshi_ie.png) 0 0 no-repeat;
+}
+body#space div#panel ul.page_nav li.assist a {
+	background: url(../../space/images/btn_assist.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_assist_ie.png) 0 0 no-repeat;
+}
+body#space div#panel ul.page_nav li.story a:hover,
+body#space div#panel ul.page_nav li.yoshi a:hover,
+body#space div#panel ul.page_nav li.assist a:hover,
+body#space div#panel ul.page_nav li.story a.active,
+body#space div#panel ul.page_nav li.yoshi a.active,
+body#space div#panel ul.page_nav li.assist a.active {
+	background-position: 0 100%;
+}
+/* for IE6 */
+body#space div#panel ul.page_nav li.story a:hover,
+body#space div#panel ul.page_nav li.story a.active {
+	_background: url(../../space/images/btn_story_on.png) 0 0 no-repeat;
+	_height: 58px;
+}
+body#space div#panel ul.page_nav li.yoshi a:hover,
+body#space div#panel ul.page_nav li.yoshi a.active {
+	_background: url(../../space/images/btn_yoshi_on.png) 0 0 no-repeat;
+	_height: 58px;
+}
+body#space div#panel ul.page_nav li.assist a:hover,
+body#space div#panel ul.page_nav li.assist a.active {
+	_background: url(../../space/images/btn_assist_on.png) 0 0 no-repeat;
+	_height: 58px;
+}
+body#space div#panel ul.page_nav li a.active {
+	cursor: default;
+}
+
+/* div.overlayBox
+ * ================================================================================ */
+body#space div.overlayBox {
+	position:absolute; top:-9000px; left:-9000px;
+	visibility: hidden;
+}
+body#space div#overlayBox1,
+body#space div#overlayBox2 {
+	width: 688px;
+	height: 430px;
+	background: url(../images/bg_overlaybox.gif) 0 0 no-repeat;
+}
+/* div#sliderContents1, div#sliderContents2
+ * ================================================================================ */
+body#space div#sliderContents1,
+body#space div#sliderContents2 {
+	width: 682px;
+	height: 420px;
+	margin-left: 3px;
+}
+/* div.panel */
+body#space div#sliderContents1 div.panel,
+body#space div#sliderContents2 div.panel {
+	position:relative;
+	width: 682px;
+}
+/* div.image */
+body#space div#sliderContents1 div.panel div.image,
+body#space div#sliderContents2 div.panel div.image {
+	padding-top: 64px;
+	text-align: center;
+}
+/* p.btnPrev */
+body#space div#sliderContents1 p.btnPrev,
+body#space div#sliderContents2 p.btnPrev {
+	position:absolute; top:192px; left:18px;
+}
+body#space div#sliderContents1 p.btnPrev a,
+body#space div#sliderContents2 p.btnPrev a {
+	display: block;
+	width: 46px;
+	height: 63px;
+	background: url(../../space/images/btn_prev.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_prev_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#space div#sliderContents1 p.btnPrev a:hover,
+body#space div#sliderContents2 p.btnPrev a:hover {
+	background-position: 0 100%;
+	_background: url(../../space/images/btn_prev_on.png) 0 0 no-repeat;
+}
+/* p.btnNext */
+body#space div#sliderContents1 p.btnNext,
+body#space div#sliderContents2 p.btnNext {
+	position:absolute; top:192px; right:18px;
+}
+body#space div#sliderContents1 p.btnNext a,
+body#space div#sliderContents2 p.btnNext a {
+	display: block;
+	width: 44px;
+	height: 63px;
+	background: url(../../space/images/btn_next.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_next_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#space div#sliderContents1 p.btnNext a:hover,
+body#space div#sliderContents2 p.btnNext a:hover {
+	background-position: 0 100%;
+	_background: url(../../space/images/btn_next_on.png) 0 0 no-repeat;
+}
+/* p.btnClose */
+body#space div#sliderContents1 p.btnClose,
+body#space div#sliderContents2 p.btnClose {
+	position:absolute; top:381px; left:305px;
+}
+body#space div#sliderContents1 p.btnClose a,
+body#space div#sliderContents2 p.btnClose a {
+	display: block;
+	width: 75px;
+	height: 29px;
+	background: url(../../space/images/btn_close.jpg) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#space div#sliderContents1 p.btnClose a:hover,
+body#space div#sliderContents2 p.btnClose a:hover {
+	background-position: 0 100%;
+}
+/* div#storyContent
+ * ================================================================================ */
+body#space div#storyContent {
+	position: relative;
+	width: 706px;
+	height: 444px;
+	background: url(../../space/images/bg_story_content.png) 0 0 no-repeat;
+}
+/* h2 */
+body#space div#storyContent h2 {
+	position:absolute; top:32px; left:33px;
+}
+/* p.txt_1 */
+body#space div#storyContent p.txt_1 {
+	position:absolute; top:85px; left:38px;
+}
+/* p.txt_2 */
+body#space div#storyContent p.txt_2 {
+	position:absolute; top:339px; left:68px;
+}
+/* p.txt_3 */
+body#space div#storyContent p.txt_3 {
+	position:absolute; top:301px; left:273px;
+	z-index: 100;
+}
+/* p.txt_4 */
+body#space div#storyContent p.txt_4 {
+	position:absolute; top:352px; left:414px;
+}
+/* img.img_1 */
+body#space div#storyContent img.img_1 {
+	position:absolute; top:36px; left:400px;
+	z-index: 100;
+}
+/* img.img_2 */
+body#space div#storyContent img.img_2 {
+	position:absolute; top:294px; left:171px;
+}
+/* img.img_3 */
+body#space div#storyContent img.img_3 {
+	position:absolute; top:314px; left:543px;
+}
+/* p.btnClose */
+body#space div#storyContent p.btnClose {
+	position:absolute; top:412px; left:652px;
+}
+body#space div#storyContent p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../space/images/btn_story_close.png) 0 0 no-repeat;
+	_background: url(../../space/images/btn_story_close_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#space div#storyContent p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../space/images/btn_story_close_on.png) 0 0 no-repeat;
+}
+
+/* ********************************************************************************
+ * Å°É}ÉäÉIÇÃÉAÉNÉVÉáÉì
+ * file path : /action/index.html
+ * body id name : body#mario
+ * ******************************************************************************** */
+
+/* div#conteiner */
+body#mario div#conteiner {
+	background: url(../../action/images/base/bg_main.jpg) 50% 0 no-repeat;
+}
+
+/* div#panel
+ * ================================================================================ */
+body#mario div#panel {
+	position:absolute; top:34px; left:18px;
+	width: 736px;
+	height: 468px;
+	background: url(../../action/images/base/bg_panel.png) 0 0 no-repeat;
+}
+/* h1 */
+body#mario div#panel h1 {
+	padding: 25px 0 0 28px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btn_yoshi */
+body#mario div#panel p.btn_yoshi {
+	position:absolute; top:31px; left:390px;
+}
+body#mario div#panel p.btn_yoshi a {
+	display: block;
+	width: 160px;
+	height: 40px;
+	background: url(../../action/images/mario/btn_yoshi.jpg) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#mario div#panel p.btn_yoshi a:hover {
+	background-position: 0 100%;
+}
+/* ul.page_nav
+------------------------------------------------------------*/
+body#mario div#panel ul.page_nav {
+	width: 694px;
+	padding: 20px 0 0 32px;
+}
+body#mario div#panel ul.page_nav li {
+	position: relative;
+	float: left;
+	margin: 0 23px 10px 0;
+}
+/* li.apparatus span.txt */
+body#mario div#panel ul.page_nav li.apparatus span.txt {
+	position:absolute; top:-30px; right:-48px;
+	z-index: 100;
+}
+/* li.transform1 span.txt */
+body#mario div#panel ul.page_nav li.transform1 span.txt {
+	position:absolute; bottom:-4px; left:-50px;
+	z-index: 100;
+}
+body#mario div#panel ul.page_nav li.transform2 {
+	margin-top: 12px;
+}
+body#mario div#panel ul.page_nav li a {
+	display: block;
+	width: 324px;
+	height: 158px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0; 
+}
+/* li.action */
+body#mario div#panel ul.page_nav li.action a {
+	background-image: url(../../action/images/mario/btn_action.jpg);
+}
+/* li.apparatus */
+body#mario div#panel ul.page_nav li.apparatus a {
+	background-image: url(../../action/images/mario/btn_apparatus.jpg);
+}
+/* li.transform1 */
+body#mario div#panel ul.page_nav li.transform1 a {
+	height: 170px;
+	background-image: url(../../action/images/mario/btn_transform_1.jpg);
+}
+/* li.transform2 */
+body#mario div#panel ul.page_nav li.transform2 a {
+	background-image: url(../../action/images/mario/btn_transform_2.jpg);
+}
+body#mario div#panel ul.page_nav li.action a:hover,
+body#mario div#panel ul.page_nav li.apparatus a:hover,
+body#mario div#panel ul.page_nav li.transform1 a:hover,
+body#mario div#panel ul.page_nav li.transform2 a:hover {
+	background-position: 0 100%;
+}
+/* li span.new */
+body#mario div#panel ul.page_nav li span.new {
+	position:absolute; top:-10px; left:-6px;
+}
+body#mario div#panel ul.page_nav li.transform1 span.new {
+	position:absolute; top:0;
+}
+
+/* div.overlayBox
+ * ================================================================================ */
+body#mario div.overlayBox {
+	position:absolute; top:-9000px; left:-9000px;
+	visibility: hidden;
+}
+/* div.overlayBoxInner */
+body#mario div.overlayBox div.overlayBoxInner {
+	width: 706px;
+	height: 347px;
+	background: url(../../action/images/base/bg_overlaybox.png) 0 0 no-repeat;
+}
+/* p.btnPrev */
+body#mario div.overlayBox p.btnPrev {
+	position:absolute; top:142px; left:-25px;
+}
+body#mario div.overlayBox p.btnPrev a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../action/images/base/btn_prev.png) 0 0 no-repeat;
+	_background: url(../../action/images/base/btn_prev_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#mario div.overlayBox p.btnPrev a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_prev_on.png) 0 0 no-repeat;
+}
+/* p.btnNext */
+body#mario div.overlayBox p.btnNext {
+	position:absolute; top:142px; right:-25px;
+}
+body#mario div.overlayBox p.btnNext a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../action/images/base/btn_next.png) 0 0 no-repeat;
+	_background: url(../../action/images/base/btn_next_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#mario div.overlayBox p.btnNext a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_next_on.png) 0 0 no-repeat;
+}
+/* p.btnClose */
+body#mario div.overlayBox p.btnClose {
+	position:absolute; top:315px; left:650px;
+}
+body#mario div.overlayBox p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../action/images/base/btn_close.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#mario div.overlayBox p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_close_on.png) 0 0 no-repeat;
+}
+/* div#sliderAction
+ * -------------------------------------------------------------------------------- */
+body#mario div#sliderAction {
+	position:absolute; top:0; left:9px;
+	width: 688px;
+	height: 347px;
+}
+/* ul.sliderNav
+------------------------------------------------------------*/
+body#mario div#sliderAction ul.sliderNav {
+	position:absolute; top:39px; left:59px;
+	width: 608px;
+}
+body#mario div#sliderAction ul.sliderNav li {
+	float: left;
+	margin-right: 20px;
+}
+body#mario div#sliderAction ul.sliderNav li a {
+	display: block;
+	width: 132px;
+	height: 28px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#mario div#sliderAction ul.sliderNav li.run a {
+	background-image: url(../../action/images/mario/action_btn_run.jpg);
+}
+body#mario div#sliderAction ul.sliderNav li.jump a {
+	background-image: url(../../action/images/mario/action_btn_jump.jpg);
+}
+body#mario div#sliderAction ul.sliderNav li.spin a {
+	background-image: url(../../action/images/mario/action_btn_spin.jpg);
+}
+body#mario div#sliderAction ul.sliderNav li.starpiece a {
+	background-image: url(../../action/images/mario/action_btn_starpiece.jpg);
+}
+body#mario div#sliderAction ul.sliderNav li.run a:hover,
+body#mario div#sliderAction ul.sliderNav li.jump a:hover,
+body#mario div#sliderAction ul.sliderNav li.spin a:hover,
+body#mario div#sliderAction ul.sliderNav li.starpiece a:hover,
+body#mario div#sliderAction ul.sliderNav li.run a.active,
+body#mario div#sliderAction ul.sliderNav li.jump a.active,
+body#mario div#sliderAction ul.sliderNav li.spin a.active,
+body#mario div#sliderAction ul.sliderNav li.starpiece a.active {
+	background-position: 0 100%;
+}
+/* div.panel */
+body#mario div#sliderAction div.panelConteiner div.panel {
+	position: relative;
+	margin-top: 97px;
+	width: 688px;
+	height: 232px;
+}
+/* video */
+body#mario div#sliderAction #action_video_1,
+body#mario div#sliderAction #action_video_2,
+body#mario div#sliderAction #action_video_3,
+body#mario div#sliderAction #action_video_4 {
+	margin-left: 50px;
+}
+/* p.txt_1 */
+body#mario div#sliderAction p.txt_1 {
+	position:absolute; top:0; left:401px;
+}
+
+/* div#sliderApparatus
+ * -------------------------------------------------------------------------------- */
+body#mario div#sliderApparatus {
+	position:absolute; top:0; left:9px;
+	width: 688px;
+	height: 347px;
+}
+/* ul.sliderNav
+------------------------------------------------------------*/
+body#mario div#sliderApparatus ul.sliderNav {
+	position:absolute; top:39px; left:50px;
+	width: 635px;
+}
+body#mario div#sliderApparatus ul.sliderNav li {
+	position: relative;
+	float: left;
+	margin-right: 21px;
+}
+body#mario div#sliderApparatus ul.sliderNav li a {
+	display: block;
+	width: 182px;
+	height: 28px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+/* span */
+body#mario div#sliderApparatus ul.sliderNav li span {
+	position:absolute; top:-14px; left:-2px;
+	margin: 0 0 0 0;
+	width: 32px;
+	height: 31px;
+	background: url(../../action/images/base/icn_new.png);
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9000px;
+	z-index: 100;
+}
+body#mario div#sliderApparatus ul.sliderNav li.drill a {
+	background-image: url(../../action/images/mario/apparatus_btn_drill.jpg);
+}
+body#mario div#sliderApparatus ul.sliderNav li.ride a {
+	background-image: url(../../action/images/mario/apparatus_btn_ride.jpg);
+}
+body#mario div#sliderApparatus ul.sliderNav li.other a {
+	background-image: url(../../action/images/mario/apparatus_btn_other.jpg);
+}
+body#mario div#sliderApparatus ul.sliderNav li.drill a:hover,
+body#mario div#sliderApparatus ul.sliderNav li.drill a.active,
+body#mario div#sliderApparatus ul.sliderNav li.ride a:hover,
+body#mario div#sliderApparatus ul.sliderNav li.ride a.active,
+body#mario div#sliderApparatus ul.sliderNav li.other a:hover,
+body#mario div#sliderApparatus ul.sliderNav li.other a.active {
+	background-position: 0 100%;
+}
+/* div.panel */
+body#mario div#sliderApparatus div.panelConteiner div.panel {
+	position: relative;
+	margin-top: 85px;
+	width: 688px;
+	height: 250px;
+}
+/* video */
+body#mario div#sliderApparatus #apparatus_video_1,
+body#mario div#sliderApparatus #apparatus_video_2,
+body#mario div#sliderApparatus #apparatus_video_3 {
+	margin: 13px 0 0 50px;
+}
+/* p.txt_1 */
+body#mario div#sliderApparatus p.txt_1 {
+	position:absolute; top:0; left:401px;
+}
+
+/* div#sliderTransform1
+ * -------------------------------------------------------------------------------- */
+body#mario div#sliderTransform1 {
+	position:absolute; top:0; left:9px;
+	width: 688px;
+	height: 347px;
+}
+/* div.panel */
+body#mario div#sliderTransform1 div.panelConteiner div.panel {
+	position: relative;
+	margin-top: 27px;
+	width: 688px;
+	height: 290px;
+}
+/* h2 */
+body#mario div#sliderTransform1 h2 {
+	position:absolute; top:6px; left:47px;
+}
+/* video */
+body#mario div#sliderTransform1 #transform_video_1,
+body#mario div#sliderTransform1 #transform_video_2 {
+	margin: 66px 0 0 50px;
+}
+/* p.txt_cloud */
+body#mario div#sliderTransform1 p.txt_cloud {
+	position:absolute; top:0; left:401px;
+}
+/* p.txt_rock */
+body#mario div#sliderTransform1 p.txt_rock {
+	position:absolute; top:65px; left:401px;
+}
+
+/* div#overlayBox4
+ * -------------------------------------------------------------------------------- */
+/* div.overlayBoxInner */
+body#mario div#overlayBox4 div.overlayBoxInner {
+	width: 706px;
+	height: 473px;
+	background: url(../../action/images/mario/transform2_bg_panel.png) 0 0 no-repeat;
+}
+/* h2 */
+body#mario div#overlayBox4 h2 {
+	position:absolute; top:28px; left:57px;
+}
+/* p.txt_1 */
+body#mario div#overlayBox4 p.txt_1 {
+	position:absolute; top:89px; left:78px;
+}
+/* p.txt_2 */
+body#mario div#overlayBox4 p.txt_2 {
+	position:absolute; top:89px; left:270px;
+}
+/* p.txt_3 */
+body#mario div#overlayBox4 p.txt_3 {
+	position:absolute; top:89px; left:476px;
+}
+/* p.txt_4 */
+body#mario div#overlayBox4 p.txt_4 {
+	position:absolute; top:271px; left:129px;
+}/* p.txt_5 */
+body#mario div#overlayBox4 p.txt_5 {
+	position:absolute; top:271px; left:389px;
+}
+/* p.btnClose */
+body#mario div#overlayBox4 p.btnClose {
+	position:absolute; top:441px;
+}
+
+/* ********************************************************************************
+ * Å°ÉàÉbÉVÅ[ÇÃÉAÉNÉVÉáÉì
+ * file path : /action/yoshi.html
+ * body id name : body#yoshi
+ * ******************************************************************************** */
+
+/* div#conteiner */
+body#yoshi div#conteiner {
+	background: url(../../action/images/base/bg_main.jpg) 50% 0 no-repeat;
+}
+
+/* div#panel
+ * ================================================================================ */
+body#yoshi div#panel {
+	position:absolute; top:34px; left:18px;
+	width: 736px;
+	height: 468px;
+	background: url(../../action/images/base/bg_panel.png) 0 0 no-repeat;
+}
+/* h1 */
+body#yoshi div#panel h1 {
+	padding: 25px 0 21px 30px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btn_mario */
+body#yoshi div#panel p.btn_mario {
+	position:absolute; top:31px; left:409px;
+}
+body#yoshi div#panel p.btn_mario a {
+	display: block;
+	width: 160px;
+	height: 40px;
+	background: url(../../action/images/yoshi/btn_mario.jpg) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#panel p.btn_mario a:hover {
+	background-position: 0 100%;
+}
+/* img.img_decoration_1 */
+body#yoshi div#panel img.img_decoration_1 {
+	position:absolute; top:353px; left:576px;
+}
+/* p.btn_transform */
+body#yoshi div#panel p.btn_transform {
+	position:absolute; top:373px; left:30px;
+	z-index: 100;
+}
+body#yoshi div#panel p.btn_transform a {
+	display: block;
+	width: 677px;
+	height: 66px;
+	background: url(../../action/images/yoshi/btn_transform.jpg) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#panel p.btn_transform a:hover {
+	background-position: 0 100%;
+}
+/* div#sliderAction
+ * -------------------------------------------------------------------------------- */
+body#yoshi div#sliderAction {
+	position: relative;
+	margin: 0 0 0 5px;
+	width: 722px;
+	height: 268px;
+	overflow: hidden;
+}
+/* div.panel */
+body#yoshi div#sliderAction div.panel {
+	position: relative;
+	width: 722px;
+	height: 268px;
+}
+/* h2 */
+body#yoshi div#sliderAction div.panel h2 {
+	position:absolute; top:0; left:30px;
+}
+/* p.txt_1 */
+body#yoshi div#sliderAction div.panel p.txt_1 {
+	position:absolute; top:55px; left:79px;
+}
+/* ul.sliderNav
+------------------------------------------------------------*/
+body#yoshi div#sliderAction ul.sliderNav {
+	position:absolute; top:12px; left:528px;
+	width: 168px;
+	z-index: 100;
+}
+body#yoshi div#sliderAction ul.sliderNav li {
+	float: left;
+	width: 17px;
+	height: 18px;
+	margin-right: 7px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#sliderAction ul.sliderNav li a {
+	display: block;
+	width: 17px;
+	height: 18px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_1,
+body#yoshi div#sliderAction ul.sliderNav li.nav_1 a {
+	background-image: url(../../action/images/yoshi/nav_action_1.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_2,
+body#yoshi div#sliderAction ul.sliderNav li.nav_2 a {
+	background-image: url(../../action/images/yoshi/nav_action_2.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_3,
+body#yoshi div#sliderAction ul.sliderNav li.nav_3 a {
+	background-image: url(../../action/images/yoshi/nav_action_3.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_4,
+body#yoshi div#sliderAction ul.sliderNav li.nav_4 a {
+	background-image: url(../../action/images/yoshi/nav_action_4.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_5,
+body#yoshi div#sliderAction ul.sliderNav li.nav_5 a {
+	background-image: url(../../action/images/yoshi/nav_action_5.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_6,
+body#yoshi div#sliderAction ul.sliderNav li.nav_6 a {
+	background-image: url(../../action/images/yoshi/nav_action_6.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_7,
+body#yoshi div#sliderAction ul.sliderNav li.nav_7 a {
+	background-image: url(../../action/images/yoshi/nav_action_7.gif);
+}
+body#yoshi div#sliderAction ul.sliderNav li.nav_1,
+body#yoshi div#sliderAction ul.sliderNav li.nav_2,
+body#yoshi div#sliderAction ul.sliderNav li.nav_3,
+body#yoshi div#sliderAction ul.sliderNav li.nav_4,
+body#yoshi div#sliderAction ul.sliderNav li.nav_5,
+body#yoshi div#sliderAction ul.sliderNav li.nav_6,
+body#yoshi div#sliderAction ul.sliderNav li.nav_7,
+body#yoshi div#sliderAction ul.sliderNav li.nav_1 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_2 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_3 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_4 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_5 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_6 a:hover,
+body#yoshi div#sliderAction ul.sliderNav li.nav_7 a:hover {
+	background-position: 0 100%;
+}
+/* p.btnPrev */
+body#yoshi div#sliderAction p.btnPrev {
+	position:absolute; top:102px; left:9px;
+}
+body#yoshi div#sliderAction p.btnPrev a {
+	display: block;
+	width: 46px;
+	height: 63px;
+	background: url(../../action/images/yoshi/btn_prev.png) 0 0 no-repeat;
+	_background: url(../../action/images/yoshi/btn_prev_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#sliderAction p.btnPrev a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/yoshi/btn_prev_on.png) 0 0 no-repeat;
+}
+/* p.btnNext */
+body#yoshi div#sliderAction p.btnNext {
+	position:absolute; top:102px; right:9px;
+}
+body#yoshi div#sliderAction p.btnNext a {
+	display: block;
+	width: 44px;
+	height: 63px;
+	background: url(../../action/images/yoshi/btn_next.png) 0 0 no-repeat;
+	_background: url(../../action/images/yoshi/btn_next_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#sliderAction p.btnNext a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/yoshi/btn_next_on.png) 0 0 no-repeat;
+}
+/* div.overlayBox
+ * ================================================================================ */
+body#yoshi div.overlayBox {
+	position:absolute; top:-9000px; left:-9000px;
+	visibility: hidden;
+}
+/* div.overlayBoxInner */
+body#yoshi div.overlayBox div.overlayBoxInner {
+	width: 706px;
+	height: 336px;
+	background: url(../../action/images/yoshi/bg_transform.png) 0 0 no-repeat;
+}
+/* p.btnPrev */
+body#yoshi div.overlayBox p.btnPrev {
+	position:absolute; top:137px; left:-25px;
+}
+body#yoshi div.overlayBox p.btnPrev a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../action/images/base/btn_prev.png) 0 0 no-repeat;
+	_background: url(../../action/images/base/btn_prev_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div.overlayBox p.btnPrev a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_prev_on.png) 0 0 no-repeat;
+}
+/* p.btnNext */
+body#yoshi div.overlayBox p.btnNext {
+	position:absolute; top:137px; right:-25px;
+}
+body#yoshi div.overlayBox p.btnNext a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../action/images/base/btn_next.png) 0 0 no-repeat;
+	_background: url(../../action/images/base/btn_next_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div.overlayBox p.btnNext a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_next_on.png) 0 0 no-repeat;
+}
+/* p.btnClose */
+body#yoshi div.overlayBox p.btnClose {
+	position:absolute; top:305px; left:650px;
+}
+body#yoshi div.overlayBox p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../action/images/base/btn_close.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div.overlayBox p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../action/images/base/btn_close_on.png) 0 0 no-repeat;
+}
+/* div#sliderAction
+ * -------------------------------------------------------------------------------- */
+body#yoshi div#sliderTransform {
+	position:absolute; top:9px; left:9px;
+	width: 688px;
+	height: 318px;
+}
+/* div.panel */
+body#yoshi div#sliderTransform div.panel {
+	position: relative;
+	width: 688px;
+	height: 318px;
+}
+/* h2 */
+body#yoshi div#sliderTransform h2 {
+	position:absolute; top:18px; left:48px;
+}
+/* ul.sliderNav
+------------------------------------------------------------*/
+body#yoshi div#sliderTransform ul.sliderNav {
+	position:absolute; top:15px; left:263px;
+	width: 140px;
+}
+body#yoshi div#sliderTransform ul.sliderNav li {
+	float: left;
+	margin-right: 8px;
+}
+body#yoshi div#sliderTransform ul.sliderNav li a {
+	position:relative; top:11px;
+	display: block;
+	width: 30px;
+	height: 29px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#yoshi div#sliderTransform ul.sliderNav li.dash a {
+	background-image: url(../../action/images/yoshi/transform_nav_dash.jpg);
+}
+body#yoshi div#sliderTransform ul.sliderNav li.balloon a {
+	background-image: url(../../action/images/yoshi/transform_nav_balloon.jpg);
+}
+body#yoshi div#sliderTransform ul.sliderNav li.light a {
+	background-image: url(../../action/images/yoshi/transform_nav_light.jpg);
+}
+body#yoshi div#sliderTransform ul.sliderNav li.dash a:hover,
+body#yoshi div#sliderTransform ul.sliderNav li.balloon a:hover,
+body#yoshi div#sliderTransform ul.sliderNav li.light a:hover {
+	background-position: 0 100%;
+}
+/* video */
+body#yoshi div#sliderTransform #transform_video_1,
+body#yoshi div#sliderTransform #transform_video_2,
+body#yoshi div#sliderTransform #transform_video_3 {
+	position:absolute; top:77px; left:50px;
+}
+/* div#dash
+ * -------------------------------------------------------------------------------- */
+/* p.txt_1 */
+body#yoshi div#sliderTransform div#dash p.txt_1 {
+	position:absolute; top:66px; left:394px;
+}
+/* div#balloon
+ * -------------------------------------------------------------------------------- */
+/* p.txt_1 */
+body#yoshi div#sliderTransform div#balloon p.txt_1 {
+	position:absolute; top:1px; left:398px;
+}
+/* div#light
+ * -------------------------------------------------------------------------------- */
+/* p.txt_1 */
+body#yoshi div#sliderTransform div#light p.txt_1 {
+	position:absolute; top:1px; left:398px;
+}
+
+/* ********************************************************************************
+ * Å°ñ`åØÇÃêiÇﬂï˚
+ * file path : /adventure/index.html
+ * body id name : body#adventure
+ * ******************************************************************************** */
+
+/* div#conteiner */
+body#adventure div#conteiner {
+	background: url(../../adventure/images/bg_main.jpg) 50% 0 no-repeat;
+}
+
+/* div#panel
+ * ================================================================================ */
+body#adventure div#panel {
+	position:absolute; top:34px; left:18px;
+	width: 736px;
+	height: 468px;
+	background: url(../../adventure/images/bg_panel.png) 0 0 no-repeat;
+}
+/* h1 */
+body#adventure div#panel h1 {
+	padding: 11px 0 0 27px;
+	font-size: 0;
+	line-height: 0;
+}
+/* #adventureSwf */
+body#adventure div#panel #adventureSwf {
+	position:absolute; top:62px; left:6px;
+}
+/* div#map1
+ * -------------------------------------------------------------------------------- */
+body#adventure div#panel div#map1 {
+	position:absolute; top:62px; left:25px;
+	width: 683px;
+	height: 311px;
+	background: url(../../adventure/images/bg_map_1.jpg) 0 0 no-repeat;
+}
+/* p.txt_note */
+body#adventure div#panel div#map1 p.txt_note {
+	position:absolute; top:6px; left:8px;
+}
+/* p.btn_adventure_1 */
+body#adventure div#panel div#map1 p.btn_adventure_1 {
+	position:absolute; top:156px; left:18px;
+	z-index: 50;
+}
+/* p.btn_adventure_2 */
+body#adventure div#panel div#map1 p.btn_adventure_2 {
+	position:absolute; top:38px; left:112px;
+}
+/* p.btn_adventure_3 */
+body#adventure div#panel div#map1 p.btn_adventure_3 {
+	position:absolute; top:95px; left:191px;
+	z-index: 50;
+}
+/* p.btn_adventure_4 */
+body#adventure div#panel div#map1 p.btn_adventure_4 {
+	position:absolute; top:127px; left:382px;
+}
+/* p.btn_adventure_5 */
+body#adventure div#panel div#map1 p.btn_adventure_5 {
+	position:absolute; top:23px; left:470px;
+	z-index: 50;
+}
+body#adventure div#panel div#map1 p.btn_adventure_1 a,
+body#adventure div#panel div#map1 p.btn_adventure_2 a,
+body#adventure div#panel div#map1 p.btn_adventure_3 a,
+body#adventure div#panel div#map1 p.btn_adventure_4 a,
+body#adventure div#panel div#map1 p.btn_adventure_5 a {
+	display: block;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div#panel div#map1 p.btn_adventure_1 a {
+	width: 105px;
+	height: 119px;
+	background-image: url(../../adventure/images/btn_adventure_1.jpg);
+}
+body#adventure div#panel div#map1 p.btn_adventure_2 a {
+	width: 105px;
+	height: 137px;
+	background-image: url(../../adventure/images/btn_adventure_2.jpg);
+}
+body#adventure div#panel div#map1 p.btn_adventure_3 a {
+	width: 105px;
+	height: 147px;
+	background-image: url(../../adventure/images/btn_adventure_3.jpg);
+}
+body#adventure div#panel div#map1 p.btn_adventure_4 a {
+	width: 93px;
+	height: 113px;
+	background-image: url(../../adventure/images/btn_adventure_4.jpg);
+}
+body#adventure div#panel div#map1 p.btn_adventure_5 a {
+	width: 85px;
+	height: 131px;
+	background-image: url(../../adventure/images/btn_adventure_5.jpg);
+}
+body#adventure div#panel div#map1 p.btn_adventure_1 a:hover,
+body#adventure div#panel div#map1 p.btn_adventure_2 a:hover,
+body#adventure div#panel div#map1 p.btn_adventure_3 a:hover,
+body#adventure div#panel div#map1 p.btn_adventure_4 a:hover,
+body#adventure div#panel div#map1 p.btn_adventure_5 a:hover {
+	background-position: 0 100%;
+}
+/* p.btn_next */
+body#adventure div#panel div#map1 p.btn_next {
+	position:absolute; top:129px; left:643px;
+	z-index: 10;
+}
+body#adventure div#panel div#map1 p.btn_next a {
+	display: block;
+	width: 53px;
+	height: 53px;
+	background-image: url(../../adventure/images/btn_next.jpg);
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div#panel div#map1 p.btn_next a:hover {
+	background-position: 0 100%;
+}
+/* div#map2
+ * -------------------------------------------------------------------------------- */
+body#adventure div#panel div#map2 {
+	position:absolute; top:62px; left:25px;
+	width: 683px;
+	height: 311px;
+	background: url(../../adventure/images/bg_map_2.jpg) 0 0 no-repeat;
+}
+/* p.txt_note */
+body#adventure div#panel div#map2 p.txt_note {
+	position:absolute; top:6px; left:8px;
+}
+/* p.btn_adventure_6 */
+body#adventure div#panel div#map2 p.btn_adventure_6 {
+	position:absolute; top:94px; left:212px;
+	z-index: 50;
+}
+/* p.btn_adventure_7 */
+body#adventure div#panel div#map2 p.btn_adventure_7 {
+	position:absolute; top:53px; left:345px;
+	z-index: 40;
+}
+/* p.btn_adventure_8 */
+body#adventure div#panel div#map2 p.btn_adventure_8 {
+	position:absolute; top:64px; left:486px;
+}
+body#adventure div#panel div#map2 p.btn_adventure_6 a,
+body#adventure div#panel div#map2 p.btn_adventure_7 a,
+body#adventure div#panel div#map2 p.btn_adventure_8 a {
+	display: block;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div#panel div#map2 p.btn_adventure_6 a {
+	width: 136px;
+	height: 126px;
+	background-image: url(../../adventure/images/btn_adventure_6.jpg);
+}
+body#adventure div#panel div#map2 p.btn_adventure_7 a {
+	width: 145px;
+	height: 161px;
+	background-image: url(../../adventure/images/btn_adventure_7.jpg);
+}
+body#adventure div#panel div#map2 p.btn_adventure_8 a {
+	width: 187px;
+	height: 192px;
+	background-image: url(../../adventure/images/btn_adventure_8.jpg);
+}
+body#adventure div#panel div#map2 p.btn_adventure_6 a:hover,
+body#adventure div#panel div#map2 p.btn_adventure_7 a:hover,
+body#adventure div#panel div#map2 p.btn_adventure_8 a:hover {
+	background-position: 0 100%;
+}
+/* p.btn_prev */
+body#adventure div#panel div#map2 p.btn_prev {
+	position:absolute; top:129px; left:-15px;
+	z-index: 10;
+}
+body#adventure div#panel div#map2 p.btn_prev a {
+	display: block;
+	width: 53px;
+	height: 53px;
+	background-image: url(../../adventure/images/btn_prev.jpg);
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div#panel div#map2 p.btn_prev a:hover {
+	background-position: 0 100%;
+}
+/* p.txt_adventure */
+body#adventure div#panel p.txt_adventure {
+	position:absolute; top:381px; left:27px;
+}
+/* ul.adventure_nav
+------------------------------------------------------------*/
+body#adventure div#panel ul.adventure_nav {
+	position:absolute; top:396px; left:121px;
+	width: 570px;
+}
+body#adventure div#panel ul.adventure_nav li {
+	float: left;
+	margin-right: 14px;
+}
+body#adventure div#panel ul.adventure_nav li a {
+	display: block;
+	width: 176px;
+	height: 38px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div#panel ul.adventure_nav li.map a {
+	background-image: url(../../adventure/images/btn_map.jpg);
+}
+body#adventure div#panel ul.adventure_nav li.luigi a {
+	background-image: url(../../adventure/images/btn_luigi.jpg);
+}
+body#adventure div#panel ul.adventure_nav li.medal a {
+	background-image: url(../../adventure/images/btn_medal.jpg);
+}
+body#adventure div#panel ul.adventure_nav li.map a:hover,
+body#adventure div#panel ul.adventure_nav li.luigi a:hover,
+body#adventure div#panel ul.adventure_nav li.medal a:hover {
+	background-position: 0 100%;
+}
+
+/* div.overlayBox
+ * ================================================================================ */
+body#adventure div.overlayBox {
+	position:absolute; top:-9000px; left:-9000px;
+	visibility: hidden;
+}
+/* div.adventure
+ * ================================================================================ */
+body#adventure div.adventure {
+	position: relative;
+	width: 716px;
+	height: 418px;
+	background: url(../../adventure/images/bg_overlaybox.png) 0 0 no-repeat;
+}
+/* h2 */
+body#adventure div.adventure h2 {
+	position:absolute; top:74px; left:56px;
+}
+/* p.txt_1 */
+body#adventure div.adventure p.txt_1 {
+	position:absolute; top:151px; left:415px;
+}
+/* img.img_1 */
+body#adventure div.adventure img.img_1 {
+	position:absolute; top:153px; left:64px;
+}
+/* div.img_decoration */
+body#adventure div.adventure div.img_decoration1,
+body#adventure div.adventure div.img_decoration2,
+body#adventure div.adventure div.img_decoration3,
+body#adventure div.adventure div.img_decoration4,
+body#adventure div.adventure div.img_decoration5,
+body#adventure div.adventure div.img_decoration9 {
+	position:absolute; top:0; right:0;
+	display: block;
+	width: 275px;
+	height: 153px;
+	background: 0 0 no-repeat;
+	z-index: 100;
+}
+body#adventure div.adventure div.img_decoration1 {
+	background-image: url(../../adventure/images/adventure_1_decoration.png);
+}
+body#adventure div.adventure div.img_decoration2 {
+	background-image: url(../../adventure/images/adventure_2_decoration.png);
+}
+body#adventure div.adventure div.img_decoration3 {
+	background-image: url(../../adventure/images/adventure_3_decoration.png);
+}
+body#adventure div.adventure div.img_decoration4 {
+	background-image: url(../../adventure/images/adventure_4_decoration.png);
+}
+body#adventure div.adventure div.img_decoration5 {
+	background-image: url(../../adventure/images/adventure_5_decoration.png);
+}
+body#adventure div.adventure div.img_decoration9 {
+	background-image: url(../../adventure/images/adventure_9_decoration.png);
+}
+/* p.btnClose */
+body#adventure div.adventure p.btnClose {
+	position:absolute; top:345px; left:656px;
+}
+body#adventure div.adventure p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../adventure/images/btn_close.png) 0 0 no-repeat;
+	_background: url(../../adventure/images/btn_close_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#adventure div.adventure p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../adventure/images/btn_close_on.png) 0 0 no-repeat;
+}
+
+
+/* ********************************************************************************
+ * Å°ñ`åØÇÉTÉ|Å[ÉgÇ∑ÇÈÇ†ÇÒÇµÇÒã@î\
+ * file path : /support/index.html
+ * body id name : body#support
+ * ******************************************************************************** */
+
+/* div#conteiner */
+body#support div#conteiner {
+	background: url(../../support/images/bg_main.jpg) 50% 0 no-repeat;
+}
+
+/* div#panel
+ * ================================================================================ */
+body#support div#panel {
+	position:absolute; top:34px; left:18px;
+	width: 736px;
+	height: 468px;
+	background: url(../../support/images/bg_panel.png) 0 0 no-repeat;
+}
+/* h1 */
+body#support div#panel h1 {
+	padding: 24px 0 0 28px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.txt_1 */
+body#support div#panel p.txt_1 {
+	padding: 21px 0 0 35px;
+	font-size: 0;
+	line-height: 0;
+}
+/* ul.page_nav
+------------------------------------------------------------*/
+body#support div#panel ul.page_nav {
+	position: relative;
+	width: 670px;
+	height: 310px;
+	margin: 20px 0 0 32px;
+}
+body#support div#panel ul.page_nav li a {
+	display: block;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0; 
+}
+/* li.assist */
+body#support div#panel ul.page_nav li.assist {
+	position:absolute; top:0; left:0;
+}
+body#support div#panel ul.page_nav li.assist a {
+	width: 324px;
+	height: 301px;
+	background: url(../../support/images/btn_assist.jpg) 0 0 no-repeat;
+}
+/* li.assist span.txt */
+body#support div#panel ul.page_nav li.assist span.txt {
+	position:absolute; top:-6px; left:-6px;
+	z-index: 100;
+}
+/* li.hint */
+body#support div#panel ul.page_nav li.hint {
+	position:absolute; top:6px; left:346px;
+}
+body#support div#panel ul.page_nav li.hint a {
+	width: 324px;
+	height: 136px;
+	background: url(../../support/images/btn_hint.jpg) 0 0 no-repeat;
+}
+/* li.witch */
+body#support div#panel ul.page_nav li.witch {
+	position:absolute; top:152px; left:346px;
+}
+body#support div#panel ul.page_nav li.witch a {
+	width: 324px;
+	height: 149px;
+	background: url(../../support/images/btn_witch.jpg) 0 0 no-repeat;
+}
+body#support div#panel ul.page_nav li.assist a:hover,
+body#support div#panel ul.page_nav li.hint a:hover,
+body#support div#panel ul.page_nav li.witch a:hover {
+	background-position: 0 100%;
+}
+
+/* div.overlayBox
+ * ================================================================================ */
+body#support div.overlayBox {
+	position:absolute; top:-9000px; left:-9000px;
+	visibility: hidden;
+}
+
+/* div#overlayBox1
+ * ================================================================================ */
+/* div.overlayBoxInner */
+body#support div#overlayBox1 div.overlayBoxInner {
+	width: 706px;
+	height: 391px;
+	background: url(../../support/images/assist_bg_panel.png) 0 0 no-repeat;
+}
+/* h2 */
+body#support div#overlayBox1 h2 {
+	padding: 29px 0 18px 49px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btnPrev */
+body#support div#overlayBox1 p.btnPrev {
+	position:absolute; top:164px; left:-25px;
+}
+body#support div#overlayBox1 p.btnPrev a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../support/images/btn_prev.png) 0 0 no-repeat;
+	_background: url(../../support/images/btn_prev_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#overlayBox1 p.btnPrev a:hover {
+	background-position: 0 100%;
+	_background: url(../../support/images/btn_prev_on.png) 0 0 no-repeat;
+}
+/* p.btnNext */
+body#support div#overlayBox1 p.btnNext {
+	position:absolute; top:164px; right:-25px;
+}
+body#support div#overlayBox1 p.btnNext a {
+	display: block;
+	width: 62px;
+	height: 63px;
+	background: url(../../support/images/btn_next.png) 0 0 no-repeat;
+	_background: url(../../support/images/btn_next_ie.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#overlayBox1 p.btnNext a:hover {
+	background-position: 0 100%;
+	_background: url(../../support/images/btn_next_on.png) 0 0 no-repeat;
+}
+/* p.btnClose */
+body#support div#overlayBox1 p.btnClose {
+	position:absolute; top:359px; left:650px;
+}
+body#support div#overlayBox1 p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../support/images/btn_close.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#overlayBox1 p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../support/images/btn_close_on.png) 0 0 no-repeat;
+}
+/* div#sliderAssist
+ * -------------------------------------------------------------------------------- */
+body#support div#sliderAssist {
+	left:9px;
+	width: 688px;
+	height: 290px;
+}
+/* h3 */
+body#support div#sliderAssist h3 {
+	position:absolute; top:0; left:50px;
+	font-size: 0;
+	line-height: 0;
+}
+/* ul.sliderNav
+------------------------------------------------------------*/
+body#support div#sliderAssist ul.sliderNav {
+	position:absolute; top:0; left:509px;
+	width: 136px;
+	z-index: 100;
+}
+body#support div#sliderAssist ul.sliderNav li {
+	float: left;
+	margin-right: 9px;
+}
+body#support div#sliderAssist ul.sliderNav li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#sliderAssist ul.sliderNav li.nav_1 a {
+	background-image: url(../../support/images/assist_nav_1.gif);
+}
+body#support div#sliderAssist ul.sliderNav li.nav_2 a {
+	background-image: url(../../support/images/assist_nav_2.gif);
+}
+body#support div#sliderAssist ul.sliderNav li.nav_3 a {
+	background-image: url(../../support/images/assist_nav_3.gif);
+}
+body#support div#sliderAssist ul.sliderNav li.nav_4 a {
+	background-image: url(../../support/images/assist_nav_4.gif);
+}
+body#support div#sliderAssist ul.sliderNav li.nav_1 a:hover,
+body#support div#sliderAssist ul.sliderNav li.nav_2 a:hover,
+body#support div#sliderAssist ul.sliderNav li.nav_3 a:hover,
+body#support div#sliderAssist ul.sliderNav li.nav_4 a:hover,
+body#support div#sliderAssist ul.sliderNav li.nav_1 a.active,
+body#support div#sliderAssist ul.sliderNav li.nav_2 a.active,
+body#support div#sliderAssist ul.sliderNav li.nav_3 a.active,
+body#support div#sliderAssist ul.sliderNav li.nav_4 a.active {
+	background-position: 0 100%;
+}
+/* div.panel */
+body#support div#sliderAssist div.panel {
+	width: 688px;
+	padding-top: 41px;
+}
+/* p.txt_1 */
+body#support div#sliderAssist div.panel p.txt_1 {
+	margin-left: 39px;
+}
+
+/* div#overlayBox2
+ * ================================================================================ */
+/* div.overlayBoxInner */
+body#support div#overlayBox2 div.overlayBoxInner {
+	position: relative;
+	width: 706px;
+	height: 311px;
+	background: url(../../support/images/hint_bg_panel.png) 0 0 no-repeat;
+}
+/* h2 */
+body#support div#overlayBox2 h2 {
+	padding: 27px 0 0 53px;
+	font-size: 0;
+	line-height: 0;
+}
+/* img.img_1 */
+body#support div#overlayBox2 img.img_1 {
+	position:absolute; top:86px; left:59px;
+}
+/* p.txt_1 */
+body#support div#overlayBox2 p.txt_1 {
+	position:absolute; top:86px; left:410px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btnClose */
+body#support div#overlayBox2 p.btnClose {
+	position:absolute; top:279px; left:650px;
+}
+body#support div#overlayBox2 p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../support/images/btn_close.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#overlayBox2 p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../support/images/btn_close_on.png) 0 0 no-repeat;
+}
+
+/* div#overlayBox3
+ * ================================================================================ */
+/* div.overlayBoxInner */
+body#support div#overlayBox3 div.overlayBoxInner {
+	position: relative;
+	width: 706px;
+	height: 410px;
+	background: url(../../support/images/witch_bg_panel.png) 0 0 no-repeat;
+}
+/* h2 */
+body#support div#overlayBox3 h2 {
+	padding: 27px 0 0 60px;
+	font-size: 0;
+	line-height: 0;
+}
+/* img.img_1 */
+body#support div#overlayBox3 img.img_1 {
+	position:absolute; top:86px; left:59px;
+}
+/* p.txt_1 */
+body#support div#overlayBox3 p.txt_1 {
+	position:absolute; top:86px; left:410px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.txt_2 */
+body#support div#overlayBox3 p.txt_2 {
+	position:absolute; top:280px; left:59px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btnClose */
+body#support div#overlayBox3 p.btnClose {
+	position:absolute; top:378px; left:650px;
+}
+body#support div#overlayBox3 p.btnClose a {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../support/images/btn_close.png) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+body#support div#overlayBox3 p.btnClose a:hover {
+	background-position: 0 100%;
+	_background: url(../../support/images/btn_close_on.png) 0 0 no-repeat;
+}

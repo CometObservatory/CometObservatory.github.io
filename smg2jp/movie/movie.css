@@ -1,0 +1,137 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : movie.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import "../assets/styles/reset.css";
+@import "../assets/styles/class.css";
+
+
+/* ********************************************************************************
+ * Å°è–âÓÉÄÅ[ÉrÅ[
+ * file path : /movie/index.html
+ * ******************************************************************************** */
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #2800bd;
+	text-decoration: underline;
+}
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html,body {
+	height: 100%;
+}
+/* body */
+body {
+	background: #2800bd;
+	font-family: "ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+	text-align: left;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	position: relative;
+	width: 676px;
+	height: 69px;
+	margin: 0 auto;
+	text-align: left;
+}
+/* p#logoNintendo */
+div#header p#logoNintendo {
+	position:absolute; top:24px; left:0;
+}
+/* p#logoWii */
+div#header p#logoWii {
+	position:absolute; top:15px; right:0;
+}
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	width: 676px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+/* div#contentTop */
+div#contentTop {
+	width: 676px;
+	height: 10px;
+	background: url(images/bg_content_top.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div#contentBottom */
+div#contentBottom {
+	width: 676px;
+	height: 10px;
+	background: url(images/bg_content_bottom.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* div#main
+ * ================================================================================ */
+div#content div#main {
+	position: relative;
+	margin-left: 30px;
+	padding-bottom: 15px;
+}
+/* h1 */
+div#content h1 {
+	padding: 15px 0 17px;
+}
+/* #movie */
+div#content #movie {
+	margin: 0 0 0 105px;
+}
+/* p.btnClose */
+p.btnClose {
+	width: 113px;
+	margin: 20px auto 20px;
+}
+p.btnClose a {
+	display: block;
+	width: 113px;
+	height: 11px;
+	background: url(images/btn_close.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+p.btnClose a:hover {
+	background-position: 0 100%;
+}

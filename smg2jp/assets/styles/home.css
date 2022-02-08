@@ -1,0 +1,474 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : top.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+@import "reset.css";
+@import "class.css";
+
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+/* ********************************************************************************
+ * CLEARFIX
+ * ******************************************************************************** */
+
+ul#nav:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+ul#nav {
+	display: inline-block;
+}
+* html ul#nav {
+	height: 1%;
+}
+ul#nav {
+	display: block;
+}
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html {
+	background: url(../../images/bg_html.gif) 50% 0 repeat-y #fff;
+}
+/* body */
+body {
+	min-width: 768px;
+	background: url(../../images/noscript_bg_main.jpg) 50% 0 no-repeat;
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',meiryo,"ＭＳ Ｐゴシック",Arial,Verdana,Helvetica;
+	text-align: left;
+	color: #162d4c;
+}
+/* #flashContent */
+#flashContent {
+	width: 100%;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	position: relative;
+	width: 768px;
+	height: 70px;
+	margin: 0 auto;
+	background: url(../../images/noscript_bg_content.jpg) 0 0 no-repeat;
+}
+/* p#logoNintendo */
+div#header p#logoNintendo {
+	position:absolute; top:22px; left:9px;
+}
+div#header p#logoNintendo a {
+	display: block;
+	width: 67px;
+	height: 17px;
+	background: url(../images/logo_nintendo.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p#logoWii */
+div#header p#logoWii {
+	position:absolute; top:13px; right:9px;
+}
+div#header p#logoWii a {
+	display: block;
+	width: 81px;
+	height: 36px;
+	background: url(../images/logo_wii.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	position: relative;
+	width: 768px;
+	height: 596px;
+	margin: 0 auto;
+	background: url(../../images/noscript_bg_content.jpg) 0 -70px no-repeat;
+}
+/* h1 */
+div#content h1 {
+	display: none;
+	position:absolute; top:29px; left:16px;
+	font-size: 0;
+	line-height: 0;
+}
+/* h1.noscript */
+div#content h1.noscript {
+	display: block;
+}
+/* p.btn_dvd */
+div#content p.btn_dvd {
+	display: none;
+	position:absolute; top:434px; left:25px;
+}
+div#content p.btn_dvd a {
+	display: block;
+	width: 150px;
+	height: 88px;
+	background: url(../../images/btn_dvd.jpg) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+/* ul#nav 
+------------------------------------------------------------*/
+div#content ul#nav {
+	position:absolute; top:525px; left:24px;
+	font-size: 0;
+	line-height: 0;
+}
+/* li */
+div#content ul#nav li {
+	position: relative;
+	float: left;
+	width: 180px;
+	height: 50px;
+}
+/* span.new */
+div#content ul#nav li span.new {
+	display: block;
+	width: 32px;
+	height: 31px;
+	background: url(../../images/icon_new.png) 0 0 no-repeat;
+	text-indent: -9000px;
+}
+div#content ul#nav li.space span.new {
+	position:relative; top:-66px; left:-2px;
+	z-index: 100;
+}
+div#content ul#nav li.action span.new {
+	position:relative; top:-66px; left:1px;
+	z-index: 100;
+	_background-image: url(../../images/icon_new_ie.gif);
+}
+div#content ul#nav li.adventure span.new {
+	position:relative; top:-66px; left:1px;
+	z-index: 100;
+}
+div#content ul#nav li.support span.new {
+	position:relative; top:-66px; left:1px;
+	z-index: 100;
+	_background-image: url(../../images/icon_new_ie.gif);
+}
+/* a */
+div#content ul#nav li a {
+	display: block;
+	width: 180px;
+	height: 50px;
+	text-indent: -9999px;
+}
+div#content ul#nav li.space a {
+	background: url(../../images/nav_space.jpg) 0 0 no-repeat;
+}
+div#content ul#nav li.action a {
+	background: url(../../images/nav_action.jpg) 0 0 no-repeat;
+}
+div#content ul#nav li.adventure a {
+	background: url(../../images/nav_adventure.jpg) 0 0 no-repeat;
+}
+div#content ul#nav li.support a {
+	background: url(../../images/nav_support.jpg) 0 0 no-repeat;
+}
+div#content ul#nav li.space a:hover,
+div#content ul#nav li.action a:hover,
+div#content ul#nav li.adventure a:hover,
+div#content ul#nav li.support a:hover {
+	background-position: 0 100%;
+}
+
+/* ********************************************************************************
+ * div#footer
+ * ******************************************************************************** */
+div#footer {
+	position: relative;
+	width: 768px;
+	margin: 0 auto;
+	padding: 0 0 10px;
+}
+
+/* div#promo
+ * ================================================================================ */
+div#footer div#promo {
+	position: relative;
+	width: 720px;
+	height: 111px;
+	margin: 0 0 20px 25px;
+	background: url(../../images/bg_promo.gif) 0 0 no-repeat;
+	text-align: left;
+	font-size: 0;
+	line-height: 100%;
+}
+/* dl */
+div#footer div#promo dl dt {
+	display: block;
+	height: 13px;
+	margin-bottom: 6px;
+}
+/* dl.interview
+------------------------------------------------------------*/
+div#footer div#promo dl.interview {
+	position:absolute; top:16px; left:16px;
+}
+/* dl.movie
+------------------------------------------------------------*/
+div#footer div#promo dl.movie {
+	position:absolute; top:16px; left:287px;
+}
+/* dl.tvcm
+------------------------------------------------------------*/
+div#footer div#promo dl.tvcm {
+	position:absolute; top:16px; left:558px;
+}
+/*div#footer div#promo dl.tvcm dt {
+	width: 80px;
+	background: url(../../images/icon_new_2.gif) 100% 0 no-repeat;
+}*/
+
+/* div#bnrArea
+------------------------------------------------------------*/
+div#footer div#bnrArea {
+	width: 723px;
+	margin: 0 auto 15px;
+	text-align: center;
+}
+/* p.btn_club_nintendo */
+div#footer p.btn_club_nintendo {
+	display: inline;
+	margin: 0 0 19px;
+}
+/* p.btn_arashi */
+div#footer p.btn_arashi {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+/* div#information
+ * ================================================================================ */
+div#footer div#information {
+	position: relative;
+	width: 720px;
+	margin: 0 0 0 25px;
+}
+/* p.package */
+div#footer div#information p.package {
+	position:absolute; top:0; left:0;
+}
+/* dl#topics
+ * -------------------------------------------------------------------------------- */
+div#footer dl#topics {
+	position: relative;
+	width: 385px;
+	height: 30px;
+	margin: 0 0 9px 94px;
+	background: url(../../images/bg_topics.gif) 0 0 no-repeat;
+	text-align: left;
+}
+div#footer dl#topics dt {
+	position:absolute; top:4px; left:3px;
+	width: 65px;
+	height: 22px;
+	background: url(../../images/icon_topics.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+div#footer dl#topics dd {
+	width: 307px;
+	margin-left: 78px;
+	padding-top: 8px;
+	line-height: 1.1;
+	color: #000000;
+	overflow: hidden;
+}
+/* p.btn_guidebook */
+div#footer p.btn_guidebook {
+	position:absolute; top:0; left:484px;
+}
+div#footer p.btn_guidebook a {
+	display: block;
+	width: 115px;
+	height: 30px;
+	background: url(../../images/btn_guidebook.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+/* p.btn_goods */
+div#footer p.btn_goods {
+	position:absolute; top:0; right:1px;
+}
+div#footer p.btn_goods a {
+	display: block;
+	width: 115px;
+	height: 30px;
+	background: url(../../images/btn_goods.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+/* div#softInfo
+ * -------------------------------------------------------------------------------- */
+div#footer div#softInfo {
+	position: relative;
+	width: 625px;
+	height: 78px;
+	margin: 0 0 0 94px;
+	background: url(../../images/bg_softinfo.gif) 0 0 no-repeat;
+	text-align: left;
+	font-size: 0;
+	line-height: 100%;
+}
+/* ul.soft_info_left */
+div#footer div#softInfo ul.soft_info_left {
+	position:absolute; top:14px; left:16px;
+}
+/* ul.soft_info_right */
+div#footer div#softInfo ul.soft_info_right {
+	position:absolute; top:14px; left:241px;
+}
+div#footer div#softInfo ul li {
+	margin-bottom: 7px;
+}
+/* p.link_cero */
+div#footer div#softInfo p.link_cero {
+	position:absolute; top:9px; left:544px;
+}
+/* p#footerNavi
+------------------------------------------------------------*/
+div#footer p#footerNavi {
+	margin: 20px 0 6px;
+	text-align: center;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #fde919;
+}
+/* span.off */
+div#footer p#footerNavi span.off {
+	font-weight: normal;
+	color: #a6c4f6;
+}
+div#footer p#footerNavi a {
+	text-decoration: none;
+	font-weight: normal;
+}
+div#footer p#footerNavi a:hover {
+	text-decoration: underline;
+}
+/* span.separator */
+div#footer p#footerNavi span.separator {
+	padding: 0 1px;
+	font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", Osaka;
+	font-weight: normal;
+	color: #ffffff;
+}
+/* p#nintendoNavi
+------------------------------------------------------------*/
+div#footer p#nintendoNavi {
+	text-align: center;
+	font-size: 85%;
+	line-height: 1.2;
+	color: #fde919;
+}
+div#footer p#nintendoNavi a {
+	text-decoration: none;
+	font-weight: normal;
+}
+div#footer p#nintendoNavi a:hover {
+	text-decoration: underline;
+}
+/* span.separator */
+div#footer p#nintendoNavi span.separator {
+	padding: 0 1px;
+
+	font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", Osaka;
+	font-weight: normal;
+	color: #ffffff;
+}
+/* p#copyright */
+div#footer p#copyright {
+	margin: 6px 0;
+	text-align: center;
+	font-size: 85%;
+	line-height: 1.1;
+	color: #ffffff;
+}
+
+/* ********************************************************************************
+ * body#home
+ * ******************************************************************************** */
+
+/* body#home */
+body#home {
+	background-image: url(../../images/bg_main.jpg);
+}
+/* div#header */
+body#home div#header {
+	background-image: url(../../images/bg_content.jpg);
+}
+/* p#logoNintendo */
+body#home div#header p#logoNintendo a {
+	background-image: url(../../images/logo_nintendo.jpg);
+}
+/* p#logoWii */
+body#home div#header p#logoWii a {
+	background-image: url(../../images/logo_wii.jpg);
+}
+/* div#content */
+body#home div#content {
+	background-image: url(../../images/bg_content.jpg);
+}
+/* h1 */
+body#home div#content h1 {
+	display: block;
+	position:absolute; top:303px; left:200px;
+}
+/* p.btn_dvd */
+body#home div#content p.btn_dvd {
+	display: block;
+}

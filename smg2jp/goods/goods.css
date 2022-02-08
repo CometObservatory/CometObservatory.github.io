@@ -1,0 +1,235 @@
+@charset "shift_jis";
+
+
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	file name : goods.css
+
+ : :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@import "../assets/styles/reset.css";
+@import "../assets/styles/class.css";
+
+	
+/* ********************************************************************************
+ * Link
+ * ******************************************************************************** */
+
+a {
+	outline: none;
+}
+/* a:link */
+a:link {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:active */
+a:active {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:visited */
+a:visited {
+	color: #2800bd;
+	text-decoration: none;
+}
+/* a:hover */
+a:hover {
+	color: #2800bd;
+	text-decoration: underline;
+}
+
+/* ********************************************************************************
+ * CLEARFIX
+ * ******************************************************************************** */
+.sectionContent:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.sectionContent {
+	display: inline-block;
+}
+* html .sectionContent {
+	height: 1%;
+}
+.sectionContent {
+	display: block;
+}
+
+/* ********************************************************************************
+ * Base Layout
+ * ******************************************************************************** */
+
+/* html */
+html,body {
+	height: 100%;
+}
+/* body */
+body {
+	background: #2200b5;
+	font-family: "ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+	text-align: left;
+}
+
+/* ********************************************************************************
+ * div#header
+ * ******************************************************************************** */
+div#header {
+	position: relative;
+	width: 615px;
+	height: 88px;
+	margin: 0 auto;
+	text-align: left;
+}
+/* h1 */
+div#header h1 {
+	position:absolute; top:50px; left:0;
+}
+/* p#logo */
+div#header p#logo {
+	position:absolute; top:8px; left:470px;
+}
+
+/* ul.links
+------------------------------------------------------------*/
+ul.links {
+	width: 615px;
+	margin: 30px auto 40px;
+	color: #FFF;
+}
+ul.links li {
+	padding: 6px 0 3px;
+	border-bottom: 1px dotted #fff;
+	font-weight: bold;
+}
+ul.links li a {
+	padding-left: 21px;
+	background: url(images/icn_arrow.gif) 0 50% no-repeat;
+	color: #FFF;
+}
+ul.links li a:hover,
+ul.links li a:visited {
+	color: #FFF;
+}
+
+
+/* ********************************************************************************
+ * div#content
+ * ******************************************************************************** */
+div#content {
+	width: 615px;
+	margin: 0 auto;
+}
+/* div.section
+ * ================================================================================ */
+div.section {
+	margin-top: 25px;
+	background-color: #FFFFFF;
+}	
+/* div.sectionTop */
+div.section div.sectionTop {
+	width: 615px;
+	height: 20px;
+	background: url(images/bg_section_top.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div.sectionBottom */
+div.section div.sectionBottom {
+	width: 615px;
+	height: 20px;
+	background: url(images/bg_section_bottom.gif) 0 0 no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+/* div.sectionContent
+ * -------------------------------------------------------------------------------- */
+div.section div.sectionContent {
+	width: 574px;
+	margin: 0 auto 20px;
+	padding-bottom: 17px;
+	border-bottom: 1px solid #2200b5;
+}
+div.section div.last {
+	width: 574px;
+	margin: 0 auto 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+/* div.leftColumn
+------------------------------------------------------------*/
+div.sectionContent div.leftColumn {
+	float: left;
+	width: 280px;
+}
+/* h2 */
+div.sectionContent div.leftColumn h2 {
+	margin-bottom: 20px;
+}
+/* p.data */
+div.sectionContent div.leftColumn p.data {
+	margin-bottom: 17px;
+}
+/* dl.description */
+div.sectionContent div.leftColumn dl.description dt {
+	margin-bottom: 7px;
+	padding-left: 12px;
+	background: url(images/icn_star.gif) 0 50% no-repeat;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1.1;
+	color: #767676;
+}
+div.sectionContent div.leftColumn dl.description dd {
+	line-height: 1.4;
+}
+/* p.goods */
+div.sectionContent p.goods {
+	float: right;
+}
+div#good1 p.goods,
+div#good2 p.goods {
+	padding-top: 30px;
+}
+div#good4 p.goods {
+	padding-right: 50px;
+}
+div#good5 p.goods {
+	padding: 18px 14px 0 0;
+}
+div#good6 p.goods {
+	padding: 48px 0 0 0;
+}
+div#good7 p.goods {
+	padding: 47px 0 0 0;
+} 
+/* p.txt_note */
+div.section p.txt_note {
+	margin: 30px 0 7px 20px;
+}
+/* p.txt_information */
+div.section p.txt_information {
+	text-align: center;
+}
+
+/* p.btnClose */
+p.btnClose {
+	width: 113px;
+	margin: 10px auto 0;
+	padding: 10px 0 20px;
+}
+p.btnClose a {
+	display: block;
+	width: 113px;
+	height: 11px;
+	background: url(images/btn_close.gif) 0 0 no-repeat;
+	text-indent: -9000px;
+	font-size: 0;
+	line-height: 0;
+}
+p.btnClose a:hover {
+	background-position: 0 100%;
+}
