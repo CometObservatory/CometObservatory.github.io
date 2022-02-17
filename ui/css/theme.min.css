@@ -72,11 +72,15 @@ body {
 
 #doit .link{
     font-size:1.4vw;
-    padding: 1% 2%;
-    margin-top: 1%;
+    margin: 3% 1%;
+    padding: 1%;
 }
 
 #doit .pagination-bullet{
     width: 3%;
     margin: 0.2%;
+}
+
+#doit .info{
+    margin-left: 75%;
 }

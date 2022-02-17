@@ -8,6 +8,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
+@font-face {
+    font-family: PopHappinessStd;
+    src: url("FOT-PopHappinessStd-EB.otf") format("opentype");
+}
+
+@font-face {
+    font-family: MARIO;
+    src: url("MARIO_Font_v3_Solid.otf") format("opentype");
+}
 
 
 html {
@@ -25,7 +34,7 @@ body {
     color: #000;
     font-family: "Raleway",sans-serif;
     font-size: 100%;
-    line-height: 24px;
+    line-height: 20%;
     margin: 0;
 	padding:0;
 }
@@ -33,9 +42,10 @@ a{
 	font-family: "Raleway",sans-serif;
 	text-decoration: none;
 	outline: none;
+	color: #FFF;
 }
 a:hover, a:focus {
-	color: #373e18;
+	color: #151515;
 }
 section {
     float: left;
@@ -252,6 +262,75 @@ h2 span {
 	
 }
 
+/* Popup box BEGIN */
+.hoverbkgrfricc{
+    background:rgba(0,0,0,.4);
+    font-family: PopHappinessStd, sans-serif;
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+.hoverbkgrfricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hoverbkgrfricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    border-radius: 8px;
+    padding: 1% 1%;
+}
+.popupCloseButton {
+    background-color: #fff;
+    border: 0.2vh solid #999;
+    border-radius: 2vh;
+    cursor: pointer;
+    display: inline-block;
+    font-family: PopHappinessStd, sans-serif;
+    position: absolute;
+    top: -3%;
+    right: -2%;
+    font-size: 1vw;
+    line-height: 120%;
+   	width: 3%;
+    text-align: center;
+}
+.popupCloseButton:hover {
+    background-color: #ccc;
+}
 
+.hoverbkgrfricc h1{
+	color: #040f23;
+	font-family: MARIO, sans-serif;
+	font-size: 3.03vw;
+	-webkit-text-stroke: 0.1vw white;
+	text-shadow: 0 0 0.3vw black;
+}
 
+.hoverbkgrfricc h3{
+	font-size: 1.5vw;
+}
 
+.hoverbkgrfricc p{
+	font-size: 1.1vw;
+}
+
+.hoverbkgrfricc a{
+	color: black;
+}
+
+.hoverbkgrfricc a:hover{
+	color: darkblue;
+}

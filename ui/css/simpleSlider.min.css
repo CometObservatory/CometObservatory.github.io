@@ -54,12 +54,16 @@
     transform: translate(0, -50%)
 }
 .simple-slider .slider-btn.slider-btn-prev {
-    left: 20px;
+    left: 1%;
     background-image: url(../img/prev.svg);
     background-position: left
 }
 .simple-slider .slider-btn.slider-btn-next {
-    right: 20px;
+    right: 1%;
     background-image: url(../img/next.svg);
     background-position: right
+}
+
+.slider-btn-prev:hover, .slider-btn-next:hover{
+    filter: invert(100%);
 }
