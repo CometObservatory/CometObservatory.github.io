@@ -4,7 +4,7 @@
 *********************************************************/
 
 @import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
@@ -333,4 +333,30 @@ h2 span {
 
 .hoverbkgrfricc a:hover{
 	color: darkblue;
+}
+
+.icons{
+	position: absolute;
+	left: 85%;
+	z-index: 1;
+	padding: 2% 2%;
+}
+
+#twitter{
+	position: absolute;
+	width: 100%;
+	left: -100%;
+	top: 45%;
+}
+
+#youtube{
+	position: absolute;
+	width: 100%;
+}
+
+#ia{
+	position: absolute;
+	top: 35%;
+	width: 85%;
+	left: 200%;
 }
