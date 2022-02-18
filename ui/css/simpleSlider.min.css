@@ -33,9 +33,7 @@
 .simple-slider .slider-pagination .pagination-bullet {
     display: inline-block;
     cursor: pointer;
-    width: 56px;
-    height: 10px;
-    margin: 4px;
+    height: 1.2vh;
     border-radius: 5px;
     background-color: #fff;
     transition: all .3s ease
