@@ -1,0 +1,2447 @@
+/* ALL DIV STYLES SEPEREATED BY NUMERICAL INDICATOR */
+
+
+/* Start Global Div Styles */
+
+#global_lang_select {
+	background-color: #FFFFFF;
+	height: 76px;
+	width: 900px;
+}
+#global_nav {
+	background-color: #FFFFFF;
+	height: 90px;
+	width: 900px;
+}
+
+#global_footer {
+	height: 80px;
+	width: 955px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#main_wrapper {
+	margin: auto;
+	width: 955px;
+	min-width: 905px;
+	text-align: left;
+	padding-top:0px;
+	padding-bottom:35px;
+}
+
+#template {
+	width:955px;
+}
+
+
+
+
+/* Start _00 (index) Div Styles */
+
+#title_lrg_00 {
+	height: auto;
+	width: 899px;
+}
+
+#main_feat_00 {
+	height: auto;
+	width: 473px;
+	margin-bottom: 10px;
+	margin-left: 13px;
+}
+
+#sub_feat01_00 {
+	height: auto;
+	width: 473px;
+	margin-left: 13px;
+}
+#sub_feat02_00 {
+	height: 92px;
+	width: 233px;
+}
+#sub_feat03_00 {
+	height: 128px;
+	width: 233px;
+}
+
+#sub_feat_software_00 {
+	background-color: #ffffff;
+	height: 396px;
+	width: 385px;
+	margin-left: 14px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#sub_feat_sml_00 {
+	height: auto;
+	width: 385px;
+	margin-left: 14px;
+	margin-right: 10px;
+}
+
+.sub_feat_sml_tbl_mid_00 {
+	background-image: url(../images/00_index/sub_feat_sml_tbl_mid.gif);
+	background-repeat: repeat-y;
+	padding-left: 12px;
+	padding-top:6px;
+	padding-bottom:2px;
+}
+.feat_sml_title {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ee7a07;
+	text-decoration: none;
+	padding-bottom: 3px;
+	padding-top:3px;
+}
+.feat_sml_title2 {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ee7a07;
+	text-decoration: none;
+	padding-bottom: 3px;
+	padding-top:3px;
+}
+.feat_sml_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 12px;
+	color: #34beed;
+	text-decoration: none;
+}
+
+
+
+/* Start _01 (Try Wii) Div Styles */
+
+#title_lrg00_01 {
+	height: auto;
+	width: 899px;
+}
+#title_lrg01_01 {
+	height: auto;
+	width: 381px;
+	margin-left: 13px;
+}
+#main_feat_01 {
+	height: auto;
+	width: 488px;
+}
+#sub_feat_01_01 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 14px;
+}
+
+#sub_feat_02_01 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+
+#sub_feat_03_01 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+.sub_feat_tbl_mid_01 {
+	background-image: url(../images/sub_feat_tbl_mid.gif);
+	background-repeat: repeat-y;
+}
+
+
+#main_feat04_04 {
+	height: auto;
+	width: 329px;
+	background-color: #CCCCCC;
+}
+
+/* Start _01 (Try Wii / Locator) Div Styles */
+
+
+#locator {
+	height: 520px;
+	width: 488px;
+	background-image: url(../images/01_try_wii/locater_img_btm.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+}
+#locator2 {
+	height: 497px;
+	width: 488px;
+	background-image: url(../images/01_try_wii/locater_img_btm_maponly.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+}
+#locator_inner {
+	height: auto;
+	width: auto;
+	margin-top: 45px;
+	margin-left: 42px;
+}
+#locator_text {
+	height: 160px;
+	width: 488px;
+	background-image: url(../images/01_try_wii/locater_img_top.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+
+}
+.locator_text_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 18px;
+	padding-top: 5px;
+}
+.locator_text_reg {
+	font-family: Verdana Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-right: 18px;
+	padding-left: 18px;
+	margin-top: -2px;
+	letter-spacing: .1em;
+}
+.locator_bg_mid {
+	background-image: url(../images/01_try_wii/locator_tbl_mid.gif);
+	background-repeat: repeat-y;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+/* Start Wii Burton Demo Tour */
+
+#bg_burton_demo_tour_en {
+	background:url(../images/01_try_wii/en/bg_burton_demo_tour.jpg) no-repeat;
+	width: 873px;
+	height: 968px;
+}
+#bg_burton_demo_tour_es {
+	background:url(../images/01_try_wii/es/bg_burton_demo_tour.jpg) no-repeat;
+	width: 873px;
+	height: 968px;
+}
+
+/* Start Monster Jam Series */
+
+#bg_monster_jam_series_en {
+	background:url(../images/01_try_wii/en/bg_monsterjam_series.jpg) no-repeat;
+	width: 873px;
+	height: 868px;
+}
+#bg_monster_jam_series_es {
+	background:url(../images/01_try_wii/es/bg_monsterjam_series.jpg) no-repeat;
+	width: 873px;
+	height: 868px;
+}
+
+/* Start Wii Mall Experience */
+
+img{
+	border:0px;
+}
+
+.main_table{
+	background:url(../images/main_stretch.gif) repeat-y;
+	width:875px;
+	margin-bottom:20px;
+}
+.main_table_content{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#7a8090;
+	padding:0px 15px 0px 15px;
+}
+.main_table_top{
+	background:url(../images/main_stretch_top.gif) no-repeat;
+	height:16px;
+}
+.main_table_bottom{
+	background:url(../images/main_stretch_bottom.gif) no-repeat;
+	height:14px;
+}
+.left_side{
+	width:298px;
+}
+.blue_block{
+	background:url(../images/blue_block_stretch.gif) repeat-y 0px 13px;
+	color:white;
+	font-size:14px;
+	line-height:18px;
+	margin-bottom:16px;
+}
+.blue_block_content{
+	padding:10px 20px 0px 20px;
+}
+.blue_block_top{
+	background:url(../images/blue_panel_top.gif) no-repeat;
+	height:13px;
+}
+.blue_block_bottom{
+	background:url(../images/blue_block_bottom.gif) no-repeat bottom;
+	height:12px;
+}
+.blue_block_header{
+	display:block;
+	font-size:25px;
+	margin-bottom:7px;
+	line-height:normal;
+	font-weight: bold;
+}
+.blue_block_date{
+	display:block;
+	font-size:16px;
+	font-weight:bold;
+	margin-bottom:7px;
+}
+.store_link{
+	margin:5px 0px 5px 0px;
+}
+.store_link img{
+	border:0px;
+}
+.right_side{
+	width:845px;
+	float:right;
+}
+.inner_panel{
+	background:url(../images/inner_stretch.gif) repeat-y;
+	margin-top:66px;
+}
+.inner_panel_content{
+	line-height:16px;
+	padding:0px 6px 0px 20px;
+	margin-top:-71px;
+	text-align:left;
+}
+.inner_panel_top{
+	background:url(../images/inner_stretch_top.gif) no-repeat;
+	height:12px;
+}
+.inner_panel_bottom{
+	background:url(../images/inner_stretch_bottom.gif) no-repeat;
+	height:12px;
+}
+.columns td{
+	width:140px;
+	padding-left:30px;
+}
+.state_name{
+	color:#ef8318;
+	display:block;
+	font-weight: bold;
+	margin:30px 0px 16px 0px;
+}
+.wii_wish_list{
+	background:url(../images/wish_list_stretch.gif) repeat-y;
+	margin-bottom:30px;
+}
+.wish_list_content{
+	padding:6px 20px 6px 20px;
+}
+.wish_list_top{
+	background:url(../images/wish_list_top.gif) no-repeat;
+	height:14px;
+}
+.wish_list_bottom{
+	background:url(../images/wish_list_bottom.gif) no-repeat;
+	height:14px;
+}
+.little_box{
+	background:url(../images/little_box_stretch.gif) repeat-y;
+	width:261px;
+	margin-top:10px;
+	color:#5c636d;
+	font-weight:bold;
+	line-height:18px;
+	height: auto;
+}
+.little_box_content{
+	padding:2px 12px 5px 12px;
+}
+.little_box_top{
+	background:url(../images/little_box_top.gif) no-repeat;
+	height:10px;
+}
+
+.little_box img{
+	border:0px;
+}
+.little_box a{
+	text-decoration:underline;
+	color:#5c636d;
+}
+.little_box a:hover{
+	color:#45c4ef;
+}
+.us_map{
+	background:url(../images/tour_us_map.gif) no-repeat center center;
+	height:190px;
+}
+.mall_tour_listing{
+	padding:25px 0px 35px 30px;
+}
+
+
+/* Start _02 (Software) Div Styles */
+
+#software_main_table {
+	margin-left: 0 auto;
+	padding-left: 10px;
+	padding-top: 15px;
+	width: 300px;
+	height: auto;
+}
+#main_feat01_02 {
+	margin-left: 10px;
+}
+ul {
+	background: url(../images/02_software/bg_sidebar_titles.gif) no-repeat;
+}
+
+#title_lrg_02 {
+	height: auto;
+}
+#title_features_02 {
+	width: 308px;
+	height: 39px;
+	background: url(../images/02_software/02_bg_gamepage_features_top.gif) no-repeat;
+}
+#title_features_02_img {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#main_feat_02 {
+	height: auto;
+	background:url(../images/02_software/gamepage_bg_stretch.gif) repeat-y;
+	background-color: #ffffff;
+	margin-left: 14px;
+	margin-right: 14px;
+	width: 870px;
+}
+#games_list {
+	text-align: right;
+	padding-top: 12px;
+	padding-right: 15px;
+}
+#sub_feat_01_01_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+#sub_feat_02_01_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+.sub_feat_00_02_text {
+	padding-left: 8px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	width: 264px;
+}
+.icon_arrow_orange {
+	width: 13px;
+}
+#sub_feat01_02 {
+	height: auto;
+	width: auto;
+}
+#sub_feat02_02{
+	margin-top: 18px;
+}
+#sub_feat_content_02 {
+	margin-left:40px;
+	width:800px;
+	padding-top: 28px;
+}
+a.sidebar_link1:link,a.sidebar_link1:active,a.sidebar_link1:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.sidebar_link1:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: underline;
+	padding-bottom:5px;
+}
+a.sidebar_link2:link,a.sidebar_link2:active,a.sidebar_link2:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.sidebar_link2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: underline;
+}
+a.sidebar_link3:link,a.sidebar_link3:active,a.sidebar_link3:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.sidebar_link3:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: underline;
+}
+a.sidebar_link4:link,a.sidebar_link4:active,a.sidebar_link4:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:8px;
+	text-decoration: none;
+}
+a.sidebar_link4:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:8px;
+	text-decoration: underline;
+}
+a.sidebar_link_orange:link,a.sidebar_link_orange:active,a.sidebar_link_orange:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:8px;
+	text-decoration: none;
+}
+a.sidebar_link_orange:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:8px;
+	text-decoration: underline;
+}
+.software_sidebar_titles02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: bold;
+	padding-top:6px;
+	text-decoration: none;
+}
+#software_game_feature_main {
+	width: 651px;
+	height: 228px;
+	background: url(../images/02_software/02_featured_game.jpg) no-repeat;
+}
+#software_game_feature_text{
+	margin-left: 38px;
+	margin-top: 78px;
+	height:123px;
+	width:208px;
+}
+.software_game_feature_publisher{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #63697b;
+	font-weight: bold;
+	line-height: 14px;
+	text-decoration: none;
+	padding-bottom:8px;
+}
+.software_game_feature_blurb{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #63697b;
+	line-height: 14px;
+	/* #5f677e */
+	font-weight: regular;
+	text-decoration: none;
+}
+
+#software_game_feature_link{
+	margin-left:18px;
+}
+#sub_feat02_02_text {
+	height: auto;
+	padding-left: 7px;
+	padding-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+	background: #45c4ef;
+	width: 189px;
+}
+.sub_feat02_02_text_top{
+	background: url(../images/02_software/bg_sidebar_titles_top.gif) no-repeat;
+	height:6px;
+}
+.sub_feat02_02_text_bottom{
+	background: url(../images/02_software/bg_sidebar_titles_bottom.gif) no-repeat;
+	height:6px;
+}
+#sub_feat02_02_text2 {
+	height: auto;
+	padding-left: 7px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #63697b;
+	font-weight: bold;
+	text-decoration: none;
+	background: url(../images/02_software/bg_sidebar_titles2.gif) no-repeat;
+	width: 201px;
+}
+#sub_feat03_02 {
+	height: auto;
+	padding-left:10px;
+	margin-top: 17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #45c4ef;
+	font-weight: bold;
+	text-decoration: none;
+}
+#sub_featcallout {
+	width: 300px;
+	height: auto;
+	padding-left:10px;
+	margin-top: 17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #45c4ef;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+#sub_feat04_02 {
+	height: auto;
+	line-height: 14px;
+	padding-left:10px;
+	margin-top: 17px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #63697b;
+	font-weight: regular;
+	text-decoration: none;
+	width: 300px;
+}
+#sub_feat05_02 {
+	height: auto;
+	margin-top: 17px;
+}
+#sub_feat06_02 {
+	height: auto;
+	margin-left: 17px;
+	width: 264px;
+	align:top;
+}
+.gamepage_titles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-left:10px;
+	padding-right:10px;
+	text-decoration: none;
+}
+.features_grey_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #63697b;
+	font-weight: regular;
+	padding-right:5px;
+	padding-bottom:8px;
+}
+.game_page_background_02_trauma {
+	background: url(../images/02_software/02_bg_gamepage_middle_trauma.jpg) no-repeat;
+}
+.game_page_background_02_cars {
+	background: url(../images/02_software/02_bg_gamepage_middle_cars.jpg) no-repeat;
+}
+.game_page_background_02_zelda {
+	background: url(../images/02_software/02_bg_gamepage_middle_zelda.jpg) no-repeat;
+}
+.game_page_background_02_marvel {
+	background: url(../images/02_software/02_bg_gamepage_middle_marvel.jpg) no-repeat;
+}
+.game_page_background_02_warioware {
+	background: url(../images/02_software/02_bg_gamepage_middle_warioware.jpg) no-repeat;
+}
+.game_page_background_02_excite {
+	background: url(../images/02_software/02_bg_gamepage_middle_excite.jpg) no-repeat;
+}
+.game_page_background_02_wiisports {
+	background: url(../images/02_software/02_bg_gamepage_middle_wiisports.jpg) no-repeat;
+}
+.game_page_background_02_redsteel {
+	background: url(../images/02_software/02_bg_gamepage_middle_redsteel.jpg) no-repeat;
+}
+.game_page_background_02_madden {
+	background: url(../images/02_software/02_bg_gamepage_middle_madden.jpg) no-repeat;
+}
+.game_page_background_02_elebits {
+	background: url(../images/02_software/02_bg_gamepage_middle_elebits.jpg) no-repeat;
+}
+.game_page_background_02_metroid {
+	background: url(../images/02_software/02_bg_gamepage_middle_metroid2.jpg) no-repeat;
+}
+.game_page_background_02_mariogalaxy {
+	background: url(../images/02_software/02_bg_gamepage_middle_mariogalaxy.jpg) no-repeat;
+}
+.game_page_background_02_mariostrikers {
+	background: url(../images/02_software/02_bg_gamepage_middle_strikers.jpg) no-repeat;
+}
+.game_page_background_02_generic {
+	background: url(../images/02_software/02_bg_gamepage_middle_generic.jpg) no-repeat;
+}
+.game_page_background_02_chickenlittle {
+	background: url(../images/02_software/02_bg_gamepage_middle_chickenlittle.jpg) no-repeat;
+}
+.game_page_background_02_bigbrainacademy {
+	background: url(../images/02_software/02_bg_gamepage_middle_generic.jpg) no-repeat;
+}
+.game_page_background_02_batallionwars {
+	background: url(../images/02_software/02_bg_gamepage_middle_batallionwars.jpg) no-repeat;
+}
+.game_page_background_02_needforspeedcarbon {
+	background: url(../images/02_software/02_bg_gamepage_middle_needforspeed.jpg) no-repeat;
+}
+.game_page_background_02_rayman {
+	background: url(../images/02_software/02_bg_gamepage_middle_rayman.jpg) no-repeat;
+}
+.game_page_background_02_supermonkeyball {
+	background: url(../images/02_software/02_bg_gamepage_middle_monkeyball.jpg) no-repeat;
+}
+.game_page_background_02_spongebob {
+	background: url(../images/02_software/02_bg_gamepage_middle_spongebob.jpg) no-repeat;
+}
+.game_page_background_02_ssxblur {
+	background: url(../images/02_software/02_bg_gamepage_middle_ssxblur.jpg) no-repeat;
+}
+.game_page_background_02_tonyhawk {
+	background: url(../images/02_software/02_bg_gamepage_middle_tonyhawk.jpg) no-repeat;
+}
+.game_page_background_02_callofduty3 {
+	background: url(../images/02_software/02_bg_gamepage_middle_callofduty3.jpg) no-repeat;
+}
+.game_page_features_background {
+	background: url(../images/02_software/02_bg_gamepage_features_middle.gif) repeat-y;
+}
+.game_page_background_02_mp8 {
+	background: url(../images/02_software/02_bg_gamepage_middle_mp8.jpg) no-repeat;
+}
+.game_page_background_02_spm {
+	background: url(../images/02_software/02_bg_gamepage_middle_spm.jpg) no-repeat;
+}
+
+.game_page_background_02_godfather {
+	background: url(../images/02_software/02_bg_gamepage_middle_godfather.jpg) no-repeat;
+}
+
+.game_page_background_02_tmnt {
+	background: url(../images/02_software/02_bg_gamepage_middle_tmnt.jpg) no-repeat;
+}
+.game_page_background_02_cookingmama {
+	background: url(../images/02_software/02_bg_gamepage_middle_cookingmama.jpg) no-repeat;
+}
+
+.game_page_background_02_moh_v {
+	background: url(../images/02_software/02_bg_gamepage_middle_moh_v.jpg) no-repeat;
+}
+
+.game_page_background_02_pop_rs {
+	background: url(../images/02_software/02_bg_gamepage_middle_pop_rs.jpg) no-repeat;
+}
+
+
+/*#main_feat01_02 {
+	height: auto;
+	width: 280px;
+	margin-bottom: 20px;
+}*/
+
+.software_game_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #34beed;
+	font-weight: bold;
+	padding-top:5px;
+}
+.software_publisher {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #EE7B08;
+	padding-top:8px;
+}
+.software_text_reg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #63697b;
+	padding-top:8px;
+}
+
+
+.main_feat_02_div_style {
+	height: auto;
+	width: 280px;
+	margin-bottom: 20px;
+	margin-right: 9px;
+	margin-left: 9px;
+}
+
+#software_copyright {
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 14px;
+	color: #63697b;
+	padding-top:8px;
+	width: auto;
+}
+
+#esrb {
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+
+/* Start _03 (What is Wii?) Div Styles */
+
+#title_lrg00_03 {
+	height: auto;
+	width: 899px;
+}
+#title_lrg01_03 {
+	height: auto;
+	width: 381px;
+	margin-left: 13px;
+}
+#title_lrg02_03 {
+	height: auto;
+	width: 381px;
+	margin-left: 13px;
+}
+#title_lrg03_03 {
+	height: auto;
+	width: 381px;
+	margin-left: 13px;
+}
+#title_lrg04_03 {
+	height: auto;
+	width: 381px;
+	margin-left: 13px;
+}
+.top_button {
+	margin-left: 50px;
+}
+
+.title_link_03 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #EF8318;
+	text-decoration: none;
+}
+.title_reg03 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5D6A88;
+	text-decoration: none;
+}
+
+a.title_link_03:active, a.title_link_03:link, a.title_link_03:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #EF8318;
+	text-decoration: none;
+}
+
+a.title_link_03:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5D6A88;
+	text-decoration: none;
+}
+
+/*  Wii Controller */
+
+#main_feat_03 {
+	height: auto;
+	width: 884px;
+	background-color: #999999;
+	margin-left: 8px;
+}
+
+#sub_feat_01_03 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+
+#sub_feat_02_03 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+#sub_feat_03_03 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+#sub_feat_04_03 {
+	height: auto;
+	width: 361px;
+	margin-left: 13px;
+	margin-bottom: 9px;
+}
+#sub_feat_01_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#sub_feat_02_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#sub_feat_03_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#sub_feat_04_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.sub_feat_tbl_mid_03 {
+	background-image: url(../images/sub_feat_tbl_mid.gif);
+	background-repeat: repeat-y;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+#controller {
+	height: auto;
+	width: 488px;
+
+}
+#controller_inner {
+	height: auto;
+	width: auto;
+	margin-top: 60px;
+	margin-left: 42px;
+}
+#controller_text {
+	height: auto;
+	width: 488px;
+	background-image: url(../images/01_try_wii/locater_img_top.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+
+}
+.controller_text_title {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 18px;
+	padding-top: 5px;
+}
+.controller_text_reg {
+	font-family: Verdana Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-right: 18px;
+	padding-left: 18px;
+	margin-top: -2px;
+	letter-spacing: .1em;
+}
+.controller_bg_mid {
+	background-image: url(../images/03_whatiswii/controller_img_mid.gif);
+	background-repeat: repeat-y;
+}
+
+/*  Wii Console */
+.sub_feat_tbl_console_03 {
+	background-image: url(../images/03_whatiswii/bg_console_mid.gif);
+	background-repeat: repeat-y;
+}
+
+#main_feat_04 {
+	margin-left:42px;
+	margin-right:42px;
+}
+#main_content_03{
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 13px;
+}
+#sub_feat_05_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_06_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_07_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_08_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_09_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_10_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 10px;
+}
+#sub_feat_11_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_12_03 {
+	height: auto;
+	width: 386px;
+}
+#sub_feat_13_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+#sub_feat_14_03 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 10px;
+}
+
+#sub_feat_05_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+}
+#sub_feat_06_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+}
+#sub_feat_07_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+	height:57px;
+}
+#sub_feat_08_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+	height: 82px;
+}
+
+#sub_feat_09_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+	height:45px;
+}
+
+#sub_feat_10_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+	height: 45px;
+}
+
+#sub_feat_11_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+	height:45px;
+}
+
+#sub_feat_12_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+}
+
+#sub_feat_13_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+}
+
+#sub_feat_14_03_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	width:341px;
+}
+
+
+/* Start _04 (Wii Features) Div Styles */
+
+.footnotes_features_04 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main_sidebar_04 {
+	width: 185px;
+}
+#title_lrg00_04 {
+	height: auto;
+	width: 899px;
+}
+#sidebar_nav {
+	background-color: #CCCCCC;
+	height: auto;
+	width: 899px;
+}
+#main_feat01_04 {
+	height: auto;
+	width: 279px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-right: 9px;
+}
+
+#main_feat02_04 {
+	height: auto;
+	width: 279px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-right: 9px;
+}
+
+#main_feat03_04 {
+	height: auto;
+	width: 279px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-right: 9px;
+}
+
+#main_feat04_04 {
+	height: auto;
+	width: 279px;
+	margin-left: 9px;
+	margin-bottom: 10px;
+	margin-right: 9px;
+}
+#main_feat05_04 {
+	height: auto;
+	width: 279px;
+	margin-left: 9px;
+	margin-bottom: 20px;
+	margin-right: 9px;
+}
+.feat_tbl_mid_04 {
+	background-image: url(../images/04_wii_features/feat_tbl_mid.gif);
+	background-repeat: repeat-y;
+}
+#feat01_04 {
+	background-image: url(../images/04_wii_features/promo_wii_channel.jpg);
+	height: 80px;
+	width: 244px;
+	margin-left: 17px;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+}
+
+#feat01_04_text {
+	padding-left: 130px;
+	padding-right: 22px;
+	padding-top: 15px;
+	height: auto;
+}
+.feat_text_04 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #586280;
+	text-decoration: none;
+}
+
+#feat02_04_text {
+	padding-left: 130px;
+	padding-top: 15px;
+	width: 110px;
+	height: auto;
+}
+
+#feat02_04 {
+	background-image: url(../images/04_wii_features/promo_iwata_asks.jpg);
+	height: 80px;
+	width: 244px;
+	margin-left: 17px;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+}
+
+#feat03_04_text {
+	padding-left: 130px;
+	padding-right: 22px;
+	padding-top: 15px;
+	height: auto;
+}
+
+#feat03_04 {
+	background-image: url(../images/04_wii_features/promo_connect24.jpg);
+	height: 80px;
+	width: 244px;
+	margin-left: 17px;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+}
+
+#feat04_04_text {
+	padding-left: 130px;
+	padding-right: 22px;
+	padding-top: 15px;
+	height: auto;
+}
+
+#feat04_04 {
+	background-image: url(../images/04_wii_features/promo_virtual_console.jpg);
+	height: 80px;
+	width: 244px;
+	margin-left: 17px;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+}
+
+#feat04_05 {
+	background-image: url(../images/04_wii_features/promo_parental_control.jpg);
+	height: 80px;
+	width: 244px;
+	margin-left: 17px;
+	background-repeat: no-repeat;
+	margin-top: 8px;
+}
+
+#feat04_05_text {
+	padding-left: 130px;
+	padding-right: 22px;
+	padding-top: 15px;
+	height: auto;
+}
+
+/* Wii Connect 24 */
+
+
+#sub_feat_01_04_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	width:341px;
+}
+
+.sub_feat_tbl_wiiconnect24_04 {
+	background-image: url(../images/04_wii_features/bg_console_mid.gif);
+	background-repeat: repeat-y;
+	height: 170px;
+}
+
+#sub_feat_01_04 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+
+/* Parental Controls */
+#parental_controls_04 {
+	margin-left:36px;
+	margin-right:36px;
+}
+#parental_controls_04_intro_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom: 18px;
+	width: 340px;
+}
+
+.parental_controls_04_bullet_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-bottom: 12px;
+	padding-right: 15px;
+}
+
+#parental_controls_tips {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#parental_controls_04_tips1 {
+	width: auto;
+	margin-right: 40px;
+}
+#parental_controls_04_tips2 {
+	width: auto;
+	margin-right: 40px;
+}
+a.sidebar_link5:link,a.sidebar_link5:active,a.sidebar_link5:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.sidebar_link5:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #ee7a07;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: underline;
+	padding-bottom:5px;
+}
+
+
+/* Virtual Console */
+
+#sub_feat_02_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	width:341px;
+}
+
+a.software_white:link,a.software_white:active,a.software_white:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a.software_white:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sub_feat_tbl_virtualconsole_04 {
+	background-image: url(../images/03_whatiswii/bg_console_mid.gif);
+	background-repeat: repeat-y;
+	height: 170px;
+}
+
+#sub_feat_02_04 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+
+.virtual_console_category_titles {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #00c1ed;
+	font-weight: bold;
+	line-height: 14px;
+	text-decoration: none;
+	padding-bottom:8px;
+	padding-top: 8px;
+}
+.virtual_console_category_titles2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #00c1ed;
+	font-weight: bold;
+	line-height: 14px;
+	text-decoration: none;
+	padding-bottom:8px;
+	padding-top: 8px;
+}
+
+#virtual_console_games_04 {
+	margin-left: 19px;
+	margin-right: 15px;
+	width: 100px;
+}
+#virtual_console_takecontrol_04 {
+	margin-left: 19px;
+	margin-right: 15px;
+	width: 100px;
+}
+.virtual_console_fields {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+}
+.virtual_console_newgames {
+	padding-bottom: 8px;
+	padding-top: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #ee7a07;
+}
+.virtual_console_orange {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #ee7a07;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.virtual_console_blue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #00c1ed;
+	font-weight: bold;
+	text-decoration: none;
+}
+.virtual_console_grey {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #96999f;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+/* Wii Channels */
+
+#main_content_04{
+	padding-left: 15px;
+	padding-top: 8px;
+	padding-bottom: 13px;
+}
+
+.sub_feat_tbl_wiichannel_04 {
+	background-image: url(../images/04_wii_features/bg_console_mid.gif);
+	background-repeat: repeat-y;
+}
+
+#sub_wiichannel00_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	width:341px;
+	padding-left: 18px;
+	padding-top: 10px;
+	height: 100%;
+	overflow: visible;
+}
+#sub_wiichannel01_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+#sub_wiichannel02_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+#sub_wiichannel03_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wiichannel04_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wiichannel05_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wiichannel06_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+#sub_wiichannel07_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wiichannel08_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wiichannel09_04_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:341px;
+	height: 100%;
+	overflow: visible;
+}
+
+#sub_wii_menu {
+	padding-left: 5px;
+	padding-right: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#sub_feat_07_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_08_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_09_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_10_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_11_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_12_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_13_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_14_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_15_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_16_04 {
+	height: auto;
+	width: 387px;
+	margin-bottom: 19px;
+}
+#sub_feat_17_04 {
+	height: auto;
+	width: 387px;
+}
+#sub_feat_18_04 {
+	height: auto;
+	width: 387px;
+}
+#main_feat_wiichannel_01 {
+	height: auto;
+	width: 791px;
+	margin-bottom: 19px;
+}
+.main_feat_tbl_wiichannel_04 {
+	background-image: url(../images/04_wii_features/bg_channel_middle.gif);
+	background-repeat: repeat-y;
+}
+
+/* Iwata Asks */
+
+.copyright_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	line-height: 12px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	text-align: left;
+}
+
+#sub_feat_iwata_text_04 {
+	height: auto;
+	padding-left: 7px;
+	padding-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sub_feat_sidebar_04{
+	height: auto;
+	width: 190px;
+}
+
+.iwata_blue {
+	color: #45C4EF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	text-decoration: none;
+}
+.iwata_sidebar_titles04 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: bold;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left: 10px;
+	text-decoration: none;
+	width: 170px;
+}
+
+a.iwata_white:link,a.iwata_white:active,a.iwata_white:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.iwata_white:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.sidebar_link2:link,a.sidebar_link2:active,a.sidebar_link2:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: normal;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.sidebar_link2:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #5f677e;
+	font-weight: normal;
+	padding-top:10px;
+	text-decoration: underline;
+	padding-bottom:5px;
+}
+
+#main_feat01_iwata {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* START MEDIA PLAYER STYLES */ 
+div.mediaModCont { 
+	position: absolute; 
+	top: 315px; 
+	left: 215px; 
+	width: 576px; 
+	background-color: transparent; 
+	height: 550px; 
+	z-index: 2; 
+	visibility: hidden; 
+} 
+div.tabSSon { 
+	position:absolute; 
+	top: 23px; 
+	left: 0px; 
+	width: 576px; 
+	height: 23px; 
+	background-color: transparent; 
+	visibility: hidden; 
+} 
+div.tabVidon { 
+	position:absolute; 
+	top: 23px; 
+	left: 0px; 
+	width: 576px; 
+	height: 23px; 
+	background-color: transparent; 
+	visibility: hidden; 
+} 
+div.mediClose { 
+	position:absolute; 
+	top: 515px; 
+	left: 269px; 
+	width: 38px; 
+	height: 15px; 
+	background-color: transparent; 
+	visibility: hidden; 
+} 
+div.screenshot 
+{ 
+	position: absolute; 
+	top: 511px; 
+	left: 662px; 
+	width: 120px; 
+	height: 431px; 
+	visibility: visible; 
+} 
+div.video { 
+	position: absolute; 
+	top: 365px; 
+	left: 663px; 
+	width: 120px; 
+	height: 90; 
+	visibility: visible; 
+} 
+/* END MEDIA PLAYER STYLES */ 
+
+a.link_blue:link,a.link_blue:active,a.link_blue:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+	width: 300px;
+}
+a.link_blue:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: underline;
+	width: 300px;
+}
+.footnotes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: red;
+	text-decoration: none;
+}
+div.iwataasks {
+	position: absolute;
+	top: 141px;
+	width: 955px;
+	left: 0px;
+}
+.video_links{
+	text-align:right;
+	float:right;
+	padding-top:5px;
+	padding-right:15px;
+}
+.feature_table_iwata_nav {
+	padding-bottom: 15px;
+}
+a.nav_iwata:link, a.nav_iwata:visited, a.nav_iwata:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+}
+a.nav_iwata:hover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: underline;
+}
+a.nav_iwata_active:link, a.nav_iwata_active:visited, a.nav_iwata_active:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #828282;
+	text-decoration: none;
+}
+a.nav_iwata_active:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #828282;
+	text-decoration: underline;
+}
+.nav_iwata_inactive {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #C3C3C3;
+	text-decoration: none;
+}
+.iwata_headline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+	line-height: 16px;
+	padding-bottom: 2px;
+}
+.iwata_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+	line-height: 16px;
+	padding-bottom: 20px;
+}
+a.iwata_headline:link, a.iwata_headline:visited, a.iwata_headline:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+}
+a.iwata_headline:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: underline;
+}
+.nav_iwata_back_next, a.nav_iwata_back_next:link, a.nav_iwata_back_next:visited, a.nav_iwata_back_next:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+}
+
+a.nav_iwata_back_next:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: underline;
+}
+.iwata_names {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+	width:70px;
+}
+
+.iwata_text_reg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: normal;
+	color: #63697b;
+	padding-bottom: 10px;
+	text-decoration: none;
+	width: auto;
+	padding-right: 10px;
+}
+
+.nav_iwata_sub, a.nav_iwata_sub:link, a.nav_iwata_sub:visited, a.nav_iwata_sub:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #828282;
+	text-decoration: none;
+	line-height: 14px;
+}
+
+a.nav_iwata_sub:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #828282;
+	text-decoration: underline;
+}
+/* END IWATA ASKS STYLES */
+
+/* Start _05 (Community) Div Styles */
+
+.community_titles_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+#title_lrg_05 {
+	height: auto;
+	width: 899px;
+}
+
+#main_feat01_05 {
+	height: auto;
+	width: 210px;
+}
+#main_feat02_05 {
+	height: auto;
+	width: 210px;
+}
+#main_feat03_05 {
+	height: auto;
+	width: 210px;
+}
+#main_feat04_05 {
+	height: auto;
+	width: 210px;
+}
+#main_feat05_05 {
+	height: auto;
+	width: 210px;
+}
+
+.feat_tbl_mid_05 {
+	background: url(../images/05_wii_community/bg_community_mid.gif) 100% 100% repeat;
+	padding-left: 17px;
+	padding-right: 17px;
+	height: 210px;
+}
+
+#sub_feat01_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+#sub_feat02_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+#sub_feat03_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+#sub_feat04_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+#sub_feat05_05 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	font-weight: bold;
+	color: #ef8318;
+	text-decoration: none;
+	height: auto;
+	width: 243px;
+}
+.bg_main_feat_05{
+	background-image: url(../images/05_wii_community/bg_community_features.jpg);
+	background-repeat: repeat-y;
+	height: 80px;
+	width: 243px;
+}
+
+#feat01_05_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	height: 141px;
+}
+#feat02_05_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	height: 141px;
+}
+#feat03_05_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	height: 141px;
+}
+#feat04_05_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	height: 141px;
+}
+#feat05_05_text {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 12px;
+	height: 141px;
+}
+.feat_text_05 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #63697b;
+	text-decoration: none;
+}
+
+
+
+/* Start _06 (Support) Div Styles */
+
+#main_feat01_06 {
+	background-color: #CCCCCC;
+	height: auto;
+	width: 210px;
+}
+
+#main_feat02_06 {
+	background-color: #CCCCCC;
+	height: auto;
+	width: 210px;
+	margin-left: 19px;
+}
+
+#main_feat03_06 {
+	background-color: #CCCCCC;
+	height: auto;
+	width: 210px;
+	margin-left: 20px;
+}
+
+#main_feat04_06 {
+	background-color: #CCCCCC;
+	height: auto;
+	width: 210px;
+	margin-left: 20px;
+}
+
+#sub_feat01_06 {
+	height: auto;
+	width: 420px;
+	background-color: #999999;
+}
+
+#sub_feat02_06 {
+	height: auto;
+	width: 420px;
+	background-color: #999999;
+	margin-left: 59px;
+}
+
+
+/* Start _07 (Buy Wii) Div Styles */
+
+#sub_feat_01_07_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	width:341px;
+}
+
+#sub_feat_02_07_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	width:341px;
+}
+#sub_feat_02_08_text{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	color: #63697b;
+	padding-left: 18px;
+	width:341px;
+}
+
+.sub_feat_tbl_buywii_07 {
+	background-image: url(../images/07_buywii/bg_console_mid.gif);
+	background-repeat: repeat-y;
+	height: 170px;
+}
+
+#sub_feat_01_07 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+
+#sub_feat_02_07 {
+	height: auto;
+	width: 386px;
+	margin-bottom: 19px;
+}
+
+a.privacy_link:link,a.privacy_link:active,a.privacy_link:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: none;
+}
+a.privacy_link:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #45c4ef;
+	font-weight: bold;
+	padding-top:10px;
+	text-decoration: underline;
+}
+
+/* Start _08 (Wii Commercials) Div Styles */
+
+#main_feat01_08 {
+	margin-left: 16px;
+}
+#main_feat02_08 {
+	margin-left: 29px;
+}
+#main_feat01_08_movie {
+	margin-left: 38px;
+}
+#main_feat01_08_movie_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #00c1ed;
+	margin-left: 27px;
+	margin-bottom: 18px;
+}
+#main_feat01_08_movie_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #999dad;
+	margin-top: 11px;
+	height: auto;
+}
+
+#sub_feat01_08_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	/*color: #63697b;*/
+	color: #00c1ed;
+	text-align: center;
+}
+#sub_feat02_08_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-align: center;
+}
+#sub_feat03_08_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-align: center;
+}
+#sub_feat04_08_text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-align: center;
+}
+.sub_feat_01_08_thumb {
+	margin-left: 18px;
+	margin-right: 17px;
+}
+a.title_link_04:active, a.title_link_04:link, a.title_link_04:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #5D6A88;
+	text-decoration: none;
+}
+
+a.title_link_04:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00c1ed;
+	text-decoration: none;
+}
+#swfcontent {
+	background-image: url(../images/08_wii_commercials/bg_content_movies_lrg_movie.gif);
+	padding-left: 7px;
+	padding-top: 5px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+}
+
+/* Leaving Nintendo Popup Div Styles */
+
+.popup_blue {
+	padding-top: 15px;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #45c4ef;
+	text-decoration: none;
+}
+.popup_orange {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #f08c28;
+	text-decoration: none;
+}
+
