@@ -43,6 +43,16 @@ textarea {
 	font-size: 99%;
 }
 
+td#noteCon{
+	position:relative;
+}
+
+img#note{
+	z-index:10px;
+	position:absolute;
+	top:398px;
+	left:247px;
+}
 
 /* ********************************************************************************
  * ブラウザスタイルの初期化
