@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainNode>
+	<!-- MAIN NAVIGATION/SECTIONS -->
+	<navigation>
+		<!-- HOME SECTION -->
+		<home swf="SMG2Home.swf" url="home" titleBar="Super Mario Galaxy" height="1350">
+			<tagline><![CDATA[<font size='13'>¡PREPÁRATE PARA</font><br /><font size='30'>DESPEGAR!</font>]]></tagline>
+			<newtomario href="mario-and-yoshi/overview"><![CDATA[New to Mario games? Click here!]]></newtomario>
+			<lang><![CDATA[CONTENIDO DEL JUEGO <br /><font size='13'>DISPONIBLE EN ESPAÑOL</font>]]></lang>
+		</home>
+		<!-- END HOME SECTION -->
+		
+		
+		<!-- GAME SECTION -->
+		<game swf="SMG2Game.swf" url="mario-yoshi">
+			<navlabel><![CDATA[Mario y Yoshi]]></navlabel>
+			<navigation>
+				<!-- overview section-->
+				<overview url="">
+					<navlabel><![CDATA[INTRODUCCIÓN]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[¡Prepárate para experimentar una nueva aventura de proporciones intergalácticas protagonizada por Mario™ y Yoshi™! Encontrarás un universo lleno de galaxias que desafían a la gravedad, una gran variedad de personajes amigos y enemigos, así como diversos objetos especiales en este inolvidable viaje a través del cosmos.]]></content>
+						</page>
+					</navigation>
+				</overview>
+				
+				<!--mario moves section -->
+				<mariomoves url="mario-moves">
+					<navlabel><![CDATA[Habilidades de Mario]]></navlabel>	
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/Long-Jump-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[¡Míralo saltar 1!]]></title>
+									<content><![CDATA[¡Mario salta a la oportunidad de mostrar su excelente manejo de piernas en el espacio! Con saltos normales, dobles, triples, hacia atrás, bomba, rebotando en la pared y mucho más. Es todo un plomero volatinero. ]]></content>
+								</video>
+								<video flv="../video/Jumping-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[¡Míralo saltar 2!]]></title>
+									<content><![CDATA[¡Mario salta a la oportunidad de mostrar su excelente manejo de piernas en el espacio! Con saltos normales, dobles, triples, hacia atrás, bomba, rebotando en la pared y mucho más. Es todo un plomero volatinero. ]]></content>
+								</video>
+								<video flv="../video/Triple-Jump-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[¡Míralo saltar 3!]]></title>
+									<content><![CDATA[¡Mario salta a la oportunidad de mostrar su excelente manejo de piernas en el espacio! Con saltos normales, dobles, triples, hacia atrás, bomba, rebotando en la pared y mucho más. Es todo un plomero volatinero. ]]></content>
+								</video>
+								<video flv="../video/Spin-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[Gira y aplasta]]></title>
+									<content><![CDATA[¡Y ahora tiene un nuevo salto giro! Solo con agitar el control Wii Remote Mario podrá romper obstáculos, vencer enemigos y activar objetos.]]></content>
+								</video>
+								<video flv="../video/Spin-Drill-Wii.flv" img="mario-and-yoshi/poster-drill.jpg">
+									<title><![CDATA[¡A cavar!]]></title>
+									<content><![CDATA[Toma el trompotaladro para atravesar superficies blandas. Con él, Mario podrá atravesar un planeta en segundos. Un atajo sin igual, ¿verdad?]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</mariomoves>
+				
+				<!-- mario suits section -->
+				<mariosuits url="mario-power-ups">
+					<navlabel><![CDATA[Objetos especiales de Mario]]></navlabel>
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/Cloud-Mario-Wii.flv" img="mario-and-yoshi/poster-cloud.jpg">
+									<title><![CDATA[Flor de nubes]]></title>
+									<content><![CDATA[Estas ligeras y esponjosas flores crecen en ciertas galaxias y si Mario las encuentra, se convertirá en Mario Nube y podrá crear un máximo de tres plataformas]]></content>
+								</video>
+								<video flv="../video/Rock-Mario-Wii.flv" img="mario-and-yoshi/poster-rock.jpg">
+									<title><![CDATA[Champiñón roca]]></title>
+									<content><![CDATA[Con el Champiñón roca, Mario podrá derribar a enemigos como si fueran bolos tras convertirse en Mario Roca. Solo basta agitar una vez el Wii Remote para hacerle rodar y derribar varios obstáculos y enemigos que se encuentren a su paso. ¡A rodar!]]></content>
+								</video>
+								<video flv="../video/Fire-Mario-Wii.flv" img="mario-and-yoshi/poster-fire.jpg">
+									<title><![CDATA[Flor de fuego]]></title>
+									<content><![CDATA[Esta flor clásica ahora es más poderosa que nunca. Con ella, Mario de Fuego puede lanzar poderosas bolas de fuego para acabar con enemigos, esculturas de hielo y mucho más.]]></content>
+								</video>
+								<video flv="../video/Bee-Mario-Wii.flv" img="mario-and-yoshi/poster-bee.jpg">
+									<title><![CDATA[Champiñón abeja]]></title>
+									<content><![CDATA[Mario Abeja puede revolotear en el aire por una cantidad de tiempo limitada gracias al Champiñón Abeja, que también le permite subir por un panal sin ningún problema.]]></content>
+								</video>
+								<video flv="../video/Rainbow-Mario-Wii.flv" img="mario-and-yoshi/poster-rainbow.jpg">
+									<title><![CDATA[Estrella Arco Iris]]></title>
+									<content><![CDATA[¡Es invencible! Mario Arco Iris puede aumentar su velocidad y eliminar a varios enemigos gracias al poder de la estrella Arco Iris.]]></content>
+								</video>
+								<video flv="../video/Boo-Mario-Wii.flv" img="mario-and-yoshi/poster-boo.jpg">
+									<title><![CDATA[Champiñón fantasma]]></title>
+									<content><![CDATA[Si Mario encuentra este extraño champiñón, podrá usarlo para convertirse en Mario Fantasma. Obtendrá la habilidad de volverse transparente para atravesar algunas paredes y flotar en el espacio.]]></content>
+								</video>
+								<video flv="../video/Spring-Mario-Wii.flv" img="mario-and-yoshi/poster-spring.jpg">
+									<title><![CDATA[Champiñón boing]]></title>
+									<content><![CDATA[¡Boing! Este champiñón metálico envuelve a Mario y lo transforma en Mario Boing. Con esta habilidad, Mario  podrá saltar más alto y rebotar en las paredes con facilidad.]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</mariosuits>
+				
+				<!--yoshi moves section -->
+				<yoshimoves url="yoshi-moves">	
+					<navlabel><![CDATA[Habilidades de Yoshi]]></navlabel>
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/Yoshi-Eating-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[¡Usa esa lengua!]]></title>
+									<content><![CDATA[¡Yoshi sí que tiene hambre! Le encanta comer frutas de todos colores, enemigos que encuentra a su paso y prácticamente cualquier cosa que quepa en su barriga sin fondo.]]></content>
+								</video>
+								<video flv="../video/eataimfire.flv" img="poster-generic.jpg">
+									<title><![CDATA[Traga, apunta y escupe]]></title>
+									<content><![CDATA[Algunos objetos y enemigos que Yoshi engulle pueden ser usados como proyectiles al ser escupidos por él. ¿Será que no saben tan bien?]]></content>
+								</video>
+								<video flv="../video/Yoshi-Pulling-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[Agarra y tira]]></title>
+									<content><![CDATA[Yoshi puede darte una mano (o mejor dicho, una lengua), para mover objetos pesados que tienen manijas  o aprovechando otros objetos para columpiarse. ¡Mario ahora podrá llegar más alto!]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</yoshimoves>
+				
+				<!-- yoshi powerups section -->
+				<yoshipowerups url="yoshi-power-ups">
+					<navlabel><![CDATA[Objetos especiales de Yoshi]]></navlabel>
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/Dash-Yoshi-Wii.flv" img="mario-and-yoshi/poster-dash.jpg">
+									<title><![CDATA[Chile veloz]]></title>
+									<content><![CDATA[Este chile superpicante hace arder a la boca de Yoshi y le da mayor velocidad al andar. Mira cómo se transforma en el rojo Yoshi Veloz y se mueve a toda velocidad por caminos empinados.]]></content>
+								</video>
+								<video flv="../video/Blimp-Yoshi-Wii.flv" img="mario-and-yoshi/poster-blimp.jpg">
+									<title><![CDATA[Fruta globo]]></title>
+									<content><![CDATA[Cuando Yoshi traga esta fruta se infla y asciende como un globo aerostático. Mario  puede montar al Yoshi Globo y llegar muy alto. Pero esta habilidad de Yoshi no es eterna así que deberás hacerlo rápido.]]></content>
+								</video>
+								<video flv="../video/Bulb-Yoshi-Wii.flv" img="mario-and-yoshi/poster-bulb.jpg">
+									<title><![CDATA[Fruta luz]]></title>
+									<content><![CDATA[Yoshi puede tragar esta fruta para convertirse en Yoshi Luz para emitir una extraña luz que te mostrará plataformas escondidas sobre las que podrás caminar. Pero recuerda que estas plataformas no tienden a durar mucho tiempo.]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</yoshipowerups>
+				
+			</navigation>
+		</game>
+		<!-- END GAME SECTION -->
+		
+		
+		
+		<!-- CONTROLS SECTION -->
+		<controls swf="SMG2Controls.swf" url="how-to-play">
+			<navlabel><![CDATA[Cómo Jugar]]></navlabel>
+			<navigation>
+				<!-- the basics section -->
+				<basicshowto url="basics-how-to">
+					<navlabel><![CDATA[Lo básico]]></navlabel>
+					<navigation>
+						<basicspage>
+							<navlabel><![CDATA[MIRA<br /><font size='24'>LO BÁSICO</font>]]></navlabel>
+							<label><![CDATA[Lo básico]]></label>
+							<gallery>
+								<video flv="../video/basics/es/basics/SPA_Video01_Rev02.flv" img="basics/basics/poster-ENG_Video01_Rev03_smg2.jpg" thm="basics/basics/thumb-ENG_Video01_Rev03_smg2.jpg">
+									<title><![CDATA[Cómo empezar]]></title>
+									<content><![CDATA[¿No has jugado los títulos de Mario? Estas guías te ayudarán a familiarizarte con ellos.]]></content>
+								</video>
+								<video flv="../video/basics/es/basics/SPA_Video02_Rev02.flv" img="basics/basics/poster-ENG_Video02_Rev03_smg2.jpg" thm="basics/basics/thumb-ENG_Video02_Rev03_smg2.jpg">
+									<title><![CDATA[Cómo controlar a Mario]]></title>
+									<content><![CDATA[¿No sabes dónde están todos los botones? Permítenos mostrarte.]]></content>
+								</video>
+								<video flv="../video/basics/es/basics/SPA_Video03_Rev02.flv" img="basics/basics/poster-ENG_Video03_Rev03_smg2.jpg" thm="basics/basics/thumb-ENG_Video03_Rev03_smg2.jpg">
+									<title><![CDATA[Jugar]]></title>
+									<content><![CDATA[Estos son los movimientos básicos que necesitarás dominar para viajar por las galaxias.]]></content>
+								</video>
+							</gallery>
+						</basicspage>
+
+						<whatsnewpage>
+							<navlabel><![CDATA[MIRA <br /><font size='24'>LO NUEVO</font>]]></navlabel>
+							<label><![CDATA[Lo nuevo]]></label>
+							<gallery>
+								<video flv="../video/basics/es/whats_new/SPA_Video04_Rev02.flv" img="basics/whatsnew/poster-ENG_Video04_Rev03_smg2.jpg" thm="basics/whatsnew/thumb-ENG_Video04_Rev03_smg2.jpg">
+									<title><![CDATA[Apuntar a la pantalla]]></title>
+									<content><![CDATA[A veces la simple acción de apuntar el Wii Remote a la pantalla hace maravillas. ¡Mira cómo!]]></content>
+								</video>
+								<video flv="../video/basics/es/whats_new/SPA_Video05_Rev02.flv" img="basics/whatsnew/poster-ENG_Video05_Rev03_smg2.jpg" thm="basics/whatsnew/thumb-ENG_Video05_Rev03_smg2.jpg">
+									<title><![CDATA[Montar a Yoshi]]></title>
+									<content><![CDATA[Yoshi, tu amigo verde tiene muchas habilidades útiles. ¡Aprende cómo usarlas!]]></content>
+								</video>
+								<video flv="../video/basics/es/whats_new/SPA_Video06_Rev02.flv" img="basics/whatsnew/poster-ENG_Video06_Rev03_smg2.jpg" thm="basics/whatsnew/thumb-ENG_Video06_Rev03_smg2.jpg">
+									<title><![CDATA[Acciones útiles]]></title>
+									<content><![CDATA[Aquí hallarás algunas maniobras útiles si ya dominas los movimientos básicos.]]></content>
+								</video>
+								<video flv="../video/basics/es/whats_new/SPA_Video07_Rev02.flv" img="basics/whatsnew/poster-ENG_Video07_Rev03_smg2.jpg" thm="basics/whatsnew/thumb-ENG_Video07_Rev03_smg2.jpg">
+									<title><![CDATA[Modo cooperativo]]></title>
+									<content><![CDATA[<font size='10'>Mira lo que puedes hacer con la ayuda de un familiar o un amigo ¡y con otro Wii Remote! (Se necesita un Wii Remote adicional. Se vende por separado.)</font>]]></content>
+								</video>
+								<video flv="../video/basics/es/whats_new/SPA_Video08_Rev02.flv" img="basics/whatsnew/poster-ENG_Video08_Rev03_smg2.jpg" thm="basics/whatsnew/thumb-ENG_Video08_Rev03_smg2.jpg">
+									<title><![CDATA[Qué hacer si tienes dificultades]]></title>
+									<content><![CDATA[La pantalla guía y el Espíritu Cósmico te podrán ayudar si lo necesitas. Puedes conocerlos más aquí.]]></content>
+								</video>
+							</gallery>
+						</whatsnewpage>
+
+						<gallerypage>
+							<navlabel><![CDATA[MIRA<br /><font size='20'>SUPERHABILIDADES</font>]]></navlabel>
+							<label><![CDATA[Superhabilidades]]></label>
+							<gallery>
+								<video flv="../video/basics/es/special_moves/SPA_Video09_Rev02.flv" img="basics/special_moves/poster-ENG_Video09_Rev03_smg2.jpg" thm="basics/special_moves/thumb-ENG_Video09_Rev03_smg2.jpg">
+									<title><![CDATA[También puedes 1]]></title>
+								</video>
+								<video flv="../video/basics/es/special_moves/SPA_Video10_Rev02.flv" img="basics/special_moves/poster-ENG_Video10_Rev03_smg2.jpg" thm="basics/special_moves/thumb-ENG_Video10_Rev03_smg2.jpg">
+									<title><![CDATA[También puedes 2]]></title>
+								</video>
+								<video flv="../video/basics/es/special_moves/11-Spanish-Final.flv" img="basics/special_moves/poster-ENG_Video11_Rev03_smg2.jpg" thm="basics/special_moves/thumb-ENG_Video11_Rev03_smg2.jpg">
+									<title><![CDATA[También puedes 3]]></title>
+								</video>
+								<video flv="../video/basics/es/special_moves/SPA_Video12_Rev02.flv" img="basics/special_moves/poster-ENG_Video12_Rev03_smg2.jpg" thm="basics/special_moves/thumb-ENG_Video12_Rev03_smg2.jpg">
+									<title><![CDATA[También puedes 4]]></title>
+								</video>
+							</gallery>
+						</gallerypage>
+						
+					</navigation>
+				</basicshowto>
+				
+				
+				
+				
+				<!-- earn your stars section-->
+				<earnyourstars url="earn-your-stars">
+					<navlabel><![CDATA[OBTÉN ESTRELLAS]]></navlabel>
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/star-bits.flv" img="poster-generic.jpg">
+									<title><![CDATA[Trozos de estrella]]></title>
+									<content><![CDATA[¡Recoge todos los trozos de estrella que estén a tu alcance! Los encontrarás por todo el universo. A los destellos les encanta comerlos y tú podrás usarlos para aturdir a los enemigos.]]></content>
+								</video>
+								<video flv="../video/Mario-Getting-a-Star-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[Superestrellas]]></title>
+									<content><![CDATA[Deberás obtenerlas para poder avanzar hacia nuevos niveles. ¡Encuentra todas las que puedas para que la Astronave Mario pueda avanzar a galaxias distantes! Si encuentras una Maxiestrella podrás usar su poder para avanzar hacia un nuevo mundo.]]></content>
+								</video>
+								<video flv="../video/Comet-Medal-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[Medallas de cometa]]></title>
+									<content><![CDATA[Estas medallas pueden ser algo difíciles de encontrar. Si encuentras cierta número de ellas, aparecerán los cometas pícaros, los cuales harán que ocurran cosas extrañas en ciertas galaxias.]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</earnyourstars>
+				
+				<!-- costars section-->
+				<costars url="co-stars-cosmic-spirit">
+					<navlabel><![CDATA[MODO COOPERATIVO Y EL ESPIRITU CÓ SMICO]]></navlabel>
+					<navigation>
+						<page>
+							<videos>
+								<video flv="../video/Co-Star-Mode-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[Modo cooperativo]]></title>
+									<content><![CDATA[Si tienes un segundo control Wii Remote™, ¡podrás invitar a un familiar o amigo a que se una a la diversión! Podrá usar al destello compañero para lanzar trozos de estrella, recoger monedas y hasta derrotar a ciertos enemigos para ayudarte en tu aventura.]]></content>
+								</video>
+								<video flv="../video/Cosmic-Guide-Wii.flv" img="poster-generic.jpg">
+									<title><![CDATA[La Guía cósmica]]></title>
+									<content><![CDATA[El sabio y bello Espíritu Cósmico aparecerá si se te dificulta el avanzar en ciertos lugares. Pide su ayuda para activar la Guía cósmica y te mostrará el camino hasta la Superestrella.]]></content>
+								</video>
+							</videos>
+						</page>
+					</navigation>
+				</costars>
+				
+			</navigation>
+		</controls>
+		<!-- END CONTROLS SECTION -->
+		
+		
+		
+		<!-- CHARACTERS SECTION -->
+		<characters swf="SMG2Characters.swf" url="game-characters">
+			<navlabel><![CDATA[Amigos y Enemigos]]></navlabel>
+			<navigation>
+				<!-- overview section-->
+				<overview url="the-story">
+					<navlabel><![CDATA[HISTORIA]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Una espectacular lluvia de estrellas baña los cielos del Reino Champiñón cada cien años… Mario iba en camino hacia el castillo para ver el espectáculo con la princesa Peach™ cuando se topó con un pequeño destello que se había extraviado. Acompañado por el Mini destello, finalmente llegó al castillo y se encontró con una desagradable sorpresa... ¡el castillo estaba siendo atacado por un viejo enemigo y Peach estaba siendo llevada hacia otra galaxia! Pero Mario no es de los que desaniman fácilmente y se lanzó hacia el espacio gracias a la ayuda de sus nuevos amigos, los destellos.]]></content>
+						</page>
+					</navigation>
+				</overview>
+				
+				<!-- starship mario section-->
+				<starshipmario url="starship-mario">
+					<navlabel><![CDATA[Astronave Mario]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Esta nave sí que parece familiar… ¡Mario dirigirá esta majestuosa nave y viajará con sus amigos hacia los confines del universo! Aquí encontrarás nuevos amigos, cuartos escondidos y mucho más a lo largo de tu aventura.]]></content>	
+						</page>
+					</navigation>
+				</starshipmario>
+				
+				<!-- Lubba section-->
+				<lubba url="lubba">
+					<navlabel><![CDATA[Destrella]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Destrella es especialista en astronaves y desea ayudar a Mario a perseguir a Bowser™, quien tomó sus Superestrellas. Usó sus habilidades para darle un toque especial de Mario a su astronave y así alcanzar a Bowser a lo largo del universo.]]></content>
+						</page>
+					</navigation>
+				</lubba>
+				
+				<!-- Baby Luma section-->
+				<babyluma url="baby-luma">
+					<navlabel><![CDATA[Mini destello]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Este Mini destello es rescatado por Mario a quien le otorga tanto su amistad, como el poder de las estrellas. ¡La exploración del cosmos jamás había sido tan divertida y emocionante como el hacerla con el Mini destello bajo la gorra!]]></content>	
+						</page>
+					</navigation>
+				</babyluma>
+				
+				<!-- luigi section-->
+				<!--<luigi url="luigi">
+					<navlabel><![CDATA[LUIGI]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Al nunca ser el tipo de persona que prefiere el descanso cuando hay una aventura que vivir, el alto y delgado hermano de Mario puede ser hallado en ciertas galaxias en las que prestará su ayuda en lo posible.]]></content>
+						</page>
+					</navigation>
+				</luigi>
+				
+				
+				<princesspeach url="princess-peach">
+					<navlabel><![CDATA[princesa Peach]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[¡La pobre de Peach solo quería ver la lluvia de estrellas! Siempre el objetivo de Bowser, Peach ha sido llevada al espacio exterior por el malévolo Bowser. Ahora Mario y sus destellos amigos deberán ir a su rescate.]]></content>
+						</page>
+					</navigation>
+				</princesspeach>
+				
+				
+				<bowser url="bowser">
+					<navlabel><![CDATA[BOWSER]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[¡Parece que Bowser nunca dejará de fastidiar a Mario! Esta vez, ha utilizado el poder de las estrellas para aumentar su estatura y su maldad. ¿Podrá Mario darle alcance a lo largo del firmamento y rescatar a su querida Peach?]]></content>
+						</page>
+					</navigation>
+				</bowser>
+				
+				
+				<bowserjr url="bowser-jr">
+					<navlabel><![CDATA[BOWSER JR.]]></navlabel>
+					<navigation>
+						<page>		
+							<content><![CDATA[Este pequeño secuaz de Bowser no es tan peligroso como quisiera creer, pero tiene amigos muy poderosos. Cuando lo veas pasar en su pequeña nave, ¡seguramente irá acompañado por un adversario de cuidado!]]></content>
+						</page>
+					</navigation>
+				</bowserjr>
+				
+				
+				<kamek url="kamek">
+					<navlabel><![CDATA[Magikoopa]]></navlabel>
+					<navigation>
+						<page>
+							<content><![CDATA[Este hechicero encapuchado siempre sigue de cerca al clan Koopa, teleportándose a través de las distintas galaxias. Con un movimiento de su vara puede hacer aparecer a enemigos a voluntad, pero él es débil y puede ser vencido con solo un pisotón.]]></content>
+						</page>
+					</navigation>
+				</kamek>-->
+				
+			</navigation>
+		</characters>
+		<!-- END CHARACTERS SECTION -->
+		
+		
+		
+		<!-- GALLERY SECTION -->
+		<gallery swf="SMG2Gallery.swf" url="gallery">
+			<navlabel><![CDATA[Galería]]></navlabel>
+			<navigation>
+				
+				<!-- gameplay videos section-->
+				<gameplay url="">
+					<navlabel><![CDATA[CÓMO JUGAR]]></navlabel>
+					<content><![CDATA[Quieres ver a Mario y a sus amigos en acción? Aquí verás videos del juego, tráilers, comerciales de TV y mucho más.]]></content>
+					<navigation>
+						<page>
+							<gallery>
+								
+								<!-- transmission series -->
+								<video flv="../video/transmission01.flv" img="poster-generic.jpg" thm="transmission/thumb-trans01.jpg">
+									<title><![CDATA[Transmisión 01]]></title>
+								</video>
+								<video flv="../video/transmission02.flv" img="poster-generic.jpg" thm="transmission/thumb-trans02.jpg">
+									<title><![CDATA[Transmisión 02]]></title>
+								</video>
+								<video flv="../video/transmission03.flv" img="poster-generic.jpg" thm="transmission/thumb-trans03.jpg">
+									<title><![CDATA[Transmisión 03]]></title>
+								</video>
+								<video flv="../video/transmission04.flv" img="poster-generic.jpg" thm="transmission/thumb-trans04.jpg">
+									<title><![CDATA[Transmisión 04]]></title>
+								</video>
+								<video flv="../video/transmission05.flv" img="poster-generic.jpg" thm="transmission/thumb-trans05.jpg">
+									<title><![CDATA[Transmisión 05]]></title>
+								</video>
+								<video flv="../video/transmission06.flv" img="poster-generic.jpg" thm="transmission/thumb-trans06.jpg">
+									<title><![CDATA[Transmisión 06]]></title>
+								</video>
+								<video flv="../video/transmission07.flv" img="poster-generic.jpg" thm="transmission/thumb-trans07.jpg">
+									<title><![CDATA[Transmisión 07]]></title>
+								</video>
+								<video flv="../video/transmission08.flv" img="poster-generic.jpg" thm="transmission/thumb-trans08.jpg">
+									<title><![CDATA[Transmisión 08]]></title>
+								</video>
+								<video flv="../video/transmission09.flv" img="poster-generic.jpg" thm="transmission/thumb-trans09.jpg">
+									<title><![CDATA[Transmisión 09]]></title>
+								</video>
+								<video flv="../video/transmission10.flv" img="poster-generic.jpg" thm="transmission/thumb-trans10.jpg">
+									<title><![CDATA[Transmisión 10]]></title>
+								</video>
+								<video flv="../video/transmission11.flv" img="poster-generic.jpg" thm="transmission/thumb-trans11.jpg">
+									<title><![CDATA[Transmisión 11]]></title>
+								</video>
+								<video flv="../video/transmission12.flv" img="poster-generic.jpg" thm="transmission/thumb-trans12.jpg">
+									<title><![CDATA[Transmisión 12]]></title>
+								</video>
+								<video flv="../video/transmission13.flv" img="poster-generic.jpg" thm="transmission/thumb-trans13.jpg">
+									<title><![CDATA[Transmisión 13]]></title>
+								</video>
+								<video flv="../video/transmission14.flv" img="poster-generic.jpg" thm="transmission/thumb-trans14.jpg">
+									<title><![CDATA[Transmisión 14]]></title>
+								</video>
+								<video flv="../video/transmission15.flv" img="poster-generic.jpg" thm="transmission/thumb-trans15.jpg">
+									<title><![CDATA[Transmisión 15]]></title>
+								</video>
+							</gallery>
+						</page>
+					</navigation>
+				</gameplay>
+				
+				
+				<!-- tv spot videos section
+				<tvspots url="tv-spots">
+					<navlabel><![CDATA[COMERCIALES DE TV]]></navlabel>
+					<content><![CDATA[Quieres ver a Mario y a sus amigos en acción? Aquí verás videos del juego, tráilers, comerciales de TV y mucho más.]]></content>
+					<navigation>
+						<page>
+							<gallery>
+								<video flv="../video/tv-spots/Cinema.flv" img="tv-spot/poster-cinema.jpg" thm="tv-spot/thumb-cinema.jpg">
+									<title><![CDATA[Cinema Spot]]></title>
+								</video>
+								<video flv="../video/tv-spots/smg2_spanish-tvspot.flv" img="tv-spot/poster-spatv.jpg" thm="tv-spot/thumb-spatv.jpg">
+									<title><![CDATA[Comerciales de TV]]></title>
+								</video>
+							</gallery>
+						</page>
+					</navigation>
+				</tvspots>-->
+				
+	
+				<!-- wallpapers section-->
+				<wallpapers url="wallpaper">
+					<navlabel><![CDATA[FONDOS DE PANTALLA]]></navlabel>
+					<content><![CDATA[Descarga estos fondos de pantalla para el escritorio de tu PC. ¡Están fuera de este mundo!]]></content>
+					<navigation>
+						<page>
+							<gallery>
+								<video img="wallpapers/poster-blimp.jpg" thm="wallpapers/thumb-blimp.jpg" link="downloads/smg2_wallpaper_1.zip" label="Blimp Wallpaper">
+									<title><![CDATA[Fondo de pantalla 1]]></title>
+								</video>
+								<video img="wallpapers/poster-light.jpg" thm="wallpapers/thumb-light.jpg" link="downloads/smg2_wallpaper_2.zip" label="Light Wallpaper">
+									<title><![CDATA[Fondo de pantalla 2]]></title>
+								</video>
+								<video img="wallpapers/poster-rock.jpg" thm="wallpapers/thumb-rock.jpg" link="downloads/smg2_wallpaper_3.zip" label="Rock Wallpaper">
+									<title><![CDATA[Fondo de pantalla 3]]></title>
+								</video>
+								<video img="wallpapers/poster-pack.jpg" thm="wallpapers/thumb-pack.jpg" link="downloads/smg2_wallpaper_4.zip" label="Pack Wallpaper">
+									<title><![CDATA[Fondo de pantalla 4]]></title>
+								</video>
+							</gallery>
+						</page>
+					</navigation>
+				</wallpapers>		
+			</navigation>
+		</gallery>
+		<!-- END GALLERY SECTION -->
+		
+	</navigation>
+	<!-- END MAIN NAVIGATION/SECTIONS -->
+	
+	
+	
+	<!-- HEADER -->
+	<header>
+		<music>
+			<track>audio/beyond-trailer.mp3</track>
+		</music>
+	</header>
+	<!-- END HEADER -->
+	
+	<!-- FOOTER -->
+	<footer>
+		
+		<!--<iwata href="http://www.nintendo.com">
+			<content><![CDATA[<font size='14'>IWATA<br />PREGUNTA</font>]]></content>
+		</iwata>-->
+		<galaxy href="how-to-play/basics-how-to" internal="true" sparkle="false">
+			<content><![CDATA[<font size='14'>¿Quieres conocer <br />los juegos de Mario? <br />¡Haz clic aquí!</font>]]></content>
+		</galaxy>
+	</footer>
+	<!-- END FOOTER -->
+	
+	
+	<!-- DICTIONARY -->
+	<dictionary>
+		<dragexplore><![CDATA[<font size='10'>ARRASTRA PARA EXPLORAR</font>]]></dragexplore>
+		<exclusive><![CDATA[solamente en]]></exclusive>
+	</dictionary>
+	<!-- END DICTIONARY -->
+
+</mainNode>
