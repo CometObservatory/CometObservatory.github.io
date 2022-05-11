@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<text>
+	<navigation>
+		<topic topic="topic_01" locked="false" />
+		<topic topic="topic_02" locked="false"/>
+		<topic topic="topic_03" locked="false"/>
+		<topic topic="topic_04" locked="false"/>
+	</navigation>
+
+	<!------------------------------------------------------------------------------------------------------------------>
+	<!-- CONTENT																									  -->
+	<!------------------------------------------------------------------------------------------------------------------>
+
+	<content>
+	
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- SELECTION PAGE!  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_00">
+			<head><![CDATA[Have you played the original<br />Super Mario Galaxy?]]></head>
+			<yes><![CDATA[Yes]]></yes>
+			<yesText><![CDATA[Tell me what's new!]]></yesText>
+			<no><![CDATA[No]]></no>
+			<noText><![CDATA[I'm not familiar with<br />Super Mario Galaxy.]]></noText>
+		</topic>
+
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- INTERMEDIARY YES  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_00_yes">
+			<enter><![CDATA[Enter the Site!]]></enter>
+			<head><![CDATA[NEW HORIZONS]]></head>
+			<intro><![CDATA[Super Mario Galaxy 2 packs new ideas and challenges in all the nooks and crannies of its all-new galaxies. Take a look at our selection of key new features!]]></intro>
+			<outro><![CDATA[--flash--]]></outro>
+			<yoshi><![CDATA[Yoshi returns!]]></yoshi>
+			<helm><![CDATA[Take the helm of<br />Starship Mario]]></helm>
+			<coop><![CDATA[Expanded Co-Star Mode]]></coop>
+			<spirit><![CDATA[Cosmic Spirit]]></spirit>
+			<spindrill><![CDATA[Spin Drill]]></spindrill>
+			<rockmario><![CDATA[Rock Mario]]></rockmario>
+			<cloudmario><![CDATA[Cloud Mario]]></cloudmario>
+		</topic>
+		
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- INTERMEDIARY NO  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_00_no">
+			<enter><![CDATA[Enter the Site!]]></enter>
+			<head><![CDATA[WELCOME TO WHOLE NEW WORLDS]]></head>
+			<intro><![CDATA[Take the jump and join Mario in space! There's no need to be nervous - Super Mario Galaxy 2 includes a special DVD to help you get going and several aspects of the game provide support along the way!]]></intro>
+			<outro><![CDATA[You can find more info about these special support options<br />wherever you see this friendly little guy!]]></outro>
+			<dvd><![CDATA[Incl. DVD<br />for beginners]]></dvd>
+			<guide><![CDATA[Let the Cosmic Spirit<br />help you]]></guide>
+			<network><![CDATA[Tip Network shows<br />how it's done]]></network>
+			<costar><![CDATA[Play together<br />in Co-Star Mode]]></costar>
+		</topic>
+		
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- MARIO, IN SPACE AGAIN!  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_01">
+			<nav><![CDATA[Mario sets off<br />for the stars]]></nav>
+			<title><![CDATA[Mario sets off for the stars<br />in an all-new adventure!]]></title>
+			<head><![CDATA[]]></head>
+			<info><![CDATA[]]></info>
+									
+			<!-- SUB 01  -->
+			<sub_01>
+				<images>4</images>
+				<nav><![CDATA[Explore wild and wacky planets<br />in the search for Power Stars.]]></nav>				
+				<head><![CDATA[Explore wild and wacky planets in the search for Power Stars.]]></head>	
+				<body><![CDATA[Join the one and only Mario as you journey to mind-blowing planets where all-new pitfalls and perils await you.]]></body>
+				
+				<!-- STORY  -->
+				<storyButton><![CDATA[What's the Story?]]></storyButton>
+				<storyHead><![CDATA[Story]]></storyHead>
+				<storyBody><![CDATA[It is time once again for the Stardust Festival, held once every hundred years when the Mushroom Kingdom is showered in shining stardust.<br /><font size="7"><br /></font>Receiving an invitation from Princess Peach, Mario heads for the castle accompanied by a stray star child he found wandering the cosmos.<br /><font size="7"><br /></font>But when Mario arrives at the castle, it's already too late. Bowser has harnessed the power of the stars and whisked the helpless Peach away.<br /><font size="7"><br /></font>An epic cosmic quest to rescue Peach is about to begin...]]></storyBody>
+				<story01Head><![CDATA[Mario]]></story01Head>
+				<story01Body><![CDATA[On a cosmic quest to rescue Princess Peach.]]></story01Body>
+				<story02Head><![CDATA[Baby Luma]]></story02Head>
+				<story02Body><![CDATA[The star child<br />who lends Mario<br />star power.]]></story02Body>
+				<story03Head><![CDATA[Lubba]]></story03Head>
+				<story03Body><![CDATA[Does all he can to support Mario on his quest.]]></story03Body>
+				
+			</sub_01>
+			
+			<!-- SUB 02  -->
+			<sub_02>
+				<images>4</images>
+				<nav><![CDATA[Your Loyal Partner<br />Yoshi is Here!]]></nav>				
+				<head><![CDATA[Your Loyal Partner Yoshi is Here!]]></head>	
+				<body><![CDATA[All of Yoshi's familiar moves are present and correct as he swallows enemies and hovers in the air with his Flutter Jump. But might there be new abilities to discover...?]]></body>
+			</sub_02>
+			
+			<!-- SUB 03  -->
+			<sub_03>
+				<nav><![CDATA[Playing Together is<br />Easier than Ever!]]></nav>				
+				<head><![CDATA[Playing Together<br />is Easier than Ever!]]></head>	
+				<body><![CDATA[Grab a second Wii Remote and team up with another player. Co-Star Mode is more accessible than ever with a whole host of new things to do.]]></body>
+			</sub_03>
+
+		</topic>
+		
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- MARIO & YOSHI  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_02">
+		
+			<nav><![CDATA[Mario and Yoshi’s<br />Moves]]></nav>
+			
+			<!-- MARIO'S MOVES  -->			
+			<sub_01>
+				<title><![CDATA[Mario's Moves]]></title>	
+				<bigButton1><![CDATA[Mario's Basic Controls]]></bigButton1>
+				<bigButton2><![CDATA[Levels Full of Tricks & Traps]]></bigButton2>
+				<bigButton2_bubble><![CDATA[Discover<br />All-New Devices!]]></bigButton2_bubble>
+				<bigButton3><![CDATA[All-New Transformations]]></bigButton3>
+				<bigButton3_bubble><![CDATA[Grab Items<br />and<br />Power-Up!]]></bigButton3_bubble>
+				<bigButton4><![CDATA[Familiar Transformations]]></bigButton4>
+			</sub_01>
+			
+			<!-- Mario's Basic Controls  -->			
+			<sub_01_01>
+			
+				<!-- RUN  -->			
+				<video_01><![CDATA[m_run]]></video_01>	
+				<title_01><![CDATA[Run]]></title_01>
+				<body_01><![CDATA[Tilt the Control Stick and Mario will run in that direction. Gravity means Mario can run round planets as if he was on a flat surface.]]></body_01>
+				
+				<!-- JUMP  -->			
+				<video_02><![CDATA[m_jump]]></video_02>	
+				<title_02><![CDATA[Jump]]></title_02>
+				<body_02><![CDATA[Press the A Button and Mario will jump. Mario can jump to reach high places or stomp on enemies.]]></body_02>
+				
+				<!-- SPIN  -->			
+				<video_03><![CDATA[m_spin]]></video_03>	
+				<title_03><![CDATA[Spin]]></title_03>
+				<body_03><![CDATA[Shake the Wii Remote to make Mario spin. Mario can take out enemies with a spin or trigger devices.<br /><br />By spinning in mid-air, Mario can stay airborne for slightly longer.]]></body_03>
+				
+				<!-- STAR BITS  -->			
+				<video_04><![CDATA[m_starpiece]]></video_04>	
+				<title_04><![CDATA[Star Bits]]></title_04>
+				<body_04><![CDATA[Pick up Star Bits by pointing at them with the Wii Remote. Then point at your enemies and shoot them with Star Bits!]]></body_04>	
+				
+			</sub_01_01>
+			
+			<!-- Levels Full of Tricks & Traps -->			
+			<sub_01_02>
+			
+				<!-- Spin Drill  -->			
+				<video_01><![CDATA[m_drill]]></video_01>	
+				<title_01><![CDATA[Spin Drill]]></title_01>
+				<body_01><![CDATA[Get hold of a Spin Drill and you'll be able to drill into the ground and even go right through to the other side of planets.]]></body_01>
+							
+				<!-- Means Of Transport -->			
+				<video_02><![CDATA[vehicle]]></video_02>	
+				<title_02><![CDATA[Means Of Transport]]></title_02>
+				<body_02><![CDATA[Different stages have different means of transport available. Steer by simply tilting the Wii Remote. ]]></body_02>
+				
+				<!-- Other Devices  -->			
+				<video_03><![CDATA[ohter_ticks]]></video_03>	
+				<title_03><![CDATA[Other Devices]]></title_03>
+				<body_03><![CDATA[There are all kinds of ingenious devices for you to discover as you progress through the levels.]]></body_03>
+				
+			</sub_01_02>	
+			
+			<!-- All-New Transformations -->			
+			<sub_01_03>
+			
+				<!-- Cloud Mario  -->			
+				<video_01><![CDATA[m_cloud]]></video_01>	
+				<title_01><![CDATA[Cloud Mario]]></title_01>
+				<body_01><![CDATA[Jump on top of clouds. You can even make three cloud platforms under Mario's feet.]]></body_01>
+							
+				<!-- Rock Mario -->			
+				<video_02><![CDATA[m_rock]]></video_02>	
+				<title_02><![CDATA[Rock Mario]]></title_02>
+				<body_02><![CDATA[Shake the Wii Remote and Mario will curl into a boulder and bowl enemies over with tremendous force.]]></body_02>
+				
+			</sub_01_03>	
+			
+			<!-- Familiar Transformations -->			
+			<sub_01_04>
+			
+				<title><![CDATA[Mario's Familiar Transformations Are<br />Present And Correct!]]></title>	
+				
+				<!-- Bee Mario  -->			
+				<title_01><![CDATA[Bee Mario]]></title_01>
+				<body_01><![CDATA[Briefly take flight and grab<br />hold of honey walls.]]></body_01>
+							
+				<!-- Boo Mario -->			
+				<title_02><![CDATA[Boo Mario]]></title_02>
+				<body_02><![CDATA[Become invisible and<br />float through fences.]]></body_02>
+
+				<!-- Spring Mario  -->			
+				<title_03><![CDATA[Spring Mario]]></title_03>
+				<body_03><![CDATA[Bounce along and use the spring<br />to leap to huge heights.]]></body_03>
+
+				<!-- Fire Mario  -->			
+				<title_04><![CDATA[Fire Mario]]></title_04>
+				<body_04><![CDATA[Temporarily gain the ability<br />to throw fireballs.]]></body_04>
+
+				<!-- Rainbow Mario -->			
+				<title_05><![CDATA[Rainbow Mario]]></title_05>
+				<body_05><![CDATA[Become temporarily invincible<br />and defeat enemies simply<br />by touching them.]]></body_05>
+				
+			</sub_01_04>	
+			
+			<!-- YOSHI'S MOVES  -->
+			<sub_02>
+				<title><![CDATA[Yoshi's Moves]]></title>	
+				<bottom><![CDATA[Eat special fruits and Yoshi will gain a range of abilities.]]></bottom>	
+				
+				<!-- YOSHI'S TONGUE  -->			
+				<title_01><![CDATA[Yoshi's Tongue]]></title_01>
+				<body_01><![CDATA[By pointing with the Wii Remote and pressing the B Button, Yoshi can stick his tongue out to swallow fruits and foes alike.]]></body_01>
+
+				<!-- SPIT  -->			
+				<title_02><![CDATA[Spit]]></title_02>
+				<body_02><![CDATA[Certain enemies can be swallowed and then spat out in the desired direction.]]></body_02>
+
+				<!-- UPROOT  -->			
+				<title_03><![CDATA[Uproot]]></title_03>
+				<body_03><![CDATA[Fruit and foes with roots in the ground can be unearthed with a deft flick of Yoshi's tongue.]]></body_03>
+
+				<!-- GRAB  -->			
+				<title_04><![CDATA[Grab]]></title_04>
+				<body_04><![CDATA[Making use of Yoshi's tongue, you can leap further than with a normal jump.]]></body_04>
+
+				<!-- FLUTTER JUMP  -->			
+				<title_05><![CDATA[Flutter Jump]]></title_05>
+				<body_05><![CDATA[Hold the A Button down while jumping to get higher and stay in the air for longer than usual.]]></body_05>
+
+				<!-- USE YOSHI'S HEAD  -->			
+				<title_06><![CDATA[Use Yoshi's Head]]></title_06>
+				<body_06><![CDATA[Shake the Wii Remote to shake Yoshi's head, knocking out enemies or triggering devices.]]></body_06>
+
+				<!-- TAKING DAMAGE  -->			
+				<title_07><![CDATA[Taking Damage]]></title_07>
+				<body_07><![CDATA[If you take damage while riding Yoshi, he will run away. Jump or spin near to Yoshi before he returns to his egg to ride him again.]]></body_07>
+				
+			</sub_02>
+			
+			<!-- Eat special fruits and Yoshi will gain a range of abilities.  -->	
+			<sub_02_01>
+			
+				<!-- DASH YOSHI  -->			
+				<video_01><![CDATA[y_dash]]></video_01>	
+				<title_01><![CDATA[Dash Yoshi]]></title_01>
+				<body_01><![CDATA[When Yoshi eats a Dash Pepper, he'll dash forward at high speed. This can also propel Yoshi up steep slopes rapidly.]]></body_01>
+							
+				<!-- BLIMP YOSHI  -->			
+				<video_02><![CDATA[y_balloon]]></video_02>	
+				<title_02><![CDATA[Blimp Yoshi]]></title_02>
+				<body_02><![CDATA[When Yoshi eats a Blimp Fruit, his belly swells up like a balloon and he can float in the air while slowly exhaling.]]></body_02>
+				
+				<!-- BULB YOSHI  -->			
+				<video_03><![CDATA[y_light]]></video_03>	
+				<title_03><![CDATA[Bulb Yoshi]]></title_03>
+				<body_03><![CDATA[When Yoshi eats a Bulb Berry, his body lights up, illuminating new areas he can walk on.]]></body_03>
+				
+			</sub_02_01>	
+			
+		</topic>	
+		
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- ADVANCE  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_03">
+			<nav><![CDATA[Advancing<br />in the Adventure]]></nav>
+			<title><![CDATA[Mario's Adventure Unfolds]]></title>
+			<info><![CDATA[More to Explore!]]></info>
+			
+			<!-- Starship Mario -->
+			<picture_01>03_popup_screen_02.jpg</picture_01>
+			<title_01><![CDATA[Starship Mario]]></title_01>
+			<body_01><![CDATA[Fuelled by Power Stars, this Mario-shaped starship is your base during your adventure.<br /><br />As Mario 's voyages take him to more exotic galaxies, you'll be able to bring back items from your adventures to add more facilities and decorate the ship with. The ship will also become more lively as more characters take up residence there.]]></body_01>
+			
+			<!-- Galaxies -->
+			<picture_02>03_popup_screen_01.jpg</picture_02>
+			<title_02><![CDATA[Galaxies]]></title_02>
+			<body_02><![CDATA[Each world contains a number of wildly-varied galaxies. Search for the stolen Power Stars hidden in each galaxy and open up new areas to explore.]]></body_02>
+			
+			<!-- Hungry Luma  -->
+			<picture_03>03_popup_screen_03.jpg</picture_03>
+			<title_03><![CDATA[Hungry Luma]]></title_03>
+			<body_03><![CDATA[The Hungry Lumas found on the World Map are star children with more-than-healthy appetites. Feed them Star Bits and see what happens...]]></body_03>
+			
+			<!-- Star Barrier -->
+			<picture_04>03_popup_screen_04.jpg</picture_04>
+			<title_04><![CDATA[Star Barrier]]></title_04>
+			<body_04><![CDATA[Collect the required number of Power Stars and you'll be able to continue to new areas. One tactic is to put off galaxies you're<br />having trouble with until later and collect<br />Power Stars in galaxies you're more comfortable with.]]></body_04>
+			
+			<!-- Bowser & Bowser Jr.'s Base  -->
+			<picture_05>03_popup_screen_05.jpg</picture_05>
+			<title_05><![CDATA[Bowser & Bowser Jr.'s Base]]></title_05>
+			<body_05><![CDATA[At the end of each world, you'll mount a direct attack on Bowser and his boy's base.<br /><br />Explore ultra-challenging galaxies as you<br />get nearer the final showdown where you'll battle for the prize of a Grand Star with Bowser & Bowser Jr.]]></body_05>
+			
+			<!-- Portal -->
+			<picture_06>03_popup_screen_06.jpg</picture_06>
+			<title_06><![CDATA[Portal]]></title_06>
+			<body_06><![CDATA[Once you've defeated Bowser and co. and grabbed the Grand Star, a portal to the next world opens up.]]></body_06>
+			
+			<!-- Grand World Map  -->
+			<picture_07>03_popup_screen_07.jpg</picture_07>
+			<title_07><![CDATA[Grand World Map]]></title_07>
+			<body_07><![CDATA[With the Grand World Map, it's easy to move between worlds that you've been to before.]]></body_07>
+			
+			<!-- Comet Medal -->
+			<picture_08>03_popup_screen_09.jpg</picture_08>
+			<title_08><![CDATA[Comet Medal]]></title_08>
+			<body_08><![CDATA[There's a Comet Medal hidden in each galaxy. Collect a lot of them and a Prankster Comet will appear and open a new challenge to you.]]></body_08>
+
+			<!-- Luigi -->
+			<picture_09>03_popup_screen_08.jpg</picture_09>
+			<title_09><![CDATA[Luigi]]></title_09>
+			<body_09><![CDATA[Progress through the game and you'll be able to control Mario's younger brother, Luigi. He'll occasionally appear in some galaxies.<br /><br />Luigi can jump slightly higher than Mario and slides on the ground more so you'll be able to enjoy a refreshing change whenever you play as him.]]></body_09>
+			
+			
+			
+		</topic>
+		
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- SUPPORT  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_04">
+			<nav><![CDATA[Support<br />Functions]]></nav>
+			<title><![CDATA[Get A Helping Hand]]></title>
+			<sub><![CDATA[New to Super Mario Galaxy? Lack faith in your abilities? Fear not  - help is at hand!]]></sub>
+			
+			<bigButton1><![CDATA[2-Player Co-Star Mode]]></bigButton1>
+<!--			<bigButton1_bubble><![CDATA[More<br />To Do than Ever Before]]></bigButton1_bubble> -->
+			<bigButton2><![CDATA[Tune Into<br />The Tip Network!]]></bigButton2>
+			<bigButton3><![CDATA[Let The Cosmic Spirit Guide You]]></bigButton3>
+			
+			<!-- CO-PLAY  -->
+			<sub_01_01>
+				<title><![CDATA[2-Player Co-Star Mode]]></title>
+				<sub><![CDATA[Ways To Play Together]]></sub>
+				
+				<title_01><![CDATA[Point at Star Bits to collect them. Press the B Button to launch them at your target.]]></title_01>
+				<sub_01_01_01><![CDATA[Move the Pointer...]]></sub_01_01_01>
+				<sub_01_01_02><![CDATA[...line it up with the Star Bit...]]></sub_01_01_02>
+				<sub_01_01_03><![CDATA[...and Mario's got it!]]></sub_01_01_03>
+
+				<title_02><![CDATA[Point at enemies and press the A Button to stop them in their tracks.<br />You can also take them out with a spin attack.]]></title_02>
+				<sub_01_02_01><![CDATA[Stop the enemy<br />approaching Mario.]]></sub_01_02_01>
+				<sub_01_02_02><![CDATA[Shake the Wii Remote and...]]></sub_01_02_02>
+				<sub_01_02_03><![CDATA[...Co-Star Luma launches<br />a spin attack!]]></sub_01_02_03>
+
+				<title_03><![CDATA[Bring faraway coins and items closer to Mario.]]></title_03>
+				<sub_01_03_01><![CDATA[Spot a distant item...]]></sub_01_03_01>
+				<sub_01_03_02><![CDATA[...then point at it and press the A Button.]]></sub_01_03_02>
+				<sub_01_03_03><![CDATA[Co-Star Luma will<br />bring it closer...]]></sub_01_03_03>
+				<sub_01_03_04><![CDATA[...and grabbing it<br />is a piece of cake!]]></sub_01_03_04>
+
+				<title_04><![CDATA[Throw a spanner in the works or get devices moving with a spin attack.]]></title_04>
+				<sub_01_04_01><![CDATA[The wheel is spinning dangerously...]]></sub_01_04_01>
+				<sub_01_04_02><![CDATA[...so Player 2 stops it...]]></sub_01_04_02>
+				<sub_01_04_03><![CDATA[...letting Mario cross safely.]]></sub_01_04_03>
+				
+			</sub_01_01>
+			
+			<!-- HINT TV  -->
+			<sub_01_02>
+				<picture><![CDATA[04_02_screenshot.jpg]]></picture>
+				<title><![CDATA[Tune Into The Tip Network!]]></title>
+				<body><![CDATA[Watch the video demonstrations of the Tip Network to pick up advice on how to negotiate tricky sections and progress through the game.<br /><br />There's no penalty for checking out the Tip Network so tune in whenever you can to pick up handy hints.]]></body>
+			</sub_01_02>
+
+			<!-- COSMIC SPIRIT  -->
+			<sub_01_03>
+				<picture><![CDATA[04_03_screenshot.jpg]]></picture>
+				<title><![CDATA[Let The Cosmic Spirit Guide You]]></title>
+				<body><![CDATA[In certain galaxies, if you keep getting stuck in the same place, the Cosmic Spirit might appear as you play the level.<br /><br />By making use of the Cosmic Spirit's power, Mario will move of his own accord to within reach of Power Stars, allowing you to progress beyond a difficult section.]]></body>
+				<infoTitle><![CDATA[Power Stars You Get With The Cosmic Spirit's Help Become Bronze Stars]]></infoTitle>
+				<infoBody><![CDATA[You won't complete your Power Star collection if you get Bronze Stars, but you can always try again and grab the Power Stars without assistance from the Cosmic Spirit.]]></infoBody>
+			</sub_01_03>				
+			
+		</topic>
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- DVD  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_dvd">
+			<title><![CDATA['Super Mario Galaxy 2<br />for beginners' <font size="25">included.</font>]]></title>
+			<bubble><![CDATA[<font size="17">DVD</font><br />For Beginners]]></bubble>
+			<sub><![CDATA[Every copy of Super Mario Galaxy 2 comes with a DVD<br />containing a simple beginners guide to the game's controls.]]></sub>
+			<startButton><![CDATA[See Sample Videos]]></startButton>
+			<back><![CDATA[Back]]></back>
+			<title2><![CDATA['Super Mario Galaxy 2 for beginners' -<br /><font size="22">Sample Videos</font>]]></title2>
+			<button1><![CDATA[The Basics]]></button1>
+			<button2><![CDATA[Playing the Game]]></button2>
+			<button3><![CDATA[Special Movie Collection]]></button3>
+			
+			<sub_02_videosub><![CDATA[These videos are included on the DVD 'Super Mario Galaxy 2 for beginners'.]]></sub_02_videosub>
+			<sub_02_03_title><![CDATA[There's plenty of other videos that both beginners and experts can enjoy.]]></sub_02_03_title>
+			<sub_02_03_img1><![CDATA[Tips you'll find useful even if you've played Super Mario Galaxy.]]></sub_02_03_img1>
+			<sub_02_03_img2><![CDATA[A selection of techniques that will make you want to give them a try yourself.]]></sub_02_03_img2>
+		</topic>
+		
+		<!------------------------------------------------------------------------------------------------------------------>
+		<!-- TRAILER  -->
+		<!------------------------------------------------------------------------------------------------------------------>
+		
+		<topic label="topic_trailer">
+			<title><![CDATA[Get ready for Mario's most magnificent adventure!]]></title>
+			<trailer>trailer.flv</trailer>
+		</topic>
+		
+	</content>
+	
+	
+	<!------------------------------------------------------------------------------------------------------------------>
+	<!-- GLOBAL 																									  -->
+	<!------------------------------------------------------------------------------------------------------------------>
+
+	<global>
+		<fb_title><![CDATA[Share it]]></fb_title>
+<!--	<fb_call>javascript:callPublish('',{'name':"###name###",'href':'###href###','description':"###desc###",'media':[{'type':'image','src':'###src###','href':'###href###'}]},null);</fb_call>-->
+		<fb_call>javascript:fbCall('###name###', '###href###', '###desc###', '###src###');</fb_call>
+		<tw_call>http://twitter.com/home?status=</tw_call>
+		<url>http://gamesites.nintendo.com.au/super-mario-galaxy-2/</url>
+		<!--<url>http://nintendo.blissmedia.com.au/ashim/smg2_local/au/</url>-->
+		<imgurl>http://mediacontent.nintendo-europe.com/NOE/media/super_mario_galaxy_2/icons/</imgurl>
+		
+		<!-- HOMEPAGE  -->
+		<fb_00_name><![CDATA[The Super Mario Galaxy 2 website]]></fb_00_name>
+		<fb_00_desc><![CDATA[It's out of this world!]]></fb_00_desc>
+		<fb_00_href><![CDATA[###url###?flashcontent=00_fb]]></fb_00_href>
+		<fb_00_scr>###imgurl###fb_00.png</fb_00_scr>
+		<tw_00_text><![CDATA[It's out of this world! ###url###?flashcontent=00_tw]]></tw_00_text>
+		
+		<!-- Mario sets off for the stars  -->
+		<fb_mario_name><![CDATA[Want to explore wild and wacky planets?]]></fb_mario_name>
+		<fb_mario_desc><![CDATA[Blast off into space in Super Mario Galaxy 2 and journey to mind-blowing planets!]]></fb_mario_desc>
+		<fb_mario_href><![CDATA[###url###?flashcontent=01_01_fb]]></fb_mario_href>
+		<fb_mario_scr>###imgurl###fb_mario.png</fb_mario_scr>
+		<tw_mario_text><![CDATA[Journey to mind-blowing planets! ###url###?flashcontent=01_01_tw]]></tw_mario_text>
+		
+		<!-- YOSHI  -->
+		<fb_yoshi_name><![CDATA[What\'s your favourite Yoshi?]]></fb_yoshi_name>
+		<fb_yoshi_desc><![CDATA[Yoshi returns in Super Mario Galaxy 2 and he\'s cuter than ever! Which one\'s your favourite?]]></fb_yoshi_desc>
+		<fb_yoshi_href><![CDATA[###url###?flashcontent=01_02_fb]]></fb_yoshi_href>
+		<fb_yoshi_scr>###imgurl###fb_yoshi.png</fb_yoshi_scr>
+		<tw_yoshi_text><![CDATA[What's your favourite Yoshi? ###url###?flashcontent=01_02_tw]]></tw_yoshi_text>
+		
+		<!-- DASH YOSHI -->
+		<fb_dashyoshi_name><![CDATA[When Yoshi eats a Dash Pepper…]]></fb_dashyoshi_name>
+		<fb_dashyoshi_desc><![CDATA[… look at him run! Meet Dash Yoshi in Super Mario Galaxy 2!]]></fb_dashyoshi_desc>
+		<fb_dashyoshi_href><![CDATA[###url###?flashcontent=02_02_02_01_fb]]></fb_dashyoshi_href>
+		<fb_dashyoshi_scr>###imgurl###fb_dashyoshi.png</fb_dashyoshi_scr>
+		<tw_dashyoshi_text><![CDATA[Look at this Yoshi! ###url###?flashcontent=02_02_02_01_tw]]></tw_dashyoshi_text>
+		
+		<!-- BLIMP YOSHI -->
+		<fb_blimpyoshi_name><![CDATA[When Yoshi eats a Blimp Fruit…]]></fb_blimpyoshi_name>
+		<fb_blimpyoshi_desc><![CDATA[… he blows up like a balloon! Meet Blimp Yoshi in Super Mario Galaxy 2!]]></fb_blimpyoshi_desc>
+		<fb_blimpyoshi_href><![CDATA[###url###?flashcontent=02_02_02_02_fb]]></fb_blimpyoshi_href>
+		<fb_blimpyoshi_scr>###imgurl###fb_blimbyoshi.png</fb_blimpyoshi_scr>
+		<tw_blimpyoshi_text><![CDATA[Look at this Yoshi! ###url###?flashcontent=02_02_02_02_tw]]></tw_blimpyoshi_text>
+
+		<!-- BULB YOSHI -->
+		<fb_bulbyoshi_name><![CDATA[When Yoshi eats a Bulb Berry…]]></fb_bulbyoshi_name>
+		<fb_bulbyoshi_desc><![CDATA[…he lights up Mario\'s life! Meet Bulb Yoshi in Super Mario Galaxy 2]]></fb_bulbyoshi_desc>
+		<fb_bulbyoshi_href><![CDATA[###url###?flashcontent=02_02_02_03_fb]]></fb_bulbyoshi_href>
+		<fb_bulbyoshi_scr>###imgurl###fb_bulbyoshi.png</fb_bulbyoshi_scr>
+		<tw_bulbyoshi_text><![CDATA[Look at this Yoshi! ###url###?flashcontent=02_02_02_03_tw]]></tw_bulbyoshi_text>
+		
+		<!-- COOP  -->
+		<fb_coop_name><![CDATA[Want to play together?]]></fb_coop_name>
+		<fb_coop_desc><![CDATA[Get a helping hand with the improved Co-Star Mode of Super Mario Galaxy 2!]]></fb_coop_desc>
+		<fb_coop_href><![CDATA[###url###?flashcontent=01_03_fb]]></fb_coop_href>
+		<fb_coop_scr>###imgurl###fb_00.png</fb_coop_scr>
+		<tw_coop_text><![CDATA[Want to play together? ###url###?flashcontent=01_03_tw]]></tw_coop_text>
+		
+		<!-- SPIN DRILL  -->
+		<fb_spindrill_name><![CDATA[Can you dig it?]]></fb_spindrill_name>
+		<fb_spindrill_desc><![CDATA[Use the Spin Drill in Super Mario Galaxy 2 to dig from one side of a planet to the other!]]></fb_spindrill_desc>
+		<fb_spindrill_href><![CDATA[###url###?flashcontent=02_01_02_fb]]></fb_spindrill_href>
+		<fb_spindrill_scr>###imgurl###fb_spindrill.png</fb_spindrill_scr>
+		<tw_spindrill_text><![CDATA[Can you dig it? ###url###?flashcontent=02_01_02_tw]]></tw_spindrill_text>
+
+		<!-- CLOUD MARIO  -->
+		<fb_cloudmario_name><![CDATA[Head up in the clouds?]]></fb_cloudmario_name>
+		<fb_cloudmario_desc><![CDATA[Jump on top of clouds. You can even make three cloud platforms under Mario\'s feet.]]></fb_cloudmario_desc>
+		<fb_cloudmario_href><![CDATA[###url###?flashcontent=02_01_03_fb]]></fb_cloudmario_href>
+		<fb_cloudmario_scr>###imgurl###fb_cloudmario.png</fb_cloudmario_scr>
+		<tw_cloudmario_text><![CDATA[Head up in the clouds? ###url###?flashcontent=02_01_03_tw]]></tw_cloudmario_text>
+		
+		<!-- ROCK MARIO  -->
+		<fb_rockmario_name><![CDATA[Mario rocks!]]></fb_rockmario_name>
+		<fb_rockmario_desc><![CDATA[Turn into Rock Mario and bowl over all your enemies in Super Mario Galaxy 2!]]></fb_rockmario_desc>
+		<fb_rockmario_href><![CDATA[###url###?flashcontent=02_01_03_02_fb]]></fb_rockmario_href>
+		<fb_rockmario_scr>###imgurl###fb_rockmario.png</fb_rockmario_scr>
+		<tw_rockmario_text><![CDATA[Mario rocks! ###url###?flashcontent=02_01_03_02_tw]]></tw_rockmario_text>
+		
+		<!-- LUIGI  -->
+		<fb_luigi_name><![CDATA[Guess who\'s back?]]></fb_luigi_name>
+		<fb_luigi_desc><![CDATA[It\'s-a me, Luigi! - Give Mario a break and take control of Luigi for a change in Super Mario Galaxy 2!]]></fb_luigi_desc>
+		<fb_luigi_href><![CDATA[###url###?flashcontent=03_01_09_fb]]></fb_luigi_href>
+		<fb_luigi_scr>###imgurl###fb_luigi.png</fb_luigi_scr>
+		<tw_luigi_text><![CDATA[Guess who's back? ###url###?flashcontent=03_01_09_tw]]></tw_luigi_text>
+		
+		<!-- HUNGRY LUMA  -->
+		<fb_luma_name><![CDATA[Hungry Luma wants more Star Bits!]]></fb_luma_name>
+		<fb_luma_desc><![CDATA[Hungry Lumas may seem insatiable, but feed their appetite for Star Bits and see what happens…]]></fb_luma_desc>
+		<fb_luma_href><![CDATA[###url###?flashcontent=03_01_03_fb]]></fb_luma_href>
+		<fb_luma_scr>###imgurl###fb_luma.png</fb_luma_scr>
+		<tw_luma_text><![CDATA[Hungry Luma wants more Star Bits! ###url###?flashcontent=03_01_03_tw]]></tw_luma_text>
+		
+		<!-- COSTAR  -->
+		<fb_costar_name><![CDATA[Want to play together?]]></fb_costar_name>
+		<fb_costar_desc><![CDATA[Get a helping hand with the improved Co-Star Mode of Super Mario Galaxy 2!]]></fb_costar_desc>
+		<fb_costar_href><![CDATA[###url###?flashcontent=04_01_01_fb]]></fb_costar_href>
+		<fb_costar_scr>###imgurl###fb_00.png</fb_costar_scr>
+		<tw_costar_text><![CDATA[Want to play together? ###url###?flashcontent=04_01_01_tw]]></tw_costar_text>
+		
+		<!-- COSMIC SPIRIT  -->
+		<fb_spirit_name><![CDATA[Feeling a little stuck?]]></fb_spirit_name>
+		<fb_spirit_desc><![CDATA[Let the Cosmic Spirit guide you in Super Mario Galaxy 2!]]></fb_spirit_desc>
+		<fb_spirit_href><![CDATA[###url###?flashcontent=04_01_03_fb]]></fb_spirit_href>
+		<fb_spirit_scr>###imgurl###fb_spirit.png</fb_spirit_scr>
+		<tw_spirit_text><![CDATA[Feeling a little stuck? ###url###?flashcontent=04_01_03_tw]]></tw_spirit_text>
+		
+		<!-- TIP NETWORK  -->
+		<fb_tipnetwork_name><![CDATA[Tune into the Tip Network!]]></fb_tipnetwork_name>
+		<fb_tipnetwork_desc><![CDATA[Take a look at how it\'s done by watching video demonstrations in Super Mario Galaxy 2!]]></fb_tipnetwork_desc>
+		<fb_tipnetwork_href><![CDATA[###url###?flashcontent=04_01_02_fb]]></fb_tipnetwork_href>
+		<fb_tipnetwork_scr>###imgurl###fb_00.png</fb_tipnetwork_scr>
+		<tw_tipnetwork_text><![CDATA[Tune into the Tip Network! ###url###?flashcontent=04_01_02_tw]]></tw_tipnetwork_text>
+		
+	</global>
+	
+	
+	<!------------------------------------------------------------------------------------------------------------------>
+	<!-- FOOTER																										  -->	
+	<!------------------------------------------------------------------------------------------------------------------>
+	
+	<footer>
+		<comingsoon><![CDATA[Coming soon!]]></comingsoon>
+		<button_01><![CDATA[DVD For Beginners]]></button_01>
+		<button_02><![CDATA[Iwata Asks]]></button_02>
+		<button_02_url><![CDATA[http://www.nintendo.co.uk/NOE/en_GB/news/iwata/iwata_asks_-_super_mario_galaxy_2_17281_17282.html]]></button_02_url>
+		<button_03><![CDATA[Watch the trailer!]]></button_03>
+		<disclaimer><![CDATA[© 2010 Nintendo. TM, ® and the Wii logo are trademarks of Nintendo. © 2010 Nintendo.]]></disclaimer>
+		<genre_title>Category</genre_title>
+		<genre>Action, Platform</genre>
+		<players_title>Player</players_title>
+		<players>1 (2 in Co-Star Mode)</players>
+		<rating_title>Age rating</rating_title>
+		<rating>3</rating>
+		<publisher_title>Publisher</publisher_title>
+		<publisher>Nintendo</publisher>
+		<developer_title>Developer</developer_title>
+		<developer>Nintendo</developer>
+		<date_title>Release date</date_title>
+		<date>June 11, 2010</date>
+	</footer>
+</text>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
