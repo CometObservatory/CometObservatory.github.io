@@ -1,0 +1,712 @@
+/* CSS Document */
+
+/* ------------------------------------------------
+	
+	Copyright © 2008 Nintendo Australia
+	Design by bwired - www.bwired.com.au 
+		
+	
+	Version 5.0 - 30.06.08 (GLOBAL STYLE SHEET) 
+	
+	* Change log: COMPLETE CSS
+	
+
+	 =GLOBAL RESETS 
+	 =GLOBAL STYLES
+	 
+	 =GLOBAL NAVIGATION
+	 =SUB NAVIGATION
+	 	* wii sub navigation
+		* nintendo ds sub navigation
+		* touch generation sub navigation
+	 
+	 =LAYOUT
+	 
+	 =HOMEPAGE
+	 
+	 =PROMOS
+	 =GAMESITES
+	 =SUBPAGE - CONSOLES
+	 
+	 =GAMESMATRIX (SEARCH)
+	 =GAMES PAGE
+	 
+	 =DYNAMIC STYLES
+	 
+	 =MEMBERS SECTION
+	 
+	 =SUBSECTION
+	 =NEWSBLOG 
+	 =COMPETITIONS
+	 
+	 =FOOTER 
+	 
+	 =ACCESSIBLE CONTENT
+
+--------------------------------------------------- */	 
+/* =GLOBAL RESETS 
+--------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, button,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: baseline;
+}
+
+
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+button { 
+	cursor: pointer;
+}
+img {
+	border: none;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+
+/* =GLOBAL STYLES 
+--------------------------------------------------- */
+
+a { 
+	color: #11b5ea;
+	text-decoration: none;
+}
+a:hover {
+	color: #8cdffa;
+}
+a.current {
+	color: #333;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #666;
+	margin:0px 0px 15px 0px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+p.warning {
+	padding: 0px;
+	line-height: 14px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #e82117;
+}
+div.warning, div.warning p {
+  color: #e82117;
+}
+.fieldWithErrors .fieldWithErrors {
+  display:inline;
+}
+
+/* =GLOBAL NAVIGATION
+--------------------------------------------------- */
+
+.global_nav_holder {
+	width: 990px;
+	height: 75px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/nav_main_background.png) 0 0 no-repeat;
+	margin: 0px auto; 	
+}
+.logo_nav {
+	float: left;	
+	width: 130px;
+	height: 50px;
+	padding: 15px 15px 10px 10px;
+}
+#global_nav {
+	float: left;	
+	width: 790px;
+	height: 50px;
+	padding: 20px 0px 5px 0px;	
+}
+#global_nav  ul { 
+	position: relative;
+}
+#global_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#global_nav li a { 
+	float: left;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/globalnav.gif) no-repeat;
+	height: 50px;
+	text-indent: -3000px;
+}
+
+/* global navigation background positioning */
+#global_nav li.wii a { background-position: 0px -50px; width: 56px; }
+
+#global_nav li.nintendo_ds a { background-position: -56px -50px; width: 104px; }
+
+#global_nav li.games a { background-position: -160px -50px; width: 73px; }
+
+#global_nav li.touch_generations a { background-position: -233px -50px; width: 145px; }
+
+#global_nav li.news a { background-position: -378px -50px; width: 67px; }
+
+#global_nav li.members a { background-position: -445px -50px; width: 88px; }
+
+#global_nav li.club_nintendo a { background-position: -533px -50px; width: 119px; }
+
+#global_nav li.support a { background-position: -652px -50px; width: 138px; }
+
+/* global navigation hover & current state */
+#global_nav li.wii a:hover, #global_nav li.wii a.current { background-position: 0px 0px; width: 56px; }
+
+#global_nav li.nintendo_ds a:hover, #global_nav li.nintendo_ds a.current { background-position: -56px 0px; width: 104px; }
+
+#global_nav li.games a:hover, #global_nav li.games a.current { background-position: -160px 0px; width: 73px; }
+
+#global_nav li.touch_generations a:hover, #global_nav li.touch_generations a.current { background-position: -233px 0px; width: 145px; }
+
+#global_nav li.news a:hover, #global_nav li.news a.current { background-position: -378px 0px; width: 67px; }
+
+#global_nav li.members a:hover, #global_nav li.members a.current { background-position: -445px 0px; width: 88px; }
+
+#global_nav li.club_nintendo a:hover, #global_nav li.club_nintendo a.current { background-position: -533px 0px; width: 119px; }
+
+#global_nav li.support a:hover, #global_nav li.club_nintendo a.current { background-position: -652px 0px; width: 138px; }
+
+#signup_login {
+	float: left;
+	width: 110px;
+	height: 20px;
+	margin: 25px 20px 30px 30px;
+	padding: 3px 23px 0px 0px;
+	text-align: right;
+	font-size: 11px;	
+	color: #ccc;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/padlock_login.gif) no-repeat top right;
+}
+#logged_in {
+	float: left;
+	width: 130px;
+	height: 17px;
+	margin: 22px 20px 30px 10px;
+	padding: 6px 23px 0px 0px;
+	text-align: right;
+	font-size: 11px;	
+	color: #ccc;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/padlock_logged_in.gif) no-repeat top right;
+}
+
+/* =SUB NAVIGATION
+--------------------------------------------------- */
+
+/* wii sub navigation */
+.wii_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_wii_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+
+.wii_nav_holder2 {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_wii_background.png) no-repeat top left;
+	margin: 0px 0px 0px 0px; 
+	position: relative;	
+}
+
+.learn_more {position: absolute; right: 10px; top: 260px;}
+
+.wii_game_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/matrix_wii_header.jpg) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.wii_logo_subnav {
+	float: left;	
+	width: 58px;
+	height: 30px;
+	padding: 19px 71px 11px 25px;
+}
+#wii_nav {
+	float: left;	
+	width: 279px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#wii_nav  ul { 
+	position: relative;
+}
+#wii_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#wii_nav li a { 
+	float: left;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_wii.gif) no-repeat;
+	height: 41px;
+	text-indent: -3000px;
+}
+
+/* wii sub navigation background positioning */
+#wii_nav li.console a { background-position: 0px 0px; width: 75px; }
+
+#wii_nav li.games a { background-position: -75px 0px; width: 68px; }
+
+#wii_nav li.family a { background-position: -144px 0px; width: 64px; }
+#wii_nav li.setup a { background-position: -143px 0px; width: 64px; }
+
+#wii_nav li.service a { background-position: -208px 0px; width: 71px; }
+#global_nav li.support a { background-position: -652px -50px; width: 130px; }
+
+
+/* wii sub navigation hover & current state */
+#wii_nav li.console a:hover, #wii_nav li.console a.current { background-position: 0px -41px; width: 75px; }
+
+#wii_nav li.games a:hover, #wii_nav li.games a.current { background-position: -75px -41px; width: 68px; }
+
+#wii_nav li.family a:hover, #wii_nav li.family a.current { background-position: -144px -41px; width: 64px; }
+#wii_nav li.setup a:hover, #wii_nav li.family a.current { background-position: -143px -41px; width: 64px; }
+
+#wii_nav li.service a:hover, #wii_nav li.service a.current { background-position: -208px -41px; width: 71px; }
+
+#global_nav li.support a:hover, #global_nav li.club_nintendo a.current { background-position: -652px 0px; width: 130px; }
+
+
+/* nintendo ds sub navigation */
+.ds_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_ds_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 
+
+}
+
+.ds_nav_holder2 {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_ds_background.png) no-repeat top left;
+	margin: 0px 0px 0px 0px; 	
+	position: relative;	
+}
+
+.ds_game_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/matrix_ds_header.jpg) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.ds_logo_subnav {
+	float: left;	
+	width: 120px;
+	height: 30px;
+	padding: 19px 9px 11px 25px;
+} 
+#ds_nav {
+	float: left;	
+	width: 284px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#ds_nav  ul { 
+	position: relative;
+}
+#ds_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#ds_nav li a { 
+	float: left;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_ds.gif) no-repeat;
+	height: 41px;
+	text-indent: -3000px;
+}
+
+/* nintendo ds sub navigation background positioning */
+#ds_nav li.system a { background-position: 0px 0px; width: 71px; }
+
+#ds_nav li.games a { background-position: -71px 0px; width: 68px; }
+
+#ds_nav li.family a { background-position: -139px 0px; width: 64px; }
+#ds_nav li.setup a { background-position: -139px 0px; width: 64px; }
+
+#ds_nav li.service a { background-position: -203px 0px; width: 72px; }
+
+#ds_nav li.colours a { background-position: -140px 0px; width: 64px; }
+
+/* nintendo ds sub navigation hover & current state */
+#ds_nav li.system a:hover, #ds_nav li.system a.current { background-position: 0px -41px; width: 71px; }
+
+#ds_nav li.games a:hover, #ds_nav li.games a.current { background-position: -71px -41px; width: 68px; }
+
+#ds_nav li.family a:hover, #ds_nav li.family a.current { background-position: -139px -41px; width: 64px; }
+#ds_nav li.setup a:hover, #ds_nav li.family a.current { background-position: -139px -41px; width: 64px; }
+
+#ds_nav li.service a:hover, #ds_nav li.service a.current { background-position: -203px -41px; width: 72px; }
+
+#ds_nav li.colours a:hover, #ds_nav li.colours a.current { background-position: -140px -41px; width: 64px; }
+
+/* touch generation sub navigation */
+.touch_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_touch_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+
+.touch_nav_holder2 {
+	width: 990px;
+	height: 60px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_touch_background.png) no-repeat top left;
+	margin: 0px 0px 0px 0px; 	
+}
+
+.touch_logo_subnav {
+	float: left;	
+	width: 110px;
+	height: 35px;
+	padding: 16px 25px 9px 25px;
+}
+#touch_nav {
+	float: left;	
+	width: 223px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#touch_nav  ul { 
+	position: relative;
+}
+#touch_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#touch_nav li a { 
+	float: left;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/subnav_touch.gif) no-repeat;
+	height: 41px;
+	text-indent: -3000px;
+}
+
+/* touch generation sub navigation background positioning */
+#touch_nav li.how a { background-position: 0px 0px; width: 194px; }
+
+#touch_nav li.games a { background-position: -107px 0px; width: 67px; }
+
+#touch_nav li.faq a { background-position: -174px 0px; width: 49px; }
+
+/* touch generation sub navigation hover & current state */
+#touch_nav li.how a:hover, #touch_nav li.how a.current { background-position: 0px -41px; width: 194px; }
+
+#touch_nav li.games a:hover, #touch_nav li.games a.current { background-position: -107px -41px; width: 67px; }
+
+#touch_nav li.faq a:hover, #touch_nav li.faq a.current { background-position: -174px -41px; width: 49px; }
+
+
+
+/* =FOOTER 
+--------------------------------------------------- */
+
+/* homepage footer + subpage footer */
+
+#footer {text-align:center;}
+
+.footer_wrapper_homepage, .footer_wrapper_subpage {
+	margin: 0 auto;
+	clear:both;
+	padding-top:20px;
+	text-align:left;
+	width: 980px;
+}
+.footer_header {
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_header.png) no-repeat top left;
+	width: 980px;
+	height: 20px;
+	
+}
+.footer_wrapper_homepage .footer_content {
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_tile.gif) repeat-y top left;
+	width: 924px;
+	padding: 15px 28px 20px 28px;
+	position: relative;
+}
+.footer_wrapper_subpage .footer_content {
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_tile.gif) repeat-y top left;
+	width: 924px;
+	padding: 5px 20px 5px 20px;
+}
+.footer_bottom {
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_bottom.png) no-repeat bottom left;
+	width: 980px;
+	height: 20px;
+}
+.logo_footer {
+	position: absolute;
+	right: 9px;
+	top: 9px;
+	width: 211px;
+	height: 114px;
+	overflow: hidden;
+	background: #FFF;
+}
+
+#logo_footer a {
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	text-indent: -999px;
+	background: url(/web/20110219131704im_/http://gamesites.nintendo.com.au/0-nintendo-main/footer-sprites.png)	0 0 no-repeat;
+}
+
+#logo_footer #logo-footer-home {
+	width: 117px;
+	height: 35px;
+	left: 84px;
+	top: 64px;
+	background-position: -84px -74px;
+}
+
+#logo_footer #logo-footer-club {
+	width: 46px;
+	height: 46px;
+	left: 3px;
+	top: 60px;
+	background-position: -3px -70px;
+}
+
+#logo_footer #logo-footer-buy {
+	width: 199px;
+	height: 45px;
+	left: 5px;
+	top: 6px;
+	background-position: -251px -6px;
+}
+
+.footer_list {
+	float: left;
+	width: 134px;
+	height: 105px;
+	padding: 0px 10px 0px 10px;
+	background: none;
+}
+.footer_lists_holder {
+	/*height: 90px;*/
+	overflow:hidden;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_dividers.gif) repeat-y top left;
+} 
+.footer_list ul {
+	font-size: 11px;
+	line-height: 14px;
+}
+.footer_list .list_title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0px 0px 4px 0px;
+}
+.footer_wrapper_homepage #global_footer {
+	width: 940px;
+	height: 30px;
+	padding: 20px 20px 0px 20px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_bottom_homepage.png) no-repeat bottom left;
+}
+.footer_wrapper_subpage #global_footer {
+	width: 940px;
+	height: 30px;
+	padding: 10px 20px 0px 20px;
+	background: url(http://web.archive.org/web/20110219131704im_/http://www.nintendo.com.au/template_images/footer_bottom_subpage.png) no-repeat bottom left;
+}
+.footer_wrapper_homepage a {
+	color: #11b5ea;
+	text-decoration: none;
+}
+
+#global_footer ul {
+	float: left;
+	font-size: 11px;
+	color: #999;
+}
+#global_footer li {
+	display: inline;
+	margin: 0px 5px 0px 0px;
+}
+#global_footer p {
+	font-size: 11px;
+}
+.copyright {
+	float: right;
+	color: #999;
+	font-size: 11px;
+}
+
+/* =FIXES 
+--------------------------------------------------- */
+
+.spacer { height: 0.01px; clear: both; font-size: 0.01px; line-height: 0.01px; }
+
+
+/*
+ * =ACCESSIBLE CONTENT
+ * */
+
+#contentTabset {
+	position: relative;
+}
+
+#contentTabset #stage{
+	display: none;
+}
+
+#contentTabset #textContent{
+	display: block;
+}
+
+#contentTabset.active #stage
+{
+	display: block;
+}
+#contentTabset.activeTab-stage #stage,
+#contentTabset.activeTab-textContent #textContent
+{
+	display: block !important;
+}
+
+#contentTabset.active #textContent,
+#contentTabset.activeTab-textContent #stage,
+#contentTabset.activeTab-stage #textContent
+{
+	display: none;
+}
+
+/* content tabs */
+#contentTabset #contentTabs{
+	clear: both;
+}
+
+#contentTabset #contentTabs.sideways{
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	-o-transform: rotate(-90deg);	
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	position: absolute;
+	width: 183px;
+	right: -108px;
+	bottom: 44px;
+	/* ie 7,8 hacks */
+	right: -183px\9;
+	bottom: 140px\9;
+	*right: -21px;
+	*bottom: 34px;
+}
+
+#contentTabset #contentTabs ul{
+	list-style: none;
+	overflow: hidden;
+	border-top: solid 1px #F99;
+}
+
+#contentTabset #contentTabs li{
+	list-style:none;
+	float: left;
+	margin: -6px 0 12px 0;
+	padding: 0;
+}
+
+#contentTabset #contentTabs li a{
+	display: block;
+	border: solid 1px #F99;
+	border-width: 0 1px 1px;
+	color: #F99;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 11px;
+	font-decoration :none;
+	padding: 8px 6px 2px;
+	margin: 0px 4px;
+}
+
+#contentTabset.activeTab-textContent #contentTabs li+li a,
+#contentTabset.activeTab-stage #contentTabs li a
+{
+	background: #F99;
+	color: #000;
+}
+
+#contentTabset.activeTab-stage #contentTabs li+li a
+{
+	background: transparent;
+	color: #F99;
+}
+
+#contentTabset  .section {
+	overflow: hidden;
+	clear: both;
+	padding-left: 380px;
+}
+
+#contentTabset  .section .left-float { 
+	margin-left: -370px;
+}
+
+
+/*
+     FILE ARCHIVED ON 13:17:04 Feb 19, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:32:01 Mar 16, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 269.042
+  exclusion.robots: 0.123
+  exclusion.robots.policy: 0.113
+  RedisCDXSource: 1.637
+  esindex: 0.01
+  LoadShardBlock: 246.365 (3)
+  PetaboxLoader3.resolve: 230.371 (4)
+  PetaboxLoader3.datanode: 611.683 (4)
+  CDXLines.iter: 17.786 (3)
+  load_resource: 628.679
+*/
