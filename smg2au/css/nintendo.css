@@ -1,0 +1,4227 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, button,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: Arial, Helvetica, sans-serif; 
+	vertical-align: baseline;
+}
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: #333;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+button { 
+	cursor: pointer;
+}
+img {
+	border: none;
+}
+strong {
+	font-weight: bold;
+}
+em {
+	font-style: italic;
+}
+
+/* =GLOBAL STYLES 
+--------------------------------------------------- */
+
+body {
+	background: url(../img/template_images/background_tile.gif) repeat-x 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a { 
+	color: #11b5ea;
+	text-decoration: none;
+}
+a:hover {
+	color: #8cdffa;
+}
+a.current {
+	color: #333;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	line-height: 16px;
+	color: #666;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+p.warning {
+	padding: 0px;
+	line-height: 14px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #e82117;
+}
+div.warning, div.warning p {
+  color: #e82117;
+}
+.fieldWithErrors .fieldWithErrors {
+  display:inline;
+}
+
+/* =GLOBAL NAVIGATION
+--------------------------------------------------- */
+.stars {background:  url(../img/template_images/bg.jpg) repeat-x center -10px}
+
+
+.global_nav_holder {
+	width: 990px;
+	height: 75px;
+	background: url(../img/template_images/nav_main_background.png) no-repeat top left;
+	/*margin: 0px 5px 15px 5px; */	
+	margin: 0px 5px 10px 5px; 	
+}
+.logo_nav {
+	float: left;	
+	width: 130px;
+	height: 50px;
+	padding: 15px 15px 10px 10px;
+}
+#global_nav {
+	float: left;	
+	width: 790px;
+	height: 50px;
+	padding: 20px 0px 5px 0px;	
+}
+#global_nav  ul { 
+	position: relative;
+}
+#global_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#global_nav li a { 
+	float: left;
+	background: url(../img/template_images/globalnav.gif) no-repeat;
+	height: 50px;
+	text-indent: -3000px;
+}
+
+/* global navigation background positioning */
+#global_nav li.wii a { background-position: 0px -50px; width: 56px; }
+
+#global_nav li.nintendo_ds a { background-position: -56px -50px; width: 104px; }
+
+#global_nav li.games a { background-position: -160px -50px; width: 73px; }
+
+#global_nav li.touch_generations a { background-position: -233px -50px; width: 145px; }
+
+#global_nav li.news a { background-position: -378px -50px; width: 67px; }
+
+#global_nav li.members a { background-position: -445px -50px; width: 88px; }
+
+#global_nav li.club_nintendo a { background-position: -533px -50px; width: 119px; }
+
+/* global navigation hover & current state */
+#global_nav li.wii a:hover, #global_nav li.wii a.current { background-position: 0px 0px; width: 56px; }
+
+#global_nav li.nintendo_ds a:hover, #global_nav li.nintendo_ds a.current { background-position: -56px 0px; width: 104px; }
+
+#global_nav li.games a:hover, #global_nav li.games a.current { background-position: -160px 0px; width: 73px; }
+
+#global_nav li.touch_generations a:hover, #global_nav li.touch_generations a.current { background-position: -233px 0px; width: 145px; }
+
+#global_nav li.news a:hover, #global_nav li.news a.current { background-position: -378px 0px; width: 67px; }
+
+#global_nav li.members a:hover, #global_nav li.members a.current { background-position: -445px 0px; width: 88px; }
+
+#global_nav li.club_nintendo a:hover, #global_nav li.club_nintendo a.current { background-position: -533px 0px; width: 119px; }
+
+#signup_login {
+	float: right;
+	width: 400px;
+	height: 20px;
+	margin: -72px 20px 30px 30px;
+	padding: 3px 23px 0 0;
+	text-align: right;
+	font-size: 11px;	
+	color: #ccc;
+	background: url(../img/template_images/padlock_login.gif) no-repeat top right;
+}
+#logged_in {
+	float: right;
+	width: 110px;
+	height: 20px;
+	margin: -70px 20px 30px 30px;
+	padding: 3px 23px 0 0;
+	text-align: right;
+/*	font-size: 11px;	*/
+	color: #ccc;
+	background: url(../img/template_images/padlock_logged_in.gif) no-repeat top right;
+}
+
+/* =SUB NAVIGATION
+--------------------------------------------------- */
+
+/* wii sub navigation */
+.wii_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/subnav_wii_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.wii_game_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/matrix_wii_header.jpg) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.wii_logo_subnav {
+	float: left;	
+	width: 58px;
+	height: 30px;
+	padding: 19px 71px 11px 25px;
+}
+#wii_nav {
+	float: left;	
+	width: 299px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#wii_nav  ul { 
+	position: relative;
+}
+#wii_nav span { 
+	float: left;
+	background: url(../img/template_images/subnav_seperator.gif) no-repeat right bottom;
+	height: 41px;
+	line-height:41px;
+	padding:0 11px;
+}
+#wii_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+
+
+#wii_nav li a { 
+	float: left;
+	background: url(../img/template_images/subnav_seperator.gif) no-repeat right bottom;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#wii_nav li a:hover { 
+	float: left;
+	background: url(../img/template_images/subnav_hoverbg1.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#wii_nav li a.current { 
+	float: left;
+	background: url(../img/template_images/subnav_hoverbg1.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+
+.learn_more {
+	float:right;
+	height:100px;
+	padding-right:25px;
+	position:relative;
+	top:266px;
+	width:243px;
+}
+/* wii sub navigation background positioning */
+#wii_nav li.console a { background-position: 0px 0px; width: 75px; }
+
+#wii_nav li.games a { background-position: -75px 0px; width: 68px; }
+
+#wii_nav li.family a { background-position: -144px 0px; width: 64px; }
+#wii_nav li.setup a { background-position: -144px 0px; width: 64px; }
+
+#wii_nav li.service a { background-position: -208px 0px; width: 71px; }
+
+/* wii sub navigation hover & current state */
+#wii_nav li.console a:hover, #wii_nav li.console a.current { background-position: 0px -41px; width: 75px; }
+
+#wii_nav li.games a:hover, #wii_nav li.games a.current { background-position: -75px -41px; width: 68px; }
+
+#wii_nav li.family a:hover, #wii_nav li.family a.current { background-position: -144px -41px; width: 64px; }
+#wii_nav li.setup a:hover, #wii_nav li.family a.current { background-position: -144px -41px; width: 64px; }
+
+#wii_nav li.service a:hover, #wii_nav li.service a.current { background-position: -208px -41px; width: 71px; }
+
+
+/* nintendo ds sub navigation */
+.ds_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/subnav_ds_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.ds_game_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/matrix_ds_header.jpg) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.ds_logo_subnav {
+	float: left;	
+	width: 120px;
+	height: 30px;
+	padding: 19px 9px 11px 25px;
+}
+
+
+.virtual_logo_subnav {
+	float: left;	
+	width: 150px;
+	height: 30px;
+	padding: 19px 9px 11px 25px;
+} 
+
+.wiiware_logo_subnav {
+	float: left;	
+	width: 150px;
+	height: 30px;
+	padding: 19px 9px 11px 25px;
+} 
+ 
+/*#ds_nav {
+	float: left;	
+	width: 275px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#ds_nav  ul { 
+	position: relative;
+}
+#ds_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#ds_nav li a { 
+	float: left;
+	background: url(../img/template_images/subnav_ds.gif) no-repeat;
+	height: 41px;
+	text-indent: -3000px;
+}*/
+#ds_nav {
+	float: left;	
+	width: 299px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#ds_nav  ul { 
+	position: relative;
+}
+#ds_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#ds_nav li a { 
+	float: left;
+	background: url(../img/template_images/ninsubnav_seperator.gif) no-repeat right bottom;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#ds_nav li a:hover { 
+	float: left;
+	background: url(../img/template_images/ninsubnav_hoverbg.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#ds_nav li a.current { 
+	float: left;
+	background: url(../img/template_images/ninsubnav_hoverbg.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+
+/* nintendo ds sub navigation background positioning */
+#ds_nav li.system a { background-position: 0px 0px; width: 71px; }
+
+#ds_nav li.games a { background-position: -71px 0px; width: 68px; }
+
+#ds_nav li.family a { background-position: -139px 0px; width: 64px; }
+#ds_nav li.setup a { background-position: -139px 0px; width: 64px; }
+
+#ds_nav li.service a { background-position: -203px 0px; width: 72px; }
+
+/* nintendo ds sub navigation hover & current state */
+#ds_nav li.system a:hover, #ds_nav li.system a.current { background-position: 0px -41px; width: 71px; }
+
+#ds_nav li.games a:hover, #ds_nav li.games a.current { background-position: -71px -41px; width: 68px; }
+
+#ds_nav li.family a:hover, #ds_nav li.family a.current { background-position: -139px -41px; width: 64px; }
+#ds_nav li.setup a:hover, #ds_nav li.family a.current { background-position: -139px -41px; width: 64px; }
+
+#ds_nav li.service a:hover, #ds_nav li.service a.current { background-position: -203px -41px; width: 72px; }
+
+
+/* touch generation sub navigation */
+.touch_nav_holder {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/subnav_touch_background.png) no-repeat top left;
+	margin: 0px 5px 0px 5px; 	
+}
+.touch_logo_subnav {
+	float: left;	
+	width: 110px;
+	height: 35px;
+	padding: 16px 25px 9px 25px;
+}
+#touch_nav {
+	float: left;	
+	width: 279px;
+	height: 41px;
+	padding: 19px 0px 0px 0px;	
+}
+#touch_nav  ul { 
+	position: relative;
+}
+#touch_nav li { 
+	display: inline; 
+	list-style-type: none;
+}
+#touch_nav li a { 
+	float: left;
+	background: url(../img/template_images/touch_seperator.gif) no-repeat right bottom;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#touch_nav li a:hover { 
+	float: left;
+	background: url(../img/template_images/touch_hoverbg.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+#touch_nav li a.current { 
+	float: left;
+	background: url(../img/template_images/touch_hoverbg.gif) repeat-x;
+	height: 41px;
+	font-weight:bold;
+	line-height:41px;
+	color:#fff;
+	text-align:center;
+	padding:0 11px;
+}
+
+
+
+
+/* touch generation sub navigation background positioning */
+#touch_nav li.how a { background-position: 0px 0px; width: 107px; }
+
+#touch_nav li.games a { background-position: -107px 0px; width: 67px; }
+
+#touch_nav li.faq a { background-position: -174px 0px; width: 49px; }
+
+/* touch generation sub navigation hover & current state */
+#touch_nav li.how a:hover, #touch_nav li.how a.current { background-position: 0px -41px; width: 107px; }
+
+#touch_nav li.games a:hover, #touch_nav li.games a.current { background-position: -107px -41px; width: 67px; }
+
+#touch_nav li.faq a:hover, #touch_nav li.faq a.current { background-position: -174px -41px; width: 49px; }
+
+/* =LAYOUT 
+--------------------------------------------------- */
+
+#outerwrapper {	
+	position: relative;
+	height: 100%;
+}
+#innerwrapper { 
+	margin: 0 auto;
+	width: 1000px;
+    height:1240px;
+/* 	height: 700px; */
+}
+.sportsresort {background: url(..../img/template_images/background_both.jpg) repeat-x center 95px;}
+
+.crosses {background: url(..../img/template_images/background_crosses.jpg) repeat-x center 95px;}
+
+.circles {background: url(..../img/template_images/background_circles.jpg) repeat-x center 95px}
+
+.squares {background: url(..../img/template_images/background_squares.jpg) repeat-x center 95px}
+
+.stars {background:  url(..../img/template_images/background_stars.jpg) no-repeat top center}
+
+
+/* =HOMEPAGE 
+--------------------------------------------------- */
+
+/* homepage structure */
+
+#banner_outerwrapper_homepage {
+	width: 1000px;
+	height: 330px;
+	margin-bottom: 7px;
+}
+#banner_innerwrapper_homepage {	
+	padding: 0px;
+}
+.banner_homepage /* creates shadow */ {
+	margin: 0px 5px 5px 5px;
+	background: url(../img/template_images/banner_shadow_homepage.png) no-repeat top left;
+}
+.banner_holder, #banner_html, #banner_flash {
+	/*height:330px;*/
+	height:334px;
+	/*margin: 0 auto;*/
+	margin: 0 auto 6px auto;
+	width:980px;
+}
+#banner_outerwrapper_homepage #banner_html /* loads alternate image */ {
+	background: url(../img/template_images/banner_alt_image_homepage.jpg) no-repeat top left;
+}
+#banner_html a {
+	/*display: block;
+	width: 980px;
+	height: 295px;*/
+}
+
+/* console buttons */
+.console_buttons {
+	width: 1000px;
+	height: 100px;
+	margin: 0px 0px 10px 0px;
+	background: url(../img/template_images/console_buttons.gif) no-repeat top left; 	
+}
+a.wii_button {
+	float: left;
+	width: 500px;
+	height: 100px;
+	background: url(../img/template_images/console_buttons.gif) 0px 0px; 
+	text-indent: -3000px;
+}
+a.ds_button {
+	float: left;
+	width: 500px;
+	height: 100px;
+	background: url(../img/template_images/console_buttons.gif) -500px 0px; 
+	text-indent: -3000px;
+}
+a.wii_button:hover {
+	background-position: 0px -100px; 
+}
+a.ds_button:hover {
+	background-position: -500px -100px; 
+}
+
+/* =PROMOS 
+--------------------------------------------------- */
+
+/* promos structure */
+.promos_outerwrapper_homepage, .promos_outerwrapper_subpage {
+	width: 980px;
+	margin: 0px 10px 20px 10px;
+	float: left;
+}
+.promos_innerwrapper {
+	width: 980px;
+}	
+.promos_outerwrapper_homepage .promos_header {
+	background: url(../img/template_images/promos_header_homepage.png) no-repeat top left;
+	height: 20px; 
+	float: left;
+	width: 980px;
+}	
+.promos_outerwrapper_subpage .promos_header {
+	background: url(../img/template_images/promos_header_subpage.png) no-repeat top left;
+	height: 20px; 
+	width: 980px;
+	float: left;
+}	
+.promos_content { 
+	background: url(../img/template_images/promos_tile.jpg) repeat-y top left /*#f5f5f7*/;
+	padding: 0px 20px 10px 20px;
+	display: block;
+	float: left;
+	
+}
+.promos_footer {
+	background: url(../img/template_images/promos_footer.png) no-repeat bottom left;
+	height: 22px;
+	float: left; 
+	width: 980px;
+}	
+
+/* promos tabs */
+.promos_tabs {
+	float: left;
+	width: 240px;
+	height: 34px;
+}
+.view_more {
+	float: left;
+	width: 725px;
+	height: 22px;
+	padding: 12px 15px 0px 0px;
+	text-align: right;
+}
+.promos_tabs ul { 
+	position: relative;
+}
+.promos_tabs li { 
+	display: inline; 
+	list-style-type: none;
+}
+.promos_tabs li a { 
+	float: left;
+	height: 34px;
+	text-indent: -3000px;
+	background: url(../img/template_images/promos_tabs.gif) no-repeat;
+}
+
+/* promo tabs background positioning */
+.promos_tabs li.news_events a { background-position: 0px -34px; width: 120px; }
+
+.promos_tabs li.game_sites a { background-position: -120px -34px; width: 120px;margin:2px 0 0; }
+
+/* promo tabs hover & current state */
+.promos_tabs li.news_events a.current, .promos_tabs li.news_events a:hover { background-position: 0px 0px; width: 120px; }
+
+.promos_tabs li.game_sites a.current, .promos_tabs li.game_sites a:hover { background-position: -120px 0px; width: 120px; }
+
+/* latest news */	
+.latest_news_holder {
+	position: relative;
+}
+.latest_news_holder, #latest_news_html, #latest_news_flash {
+	width: 940px;
+	height: 55px;
+}
+#latest_news_html {
+	background: url(../img/template_images/latestnews_alt_image.gif) no-repeat top left; 
+}
+#latest_news_html a {
+	display: block;
+	width: 940px;
+	height: 55px;
+}
+
+/* promos */
+.promos_container {	
+	position: relative;
+	width: 940px;
+}
+.promo_holder_margin { 
+	float: left;
+	width: 220px;
+	margin: 0px 15px 0px 0px;
+	background-color: #f5f5f7;	
+}
+.promo_holder {
+	float: left;
+	width: 220px;
+	margin: 0px;
+	background-color: #f5f5f7;	
+}
+.page_sub_column .promo_holder /* subsection promo positioning */ {
+	float: left;
+	width: 220px;
+	margin: 0px 0px 15px 0px;
+	background-color: #f5f5f7;	
+}
+.game_subcolumn .promo_holder /* game page promo positioning */ {
+	float: left;
+	width: 220px;
+	padding: 15px 0px 15px 25px;
+	background-color: #f5f5f7;	
+}
+.promo {
+	width: 220px;
+}
+.promo_image /* CMS inserts promo as background image inline */ { 
+	width: 220px;
+	height: 145px;
+	background-position: 0px 29px;
+	background-repeat: no-repeat;
+}
+
+/* promo tags  */
+.promo_tag_none, .promo_tag_promo, .promo_tag_information, .promo_tag_event, .promo_tag_outnow, .promo_tag_winnow, .promo_tag_news, .promo_tag_limitededition {
+	width: 220px;
+	height: 145px;
+}
+
+.promo_tag_none { background: url(../img/template_images/promo_tag_none.png) top left no-repeat; }
+
+.promo_tag_promo { background: url(../img/template_images/promo_tag_promo.png) top left no-repeat; }
+
+.promo_tag_information { background: url(../img/template_images/promo_tag_information.png) top left no-repeat; }
+
+.promo_tag_event { background: url(../img/template_images/promo_tag_event.png) top left no-repeat; }
+
+.promo_tag_outnow { background: url(../img/template_images/promo_tag_outnow.png) top left no-repeat; }
+
+.promo_tag_winnow { background: url(../img/template_images/promo_tag_winnow.png) top left no-repeat; }
+
+.promo_tag_news { background: url(../img/template_images/promo_tag_news.png) top left no-repeat; }
+
+.promo_tag_limitededition { background: url(../img/template_images/promo_tag_limitededition.png) top left no-repeat; }
+
+.promo_tag_none a, .promo_tag_promo a, .promo_tag_information a, .promo_tag_event a, .promo_tag_outnow a, .promo_tag_winnow a, .promo_tag_news a, .promo_tag_limitededition a  {
+	display: block;
+	position: relative;
+	/*top: 29px;*/
+	width: 220px;
+	height: 145px;
+}
+
+.promo p {
+	font-size: 11px;
+	line-height: 15px;
+	padding: 0px 2px 0px 2px;
+	margin: 2px 0px 0px 0px;
+}
+.promo_title {
+	font-weight: bold;
+	line-height: 15px;
+	margin: 15px 0px 5px 0px;
+	padding: 0px 2px 0px 2px;	
+}
+
+/* =GAMESITES 
+--------------------------------------------------- */
+
+/* gamesites structure */ 
+.gamesites_header {
+	height: 40px;
+	text-indent: -3000px;
+	background: url(../img/template_images/gamesites_header.gif) no-repeat top left;
+}
+.gamesites_holder, #gamesites_html, #gamesites_flash {
+	width: 940px;
+	height: 215px;
+}
+#gamesites_html /* loads alternate image */ {
+	background: url(../img/template_images/gamesites_alt_image.gif) no-repeat top left;
+}
+#gamesites_html a {
+	display: block;
+	width: 940px;
+	height: 215px;
+}
+
+/* =SUBPAGE - CONSOLES
+--------------------------------------------------- */
+
+/*WII Page extra styles*/
+.new_play_control{
+					left: 12px;
+					bottom: 41px;
+					position:absolute;
+					z-index:1000;
+					width: 315px;
+					height: 65px;
+					}
+.new_play_control a {display: inline !important;}					
+					
+
+/* subpage structure */
+#banner_outerwrapper_subpage {
+	width: 990px;
+	height: 300px;
+}
+#banner_innerwrapper_subpage {	
+	padding: 0px 5px 0px 5px;
+	position: relative;
+}
+
+.ds_links {
+	bottom:20px;
+	height:51px;
+	position:absolute;
+	right:11px;
+	width:200px;
+}
+
+#banner_innerwrapper_subpage .ds_links {position: absolute; bottom: 84px; right: 31px; width: 200px; height: 40px;}
+
+.dsi_link {position: absolute; top: 206px; left: 10px; width: 200px; height: 100px;}
+.wii_links {height:100px; position:absolute; right:1px; top:122px; width:150px;}
+.touch_links {position: absolute; top: 80px; right: 20px; width: 230px; height: 100px;}
+
+#banner_innerwrapper_subpage .wii_links {
+height:100px;
+position:absolute;
+right:40px;
+top:30px;
+width:150px;
+}
+
+
+.banner_subpage /* creates shadow */ {
+	margin: 0px 5px 10px 5px;
+	background: url(../img/template_images/banner_shadow_subpage.png) no-repeat top left;
+}
+#banner_outerwrapper_subpage #banner_html /* loads alternate image */ {
+	/*background: url(http://www.nintendo.com.au../img/template_images/2_banner.jpg) no-repeat top left;*/
+	position: relative;
+}
+
+
+/* games carousel */
+#carousel_outerwrapper,#carousel_outerwrapper_ds,#carousel_outerwrapper_wii {
+	width: 980px;
+	margin: 0px 10px 15px 10px;
+	height: 270px;
+	/*float: left;*/
+}
+#carousel_innerwrapper,#carousel_innerwrapper_ds,#carousel_innerwrapper_wii {	
+	padding: 0px 20px 5px 20px;
+	/*position: relative;*/
+	height: 300px;
+}
+.carousel_header {
+	width: 940px;
+	height: 40px;
+}
+.carousel_title_wii, .carousel_title_ds, .carousel_title_touch {
+	float: left;
+	width: 470px;
+	height: 40px;
+	text-indent: -3000px;	
+}
+
+
+
+.carousel_title_wii {
+/*	background: url(../img/template_images/carousel_title_wii.gif) no-repeat top left;*/
+	background: url(../img/template_images/carousel_title_feature_wii.gif) no-repeat top left
+}
+.carousel_title_ds {
+	/*background: url(../img/template_images/carousel_title_ds.gif) no-repeat top left;*/
+	background: url(../img/template_images/carousel_title_feature_ds.gif) no-repeat top left;
+}
+.carousel_title_touch {
+	background: url(../img/template_images/carousel_title_touch.gif) no-repeat top left;
+}
+.carousel_view_more {
+	float: right;
+	width: 224px;
+	height: 30px;
+	padding: 18px 0px 0px 50px;
+	text-align: left;
+	background: url(..../img/template_images/view_more_bg.gif) no-repeat top left;
+	margin-right: -25px;
+	font-weight: bold;
+
+}
+.carousel_holder_wii, .carousel_holder_wii #carousel_html,.carousel_holder_wii #carousel_html_wii, .carousel_holder_wii #carousel_flash, .carousel_holder_touch, .carousel_holder_touch #carousel_html, .carousel_holder_touch #carousel_flash {
+	width: 940px;
+	height: 260px;
+	float: left;
+}
+.carousel_holder_ds, .carousel_holder_ds #carousel_html, .carousel_holder_ds #carousel_html_ds, .carousel_holder_ds #carousel_flash {
+	width: 940px;
+	height: 216px;
+}
+.carousel_holder_wii #carousel_html,.carousel_holder_wii #carousel_html_wii, .carousel_holder_touch #carousel_html /* loads wii & touch alternate image */ {
+	background: url(../img/template_images/carousel_alt_image.gif) no-repeat center 114px;
+}
+.carousel_holder_ds #carousel_html,.carousel_holder_ds #carousel_html_ds /* loads ds alternate image */ {
+	background: url(../img/template_images/carousel_alt_image.gif) no-repeat center 75px;
+}
+.carousel_holder_wii #carousel_html a,.carousel_holder_wii #carousel_html_wii a, .carousel_holder_touch #carousel_html a {
+	display: block;
+	width: 940px;
+	height: 265px;
+}
+.carousel_holder_ds #carousel_html a,.carousel_holder_ds #carousel_html_ds a  {
+	display: block;
+	width: 940px;
+	height: 216px;
+}
+
+/* =GAMESMATRIX (SEARCH)
+--------------------------------------------------- */
+
+/* gamesmatrix structure */
+.matrix_holder {
+	width: 990px;
+	margin: 0px 5px 0px 5px;
+}
+
+.matrix_holder .wii_nav_holder, .matrix_holder .ds_nav_holder {margin: 0px !important;}
+
+.matrix_header {
+	width: 990px;
+	height: 60px;
+	background: url(../img/template_images/matrix_generic_header.jpg) no-repeat top left;
+}
+
+/* console dependant headers */
+#wii_matrix .matrix_header {
+	background: url(../img/template_images/matrix_wii_header.jpg) no-repeat top left;
+}
+#ds_matrix .matrix_header {
+	background: url(../img/template_images/matrix_ds_header.jpg) no-repeat top left;
+}
+#touch_matrix .matrix_header {
+	background: url(../img/template_images/matrix_touch_header.jpg) no-repeat top left;
+}
+
+.matrix_content {
+	width: 990px;
+	background: url(../img/template_images/matrix_page_tile.png) repeat-y top left;
+}
+.matrix_footer {
+	width: 990px;
+	height: 25px;
+	background: url(../img/template_images/matrix_page_footer.png) no-repeat top left;
+}
+
+/* search structure */
+.search_default_wrapper { 
+	width: 980px;
+	background: url(..../img/template_images/matrix_search_default_tile.jpg) repeat-x top left ;
+	margin: 0px 5px 0px 5px;
+}
+.search_advanced_wrapper { 
+	width: 980px;
+	background: url(../img/template_images/matrix_search_advanced_tile.jpg) repeat-x bottom left;
+	margin: 0px 5px 0px 5px;
+}
+.search_functions /* includes filter & keyword / system search */ {
+	width: 980px;
+	/*background: url(../img/template_images/matrix_search_crosses.jpg) no-repeat top right;*/
+	padding: 17px 0px 0px 0px;
+}
+
+/* search titles */
+h1.find_game_title {
+	width: 188px;
+	height: 26px;
+	background: url(../img/template_images/matrix_find_game_title.gif) no-repeat top left;
+	text-indent: -3000px;
+	margin: 0px 20px 0px 20px;
+}
+h1.search_title {
+	width: 119px;
+	height: 21px;
+	background: url(../img/template_images/matrix_search_title.gif) no-repeat top left;
+	text-indent: -3000px;
+	margin: 0px 20px 0px 20px;
+}
+
+/* search filter */
+.search_filter_holder {
+	width: 980px;
+	height: 152px;
+	margin: 3px 0px 18px 0px; 	
+}
+#search_filter {
+	width: 960px;
+	height: 152px;
+	background: url(../img/template_images/matrix_search_filter.jpg) no-repeat top left #dadada;
+	margin: 0px 10px 0px 10px;		
+}
+#search_filter li { 
+	float: left;
+	display: block;
+	width: 160px;
+	height: 152px;
+	list-style-type: none;
+}
+#search_filter li a { 
+	display: block;
+	width: 144px;
+	height: 138px;
+	color: #6b6b6b;
+	font-weight: bold;
+	padding: 14px 0px 0px 16px;
+}
+#search_filter li a:hover, #search_filter li a.current { 
+	color: #FFF;
+	background: url(../img/template_images/matrix_search_filter_hover.png) no-repeat top left;
+}
+
+/* search options tab */
+.search_options_tab_holder {
+	width: 940px;
+	padding: 0px 20px 0px 20px;
+	margin: 18px 0px 0px 0px;
+}
+.search_options_tab {
+	height: 28px;
+	width: 165px;
+	text-indent: -3000px;
+}
+a#btn_search_options_tab_open {
+	display: block;
+	height: 28px;
+	width: 165px;
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat top left;
+}
+a#btn_search_options_tab_open:hover {
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -28px;
+}
+a#btn_search_options_tab_close {
+	display: block;
+	height: 28px;
+	width: 165px;
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -56px;
+}
+a#btn_search_options_tab_close:hover {
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -84px;
+}
+
+/* default search forms structure */
+.search_default_wrapper .search_form_holder {
+	padding: 17px 20px 10px 20px;
+}
+
+/* default search columns */
+.default_form_column_01, .default_form_column_02 {
+	float: left;
+	margin: 0px 20px 0px 0px;
+}
+.default_form_column_01 {
+	width: 174px;
+	height: 46px;
+	padding: 0px 0px 0px 46px;
+	background: url(../img/template_images/matrix_form_number_01.gif) no-repeat top left;
+}
+.default_form_column_02 {
+	width: 174px;
+	height: 46px;
+	padding: 0px 0px 0px 53px;
+	background: url(../img/template_images/matrix_form_number_02.gif) no-repeat top left;
+}
+
+/* advanced search forms structure */
+.search_advanced_wrapper .search_form_holder {
+	padding: 30px 0px 20px 0px;
+	margin: 0px 20px 0px 20px;
+}
+.form_column {
+	float: left;
+	width: 220px;
+	margin: 0px 20px 0px 0px;
+}
+.form_column_fix {
+	float: left;
+	width: 220px;
+	margin: 0px;
+}
+
+/* search form labels, inputs & buttons */
+
+#what_virtual {
+	display:block; 
+	width: 220px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/virtualconsole_link.gif) no-repeat 0px 0px;  
+}
+#what_virtual:hover { 
+	background-position:0px -36px;  
+}
+
+#show_virtual { 
+	display:block;
+	width: 300px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/virtualconsole_link2.gif) no-repeat 0px 0px;  
+}
+#show_virtual:hover { 
+	background-position:0px -36px;  
+}
+
+#what_dsiware {
+	display:block;  
+	width: 220px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/dsiware_link.gif) no-repeat 0px 0px;  
+}
+#what_dsiware:hover { 
+	background-position:0px -36px;    
+}
+#show_dsiware {
+	display:block;
+	width: 252px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/dsiware_link2.gif) no-repeat 0px 0px;  
+}
+#show_dsiware:hover { 
+	background-position:0px -36px;  
+}
+
+#what_wiiware {
+	display:block;
+	width: 220px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/wiiware_link.gif) no-repeat 0px 0px;  
+}
+#what_wiiware:hover { 
+	background-position:0px -36px;   
+}
+#show_wiiware {
+	display:block;
+	width: 252px;
+	height: 36px;
+	margin: 15px 13px 0px 0px;
+	float:right;
+	background: url(../img/template_images/buttons/wiiware_link2.gif) no-repeat 0px 0px;  
+}
+#show_wiiware:hover { 
+	background-position:0px -36px;   
+}
+
+
+#search_form_default .keyword_label, #search_form_default .system_label {
+	display: block;
+	color: #757578;
+	font-weight: bold;
+	padding: 2px 0px 0px 0px;
+}
+#search_form_default .keyword_input, #search_form_default .system_select, #search_form_advanced .genre_select {
+	margin: 5px 0px 0px 0px;
+	width: 174px;
+	color: #333; 
+/*	font-size: 11px;*/
+}
+#search_form_default button.find_button { 
+	width: 75px;
+	height: 36px;
+	margin: 10px 0px 0px 0px;
+	background: url(../img/template_images/buttons/find_btn.gif) no-repeat 0px 0px;  
+	text-indent: -3000px;
+}
+#search_form_default button.find_button:hover { 
+	background: url(../img/template_images/buttons/find_btn.gif) no-repeat 0px -36px;  
+}
+#search_form_advanced fieldset {
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+}
+#search_form_advanced fieldset legend {
+	font-weight: bold;
+	/*font-size: 13px;*/
+	color: #757578;
+	padding: 0px 0px 8px 0px;
+}
+#search_form_advanced fieldset legend a {
+	font-weight: normal;
+	/*font-size: 11px;*/
+	padding: 0px 0px 0px 5px;
+}
+#search_form_advanced li {
+	list-style-type: none;
+	/*font-size: 12px;*/
+	padding: 1px 0px 2px 0px; 
+	color: #666;	
+}
+#search_form_advanced .advanced_find_button_holder {
+	float: right;
+}
+#search_form_advanced button.find_button { 
+	width: 75px;
+	height: 36px;
+	margin: 10px 0px 0px 0px;
+	background: url(../img/template_images/buttons/advance_find_btn.gif) no-repeat 0px 0px;  
+	text-indent: -3000px;
+}
+#search_form_advanced button.find_button:hover { 
+	background: url(../img/template_images/buttons/advance_find_btn.gif) no-repeat 0px -36px;  
+}
+
+/* search results */
+.search_results_holder {
+	margin: 0px 5px 0px 5px;
+}
+.search_results_header {
+	padding: 5px 20px 10px 20px;
+}
+.search_results_content {
+	padding: 15px 10px 15px 10px;
+}
+.search_results_footer {
+	padding: 5px 20px 10px 20px;
+}
+.search_info_holder {
+	margin: 0px 0px 10px 0px;
+}
+.results_info {
+	float: left;
+	width: 735px;
+	padding: 0px 0px 0px 5px;
+}
+.results_pagination {
+	float: left;
+	width: 195px;
+	padding: 0px 5px 0px 0px;
+	text-align: right;
+}
+.results_info p, .results_pagination p {
+	/*font-size: 11px;*/
+}
+.results_pagination a.no_previous_page  {
+	color: #333;
+}
+.results_pagination p {
+	color: #ccc;
+	/*font-size: 12px;*/
+}
+.results_page_numbers {
+	padding: 0px 10px 0px 0px;
+}
+.search_criteria {
+	font-weight: bold;
+	padding: 0px 5px 0px 5px;
+}
+.sort_results {
+	margin: 0px;
+	padding: 10px 15px 10px 15px;
+	background: url(../img/template_images/matrix_sort_background.gif) no-repeat top left;
+	width: 910px;
+	height: 14px;	
+}
+.sort_options {
+	padding: 0px 10px 0px 10px;
+	color: #ccc;
+	font-weight: bold;
+}
+.sort_options a {
+	padding: 0px 2px 0px 2px;
+}
+
+/* games matrix results */ 
+.games_holder {
+	width: 960px;
+}
+.games_row {
+	width: 960px;
+	padding: 0px 0px 15px 0px;
+}
+.games_column {
+	float: left;
+	width: 160px;
+}	
+
+/* wii & ds game styles */
+.wii_game .game_cover_holder {
+	width: 160px;
+	height: 156px;
+	margin: 0px 0px 2px 0px;
+}
+.ds_game .game_cover_holder {
+	width: 160px;
+	height: 107px;
+	padding: 49px 0px 0px 0px;
+	margin: 0px 0px 2px 0px;
+}
+
+.virtual_game .game_cover_holder {
+	width: 160px;
+	height: 107px;
+	padding: 49px 0px 0px 0px;
+	margin: 0px 0px 2px 0px;
+}
+
+.game_info_holder {
+	padding: 0px 5px 0px 12px;
+}		
+.wii_game a.game_cover {
+	display: block;
+	width: 93px;
+	height: 132px;
+	background: url(../img/template_images/matrix_wii_game_background.gif) no-repeat top left;
+	padding: 12px;
+}
+.wii_game a.game_cover:hover {
+	background: url(../img/template_images/matrix_wii_game_background.gif) no-repeat 0px -156px;
+}
+.ds_game a.game_cover {
+	display: block;
+	width: 93px;
+	height: 83px;
+	background: url(../img/template_images/matrix_ds_game_background.gif) no-repeat top left;
+	padding: 12px;
+}
+.ds_game a.game_cover:hover {
+	background: url(../img/template_images/matrix_ds_game_background.gif) no-repeat 0px -107px;
+}
+
+.virtual_game a.game_cover {
+	display: block;
+	width: 93px;
+	height: 83px;
+	background: url(../img/template_images/matrix_ds_game_background.gif) no-repeat top left;
+	padding: 12px;
+}
+.virtual_game a.game_cover:hover {
+	background: url(../img/template_images/matrix_ds_game_background.gif) no-repeat 0px -107px;
+}
+
+.game_info_holder h3 {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 0px 0px 7px 0px;
+}
+.game_info_holder p {
+	font-size: 11px;
+	color: #7d7d81;
+	line-height: 13px;
+}	
+.game_info_holder .game_rating, .game_info_holder .game_type {	
+	font-weight: bold;
+}
+.search_results_footer .results_pagination {
+	float: none;
+	width: 935px;
+	padding: 0px 5px 0px 0px;
+	text-align: right;
+}
+/* ds matrix layout fix */
+#ds_covers .ds_game .game_cover_holder {
+	width: 160px;
+	height: 107px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 2px 0px;
+}
+
+/* =GAME PAGE (Game Matrix Single Page)
+--------------------------------------------------- */
+
+/* game page structure */
+.banner_game_section /* CMS inserts content as background image inline */ {
+	width: 990px;
+	height: 200px;
+	margin: 0px 5px 0px 5px;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.banner_game_overlay {
+	background: url(../img/template_images/game_banner_overlay.png) no-repeat top left;
+	width: 990px;
+	height: 200px;	
+}
+.game_page_holder {
+	width: 990px;
+	margin: 10px 5px 0px 5px;
+	background: url(../img/template_images/gamepage_columns_tile.png) repeat-y top left;
+	float: left;	
+}
+.game_page_footer {
+	width: 990px;
+	height: 24px;
+	margin: 0px 5px 0px 5px;
+	background: url(../img/template_images/gamepage_columns_footer.png) no-repeat top left;
+	float: left;
+}	
+.game_subcolumn {
+	float: left;
+	width: 270px;
+	margin: 0px 10px 0px 0px;
+	background: url(../img/template_images/gamepage_subcolumn_header.gif) no-repeat top left; 
+}
+.game_maincolumn {
+	float: left;
+	width: 710px;
+}
+.subcolumn_content {
+	padding: 10px 0px 20px 0px;
+}
+.maincolumn_header {
+	width: 710px;
+	height: 54px;
+	background: url(../img/template_images/gamepage_maincolumn_header.png) no-repeat top left;
+	padding: 0px;
+}
+.maincolumn_content {
+	width: 660px;
+	padding: 0px 25px 0px 25px;
+}
+/* game page inline columns */
+.game_column_left {
+	float: left;
+	width: 650px;
+	margin: 10px 20px 0px 0px;
+	padding: 10px 0px 10px 0px;
+}
+.game_column_right {
+	float: left;
+	width: 220px;
+	margin: 10px 0px 0px 0px;
+	padding: 25px;
+}
+/* game page image / video column */ 
+.gamecolumn_right_header {
+	height: 8px;
+}
+.gamecolumn_right_content {
+	padding: 8px 10px 0px 10px;
+}
+.gamecolumn_right_footer {
+	height: 10px;	
+	margin: 0px 0px 15px 0px;
+}
+
+/* game page tabs */
+.game_page_tabs {
+	width: 356px;
+	height: 37px;
+}
+.game_page_tabs ul { 
+	width: 356px;
+}
+.game_page_tabs li { 
+	display: inline; 
+	list-style-type: none;
+}
+.game_page_tabs a { 
+	float: left;
+	height: 37px;
+	text-indent: -3000px;
+	background: url(../img/template_images/gamepage_tabs.gif) no-repeat;
+}
+
+/* game page tabs background positioning */
+.game_page_tabs li.overview a { background-position: 0px -37px; width: 109px; }
+
+.game_page_tabs li.template_images_videos a { background-position: -109px -37px; width: 129px; }
+
+.game_page_tabs li.hints_tips a { background-position: -238px -37px; width: 118px; }
+
+/* game page tabs hover & current state */
+.game_page_tabs li.overview a.current, .game_page_tabs li.overview a:hover { background-position: 0px 0px; width: 109px; }
+
+.game_page_tabs li.template_images_videos a.current, .game_page_tabs li.template_images_videos a:hover { background-position: -109px 0px; width: 129px; }
+
+.game_page_tabs li.hints_tips a.current, .game_page_tabs li.hints_tips a:hover { background-position: -238px 0px; width: 118px; }
+
+
+/* game page styles */
+h1.game_title {
+	font-size: 22px;
+	color: #333;
+}
+h3.gamepage_title_template_images, h3.gamepage_title_videos {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	height: 14px;
+	padding: 2px 0px 6px 28px;
+}
+h3.gamepage_title_template_images {
+	background: url(../img/template_images/game_image_icon.gif) no-repeat 6px 0px;
+}
+h3.gamepage_title_videos {
+	background: url(../img/template_images/game_video_icon.gif) no-repeat 7px 0px;
+}
+
+/* game cover section styles */
+h2.game_title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	margin: 0px 0px 16px 0px;
+}
+.game_details_holder {
+	padding: 15px 28px 20px 28px;
+}
+.game_details_holder p {
+	font-weight: bold;
+}
+.game_detail {
+	font-weight: normal;
+	padding: 0px 0px 0px 2px;
+}
+.wifi_holder p {
+	float: left;
+	padding: 12px 0px 0px 0px;
+}
+.wifi_logo {
+	float: right;
+	background: url(../img/template_images/wifi_logo.jpg) no-repeat top right;
+	height: 41px;
+	width: 41px;
+	margin: -30px 0px 10px 10px;
+}
+.wifi_logo a {
+	height: 41px;
+	width: 41px;
+	text-indent: -3000px;
+	display: block;
+}
+.official_gamesite_btn a {
+background:transparent url(../img/template_images/gamepage_officialsite_btn.gif) no-repeat scroll left top;
+clear:both;
+display:block;
+height:42px;
+margin:26px 4px 5px 0px;
+text-indent:-3000px;
+width:225px;
+}
+.official_gamesite_btn a:hover {
+	background: url(../img/template_images/gamepage_officialsite_btn.gif) no-repeat 0px -42px;
+}
+
+.register_game a {
+	display: block;
+	width: 225px;
+	height: 42px;
+	margin: 10px 4px 15px 0px;
+	text-indent: -3000px;
+	background: url(..../img/template_images/register_game_btn.gif) no-repeat top left;
+}
+.register_game a:hover {
+	background: url(..../img/template_images/register_game_btn.gif) no-repeat 0px -42px;
+}
+
+.gamepage_cover_holder {
+	padding: 15px 10px 0px 22px; 
+}		
+.gamepage_game_cover_wii {
+	background: url(../img/template_images/gamepage_cover_background_wii.gif) no-repeat top left;
+	width: 180px;
+	height: 255px;
+	padding: 6px 12px 12px 6px;
+}
+.gamepage_game_cover_ds {
+	background: url(../img/template_images/gamepage_cover_background_ds.gif) no-repeat top left;
+	width: 180px;
+	height: 161px;
+	padding: 6px 12px 12px 6px;
+}
+
+/* game template_images/videos section styles */
+.game_template_images_holder, .game_vidoes_holder {
+	width: 200px;
+	padding: 0px 0px 12px 0px;
+}
+.game_image, .game_video /* CMS inserts content as background image inline (16:9 - 90px X 51px) */ {
+	float: left;
+	width: 100px;
+	height: 61px;
+	background-position: center center;
+}
+.game_image_locked {
+	background: url(../img/template_images/gamepage_locked_content.png) no-repeat top left;
+	width: 100px;
+	height: 61px;
+}
+.game_image_unlocked {
+	background: url(../img/template_images/gamepage_unlocked_content.png) no-repeat top left;
+	width: 90px;
+	height: 51px;
+	padding: 5px;
+}
+.game_video_locked {
+	background: url(../img/template_images/gamepage_locked_content.png) no-repeat top left;
+	width: 100px;
+	height: 61px;
+}
+.game_video_unlocked {
+	background: url(../img/template_images/gamepage_unlocked_video.png) no-repeat top left;
+	width: 90px;
+	height: 51px;
+	padding: 5px;
+}
+.game_image_unlocked a, .game_video_unlocked a {
+	display: block;
+	width: 90px;
+	height: 51px;
+}
+.game_image_unlocked a:hover, .game_video_unlocked a:hover {
+	display: block;
+}
+p.no_content /* displayed if there are no template_images/videos */ {
+	padding: 0px 12px 14px 6px;
+	color: #999;
+}
+.view_more_holder {
+	padding: 6px 6px 14px 6px;
+}
+a.view_more_link {
+	font-size: 11px;
+	background: url(../img/template_images/view_more_icon.gif) no-repeat 0px 2px;
+	padding: 0px 0px 0px 16px;
+}
+	
+/* gamepage game ratings styles */
+
+.wifi_holder {width: 100px;}
+
+.ratings_holder_gamepage {
+	background:#F6F6F6 url(..../img/template_images/subsection_wrapper_footer.gif) no-repeat scroll left bottom;
+	margin-top:10px;
+	width:650px;
+}
+.ratings_holder_gamepage .game_rating {
+	width: 420px;
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/template_images/subsection_wrapper_header.gif) no-repeat top left;
+}
+.ratings_holder_gamepage .column_wrapper {
+	padding: 10px 13px 10px 13px;
+}
+.rating_image {
+	float: left;
+	margin: 0px 11px 0px 0px;
+}
+.text_holder {
+	float: left;
+	width: 326px;
+	padding: 7px 0px 0px 0px;
+}
+.ratings_holder_gamepage p {
+	font-size: 11px/
+	line-height: 14px;
+	margin: 0px;
+}
+.ratings_holder_gamepage .rating_description {
+	background: none;
+	padding: 0px 4px 0px 0px;
+}
+
+/* gamepage game graphics section */
+.game_graphics_holder {
+	width: 660px;
+	height: 515px;
+	margin: 20px 0px 0px 0px;
+	background: url(../img/template_images/gamepage_graphics_alt_image.gif) no-repeat top left #ebebeb;
+}
+#game_graphics_html, #game_graphics_flash {
+	width: 660px;
+	height: 515px;
+}
+#game_graphics_html a {
+	display: block;
+	width: 660px;
+	height: 515px;
+}
+
+/* =MEMBERS SECTION 
+--------------------------------------------------- */
+
+/* members section structure */
+#default_form {
+	margin: 0px;
+	padding: 0px;
+}
+#default_form .members_form_holder {
+	padding: 0px 0px 6px 0px;
+	background: none;
+}
+.members_form {
+	padding: 0px 4px 0px 4px;
+}
+#default_form .members_form_holder p {
+	font-size: 11px;
+	line-height: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+.members_form label {
+	display: block;
+	padding: 8px 0px 4px 0px;
+	color: #666;
+}
+#signup_form input, #request_form input, #login_form_default input, #unsubscribe_form input {
+	width: 250px;
+	height: 16px;
+}
+#default_form .members_form_holder .request_form_intro p {
+	padding: 0px 0px 5px 0px;
+}
+#default_form .members_form_holder .request_form_intro p.medium {
+	font-size: 12px;
+}
+.competitions_promo_holder2 {
+	padding: 0px;
+	float: left;
+	margin-top: -13px;
+	margin-left: -5px;
+}
+
+.competitions_promo_holder {
+	padding: 6px 0px 8px 0px;
+	float: left;
+}
+a.competitions_promo_link {
+	width: 124px;
+	height: 27px;
+	display: block;
+	text-indent: -3000px;
+	margin: 0px 0px 10px 0px;
+	background: url(../img/template_images/competitions_promo_link.gif) no-repeat 0px 0px;
+}
+a.competitions_promo_link:hover {
+/* 	background: url(../img/template_images/competitions_promo_link.gif) no-repeat 0px -127px; */
+	background: url(../img/template_images/competitions_promo_link.gif) no-repeat 0px -79px;
+}
+/* members buttons */
+#default_form .members_form .login_button {
+	display: block;
+	height: 26px;
+	margin: 10px 0px 10px 0px;
+	text-indent: -3000px;
+	border: 0px;
+	cursor: pointer;
+}
+#default_form .members_form .login_button { 
+	width: 82px;
+	background: url(../img/template_images/buttons/login_btn.gif) no-repeat 0px 0px; 
+}
+#default_form .members_form .login_button:hover { 
+	background: url(../img/template_images/buttons/login_btn.gif) no-repeat 0px -26px;  
+}
+#default_form .members_form .send_button { 
+	width: 83px;
+	background: url(../img/template_images/buttons/send_btn.gif) no-repeat 0px 0px; 
+}
+#default_form .members_form .send_button:hover { 
+	background: url(../img/template_images/buttons/send_btn.gif) no-repeat 0px -26px;  
+}
+#default_form .members_form .unsubscribe_button { 
+	width: 124px;
+	height: 25px;
+	margin: 15px 0px 10px 0px; 
+	border:0px;
+	background: url(../img/template_images/buttons/unsubscribe_btn.gif) no-repeat 0px 0px; 
+}
+#default_form .members_form .unsubscribe_button:hover { 
+	background: url(../img/template_images/buttons/unsubscribe_btn.gif) no-repeat 0px -26px;  
+}
+
+a.competitions_promo_link {
+	width: 440px;
+	height: 79px;
+	display: block;
+	text-indent: -3000px;
+	margin: 0px 0px 10px 0px;
+	background: url(../img/template_images/competitions_promo_link.gif) no-repeat 0px 0px;
+}
+
+#default_form .members_form .send_password_button { 
+	width: 143px;
+	background: url(../img/template_images/buttons/send_password_btn.gif) no-repeat 0px 0px; 
+}
+#default_form .members_form .send_password_button:hover { 
+	background: url(../img/template_images/buttons/send_password_btn.gif) no-repeat 0px -26px;  
+}
+#default_form .members_form .reset_password_button { 
+	width: 147px;
+	background: url(../img/template_images/buttons/reset_password_btn.gif) no-repeat 0px 0px; 
+}
+#default_form .members_form .reset_password_button:hover { 
+	background: url(../img/template_images/buttons/reset_password_btn.gif) no-repeat 0px -26px;  
+}
+#default_form .members_form .signup_button { 
+	width: 96px;
+	background: url(../img/template_images/buttons/signup_btn.gif) no-repeat 0px 0px;
+	margin: 15px 0px 10px 0px; 
+}
+#default_form .members_form .signup_button:hover { 
+	background: url(../img/template_images/buttons/signup_btn.gif) no-repeat 0px -26px;  
+}
+
+/* members titles */
+h3.members_title_unlock, h3.members_title_login, h3.members_form_title, h3.members_title_signup {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	height: 14px;
+	padding: 2px 0px 6px 28px;
+}
+h3.members_form_title /* default title */ {
+	background: url(../img/template_images/padlock_login.gif) no-repeat 6px 0px;
+	padding: 3px 0px 6px 28px;
+}
+.unsubscribe h3.members_form_title /* unsubscribe title */ {
+	background: url(../img/template_images/padlock_delete.gif) no-repeat 6px 0px;
+	padding: 3px 0px 6px 28px;
+}
+h3.members_title_unlock, h3.members_title_signup {
+	background: url(../img/template_images/unlock_icon.gif) no-repeat 6px 0px;
+}
+h3.members_title_login {
+	background: url(../img/template_images/padlock_login.gif) no-repeat 6px 0px;
+	padding: 3px 0px 6px 28px;
+}
+
+/* members login structure (SUBPAGES) */
+.comptetion_login {
+	padding: 10px 0px 0px 0px;
+}
+.competition_login .members_login_holder {
+	padding: 0px 0px 6px 0px;
+	background: none;
+}
+.members_login_holder {
+	padding: 16px 0px 6px 0px;
+	background: url(../img/template_images/divider_tile.gif) repeat-x top left;
+}
+.default_login .members_login_holder /* gamepage login (no divider line) */ {
+	padding: 6px 0px 6px 0px;
+	background: none;
+}
+.members_login_form {
+	padding: 0px 4px 0px 4px;
+}
+.members_login_holder p {
+	font-size: 11px;
+}
+#login_form input {
+	width: 150px;
+	height: 16px;
+}
+
+
+
+#login_form_default input#remember_me, #login_form input#remember_me, #login_form input#remember_me_overview, #login_form input#remember_me_media /* resets size + positions */ {
+	display: inline;
+	width: 15px;
+	height: 15px;
+}
+.members_login_form label {
+	display: block;
+	padding: 8px 0px 4px 0px;
+	color: #666;
+}
+.members_login_form button.login_button { 
+	width: 82px;
+	height: 26px;
+	margin: 10px 0px 10px 0px;
+	background: url(../img/template_images/buttons/login_btn.gif) no-repeat 0px 0px;  
+	text-indent: -3000px;
+}
+.members_login_form button.login_button:hover { 
+	background: url(../img/template_images/buttons/login_btn.gif) no-repeat 0px 0px;  
+}
+
+/* members specific styles */
+.required {
+	padding: 0px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #e82117;
+}
+.gender_holder, .location_holder, .mobile_holder, .product_holder, .email_holder {
+	padding: 8px 0px 4px 0px;
+}
+
+/* members form resets */
+#signup_form .gender_holder input, #signup_form .location_holder input {
+	width: 15px;
+	height: 15px;
+}
+#signup_form .postcode_holder input {
+	width: 75px;
+	margin: 0px 0px 6px 0px;
+}
+#signup_form .gender_holder label.gender, #signup_form .location_holder label.australia, 
+#signup_form .product_holder label.product {
+	display: inline;
+	padding: 0px 6px 4px 0px;	
+}
+#signup_form .dob_holder select {
+	margin: 4px 2px 2px 0px;
+	color: #333;
+}
+#signup_form .mobile_holder select {
+	margin: 4px 2px 6px 0px;
+	color: #333;
+}
+#signup_form .mobile_holder label.mobile {
+	margin: 2px 0px 6px 0px;
+}
+.dob_slash {
+	padding: 0px 4px 0px 0px;
+	color: #999;
+}
+#signup_form .product_holder input, #signup_form .mobile_holder .contactable {
+	width: 15px;
+	height: 15px;
+	display: inline;
+}
+
+/* =DYNAMIC STYLES (Game pages & Default pages )
+--------------------------------------------------- */
+
+/* dynamic content styles */
+.dynamic_content {
+	padding: 0px 0px 10px 0px;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+}
+.dynamic_content p {
+	line-height: 20px;
+	margin: 0px 0px 10px 0px;
+}
+.dynamic_content h1, .dynamic_content h2, .dynamic_content h3, .dynamic_content h4, .dynamic_content h5, .dynamic_content h6 {
+	margin: 4px 0px 6px 0px; color: #666; font-weight: bold;
+}	 
+.dynamic_content h1 { font-size: 16px; }
+.dynamic_content h2 { font-size: 14px; }
+.dynamic_content h3 { font-size: 12px; }
+.dynamic_content h4 { font-size: 12px; font-weight: normal; }
+.dynamic_content h5 { font-size: 11px; }
+.dynamic_content h6 { font-size: 11px; font-weight: normal; }
+
+.dynamic_content ul, .dynamic_content ol {
+	color: #666;
+	line-height: 18px;
+	padding: 0px 10px 10px 10px;
+}
+.dynamic_content ol {
+	list-style: decimal outside;
+	color: #666;
+	line-height: 18px;
+	padding: 0px 10px 10px 30px;
+}
+.dynamic_content ol li {
+	background: none;
+	padding: 5px 0px 5px 2px;
+}
+.dynamic_content li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/default_list_bullet.gif) no-repeat 0px 9px;
+	line-height: 15px;
+}
+.dynamic_content em {
+	font-style: oblique;
+}
+.dynamic_content strong {
+	font-weight: bold;
+}
+.dynamic_content blockquote {
+	line-height: 16px;
+	color: #999;
+	padding: 6px 14px 12px 14px;
+}
+.dynamic_content blockquote p {
+	line-height: 16px;
+	color: #999;
+	padding: 6px 14px 12px 14px;
+}
+.dynamic_content img {
+	padding: 5px;
+}
+
+/* =SUBSECTIONS (Subpages & Default Template)
+--------------------------------------------------- */
+
+/* subsections structure */
+.subsection_holder {
+	width: 990px;
+	margin: 0px 5px 0px 5px;
+	padding: 10px 0px 0px 0px;
+}
+.sub_header {
+	background: url(..../img/template_images/subsection_background_header.png) no-repeat top left;
+	height: 30px;
+	width: 990px;
+}
+
+.sub_header2 {
+	background: url(..../img/template_images/subsection2_background_header.png) no-repeat top left;
+	height: 30px;
+	width: 990px;
+}
+
+.sub_content {
+	background: url(..../img/template_images/subsection_background_tile.png) repeat-y top left; 
+	width: 980px;
+	padding: 0px 5px 30px 5px;
+}
+
+.sub_content2 {
+	background: url(..../img/template_images/subsection2_background_tile.png) repeat-y top left; 
+	width: 980px;
+	padding: 0px 5px 30px 5px;
+}
+
+.sub_footer {
+	background: url(..../img/template_images/subsection_background_footer.png) no-repeat top left;
+	height: 25px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+.sub_footer2 {
+	background: url(..../img/template_images/subsection2_background_footer.png) no-repeat top left;
+	height: 25px;
+}
+
+.banner_subsection /* use with console page nav */ {
+	width: 990px;
+	height: 200px;
+	margin: 0px 5px 0px 5px;
+	position: relative;
+}
+
+
+.banner_subsection div {position: absolute; top: 70px; right: 20px; width: 130px;}
+
+
+
+.banner_default {
+	width: 990px;
+	height: 205px;
+	margin: 0px 5px 0px 5px;
+}
+
+/* subsection columns */
+.subsection_columns_holder {
+	margin: 0px 20px 0px 20px;
+}
+.page_main_column {
+	float: left;
+	width: 660px;
+	margin: 0px 60px 0px 0px;
+}
+
+.relative {position: relative;}
+
+
+.page_main_column2 {
+	float: left;
+	width: 940px;
+	margin: 0px 60px 0px 0px;
+	_margin: 0px 0px 0px 0px;
+	position: relative;
+}
+
+.scroll_nav {position: absolute; top: 15px; right: 15px; height: 38px; width: 125px;}
+
+.page_sub_column {
+	float: left;
+	width: 220px;
+}
+.main_column_left {
+	float: left;
+	width: 440px;
+	margin: 0px 20px 0px 0px;		
+}
+#contact_top {
+
+	background-repeat: no-repeat;
+	float: left;
+	height: 55px;
+	width: 266px;
+}
+#contact_bottom {
+
+	/*float: left;*/
+	height: 229px;
+	width: 266px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	
+}
+#contact_middle {
+	float: left;
+	height: 180px;
+	width: 226px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+.main_column_right {
+	float: left;
+	width: 200px;
+}
+
+.main_column_div {
+	float: left;
+	position: relative;
+	padding-bottom:40px;	
+	height: 200px;
+}
+.main_column_image {
+	position: absolute;
+	top:-28px;
+	left:-28px;
+}
+
+.main_column_div2 {
+	float: left;
+	position: relative;
+	margin-bottom:40px;	
+	top:100px;
+}
+.main_column_image2 {
+	position: absolute;
+	left:-23px;
+}
+
+/* subsection styles */
+.touch1 {width: 441px; margin-top: 14px; height:275px; margin-bottom:10px;  float:left}
+.touch2 {width: 441px; /*clear:both;*/ height: 234px; margin-top: 20px;float:left;}
+.touch3 {width: 441px; height: 234px;/*clear:both;*/ margin: 20px;float:left;}
+.touch4 {width: 441px; height: 234px;/*clear:both;*/ /*margin: 20px*/;float:left;}
+.touch5 {float: left; width: 443px; /*margin:55px 0 0 30px;*/margin:0 0 0 20px;}
+
+.touch5 img {float: left;}
+
+
+h1.subsection_title {
+	font-size: 22px;
+	color: #333;
+}
+
+h1.console {
+color:#18B5F1;
+font-size:14px;
+font-weight:bold;
+margin-bottom:5px;
+}
+
+h2.content_title, h3.nav_title, h3.sub_title {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	margin: 22px 0px 16px 0px;
+}
+h2.section_title /* used in section pod wrapper */ {
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	margin: 0px 0px 16px 0px;
+}
+h3.section_title /* used in section pod wrapper */ {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	margin: 0px 0px 16px 0px;
+}
+h3.content_title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	margin: 22px 0px 16px 0px;
+	line-height: 14px;
+}
+h3.safety_title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	margin: 24px 0px 6px 0px;
+	padding: 2px 0px 6px 24px;
+	line-height: 14px;
+	background: url(../img/template_images/warning_icon.gif) no-repeat 0px 0px;
+}
+
+.bgFix {
+	width:200px;
+	height:100%;
+	background-image: url(template_images/bgFix.jpg);
+	background-repeat: repeat-y;
+}
+
+
+h4.section_name /* inline page section name */ {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	margin: 8px 0px 8px 0px;
+}
+.page_main_column p {
+	line-height: 20px;
+	margin: 0px 0px 10px 0px;
+}
+.page_main_column p.intro {
+	margin: 22px 0px 10px 0px;
+}
+a.top_link {
+	display: block;
+	width: 76px;
+	font-size: 11px;
+	padding: 7px 0px 10px 36px;
+	background: url(../img/template_images/back_top_background.gif) no-repeat top left;
+}
+a.top_link_ts /* troubleshooting 'back to top' link */  {
+	display: block;
+	width: 76px;
+	font-size: 11px;
+	padding: 7px 0px 10px 36px;
+	margin: 0px 0px 10px 0px;
+	background: url(../img/template_images/back_top_background.gif) no-repeat top left;
+}
+.image_holder {
+	padding: 4px 0px 16px 0px;
+}
+/* generic list styles */
+ul.default_list {
+	color: #666;
+	line-height: 18px;
+	padding: 0px 10px 10px 10px;
+}
+ol.default_list {
+	list-style: decimal outside;
+	color: #666;
+	line-height: 18px;
+	padding: 0px 10px 10px 30px;
+}
+ul.default_list li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/default_list_bullet.gif) no-repeat 0px 9px;
+	line-height: 15px;
+}
+ol.default_list li {
+	background: none;
+	padding: 5px 0px 5px 2px;
+	line-height: 15px;
+}
+p.list_paragraph {
+	line-height: 15px;
+	padding: 2px;
+}
+ol.abc_list {
+	list-style: lower-alpha outside;
+	color: #666;
+	line-height: 18px;
+	padding: 3px 10px 0px 26px;
+}
+ol.abc_list li {
+	padding: 3px 0px 3px 3px;
+}
+ul.safety_list {
+	color: #666;
+	line-height: 15px;
+	padding: 0px 10px 8px 10px;
+}
+ul.safety_list li {
+	padding: 4px 0px 4px 15px;
+	background: url(../img/template_images/default_list_bullet.gif) no-repeat 0px 9px;
+}
+
+/* lists within lists styles */
+ol.default_list ul.default_list li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/default_list_bullet.gif) no-repeat 0px 9px;
+	line-height: 15px;
+}
+ol.abc_list ul.default_list {
+	color: #666;
+	line-height: 18px;
+	padding: 0px 10px 0px 10px;
+}
+ol.abc_list ul.default_list li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/default_list_bullet.gif) no-repeat 0px 9px;
+	line-height: 15px;
+}
+
+/* alternate list styles */
+.alternate_holder {
+	width: 440px;
+	margin: 20px 0px 15px 0px;
+	padding: 10px 0px 0px 0px;
+	background: url(../img/template_images/alternate_wrapper_header.gif) no-repeat top left #e6f8ff;
+}
+.alternate_list {
+	width: 440px;
+	color: #666;
+	padding: 0px 0px 18px 0px;
+	margin: 0px;
+	line-height: 15px;
+	font-size: 11px;
+	background: url(../img/template_images/subsection_wrapper_footer.gif) no-repeat bottom left #f6f6f6;
+}
+.alternate_list li {
+	padding: 7px 14px 6px 26px;
+}	
+li.intro_technical /* replaces h3 title */ {
+	padding: 10px 10px 16px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	text-indent: -3000px;
+	background: url(../img/template_images/technical_title.gif) no-repeat 13px 0px #e6f8ff;
+	height: 16px;
+}
+.alternate_list li.default {
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 12px 11px #eee;
+}
+.alternate_list li.alternate {
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 12px 11px #f6f6f6;
+}
+
+/* subsection navigation */
+.subsection_nav_outerwrapper {
+	background: url(../img/template_images/subsection_nav_header.gif) no-repeat top left #ededed;
+	margin: 20px 0px 0px 0px;
+}
+.subsection_nav_innerwrapper {
+	background: url(../img/template_images/subsection_nav_footer.gif) no-repeat bottom left;
+}
+
+/* subsection main navigation */
+ul.subsection_nav {
+	padding: 15px 10px 15px 10px;
+	color: #ccc;
+	font-size: 12px;
+	font-weight: bold;
+}
+ul.subsection_nav li {
+	display: inline;
+	margin: 0px 3px 0px 0px;
+}
+
+/* subsection side navigation/anchor links */
+.sub_side_nav li {	
+	line-height: 16px;
+	margin: 0px 0px 5px 0px;
+	padding: 0px 0px 0px 8px;
+	background: url(../img/template_images/subsection_nav_arrow_blue.gif) no-repeat 0px 6px ; 
+}
+.sub_side_nav li.selected {
+	background: url(../img/template_images/subsection_nav_arrow_black.gif) no-repeat 0px 6px ;	
+}
+
+/* specific inline page content */
+.anchor_content_repeat {
+	padding: 0px 0px 2px 0px;
+	margin: 0px 0px 0px 0px;
+	/*width:952px;*/
+}
+.section_content_repeat {
+	padding: 0px 0px 2px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.section_content {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 20px 0px;
+}
+
+/* pod list */
+.list_holder {
+	background: url(../img/template_images/subsection_wrapper_header.gif) no-repeat top left #f6f6f6;
+	width: 440px;
+	margin: 0px 0px 15px 0px;
+}
+.pod_list {
+	color: #666;
+	line-height: 18px;
+	padding: 20px;
+	background: url(../img/template_images/subsection_wrapper_footer.gif) no-repeat bottom left;
+}
+.pod_list li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 0px 11px;
+}
+
+/* pod section wrapper */ 
+.section_outerwrapper {
+	background: url(../img/template_images/subsection_wrapper_header.gif) no-repeat top left #f6f6f6;
+	width: 440px;
+	margin: 20px 0px 15px 0px;
+}
+.section_innerwrapper {
+	padding: 20px;
+	background: url(../img/template_images/subsection_wrapper_footer.gif) no-repeat bottom left;
+}
+.section_outerwrapper_ts /* troubleshooting section wrapper */ {
+	background: url(../img/template_images/subsection_wrapper_header.gif) no-repeat top left #f6f6f6;
+	width: 440px;
+	margin: 5px 0px 15px 0px;
+}
+
+/* game ratings styles + helpline styles */
+.ratings_holder, .helpline_holder {
+	width: 200px;
+}
+.ratings_holder p, .helpline_holder p {
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0px;
+}
+.helpline_holder p {
+	margin: 0px 0px 10px 0px;
+}
+.game_rating, .helpline {
+	width: 200px;
+	margin: 0px 0px 15px 0px;
+}
+.rating_header, .helpline_header {
+	background: url(../img/template_images/subcolumn_section_header.gif) no-repeat top left #e6f8ff;
+	padding: 10px 13px 10px 13px;
+}
+.ratings_holder .column_wrapper {
+	background-color: #e6f8ff;
+}
+.rating_column {
+	float: left;
+	width: 57px;
+	margin: 0px 11px 0px 0px;
+}
+.title_column {
+	float: left;
+	width: 106px;
+	padding: 7px 0px 0px 0px;
+}
+.rating_title {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0px 0px 2px 0px;
+}
+.rating_description, .helpline_description {
+	background: url(../img/template_images/subcolumn_section_footer.gif) no-repeat bottom left #f6f6f6;
+	padding: 10px 14px 15px 14px;
+}	
+.rating_list {
+	color: #666;
+	padding: 10px 2px 4px 2px;
+	line-height: 15px;
+	font-size: 11px;
+}
+.rating_list li {
+	padding: 5px 0px 5px 15px;
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 0px 10px;
+}
+
+/* history styles */ 
+.history_holder {
+	width: 200px;
+	padding: 12px 0px 0px 0px;
+	background: url(../img/template_images/history_list_header.gif) no-repeat top left;
+}
+.history_list {
+	width: 200px;
+	color: #666;
+	padding: 0px 0px 12px 0px;
+	margin: 0px;
+	line-height: 15px;
+	font-size: 11px;
+	background: url(../img/template_images/history_list_footer.gif) no-repeat bottom left;
+}
+.history_list li {
+	padding: 7px 14px 6px 24px;
+}	
+li.intro_item /* replaces h3 title */ {
+	padding: 10px 10px 16px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	text-indent: -3000px;
+	background: url(../img/template_images/history_title.gif) no-repeat 13px 0px #e6f8ff;
+	width: 180px;
+	height: 16px;
+}
+.history_list li.default {
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 10px 11px #eee;
+}
+.history_list li.alternate {
+	background: url(../img/template_images/subsection_list_bullet.gif) no-repeat 10px 11px #f6f6f6;
+}
+
+/* warranty + contact styles */
+p.warranty_warning {
+	line-height: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p.warranty_faq_question {
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 14px;
+}
+p.warranty_faq_answer {
+	font-size: 11px;
+	line-height: 16px;
+	padding: 0px 0px 5px 0px;
+}
+p.contact_details_top, p.contact_details_bottom {
+	line-height: 15px;
+}
+p.contact_details_bottom {
+	margin: 0px 0px 20px 0px;
+}
+
+/* informtation styles */
+p.important {
+	font-weight: bold;
+	line-height: 15px;
+	padding: 0px 0px 8px 0px;
+}
+.divider {
+	background: url(../img/template_images/divider_tile.gif) repeat-x bottom left;
+	padding: 6px 0px 0px 0px;
+	margin: 0px;
+	font-size: 0.01px; 
+	line-height: 0.01px;
+}
+
+/* classic system styles */
+h3.classic_title_n64, h3.classic_title_gbc, h3.classic_title_gbp, h3.classic_title_snes, h3.classic_title_nes, h3.classic_title_gamecube, h3.classic_title_gba {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+	margin: 22px 0px 6px 0px;
+	line-height: 14px;
+	text-indent: -3000px;
+	width: 152px;
+	height: 40px;
+}
+h3.classic_title_gamecube {
+	background: url(../img/template_images/inline/classic/gamecube_logo.jpg) no-repeat top left;	
+}
+h3.classic_title_gba {
+	background: url(../img/template_images/inline/classic/gameboy_advance_logo.jpg) no-repeat top left;	
+}
+h3.classic_title_n64 {
+	background: url(../img/template_images/inline/classic/nintendo_64_logo.jpg) no-repeat top left;	
+}
+h3.classic_title_gbc {
+	background: url(../img/template_images/inline/classic/gameboy_color_logo.jpg) no-repeat top left;
+}
+h3.classic_title_gbp {
+	background: url(../img/template_images/inline/classic/gameboy_pocket_logo.jpg) no-repeat top left;
+}
+h3.classic_title_snes {
+	background: url(../img/template_images/inline/classic/super_nintendo_logo.jpg) no-repeat top left;
+	width: 113px;
+	height: 40px;
+}
+h3.classic_title_nes {
+	background: url(../img/template_images/inline/classic/original_nintendo_logo.jpg) no-repeat top left;
+	width: 128px;
+	height: 40px;
+}
+
+/* =NEWSBLOG
+--------------------------------------------------- */
+
+/* REFER TO STYLE.CSS for news blog styles and structure (news/wp-content/themes/nintendo/style.css) */
+
+
+/* =COMPETITIONS
+--------------------------------------------------- */
+
+/* competitions summary structure + styles */
+.competitions_intro_holder {
+	background: url(../img/template_images/divider_tile.gif) repeat-x bottom left;
+	padding: 20px 0px 8px 0px;
+}
+a.competitions_signup_link {
+	width: 440px;
+	height: 79px;
+	display: block;
+	text-indent: -3000px;
+	margin: 0px 0px 10px 0px;
+	background: url(../img/template_images/competitions_signup_link.gif) no-repeat 0px 0px;
+}
+a.competitions_signup_link:hover {
+	background: url(../img/template_images/competitions_signup_link.gif) no-repeat 0px -79px;
+}
+.competitions_intro_holder p {
+	padding: 0px 10px 5px 10px;
+}
+.all_competition_summaries_holder {
+	margin: 20px 0px 6px 0px;
+}
+.competition_summary_holder {
+	margin: 0px 0px 14px 0px;
+	background-color: #f6f6f6; /* background-color: #e6f8ff; (logged in colour) */
+}
+.competition_header {
+	background: url(../img/template_images/competition_summary_header.png) no-repeat top left;
+	height: 9px;
+}
+.competition_footer {
+	background: url(../img/template_images/competition_summary_footer.png) no-repeat bottom left;
+	height: 9px;
+	font-size: 0px; 
+}
+.comps_column_wrapper {
+	width: 440px;
+	padding: 10px 0px 10px 0px;
+}
+.competition_summary_image {
+	float: left;
+	width: 120px;
+	height: 148px;
+	background-position: 20px 5px;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 15px;
+}
+.competition_summary_win_overlay {
+	background: url(../img/template_images/competition_summary_image_overlay.png) no-repeat top left;
+	width: 108px;
+	height: 148px;
+}
+.competition_summary_win_overlay a {
+	display: block;
+	height: 148px;
+	width: 108px;
+}
+.competition_info {
+	float: left;
+	width: 285px;
+	padding: 5px 0px 0px 0px;
+}
+.enter_button_holder {
+	text-align: right;
+	height: 31px;
+}
+a.enter_button {
+	padding: 9px 38px 0px 0px;
+	background: url(../img/template_images/arrow_btn_right.gif) no-repeat top right;
+	height: 22px;
+	display: block;
+}
+a.enter_button:hover {
+	background: url(../img/template_images/arrow_btn_right.gif) no-repeat right -31px;
+}
+h2.comp_summary_title /* used in competition summary pod wrapper */ {
+	font-size: 18px;
+	font-weight: normal;
+	color: #666;
+	margin: 0px 0px 2px 0px;
+}
+.competition_info p {
+	font-size: 11px;
+	padding: 0px;
+}
+.comp_deadline {
+	font-weight: bold;
+	padding: 0px 0px 0px 3px;
+}
+.comp_description, .comp_description p {
+	padding: 0px;
+	line-height: 14px;
+	margin: 0px 0px 5px 0px;
+	color: #666;
+	font-size: 11px;
+}
+
+/* competition page structure + styles */
+.competition_page_column_holder {
+	width: 440px;
+	margin: 22px 0px 0px 0px;
+}
+.comp_col_01 {
+	float: left;
+	width: 220px;
+	padding: 0px;
+	margin: 0px;
+}
+.comp_col_02 {
+	float: left;
+	width: 180px;
+	height: 270px;
+	background: url(../img/template_images/competition_image_background.gif) no-repeat 20px 0px;
+	padding: 12px 5px 0px 35px;
+	margin: 0px;
+}
+h2.competition_title {
+	font-size: 16px;
+	font-weight: normal;
+	color: #666;
+	margin: 0px 0px 4px 0px;
+	line-height: 20px;
+}
+h3.comp_entry_title /* login note on entry form */ {
+	float: left;
+	display: inline;
+	font-size: 11px;
+	font-weight: bold;
+	color: #999;
+	height: 14px;
+	background: url(../img/template_images/padlock_login.gif) no-repeat 6px 0px;
+	padding: 3px 0px 6px 28px;
+	margin: 3px 0px 0px 0px;
+}
+.comp_deadline_holder p {
+	font-size: 11px;
+	line-height: 14px;
+}
+.comp_deadline_holder .comp_deadline {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px;
+}
+.comp_info_holder, .comp_info_holder p {
+	font-size: 11px;
+	line-height: 16px;
+}
+.competition_image {
+	width: 180px;
+	height: 257px;
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+.competition_win_overlay {
+	background: url(../img/template_images/competition_image_overlay.png) no-repeat top left;
+	width: 180px;
+	height: 257px;
+}
+.competition_win_overlay a {
+	display: block;
+	width: 170px;
+	height: 240px;
+}
+.competition_form_holder {
+	margin: 10px 0px 0px 0px;
+	background-color: #f6f6f6;
+}
+.competition_form_holder a.competitions_signup_link /* resizing signup link */ {
+	height: 70px;
+}
+.competition_form_holder_logged_in {
+	margin: 10px 0px 0px 0px;
+	background-color: #e6f8ff;
+}
+.comp_entry_holder {
+	padding: 4px 20px 0px 20px;
+}
+p.comp_entry_details /* form information/question */ {
+	font-size: 14px;
+	line-height: 16px;
+	color: #999;
+}
+
+/* competition form structure + styles */
+.competition_form_holder_logged_in p.comp_entry_details {
+	color: #666;
+	padding: 6px 0px 0px 0px;
+}	
+.competition_form_holder .entry_form_holder textarea /* DISABLED TEXTAREA */ {
+	width: 390px;
+	height: 60px;
+	background: #fafafa;
+	border: 1px solid #cad4db;
+	padding: 4px;
+	margin: 0px 0px 8px 0px;
+}	
+.competition_form_holder_logged_in .entry_form_holder textarea {
+	width: 390px;
+	height: 60px;
+	padding: 4px;
+	border: 1px solid #cad4db;
+	margin: 0px 0px 8px 0px;
+}
+
+/* competitions button */
+.entry_form_holder button.enter_button {
+	float: right;
+	display: inline;
+	width: 82px;
+	height: 26px;
+	margin: 4px 0px 8px 0px;
+	background: url(../img/template_images/buttons/enter_btn.gif) no-repeat 0px 0px;  
+	text-indent: -3000px;
+}
+.entry_form_holder button.enter_button:hover { 
+	background: url(../img/template_images/buttons/enter_btn.gif) no-repeat 0px -26px;  
+}
+
+
+.entry_form_holder .enter_button {
+	float: right;
+	display: inline;
+	width: 82px;
+	height: 26px;
+	margin: 4px 0px 8px 0px;
+	background: url(../img/template_images/buttons/enter_btn.gif) no-repeat 0px 0px;  
+	text-indent: -3000px;
+	cursor: pointer;
+	border: 0px;
+}
+.entry_form_holder .enter_button:hover { 
+	background: url(../img/template_images/buttons/enter_btn.gif) no-repeat 0px -26px;
+	cursor: pointer;  
+	border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.competition_form_holder .entry_form_holder button.enter_button /* DISABLED ENTER BUTTON */ {
+	background: url(../img/template_images/buttons/enter_btn_disabled.gif) no-repeat 0px 0px;  
+	cursor: auto;
+}
+
+/* =FOOTER 
+--------------------------------------------------- */
+
+/* homepage footer + subpage footer */
+.footer_wrapper_homepage, .footer_wrapper_subpage {
+	padding: 10px 10px 20px 10px;
+	float: left;
+}
+.footer_header {
+	background: url(../img/template_images/footer_header.png) no-repeat top left;
+	width: 980px;
+	height: 20px;
+}
+.footer_wrapper_homepage .footer_content {
+	background: url(../img/template_images/footer_tile.gif) repeat-y top left;
+	width: 924px;
+	padding: 15px 28px 20px 28px;
+}
+.footer_wrapper_subpage .footer_content {
+	background: url(../img/template_images/footer_tile.gif) repeat-y top left;
+	width: 940px;
+	padding: 5px 20px 5px 20px;
+}
+.footer_bottom {
+	background: url(../img/template_images/footer_bottom.png) no-repeat bottom left;
+	width: 980px;
+	height: 20px;
+}
+.logo_footer {
+	float: right;	
+	width: 116px;
+	height: 33px;
+}
+.footer_list {
+	float: left;
+	width: 134px;
+	height: 90px;
+	padding: 0px 10px 0px 10px;
+	background: none;
+}
+.footer_lists_holder {
+	height: 90px;
+	background: url(../img/template_images/footer_dividers.gif) repeat-y top left;
+} 
+.footer_list ul {
+	font-size: 11px;
+	line-height: 14px;
+}
+.footer_list .list_title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0px 0px 4px 0px;
+}
+.footer_wrapper_homepage #global_footer {
+	width: 940px;
+	height: 30px;
+	padding: 20px 20px 0px 20px;
+	background: url(../img/template_images/footer_bottom_homepage.png) no-repeat bottom left;
+}
+.footer_wrapper_subpage #global_footer {
+	width: 940px;
+	height: 30px;
+	padding: 10px 20px 0px 20px;
+	background: url(../img/template_images/footer_bottom_subpage.png) no-repeat bottom left;
+}
+#global_footer ul {
+	float: left;
+	font-size: 11px;
+	color: #999;
+}
+#global_footer li {
+	display: inline;
+	margin: 0px 5px 0px 0px;
+}
+#global_footer p {
+	font-size: 11px;
+}
+.copyright {
+	float: right;
+	color: #999;
+	font-size: 11px;
+}
+
+/* =FIXES 
+--------------------------------------------------- */
+
+.spacer { height: 0.01px; clear: both; font-size: 0.01px; line-height: 0.01px; }
+
+/*DS system pages*/
+
+.dsfeature_content{margin-left: 5px; _margin-left: 0px; margin-top: 5px; float: left; padding-left: 25px; width: 194px; _width: 174px; padding-right: 270px; height: 250px; padding-top: 10px; background: url(..../img/template_images/ds/dsfeature_bg.jpg) no-repeat top right; margin-right: 15px; _margin-right: 0px;}
+
+.dsfeature_content p {font-size: 11px;}
+
+.features_content_ds { margin-left: 10px; float: left; width: 923px; height: 365px; background: url(..../img/template_images/features/features_bg.jpg) no-repeat bottom left;}
+
+.features_content_ds div {width: 272px; text-align: left; float: left; padding: 5px 5px 20px 20px;}
+
+.features_content_ds div p {font-size: 11px;}
+
+.features_content_ds div div {float: left; width: 96px; height: 330px; margin-left: -30px;}
+
+
+/*Wii Console pages*/
+
+#font_holder {width: 450px; _width: 470px; height: 150px; float: left;/*margin-top:25px;margin-left:45px;*/}
+
+.tagline {float: left; width: 400px; padding: 20px;}
+
+.tagline2 {float: left; width: 400px; padding: 15px 5px 5px 5px;}
+
+.wiimote_content{margin-left: 25px; _margin-left: 10px; margin-top: 5px; float: left; width: 219px; padding-right: 260px; height: 230px; padding-top: 10px; background: url(..../img/template_images/features/wiimote_bg.jpg) no-repeat top right;}
+
+.wiimote_content p {font-size: 11px;}
+
+.features_content { margin-left: 10px; float: left; width: 923px; height: 335px; background: url(..../img/template_images/features/features_bg.jpg) no-repeat bottom left;}
+
+.features_content div {width: 272px; text-align: left; float: left; padding: 5px 5px 20px 20px;}
+
+.features_content div p {font-size: 11px;}
+
+.acc_holder { background: url(..../img/template_images/accessories/circles.jpg) no-repeat top center; width: 925px; float: left;}
+
+.acc_holder_ds { background: url(..../img/template_images/ds/ds_bg.gif) no-repeat bottom left; width: 925px; height: 365px; float: left;}
+
+.acc_holder_ds2 { background: url(..../img/template_images/ds/ds_bg.gif) no-repeat top left; width: 925px; float: left;}
+
+
+.acc_headset {float: left; background: url(..../img/template_images/ds/headset_bg.png) no-repeat bottom left; height: 222px; padding-top: 15px; padding-left: 15px; width: 231px; padding-right: 160px;}
+
+.acc_headset p {font-size: 11px;}
+
+.acc_wifi {float: right; background: url(..../img/template_images/ds/usb_bg.png) no-repeat bottom left; height: 222px; /*height: 185px;*/ width: 376px; padding-left: 15px; padding-right: 15px; padding-top: 15px; /*padding-top: 37px;*/}
+
+.acc_wifi p {font-size: 11px;}
+
+.acc_wiimote{float: left; background: url(..../img/template_images/accessories/wiimotestrap.png) no-repeat bottom left; height: 195px; padding-top: 25px; width: 260px; padding-left: 130px; padding-right: 50px;}
+
+.acc_wiimote p {font-size: 11px;}
+
+.acc_wiimotestrap{float: left; background: url(..../img/template_images/accessories/wiimotestrap.png) no-repeat; height: 190px; padding-top: 30px; width: 225px; padding-left: 175px; padding-right: 50px;}
+
+.acc_wiimotestrap p {font-size: 11px;}
+
+.acc_wiimoteplus{float:left; background: url(..../img/template_images/accessories/MotionPlus.png) no-repeat; height: 191px; padding-top: 29px; width: 260px; padding-left: 130px; padding-right: 50px;}
+
+.acc_wiimoteplus p {font-size: 11px;}
+
+.acc_nunchuck{float: right; background: url(..../img/template_images/accessories/nunchuck.png) no-repeat bottom left; height: 195px; padding-top: 25px; width: 280px; padding-left: 30px; padding-right: 110px;}
+
+
+.acc_nunchuck p {font-size: 11px;}
+
+.acc_balance{float: right;background: url(..../img/template_images/accessories/BalanceBoard.png) no-repeat; height: 190px; width: 231px; padding-right: 157px; padding-left: 30px; padding-top: 30px;}
+
+.acc_balance p {font-size: 11px; width:215px;}
+
+.acc_classic{margin-left: -10px; float: left; background: url(..../img/template_images/accessories/classic.png) no-repeat bottom left; width: 180px; padding:20px 20px 20px 220px; margin-top:20px; }
+
+.acc_classic p{font-size: 11px;}
+
+.acc_acc{float: right;background: url(..../img/template_images/accessories/wii_acc.png) no-repeat bottom left; height: 200px; width: 420px; _margin-top: 20px;}
+
+.acc_acc div{width: 155px; height: 155px; float: left; padding-left: 30px; padding-right: 25px; padding-top: 45px; _padding-top: 10px;}
+
+.acc_acc div p{font-size: 11px;}
+
+.acc_wheel{float: left; background: url(..../img/template_images/accessories/wheel.png) no-repeat bottom left; width: 180px; padding:20px 20px 0 220px; height:160px; margin-top:10px }
+.acc_wheel h1{margin-left:-35px;}
+
+.acc_wheel p{font-size: 11px; width:210px; margin-left:-35px;}
+
+.acc_zapper{margin-right: 10px; _margin-right: 5px; float: right;background: url(..../img/template_images/accessories/zapper.png) no-repeat bottom left; width: 190px;
+padding:30px 20px 0 240px; height:160px}
+
+.acc_zapper p {font-size: 11px;}
+
+
+
+
+
+.acc_speak{float: right; background: url(..../img/template_images/accessories/Speak.png) no-repeat; height: 162px; width: 300px; padding-right: 90px; padding-left: 30px; padding-top: 29px;}
+
+.acc_speak p {font-size: 11px; width:195px}
+
+
+
+.acc_speak1{float: right;background: url(..../img/template_images/accessories/Speak1.png) no-repeat;  width: 231px; padding:25px 157px 13px 30px; margin-bottom:10px}
+
+
+
+.acc_speak1 p {font-size: 11px; width:230px}
+
+
+
+
+
+.wiiremotecolours{float: left;background: url(..../img/template_images/accessories/wiiremotecolours.jpg) no-repeat; height:190px; width: 360px;
+ padding:16px 20px 0 40px }
+
+.wiiremotecolours h1{margin-left:-20px; width:180px;/*margin-top:15px*/}
+.wiiremotecolours p{font-size: 11px; margin-left:-20px; width:184px}
+
+
+.nunchukblack{float: right;background: url(..../img/template_images/accessories/nunchukblack.jpg) no-repeat; height: 203px; width: 239px; padding-right: 157px; padding-left: 22px; padding-top: 17px;}
+.nunchukblack h1{/*margin-top:15px*/}
+.nunchukblack p {font-size: 11px; width:180px}
+
+
+.acc_point{float: left;background: url(..../img/template_images/accessories/PointsCard.png) no-repeat; height:190px; width: 180px;
+ padding:30px 20px 0 220px }
+
+.acc_point h1{margin-left:-20px; /*margin-top:15px*/}
+.acc_point p{/*font-size: 11px;*/ margin-left:-20px; width:200px}
+
+
+.acc_usb{float: right;background: url(..../img/template_images/accessories/Wi-FiUSB.png) no-repeat; height: 203px; width: 239px; padding-right: 157px; padding-left: 22px; padding-top: 17px;}
+.acc_usb h1{margin-top:15px}
+.acc_usb p {/*font-size: 11px;*/ width:180px}
+
+
+
+.acc_cable{float: left;background: url(..../img/template_images/accessories/Cable.png) no-repeat bottom left; width: 180px; clear:both; padding:8px 20px 30px 220px;}
+.acc_cable h1{margin-top:15px}
+.acc_cable p{/*font-size: 11px;*/ width:180px}
+
+
+.acc_kit{float: right;background: url(..../img/template_images/accessories/LensCleaningKit.png) no-repeat; height: 200px; width: 238px; padding-right: 157px; padding-left: 23px; padding-top: 20px;}
+.acc_kit h1{margin-top:15px}
+.acc_kit p {/*font-size: 11px;*/ width:180px}
+
+
+
+
+
+.column_right_img{float: right; padding: 15px 7px 0px 0px; }
+
+.text_left{float: left; width: 200px; margin-left: 20px; _margin-left: 10px;}
+
+.text_left p {/*font-size: 11px;*/}
+
+.text_left_wide{float: left; width: 425px; margin-left: 25px; _margin-left: 5px; /*margin-top:25px;*/}
+
+.text_left_wide p {/*font-size: 11px;*/}
+
+.text_right{float: right; width: 200px; margin-left: 20px;}
+
+.text_right p {/*font-size: 11px;*/}
+
+ul.system{/*font-size: 11px;*/ line-height: 16px; color: #666666; margin-top: 5px; margin-bottom: 5px;}
+
+ul.system li {padding-left: 14px; background: url(..../img/template_images/ds/list.jpg) no-repeat center left;}
+
+.wifi_headset {float: left; margin-top: 113px; _margin-top: 47px; height: 218px; padding-top: 15px; width: 272px; padding-left: 20px; padding-right: 170px; background: url(..../img/template_images/ds/wifi_headset.jpg) no-repeat bottom left;}
+
+.wifi_headset p {/*font-size: 11px;*/}
+
+.wifi_info {float: right; height: 218px; padding-top: 15px; width: 242px; padding-right: 200px; padding-left: 20px; background: url(..../img/template_images/ds/wifi_logo_bg.jpg) no-repeat bottom left; margin-right: -14px;}
+
+.wifi_info p {/*font-size: 11px;*/}
+
+.hot_links2 {padding-left: 0px; width: 375px; float: left; margin-top: -80px; }
+
+.hot_links {padding-left: 40px; width: 375px; float: left; margin-top: 20px; }
+
+.hotlink_L	{	float: left;
+				height: 76px;
+				width: 182px;
+				
+				 }
+				 
+.hotlink_R	{	float: right;
+				height: 76px;
+				width: 182px;
+				
+				
+				 }
+				 
+.hotlink_Rlarge	{	float: right;
+				height: 44px;
+				width: 232px;
+				padding-top: 2px;
+				margin-right: -50px;
+				_margin-right: -54px;
+				 }					 				 
+
+.channel_L {background: url(..../img/template_images/channels/channel_bg.jpg) no-repeat top left #ffffff; height: 205px; width: 460px; float: left; margin-bottom: 10px;}
+
+.channel_R {background: url(..../img/template_images/channels/channel_bg.jpg) no-repeat top left #ffffff; height: 205px; width: 460px; float: right; margin-bottom: 10px;}
+
+.channel_L img {padding: 7px; float: left;}
+
+.channel_R img {padding: 7px; float: left;}
+
+.channel_text {width: 220px; height: 190px; padding-top: 10px; float: right;}
+
+.channel_text p {/*font-size: 11px;*/}
+
+.wiiware_content { margin-left: 10px; float: left; width: 923px; height: 335px; background: url(..../img/template_images/features/features_bg.jpg) no-repeat bottom left;}
+
+.wiiware_content div {width: 230px; _width: 150px; text-align: left; float: left; padding: 0px;}
+
+.wiiware_content div div p {/*font-size: 11px;*/}
+
+.wiiware_content div div {width: 220px; padding: 10px; _padding: 0px;}
+
+.vc_left {float: left; width: 472px;}
+
+.vc_right {float: right; width: 465px;}
+
+.step_L {width: 234px; height: 240px; float: left; background: url(..../img/template_images/virtualconsole/step_bg.jpg) no-repeat bottom center; margin-bottom: 7px;}
+
+.step_R {width: 234px; height: 240px; float: right; background: url(..../img/template_images/virtualconsole/step_bg.jpg) no-repeat bottom center; margin-bottom: 7px;}
+
+.step_L div p{/*font-size: 11px;*/}
+
+.step_R div p{/*font-size: 11px;*/}
+
+.step_L div {padding: 10px;}
+
+.step_R div {padding: 10px;}
+
+
+
+
+/*Newely Added CSS*/
+
+.menu 
+{
+float:left;
+font-weight: none;
+width: 695px;
+height: 50px;
+/*font-size:12px;*/
+color:#fff;
+margin:0;
+padding:0;
+}
+
+
+.menu ul
+{
+height:50px;
+float: left;
+margin:20px 0;
+padding:0;
+}
+.menu ul span
+{
+width:2px;
+height:50px;
+float: left;
+margin:0;
+padding:0;
+background: transparent url("../img/template_images/seperator.jpg") center left no-repeat;
+}
+.menu ul li
+{
+height:50px;
+float:left;
+list-style:none;
+color:#333;
+font-weight:bold;
+/*font-size:13px;*/
+}
+.menu li a
+{
+height: 50px;
+color:#7B7D81;
+text-decoration:none;
+float:left;
+margin:0;
+background: transparent url("../img/template_images/seperator.jpg") center right no-repeat;
+padding:0 7.5px;
+line-height:50px;
+}
+
+
+.menu ul li a:hover, .menu ul li a.selected{ 
+height: 50px;
+background: url(../img/template_images/rollover_bg.jpg) repeat-x;
+display:block;
+margin:0;
+color:#36B3DE;
+}
+
+
+.subsection_nav2 a.first_active:hover {
+background:transparent url(../img/template_images/subsection_hover_first.gif) no-repeat scroll left bottom;
+color:#FFFFFF;
+height:25px;
+width:auto;
+}
+.subsection_nav2 a:hover {
+background:transparent url(../img/template_images/subsection_hover.gif) repeat-x scroll left bottom;
+color:#FFFFFF;
+height:25px;
+width:auto;
+}
+.subsection_nav2 a.first_active {
+background:transparent url(../img/template_images/subsection_hover_first.gif) no-repeat scroll left bottom;
+color:#FFFFFF;
+display:block;
+float:left;
+height:25px;
+padding-left:20px;
+padding-right:15px;
+padding-top:16px;
+width:auto;
+}
+.subsection_nav2 a {
+color:#FFFFFF;
+display:block;
+float:left;
+height:25px;
+padding-left:15px;
+padding-right:15px;
+padding-top:16px;
+width:auto;
+}
+
+.subsection_nav2 {
+background:#FFFFFF url(../img/template_images/subsection_nav2.gif) no-repeat scroll left top;
+font-weight:bold;
+height:41px;
+margin:20px 0 0;
+vertical-align:top;
+}
+
+
+.subsection_nav2 div {float: right; height: 41px; width: 14px; background: url('../img/template_images/menu_r.jpg') no-repeat bottom left;}
+
+.subsection_nav2 img {float: left;}
+
+.subsection_nav2 a.first 			{color: #FFFFFF; height: 25px; padding-top: 16px; width: auto; display: block; float: left; padding-right: 15px; padding-left: 20px;}
+.subsection_nav2 a.first:link 		{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a.first:active 	{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a.first:visted 	{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a.first:hover 		{color: #FFFFFF; height: 25px; width: auto; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+
+.subsection_nav2 a.first_active 			{color: #FFFFFF; height: 25px; padding-top: 16px; width: auto; display: block; float: left; padding-right: 15px; padding-left: 20px; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+.subsection_nav2 a.first_active:link 		{color: #FFFFFF; height: 25px; width: auto; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+.subsection_nav2 a.first_active:active 		{color: #FFFFFF; height: 25px; width: auto; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+.subsection_nav2 a.first_active:visted 		{color: #FFFFFF; height: 25px; width: auto; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+.subsection_nav2 a.first_active:hover 		{color: #FFFFFF; height: 25px; width: auto; background: url('../img/template_images/subsection_hover_first.gif') no-repeat bottom left;}
+
+.subsection_nav2 a 			{color: #FFFFFF; height: 25px; padding-top: 16px; width: auto; display: block; float: left; padding-right: 15px; padding-left: 15px;}
+.subsection_nav2 a:link 	{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a:active 	{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a:visted 	{color: #FFFFFF; height: 25px; width: auto;}
+.subsection_nav2 a:hover 	{color: #FFFFFF; height: 25px; width: auto; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+
+.subsection_nav2 a.active 			{color: #FFFFFF; height: 25px; padding-top: 16px; width: auto; display: block; float: left; padding-right: 15px; padding-left: 15px; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+.subsection_nav2 a.active:link 		{color: #FFFFFF; height: 25px; width: auto; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+.subsection_nav2 a.active:active 	{color: #FFFFFF; height: 25px; width: auto; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+.subsection_nav2 a.active:visted 	{color: #FFFFFF; height: 25px; width: auto; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+.subsection_nav2 a.active:hover 	{color: #FFFFFF; height: 25px; width: auto; background: url('..../img/template_images/subsection_hover.gif') repeat-x bottom left;}
+
+
+.members_login_form .login_button:hover {
+background:transparent url(../img/template_images/buttons/login_btn.gif) no-repeat scroll 0 -26px;
+cursor:pointer;
+}
+.members_login_form .login_button {
+background:transparent url(../img/template_images/buttons/login_btn.gif) no-repeat scroll 0 0;
+height:26px;
+margin:10px 0;
+text-indent:-3000px;
+width:82px;
+cursor:pointer;
+}
+
+
+#default_form .members_form .send_button:hover {
+height:26px;
+margin:10px 0;
+text-indent:-3000px;
+background:transparent url(../img/template_images/send_btn.gif) no-repeat scroll 0 -26px;
+}
+#default_form .members_form .send_button {
+height:26px;
+margin:10px 0;
+text-indent:-3000px;
+cursor:pointer;
+background:transparent url(../img/template_images/send_btn.gif) no-repeat scroll 0 0;
+width:83px;
+}
+
+
+#global_nav li.support a {
+background-position:-652px -50px;
+width:138px;
+}
+
+#global_nav li.support a:hover, #global_nav li.club_nintendo a.current { background-position: -652px 0px; width: 138px; }
+
+
+#signup_form .signup_button { 
+	width: 95px;
+	height:25px;
+	background: url(../img/template_images/buttons/signup_btn.gif) no-repeat 0px 0px;
+	margin: 15px 0px 10px 0px; 
+}
+#signup_form .signup_button:hover {
+	width: 95px;
+	height:25px; 
+	background: url(../img/template_images/buttons/signup_btn.gif) no-repeat 0px -26px;  
+}
+
+#signup_form .update_button { 
+	width: 95px;
+	height:25px;
+	background: url(../img/template_images/buttons/update_btn.gif) no-repeat 0px 0px;
+	margin: 15px 0px 10px 0px; 
+}
+#signup_form .update_button:hover {
+	width: 95px;
+	height:25px; 
+	background: url(../img/template_images/buttons/update_btn.gif) no-repeat 0px -26px;  
+}
+
+.recomended_title {
+background:transparent url(../img/template_images/divider_tile.gif) repeat-x scroll left top;
+margin-left:10px;
+padding:10px 5px;
+width:230px;
+}
+
+
+
+
+/* new classes */
+
+/* search filter */
+
+.search_filter_holder_dsi {
+    width:956px;
+	height: 182px;
+	margin: 3px 0px 18px 6px; 	
+
+}
+
+#search_filter_dsi {
+	width: 956px;
+	height: 182px;
+	background: url(..../img/template_images/matrix_points.gif) no-repeat top left ;
+
+}
+
+#search_filter_dsi li { 
+
+	float: left;
+
+	display: block;
+
+	width: 239px;
+
+	height: 182px;
+
+	list-style-type: none;
+
+}
+
+#search_filter_dsi li a { 
+
+	display: block;
+
+	width:189px;
+
+	height: 173px;
+
+	color: #6b6b6b;
+
+	font-weight: bold;
+	
+	margin:3px 0 0 14px;
+	
+	text-align:left;
+	
+	padding:25px 0 0 30px;
+
+
+}
+
+#search_filter_dsi li a:hover, #search_filter_dsi li a.current { 
+
+	color: #000;
+
+  background: url(..../img/template_images/matrix_search_filter_hover_dsi.png) no-repeat top left;  
+	
+	height:173px;
+	
+	width:189px;
+	
+	margin:3px 0 0 14px;
+	
+	text-align:left;
+	
+	padding:25px 0 0 30px;
+
+}
+
+
+/* virtual console filter */
+
+.virtual_filter_holder {
+
+	width: 980px;
+
+	height: 155px;
+
+	margin: 3px 0px 18px 0px; 	
+
+}
+
+#virtual_filter {
+
+	width: 948px;
+
+	height: 155px;
+
+	background: url(..../img/template_images/virtual_console_parts.gif) no-repeat top left;
+
+	margin: 0px 10px 0px 10px;		
+
+}
+
+#virtual_filter li { 
+
+	float: left;
+
+	display: block;
+
+	width: 237px;
+
+	height: 155px;
+
+	list-style-type: none;
+
+}
+
+#virtual_filter li a { 
+
+	display: block;
+
+	width: 190px;
+
+	height: 136px;
+
+	color: #6b6b6b;
+
+	font-weight: bold;
+
+	margin:3px 0 0 10px;
+	
+	padding:13px 0 0 15px
+
+}
+
+#virtual_filter li a:hover, #virtual_filter li a.current { 
+
+	color: #FFF;
+
+	background: url(..../img/template_images/virtual_console_parts_hover.gif) no-repeat top left;
+	
+	margin:3px 0 0 10px;
+	
+	display:block;
+	
+	width:200px;
+	
+	height:136px;
+	
+  padding:13px 0 0 15px
+
+}
+
+
+/* virtual console - 2 filter */
+
+#virtual_filter_p2 {
+
+	width: 948px;
+
+	height: 155px;
+
+	background: url(..../img/template_images/virtual_console_parts2.gif) no-repeat top center;
+
+	margin: 0px 10px 0px 10px;		
+
+}
+
+#virtual_filter_p2 li { 
+
+	float: left;
+
+	display: block;
+
+	width: 237px;
+
+	height: 155px;
+
+	list-style-type: none;
+
+}
+
+#virtual_filter_p2 li a { 
+
+	display: block;
+
+	width: 190px;
+
+	height: 136px;
+
+	color: #6b6b6b;
+
+	font-weight: bold;
+
+  padding:13px 0 0 15px;
+	
+	margin :3px 0 0 10px;
+
+}
+
+#virtual_filter_p2 li a:hover, #virtual_filter_p2 li a.current { 
+
+	color: #FFF;
+
+	background: url(..../img/template_images/virtual_console_parts_hover.gif) no-repeat top left;
+	
+	margin:3px 0 0 10px;
+	
+	display:block;
+	
+	width:200px;
+	
+	height:136px;
+	
+	padding:13px 0 0 15px;
+
+}
+
+
+
+
+
+
+.console_wrapper { 
+
+	width: 980px;
+
+	background: url(..../img/template_images/virtual_search_default_tile.jpg) repeat-x top left #fff;
+
+	margin: 0px 5px 0px 5px;
+
+}
+
+
+
+
+
+.console_tabs {
+
+	position:relative;
+
+	width: 645px;
+
+	height: 34px;
+	
+	padding:0 0 0 10px;
+	
+	top:36px;
+
+}
+
+.view_more {
+
+	float: left;
+
+	width: 725px;
+
+	height: 22px;
+
+	padding: 12px 15px 0px 0px;
+
+	text-align: right;
+
+}
+
+.console_tabs ul { 
+
+	position: relative;
+	margin:10px 0 0 0;padding:0;
+
+}
+
+.console_tabs li { 
+
+	display: inline; 
+
+	list-style-type: none;
+
+}
+
+.console_tabs li a { 
+
+	float: left;
+
+	height: 34px;
+
+	text-indent: -3000px;
+
+	background: url(..../img/template_images/tab.gif) no-repeat;
+
+}
+
+
+
+/* promo tabs background positioning */
+
+.console_tabs li.news_events a { background-position: 0px -34px; width: 120px; }
+.console_tabs li.game_sites a { background-position: -120px -34px; width: 120px;margin:1px 0 0; }
+.console_tabs li.virtual_con a { background-position: -240px -34px; width: 120px;margin:1px 0 0; }
+.console_tabs li.wiiware a { background-position: -361px -34px; width: 120px;margin:1px 0 0; }
+.console_tabs li.dsware a { background-position: -482px -34px; width: 120px;margin:1px 0 0; }
+/* promo tabs hover & current state */
+
+.console_tabs li.news_events a.current, .console_tabs li.news_events a:hover { background-position: 0px 0px; width: 120px; }
+.console_tabs li.game_sites a.current, .console_tabs li.game_sites a:hover { background-position: -120px 0px; width: 120px; }
+.console_tabs li.virtual_con a.current, .console_tabs li.virtual_con a:hover { background-position: -240px 0px; width: 120px; }
+.console_tabs li.wiiware a.current, .console_tabs li.wiiware a:hover { background-position: -361px 0px; width: 120px; }
+.console_tabs li.dsware a.current, .console_tabs li.dsware a:hover { background-position: -482px 0px; width: 120px; }
+
+
+.new_tab_pos {position:relative; width:400px; top:-10px; z-index:1;}
+
+
+.new_tab1 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			left:295px;
+			position:absolute;
+			z-index:1;
+			top:0;
+}
+
+
+.new_tab2 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			position:absolute;
+			z-index:1;
+			left:415px;
+			top:0
+}
+
+.new_tab3 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			left:535px;
+			position:absolute;
+			z-index:1;
+			top:0;
+}
+
+
+
+/* Nintendo DS tabs */
+
+.nintendods_tabs {
+
+	float: left;
+
+	width: 360px;
+
+	height: 34px;
+
+}
+
+.nintendods_tabs ul { 
+
+	position: relative;
+
+}
+
+.nintendods_tabs li { 
+
+	display: inline; 
+
+	list-style-type: none;
+
+}
+
+.nintendods_tabs li a { 
+
+	float: left;
+
+	height: 34px;
+
+	text-indent: -3000px;
+
+	background: url(..../img/template_images/nintendo_ds_tab.gif) no-repeat;
+	
+}
+
+
+
+/* NintendoDS tabs background positioning */
+
+.nintendods_tabs li.ds a { background-position: 0px -34px; width: 120px; margin:3px 0 0 0; }
+.nintendods_tabs li.dsi a { background-position: -120px -34px; width: 120px; margin:3px 0 0 0; }
+
+
+
+/* NintendoDS tabs hover & current state */
+
+.nintendods_tabs li.ds a.current, .nintendods_tabs li.ds a:hover { background-position: 0px 0px; width: 120px; }
+.nintendods_tabs li.dsi a.current, .nintendods_tabs li.dsi a:hover { background-position: -120px 0px; width: 120px; }
+
+
+
+.nin_new_tab_pos {position:relative; width:400px; top:-10px; left:25px;}
+
+
+.nin_new_tab1 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			left:150px;
+			position:absolute;
+			z-index:1;
+			top:0;
+}
+
+
+
+
+/* wii tabs */
+
+.wii_tabs {
+
+	float: left;
+	width: 480px;
+	height: 34px;
+	z-index:0;
+
+}
+
+.wii_tabs ul { 
+
+	position: relative;
+
+}
+
+.wii_tabs li { 
+
+	display: inline; 
+
+	list-style-type: none;
+
+}
+
+.wii_tabs li a { 
+
+	float: left;
+	height: 34px;
+	text-indent: -3000px;
+	background: url(..../img/template_images/wii_tabs.gif) no-repeat;
+	z-index:0;
+
+}
+
+
+
+/* NintendoDS tabs background positioning */
+
+.wii_tabs li.wii a { background-position: 0px -34px; width: 120px; margin:2px 0 0 0; }
+.wii_tabs li.vc a { background-position: -120px -34px; width: 120px;margin:2px 0 0 0; }
+.wii_tabs li.wiiware a { background-position: -240px -34px; width: 120px;margin:2px 0 0 0; }
+
+.wii_tabs li.game_sites a { background-image:url("..../img/template_images/promo2/tab.png");background-position:-120px -1px; width: 120px;margin:2px 0 0 0; }
+.nintendods_tabs li.game_sites a { background-image:url("..../img/template_images/promo2/tab.png");background-position:-120px -1px; width: 120px;margin:2px 0 0 0; }
+
+
+/* NintendoDS tabs hover & current state */
+
+.wii_tabs li.wii a.current, .wii_tabs li.wii a:hover { background-position: 0px 0px; width: 120px; }
+.wii_tabs li.vc a.current, .wii_tabs li.vc a:hover { background-position: -120px 0px; width: 120px; }
+.wii_tabs li.wiiware a.current, .wii_tabs li.wiiware a:hover { background-position: -240px 0px; width: 120px; }
+.wii_tabs li.game_sites a.current, .wii_tabs li.game_sites a:hover { background-position:-120px -34px; width: 120px; }
+
+.nintendods_tabs li.game_sites a.current, .wii_tabs li.game_sites a:hover { background-position:-120px -34px; width: 120px; }
+
+
+.wii_new_tab_pos {position:relative; width:400px; top:-10px; left:35px;}
+
+
+.wii_new_tab1 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			left:150px;
+			position:absolute;
+			z-index:1;
+			top:0;
+}
+
+.wii_new_tab2 { 
+			background:url(..../img/template_images/new_tab.png) no-repeat;
+			width:65px;
+			height:23px;
+			left:270px;
+			position:absolute;
+			z-index:1;
+			top:0;
+}
+
+
+.nintendods_wrapper { 
+
+	width: 980px;
+
+	background: url(..../img/template_images/nintendods_search_tile.jpg) repeat-x top left #fff;
+
+	margin: 0px 5px 0px 5px;
+
+}
+
+
+/* search filter */
+
+.search_filter_holder1 {
+
+  width:960px;
+
+	height: 182px;
+
+	margin: 3px 0px 18px 13px; 	
+
+}
+
+#search_filter1 {
+
+	width: 980px;
+
+	height: 182px;
+
+	background: url(..../img/template_images/matrix_points.gif) no-repeat top left ;
+
+	
+
+}
+
+#search_filter1 li { 
+
+	float: left;
+
+	display: block;
+
+	width: 239px;
+
+	height: 182px;
+
+	list-style-type: none;
+
+}
+
+#search_filter1 li a { 
+
+	display: block;
+
+	width:189px;
+
+	height: 173px;
+
+	color: #6b6b6b;
+
+	font-weight: bold;
+	
+	margin:3px 0 0 14px;
+	
+	text-align:left;
+	
+	padding:25px 0 0 30px;
+
+
+}
+
+#search_filter1 li a:hover, #search_filter1 li a.current { 
+
+	color: #000;
+
+	background: url(..../img/template_images/matrix_search_filter_hover1.png) no-repeat top left;
+	
+	height:173px;
+	
+	width:189px;
+	
+	margin:3px 0 0 14px;
+	
+	text-align:left;
+	
+	padding:25px 0 0 30px;
+
+}
+
+/* Title image Class */
+.ds_game .game_cover_holder_part {
+	height:107px;
+	margin:0 0 2px;
+	padding:49px 0 0;
+	width:160px;
+}
+
+/* virtual console bg */
+
+.game_cover_holder_part a.vir_console {
+  background: url(..../img/template_images/vircon_image_bg.jpg) no-repeat top left;
+	display: block;
+	width: 117px;
+	height: 95px;
+	padding:44px 0 0 13px;
+	
+}
+.game_cover_holder_part a.vir_console:hover {
+	background: url(..../img/template_images/vircon_image_bg.jpg) no-repeat 0px -139px;
+	padding:44px 0 0 13px;
+	width: 117px;
+}
+
+/* wiiware bg */
+.game_cover_holder_part a.wiiware {
+  background: url(..../img/template_images/wiiware_bg.jpg) no-repeat top left;
+	display: block;
+	width: 117px;
+	height: 95px;
+	padding:44px 0 0 13px;
+	
+}
+.game_cover_holder_part a.wiiware:hover {
+	background: url(..../img/template_images/wiiware_bg.jpg) no-repeat 0px -139px;
+	padding:44px 0 0 13px;
+	width: 117px;
+}
+
+/* DSi ware bg */
+.game_cover_holder_part a.dsiware {
+  background: url(..../img/template_images/dsi_ware_bg.jpg) no-repeat top left;
+	display: block;
+	width: 117px;
+	height: 95px;
+	padding:44px 0 0 13px;
+	
+}
+.game_cover_holder_part a.dsiware:hover {
+	background: url(..../img/template_images/dsi_ware_bg.jpg) no-repeat 0px -139px;
+	padding:44px 0 0 13px;
+	width: 117px;
+}
+
+
+/* no image bg */
+.game_cover_holder_part a.noimage {
+    background: url(..../img/template_images/no_image_common_bg.jpg) no-repeat top left;
+	display: block;
+	width: 117px;
+	height: 95px;
+	padding:44px 0 0 13px;
+	
+}
+.game_cover_holder_part a.noimage:hover {
+	background: url(..../img/template_images/no_image_common_bg.jpg) no-repeat 0px -139px;
+	padding:44px 0 0 13px;
+	width: 117px;
+}
+
+
+
+/* Learnmore Link classes */
+
+/*
+.learnmoreContainer { width:320px; float:left;  }
+
+.iconimage1 { width:175px; float:left; margin:0;padding:0;}
+
+.iconimage2 { width:130px; float:left; margin:0;padding:0; padding-left:65px;}
+
+.iconimage3 { width:110px; float:left; margin:0;padding:0; }
+
+.learnmoreLink1 {padding:30px 0 0 10px; width:115px; float:left}
+
+.learnmoreLink2 {padding:60px 0 0 10px; width:115px; float:left;}
+
+*/
+
+.learn_more_new {
+	padding-right:25px;
+	position:relative;
+	margin:-20px 0 0 0;
+	width:300px;
+	z-index:1;
+	float:right;
+}
+
+/* Main game image cover bg */
+
+.wiiwaremain_coverbg_ds {
+	background: url(..../img/template_images/wiiwaremain_coverbg.gif) no-repeat top left;
+	width: 198px;
+	height: 160px;
+	padding: 44px 12px 12px 6px;
+}
+
+.dsiwaremain_coverbg_ds {
+	background: url(..../img/template_images/dsiwaremain_coverbg.gif) no-repeat top left;
+	width: 198px;
+	height: 160px;
+	padding: 44px 12px 12px 6px;
+}
+
+.virtualconsolemain_coverbg_ds {
+	background: url(..../img/template_images/virtualconsolemain_coverbg.gif) no-repeat top left;
+	width: 198px;
+	height: 160px;
+	padding: 44px 12px 12px 6px;
+}
+
+
+
+/*Recommended title*/
+h2.recom_Tile
+{
+/*font-size:12px;*/
+color:#959191;
+font-weight:bold;
+font-family:Arial,Helvetica,sans-serif;
+padding:15px 0 10px 35px; margin:0;
+}
+
+
+
+/* Easy Slider */
+
+	#slider{background:#fefefe; width:334px; height:143px; border:1px solid #ececec; margin:0 0 0 35px }	
+	#slider ul, #slider li{
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+	#slider li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:384px;
+		height:100px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:5px;
+		top:75px;
+		}	
+	#nextBtn{ 
+		left:423px;
+		}														
+	#prevBtn a, #nextBtn a{  
+		display:block;
+		width:30px;
+		height:77px;
+		background:url(..../img/template_images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a{ 
+		background:url(..../img/template_images/btn_next.gif) no-repeat 0 0;	
+		}				
+		img{border:0}			
+		
+		.graphic, #prevBtn, #nextBtn{
+            margin:0;
+            padding:0;
+            display:block;
+            overflow:hidden;
+            text-indent:-8000px;
+            }					
+
+/* // Easy Slider */
+.recomed_wrapper
+{
+width:420px; float:left; position:relative;
+}
+p.slider_wrapper
+{
+padding:10px 5px 10px 10px;
+width:350px;
+color:#797979;
+}
+
+img.recomend
+{
+float:left; padding-right:10px;
+}
+
+span.recom_txtTile
+{
+display:block; color:#797979; font-weight:bold;
+}
+
+.font_Txt
+{
+width:100px; color:#787878; font-weight:bold; padding-right:10px; text-align:right;
+}
+
+.search_options_tab_holder {
+	width: 940px;
+	padding: 0px 20px 0px 20px;
+	margin: 18px 0px 0px 0px;
+}
+.search_options_tab {
+	height: 28px;
+	width: 165px;
+	text-indent: -3000px;
+}
+a#btn_search_options_tab_open {
+	display: block;
+	height: 28px;
+	width: 165px;
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat top left;
+}
+a#btn_search_options_tab_open:hover {
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -28px;
+}
+a#btn_search_options_tab_close {
+	display: block;
+	height: 28px;
+	width: 165px;
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -56px;
+}
+a#btn_search_options_tab_close:hover {
+	background: url(../img/template_images/matrix_search_options_tabs.gif) no-repeat 0px -84px;
+}
+
+
+
+/*Newly Added*/
+
+.products_logocontainer
+{
+width:650px;
+float:left;
+}
+
+
+.introcopywrap
+{
+width:327px;
+float:left;
+margin:0 10px 0 0;
+}
+
+.mainimage_wrap
+{
+float:left;
+}
+
+.mainimage_wrap img
+{
+padding:0;
+}
+
+.mainbody_content
+{
+width:650px;
+float:left;
+margin:10px 0;
+}
+
+.secondary_images
+{
+width:325px;
+float:left;
+margin:10px 0;
+}
+
+.conclusion_content
+{
+width:100%;
+float:left;
+}
+
+
