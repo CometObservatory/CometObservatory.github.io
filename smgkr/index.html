@@ -108,7 +108,7 @@ if ( plugin ) {
 
 <table cellpadding="0" cellspacing="0" border="0">
 	<tr>
-		<td><!--<script>PnFlashTopMenu('swf02/wii_top.swf',990,135);</script> -->
+		<td>
         <div id="wrap">
             <p class="logo_nintendo"><a href="javascript:home();" onFocus="blur();"><img src="images/wii/common/top/top_nintendo_logo.gif" alt="Nintendo"></a></p>
             <p class="logo_Wii"><a href="javascript:homeWii();" onFocus="blur();"><img src="images/wii/common/top/top_wii_logo.gif" alt="Wii"></a></p>            
@@ -131,6 +131,12 @@ if ( plugin ) {
             </div>
             <p class="menu_line"></p> 
         </div>
+        <script type="text/javascript">
+			if(plugin){
+				PnFlashTopMenu('swf02/wii_top.swf',990,135);
+				document.getElementById('wrap').style.display = 'none';
+			}
+		</script>
         </td>
 	</tr>
 	<tr><td height="1"></td></tr>
@@ -152,26 +158,7 @@ if ( plugin ) {
 		<!-- //Location -->
 		<table border="0" cellpadding="0" cellspacing="0">
         	<tr>
-				<!-- content -->
-				<script type="text/javascript">
-				var view_fg = '0';
-				if(plugin){
-					document.write('<td valign="top"><div style="width:732px;overflow:hidden;"><div style="width:990px;">');
-					PnFlash("swf02/supermario/main.swf?nn=0",990,711);
-					document.write('</div></div></td>');
-				}else{
-					document.write('<td valign="top">');
-					if(view_fg == '0'){
-						document.write('<div><img src="images/wii/software/supermario/common/img/main.png" border=0 alt="" usemap="#main"></div>');
-					}else{
-						document.write('<div><img src="images/wii/software/supermario/common/img/submain.png" border=0 alt="" usemap="#submain"></div>');
-					}
-
-					document.write('</td>');
-				}
-				</script>
-				<!-- //content -->
-				<td class="aside" valign="top">
+				<td class="aside" id="aside" valign="top">
 				<!-- rightmenu -->
 				<!-- 상품정보 -->
 				<div class="soft_Pb20">
@@ -213,6 +200,26 @@ if ( plugin ) {
 
 				<!-- //rightmenu -->
 				</td>
+				<!-- content -->
+				<script type="text/javascript">
+				var view_fg = '0';
+				if(plugin){
+					document.write('<td valign="top"><div><div style="width:990px;">');
+					PnFlash("swf02/supermario/main.swf?nn=0",990,711);
+					document.write('</div></div></td>');
+					document.getElementById('aside').style.display = 'none';
+				}else{
+					document.write('<td valign="top">');
+					if(view_fg == '0'){
+						document.write('<div><img src="images/wii/software/supermario/common/img/main.png" border=0 alt="" usemap="#main"></div>');
+					}else{
+						document.write('<div><img src="images/wii/software/supermario/common/img/submain.png" border=0 alt="" usemap="#submain"></div>');
+					}
+
+					document.write('</td>');
+				}
+				</script>
+				<!-- //content -->
 <map name="main">
     <area shape="rect" coords="  1,  1,712,292" href="/Wii/tvcm/tvcm_supermario_cg.php"			onFocus="blur();" alt="" />
     <area shape="rect" coords="  9,323,701,476" href="/Wii/software/supermario/main.php?nn=1"	onFocus="blur();" alt="" />
