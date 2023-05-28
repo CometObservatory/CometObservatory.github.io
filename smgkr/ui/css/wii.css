@@ -1,0 +1,815 @@
+@charset "euc-kr";
+/* 
+author : rran779@mvisual.co.kr, 200803 */
+/* 
+
+/* default css_start */
+*{margin:0px; padding:0px; font-size:12px; font-family:"돋움,Verdana, Geneva, Arial, Helvetica, sans-serif";}
+body,td,div{color:#7c7c7c;font-size:12px;font-family:"돋움,Verdana, Geneva, Arial, Helvetica, sans-serif";}
+img {border: 0 none; vertical-align:middle;}
+/* #fit_content img {_vertical-align:top;}*/
+
+a:link, a:visited, a:active{text-decoration:none;color:#7c7c7c;}
+a:hover{text-decoration:none;color:#7c7c7c;}
+/* default css_end */
+
+/* layout css_start */
+#wrap{height:100%;}
+#header{width:990px;height:135px;}
+/*#container{width:990px;padding-top:20px;}*/
+#container{width:990px;padding-top:10px;}
+#content{width:713px;padding-right:19px;}
+#content02{width:713px;}
+
+#etccontent{width:906px;padding:0 41px;}
+#etccontent01{width:913px;padding:0 40px 0 35px;}
+#etccontent02{width:906px;padding:0 0px;}
+
+#footer{} 
+.aside{width:258px;}
+
+/* layout css_end */
+
+/* text_start */
+.bluetxt{color:#16b1e7;}
+.expC{color:#16b1e7;font-weight:bold; }
+
+.wiicolor{color:#16b1e7;}
+.dscolor{color:#ff418c;}
+
+.txt01 { color:#8C8C8C; }
+.txt02 { color:#333333; }
+.txt03 { color:#666666; }
+.txt05 { color:#5c5c5c; }
+.txt06 { color:#8c8c8c; }
+.txt07 { color:#34beed; }
+.txt08 { color:#636363; }
+.txt09 { color:#9d2a60; }
+
+.white { color:#ffffff; }
+.yellow { color:#fee600; }
+.black { color:#000000; }
+
+.txt04{color:#d2f4ff;}
+.bold {font-weight:bold;}
+
+.bottomtxt { color:#333333; }
+
+.line15 {line-height:15px;}
+.line16 {line-height:16px;}
+.line18 {line-height:18px;}
+
+.u_line {text-decoration:underline;}
+
+.f11{font-size:11px;}
+
+.b, a.b:link, a.b:visited, a.b:hover, a.b:active {font-weight:bold}
+.u, a.u:link, a.u:visited, a.u:hover, a.u:active {text-decoration:underline}
+.un, a.un:link, a.un:visited, a.un:hover, a.un:active {text-decoration:none}
+/* text_end */
+
+/* 입력폼_start*/
+.input01 {background-color:#ffffff;color:#999898;font-size:11px;height:18px;Border:1x SOLID #a4a4a4;}
+/* 입력폼_end *
+
+/*  link_start */
+a.tagfont1:link {color:#1A3588; font-weight:bold;}
+a.tagfont1:visited {color:#1A3588; font-weight:bold;}
+a.tagfont1:hover {color:#1A3588; font-weight:bold;}
+/*  link_start */
+
+/* 페이징링크_start */
+.pagging	{color:#5f5f5f;}
+a.pagging:link { color:#5f5f5f;text-decoration:none;}
+a.pagging:visited { color:#5f5f5f;text-decoration:none;}
+a.pagging:active { color:#5f5f5f;text-decoration:none;}
+a.pagging:hover { color:#5f5f5f;text-decoration:none;}
+.paggingSelect{color:#fc6363; font-weight:bold}
+
+.paggingbarM{margin-left:10px;margin-right:10px;}
+
+a.cone:link { color:#5c5c5c;text-decoration:none;}
+a.cone:visited { color:#5c5c5c;text-decoration:none;}
+a.cone:active { color:#5c5c5c;text-decoration:none;}
+a.cone:hover { color:#5c5c5c;text-decoration:underline;}
+/* 페이징링크_end */
+
+/* 메인 패딩,마징값_start */
+.main_P01{padding-bottom:10px;}
+.main_krmarkP{padding:10px 0;}
+.main_guidimgP{padding-bottom:34px;}
+
+/* 메인 패딩,마징값_end */
+
+/* 라인 */
+.line_h01{background-color:#f5f5f5;height:1px;}
+.title_line{background:url(../../images/wii/title_line.gif);background-position:left middle;}
+.line_h02{background-color:#e1e1e1;height:2px;}
+/*.line_h02 {border-top:2px solid #E1E1E1;}*/
+
+/* 블릿 */
+.bu01{width:16px;}
+.bu_arrow01{width:19px;}
+
+/* box */
+.bx_menuTop{background:url(../../images/wii/common/bx_menu_top.gif);background-position:left top;width:258px;height:5px;}
+.bx_menuMid{background:url(../../images/wii/common/bx_menu_mid.gif);background-position:left top;width:258px;}
+.bx_menuBtm{background:url(../../images/wii/common/bx_menu_btm.gif);background-position:left top;width:258px;height:5px;}
+
+/* software_start */
+
+/* location */
+.locationheight{height:20px;}
+.titM{margin-bottom:5px;}
+.locM{margin-top:6px;}
+.location, a.location:link, a.location:visited, a.location:hover, a.location:active {color:#acacac;font-size:11px;text-decoration:none}
+.location01, a.location01:link, a.location01:visited, a.location01:hover, a.location01:active {color:#666666;font-size:11px;text-decoration:none}
+.loc_line{background-color:#eaeaea;height:1px;}
+
+.soft_Pb59{padding-bottom:59px;}
+.soft_Pb25{padding-bottom:25px;}
+.soft_Pb20{padding-bottom:20px;}
+.soft_Pb10{padding-bottom:10px;}
+/* 상품 */
+.goods_P{padding:5px 0 11px 11px;}
+.goods_P01{padding:0 0 0 16px;}
+.goods_P02{padding:5px 0 8px 11px;}
+.goods_P03{padding:5px 0 9px 11px;}
+
+.goods_txt01{color:#333333;font-size:12px; font-family:"돋움,Verdana, Geneva, Arial, Helvetica, sans-serif";}
+.goods_txt02{color:#8c8c8c;font-size:12px; font-family:"돋움,Verdana, Geneva, Arial, Helvetica, sans-serif";}
+.goods_menuh{height:7px;}
+
+.menutit_line01{background:url(../../images/wii/software/titleline_bar.gif);height:4px;}
+.menu_dot{background:url(../../images/wii/software/line_h_dot01.gif);height:1px;}
+
+.contents_dot{background:url(../../images/wii/software/line_h_dot02.gif);height:1px;}
+
+#goods_info ul {list-style: none;}	  
+#goods_info li{background: url(../../images/wii/common/bu_arrow02.gif) no-repeat 0 38%;padding:3px 0 3px 8px;margin-left:10px;color:#8c8c8c;font-size:12px;}	  
+#goods_info02 ul {list-style: none;}	
+#goods_info02 li{background: url(../../images/wii/common/bu_arrow02.gif) no-repeat 0 38%;padding:2px 0 2px 8px;margin-left:16px;color:#8c8c8c;font-size:12px;}	  
+#goods_info03 li{ background:none;padding:2px 0 2px 8px;margin-left:16px;color:#8c8c8c;font-size:12px;}	  
+
+#goods_info04 ul {list-style: none;}	  
+#goods_info04 li{background: url(../../images/wii/common/bu_arrow02.gif) no-repeat 0 38%;padding:1px 0 1px 8px;margin-left:10px;color:#8c8c8c;font-size:12px;}	
+	  
+#goods_info05 ul {list-style: none;}	  
+#goods_info05 li{background: url(../../images/wii/common/bu_arrow02.gif) no-repeat 0 38%;padding:1px 0 2px 8px;margin-left:16px;color:#8c8c8c;font-size:12px;}	  
+#goods_info05 li.none{background:none;margin:0 0 0 76px;}
+/* sports */
+.sports_bg{background:url(../../images/wii/software/sports/sub_bg.gif);background-position:left top;background-repeat:no-repeat;width:713px;height:311px;}
+.sports_bx_Top{background:url(../../images/wii/software/sports/bx_top.gif);background-position:left top;width:573px;height:5px;}
+.sports_bx_Mid{background-color:#e6f9ff;height:284px;}
+.sports_bx_Btm{background:url(../../images/wii/software/sports/bx_btm.gif);background-position:left top;width:573px;height:5px;}
+
+.softcontents{padding:40px 59px 0 60px;} /* 내용시작여백 */
+.softTitPd{padding-bottom:42px;}/* 타이틀아래와 내용사이 */
+.softConMB{margin-bottom:30px;}/* 내용사이 */
+.softConPd{padding-left:11px;padding-right:10px;}/* 내용안좌우여백 */
+.softTitConMB{margin-bottom:15px;} /* 서브타이틀과 내용사이*/
+
+/* first */
+.first_bg{background:url(../../images/wii/software/first/sub_bg.gif);background-position:left top;width:713px;}
+.first_bx_Top{background:url(../../images/wii/software/first/sub_top.gif);background-position:left top;background-repeat:no-repeat;width:713px;height:117px;}
+.first_bx_Btm{background:url(../../images/wii/software/first/bx_btm.gif);background-position:left top;width:713px;height:8px;}
+
+.firstcontents{padding:0 29px 0 29px;} /* 내용시작여백 */
+
+.softlist_lt_bg{background:url(../../images/wii/software/list/list_lt_bg.gif);background-position:left top;background-repeat:no-repeat;width:56px;height:179px;}
+.softlist_rt_bg{background:url(../../images/wii/software/list/list_rt_bg.gif);background-position:right top;background-repeat:no-repeat;width:40px;height:179px;}
+.softlist_bg{background:url(../../images/wii/software/list/list_bg.gif);background-position:left top;background-repeat:repeat-x;height:179px;}
+#softlist ul {list-style: none;}	
+
+
+/* 말랑말랑 두뇌트레이닝 */
+.marlang_imgbg{background:url(../../images/wii/software/brain_classroom/sub_bg.jpg);background-position:left top;background-repeat:no-repeat;width:713px;}
+.marlang_bg{background-color:#fffcd3;}
+.marlang_sub0201{background:url(../../images/wii/software/brain_classroom/sub02_01_01_bg.jpg);background-position:left top;background-repeat:no-repeat;width:630px;height:627px;}
+.marlang_sub0202{background:url(../../images/wii/software/brain_classroom/sub02_02_01_bg.jpg);background-position:left top;background-repeat:no-repeat;width:630px;height:627px;}
+.marlang_sub0203{background:url(../../images/wii/software/brain_classroom/sub02_03_01_bg.jpg);background-position:left top;background-repeat:no-repeat;width:630px;height:627px;}
+.marlang_sub0204{background:url(../../images/wii/software/brain_classroom/sub02_04_01_bg.jpg);background-position:left top;background-repeat:no-repeat;width:630px;height:627px;}
+.marlang_sub0205{background:url(../../images/wii/software/brain_classroom/sub02_05_01_bg.jpg);background-position:left top;background-repeat:no-repeat;width:630px;height:627px;}
+
+.marlang_imgbg_Pd{padding:30px 0 50px 0;}
+
+.marlang_qnabg{background-color:#ffecc2;width:610px;}
+
+/* 슈퍼 마리오 Wii 갤럭시 어드벤처 */
+.supermario_bg{background:url(../../images/wii/software/supermario/sub_bg.jpg);background-position:left top;background-repeat:no-repeat;width:713px;}
+.super_sub01_bg{background:url(../../images/wii/software/supermario/sub01_bg.jpg);background-repeat:no-repeat;width:599px; height:535px;}
+.sub01_pd{padding:43px 0 0 37px;}
+.super_sub02_bg{background:url(../../images/wii/software/supermario/sub02_bg.jpg);background-repeat:no-repeat;width:593px; height:306px;}
+.sub02_pd{padding:24px 0 0 37px;}
+.supermario_Mg{margin: 0  0 0 57px;width:599px;}
+
+.supermario_submainbg{background:url(../../images/wii/software/supermario/submain_bg.jpg);background-position:left top;background-repeat:no-repeat;width:713px;height:644px;}
+
+/* Wii Fit */
+.fit_bg{background:url(../../images/wii/software/wiifit/sub01_bg.gif);background-position:left top;width:713px;height:1183px;}
+.fit_bgTop{background:url(../../images/wii/software/wiifit/bg_top.gif);background-position:left top;width:713px;height:101px;}
+.fit_bgMid{background:url(../../images/wii/software/wiifit/bg_mid.gif);background-position:left top;width:713px;}
+.fit_bgBtm{background:url(../../images/wii/software/wiifit/sub01_btm01.gif);background-position:left top;width:713px;height:41px;}
+
+.fit_bgBtm06{background:url(../../images/wii/software/wiifit/sub03_bgbtm.gif);background-position:left top;width:713px;height:57px;}
+
+#fit_content{width:713px;padding-right:18px;}
+
+.fit_bgTop02{background:url(../../images/wii/software/wiifit/sub01_bgtop01.gif);background-position:left top;width:247px;height:22px;}
+.fit_bgMid02{background:url(../../images/wii/software/wiifit/sub01_bgmid01.gif);background-position:left top;width:247px;}
+.fit_bgBtm02{background:url(../../images/wii/software/wiifit/sub01_bgbtm01.gif);background-position:left top;width:247px;height:4px;}
+
+.fit_bgTop03{background:url(../../images/wii/software/wiifit/sub01_bgtop02.gif);background-position:left top;width:156px;height:4px;}
+.fit_bgMid03{background:url(../../images/wii/software/wiifit/sub01_bgmid02.gif);background-position:left top;width:156px;}
+.fit_bgBtm03{background:url(../../images/wii/software/wiifit/sub01_bgbtm02.gif);background-position:left top;width:156px;height:4px;}
+
+.fit_bgTop04{background:url(../../images/wii/software/wiifit/sub01_bgtop03.gif);background-position:left top;width:653px;height:8px;}
+.fit_bgMid04{background:url(../../images/wii/software/wiifit/sub01_bgmid03.gif);background-position:left top;width:653px;}
+.fit_bgBtm04{background:url(../../images/wii/software/wiifit/sub01_bgbtm03.gif);background-position:left top;width:653px;height:8px;}
+
+.fit_bgTop05{background:url(../../images/wii/software/wiifit/sub02_bgtop01.gif);background-position:left top;width:653px;height:7px;}
+.fit_bgMid05{background:url(../../images/wii/software/wiifit/sub02_bgmid01.gif);background-position:left top;width:653px;}
+.fit_bgBtm05{background:url(../../images/wii/software/wiifit/sub02_bgbtm01.gif);background-position:left top;width:653px;height:7px;}
+
+.fit_submain{background:url(../../images/wii/software/wiifit/submain_bg.jpg);background-position:left top;width:713px;height:540px;}
+
+.tdf {padding-top:16px;}
+.tdf02 {padding-right:10px;}
+.tdf03 {padding-top:31px;padding-left:30px;}
+.tdf04 {padding-top:30px;padding-left:81px;}
+.tdf05 {padding-top:28px;padding-left:28px;}
+.tdf06 {padding-top:28px;padding-left:45px;}
+.tdf07 {padding-top:13px;padding-left:29px;}
+.tdf08 {color:#777777; font-size:12px;padding-left:7px;}
+.tdf09 {color:#777777; font-size:12px;padding-left:120px;padding-top:4px;}
+.tdf10 {padding-bottom:3px;padding-left:40px;}
+.tdf11 {padding-left:10px;}
+.tdf12 {padding-left:7px;}
+
+.wfi01	{padding-top:5px;}
+.wfi02	{color:#7b7b7b;font-size:12px;line-height:18px;}
+.wfi03	{color:#8dc63f;font-size:12px;line-height:18px;font-weight:bold;}
+.wfi04	{color:#7b7b7b;font-size:12px;line-height:18px;font-weight:bold;}
+.wfi05	{color:#f26522;font-size:12px;line-height:18px;}
+.wfi06	{color:#7b7b7b;font-size:11px;line-height:18px;}
+.wfi07	{width:89px;}
+.wfi08	{height:19px;}
+.wfi09	{color:#16b1e7;font-size:12px;line-height:18px;font-weight:bold;}
+
+/* boomblox start */
+.blx_subbg		{background:url(../../images/wii/software/boomblox/submain_img01.jpg);background-repeat:no-repeat;width:713px;height:542px;}
+.blx_sub01bg	{background:url(../../images/wii/software/boomblox/sub01_topbg.jpg);background-repeat:no-repeat;width:713px;height:481px;}
+.blx_sub01titbg	{background:url(../../images/wii/software/boomblox/sub01_tit_bg.gif);background-repeat:no-repeat;width:628px;height:31px;}
+.blx_box_mid	{background:url(../../images/wii/software/boomblox/sub01_mid.gif);height:30px;}
+.blx_sub01_mid	{background:url(../../images/wii/software/boomblox/sub01_bg01.jpg);background-repeat:no-repeat;width:621px;height:281px;}
+.blx_sub01_fl	{background:url(../../images/wii/software/boomblox/sub01_bg02.jpg);background-repeat:no-repeat;width:621px;height:258px;}
+.blx_sub01_bgt	{background:url(../../images/wii/software/boomblox/sub01_bgt.gif);background-repeat:no-repeat;width:312px;height:4px;}
+.blx_sub01_bgm	{background:url(../../images/wii/software/boomblox/sub01_bgmid.gif);}
+.blx_sub01_bgb	{background:url(../../images/wii/software/boomblox/sub01_bgbtm.gif);background-repeat:no-repeat;width:312px;height:4px;}
+.blx_box_tit	{background:url(../../images/wii/software/boomblox/sub01_tbox.gif);background-repeat:no-repeat;width:174px;height:24px;}
+.blx_dot_line	{background:url(../../images/wii/software/boomblox/dot_line_02.gif);width:713px;height:1px;}
+.blx_sub02bg	{background:url(../../images/wii/software/boomblox/sub02_bg.jpg);background-repeat:no-repeat;width:713px;height:512px;}
+.blx_sub02_bgt	{background:url(../../images/wii/software/boomblox/sub02_bgt.gif);background-repeat:no-repeat;width:629px;height:3px;}
+.blx_sub02_bgm	{background:url(../../images/wii/software/boomblox/sub02_bgm.gif);}
+.blx_sub02_bgb	{background:url(../../images/wii/software/boomblox/sub02_bgb.gif);background-repeat:no-repeat;width:629px;height:3px;}
+.blx_sub02_fl	{background:url(../../images/wii/software/boomblox/sub02_bgbtm.jpg);background-repeat:no-repeat;width:713px;height:296px;}
+.blx_sub03bg	{background:url(../../images/wii/software/boomblox/sub03_bg.jpg);background-repeat:no-repeat;width:713px;height:437px;}
+.blx_sub03_fl	{background:url(../../images/wii/software/boomblox/sub03_bgbtm.jpg);background-repeat:no-repeat;width:629px;height:344px;}
+
+.blx01	{color:#666666;font-size:12px;}
+.blx02	{color:#7c3502;font-size:12px;font-weight:bold;}
+.blx03	{color:#666666;font-size:12px;line-height:18px;}
+.blx04	{color:#f79700;font-size:12px;}
+.blx05	{padding-top:6px;padding-left:25px;}
+.blx06	{padding-left:30px;padding-top:3px;}
+.blx07	{padding-left:1px;}
+.blx08	{padding-left:6px;}
+.blx09	{margin-bottom:2px;}
+.blx10	{margin-left:5px;}
+.blx11	{margin-top:15px;}
+.blx12	{color:#f79700;font-size:12px;}
+.blx13	{color:#666666;font-size:11px;}
+.blx14	{margin-top:7px;margin-left:20px;}
+.blx15	{margin-top:9px;margin-left:4px;}
+
+/*슈퍼 페이퍼 마리오*/
+.spm_smbg		{background:url(../../images/wii/software/superpapermario/submain_img.jpg) no-repeat left top;width:713px;height:532px;}
+.spm_smbg02		{background:url(../../images/wii/software/superpapermario/submain_img02.jpg) no-repeat left top;width:602px;height:104px;}
+.spm_sub_bgtop	{background:url(../../images/wii/software/superpapermario/sub_bgtop.jpg) no-repeat left top;width:713px;height:93px;}
+.spm_sub_bgmid	{background:url(../../images/wii/software/superpapermario/sub_bgmid.gif) repeat-y left top;width:713px;}
+.spm_sub_bgbtm	{background:url(../../images/wii/software/superpapermario/sub_bgbtm.jpg) no-repeat left top;width:602px;height:105px;}
+.spm_title_bg	{background:url(../../images/wii/software/superpapermario/title_bg.gif) no-repeat left top;width:652px;height:63px;}
+.spm_sub01_bgbtm02{background:url(../../images/wii/software/superpapermario/sub01_bgbtm.gif) no-repeat left top;width:652px;height:7px;}
+.spm_sub01_bgtop02{background:url(../../images/wii/software/superpapermario/sub01_bgtop.gif) no-repeat left top;width:652px;height:7px;}
+.spm_sub01_bgmid02{background:url(../../images/wii/software/superpapermario/sub01_bgmid.gif) repeat-y left top;width:652px;}
+.spm_sub02_bgbtm01{background:url(../../images/wii/software/superpapermario/sub02_bgbtm.jpg) no-repeat left top;width:713px;height:103px;}
+.spm_sub02_bgbtm02{background:url(../../images/wii/software/superpapermario/sub02_02_bgbtm.jpg) no-repeat left top;width:713px;height:99px;}
+.spm_sub04_bg{background:url(../../images/wii/software/superpapermario/sub04_bg.jpg) no-repeat left top;width:713px;height:769px;}
+.spm_sub04_bg02{background:url(../../images/wii/software/superpapermario/sub04_bg02.jpg) no-repeat left top;width:602px;height:99px;}
+.spm_sub05_bg{background:url(../../images/wii/software/superpapermario/sub05_bg.jpg) no-repeat left top;width:713px;height:783px;}
+.spm_sub05_bg02{background:url(../../images/wii/software/superpapermario/sub05_bg02.jpg) no-repeat left top;width:602px;height:99px;}
+.spm_sub05_bg0{background:url(../../images/wii/software/superpapermario/sub05_bg000.jpg) no-repeat left top;width:713px;height:881px;}
+
+.spm_sub02_01_bg{background:url(../../images/wii/software/superpapermario/sub02_01_bg.jpg) no-repeat left top;width:713px;height:772px;}
+.spm_sub02_02_bg02{background:url(../../images/wii/software/superpapermario/sub02_bg.jpg) no-repeat left top;width:713px;height:113px;}
+.spm_sub02_02_bg01{background:url(../../images/wii/software/superpapermario/sub02_02_bg01.jpg) no-repeat left top;width:713px;height:406px;}
+.spm_sub02_02_bg03{background:url(../../images/wii/software/superpapermario/sub02_02_bg02.jpg) no-repeat left top;width:713px;height:394px;}
+.spm_sub02_02_bt{background:url(../../images/wii/software/superpapermario/sub02_02_boxtop.gif) no-repeat left top;width:652px;height:8px;}
+.spm_sub02_02_bm{background:url(../../images/wii/software/superpapermario/sub02_02_boxmid.gif) repeat-y left top;width:652px;}
+.spm_sub02_02_bb{background:url(../../images/wii/software/superpapermario/sub02_02_boxbtm.gif) no-repeat left top;width:652px;height:8px;}
+.spm_sub02_03_bb02{background:url(../../images/wii/software/superpapermario/sub02_03_boxbtm.gif) no-repeat left top;width:652px;height:8px;}
+.spm_sub02_03_bg01{background:url(../../images/wii/software/superpapermario/sub02_03_bg01.jpg) no-repeat left top;width:713px;height:610px;}
+.spm_sub02_03_bg02{background:url(../../images/wii/software/superpapermario/sub02_03_bg02.jpg) no-repeat left top;width:713px;height:394px;}
+.spm_sub02_03_bb{background:url(../../images/wii/software/superpapermario/sub02_03_bgbtm.jpg) no-repeat left top;width:713px;height:99px;}
+.spm_sub02_02_bg{background:url(../../images/wii/software/superpapermario/sub02_02_img01.jpg) no-repeat left top;width:652px;height:360px;}
+.spm_sub02_03_bg{background:url(../../images/wii/software/superpapermario/sub02_03_bg.jpg) no-repeat left top;width:652px;height:190px;}
+
+.spm_sub01_bg0{background:url(../../images/wii/software/superpapermario/sub01_bg000.jpg) no-repeat left top;width:713px;height:1986px;}
+.spm_sub02_bg0{background:url(../../images/wii/software/superpapermario/sub02_bg000.jpg) no-repeat left top;width:713px;height:881px;}
+.spm_sub03_bg0{background:url(../../images/wii/software/superpapermario/sub03_bg000.jpg) no-repeat left top;width:713px;height:597px;}
+.spm_sub04_bg0{background:url(../../images/wii/software/superpapermario/sub04_bg000.jpg) no-repeat left top;width:713px;height:868px;}
+.spm_sub05_bg0{background:url(../../images/wii/software/superpapermario/sub05_bg000.jpg) no-repeat left top;width:713px;height:881px;}
+
+
+.spm_p5	{padding-left:5px;}
+.spm_p01{padding-left:3px;padding-top:2px;}
+.spm_p02{padding-left:8px;padding-top:2px;}
+.spm_p03{padding-left:8px;padding-top:4px;}
+.spm_p04{padding-left:3px;padding-top:4px;}
+.spm_p05{padding-left:31px;padding-top:21px;}
+.spm_p06{padding-left:14px;padding-top:21px;}
+.spm_p07{padding-left:36px;padding-top:15px;}
+.spm_p08{padding-left:31px;}
+.spm_p09{padding-bottom:6px;}
+.spm_p10{padding-left:15px;padding-top:20px;padding-bottom:12px}
+.spm_p11{padding-left:3px;padding-top:20px;padding-bottom:12px;}
+.spm_p12{padding-bottom:15px;padding-top:15px;}
+.spm_p13{padding-left:31px;padding-top:20px;}
+.spm_p14{padding-left:19px;padding-top:16px;}
+.spm_p15{padding-top:21px;}
+
+.spm_t01 {color:#683101;font-size:12px;line-height:18px;}
+
+.spm_orange{color:#ff5300}
+
+.png24 {tmp:expression(setPng24(this));}
+
+/*마리오 카트 Wii*/
+.submain_bg	{background:url(../../images/wii/software/mariokartWii/submain_bg.jpg) no-repeat left top;width:713px;height:966px;}
+
+.sub2_bgT	{background:url(../../images/wii/software/mariokartWii/sub02_bgT.jpg) no-repeat left top;width:713px;height:139px;}
+.sub2_tab1bgB	{background:url(../../images/wii/software/mariokartWii/sub02_tab1_bgB.jpg) no-repeat left top;width:713px;height:61px;}
+.sub2_tab4bgB	{background:url(../../images/wii/software/mariokartWii/sub02_tab4_bgB.jpg) no-repeat left top;width:713px;height:30px;}
+.sub2_tabbg	{background:url(../../images/wii/software/mariokartWii/sub02_tab_bg.jpg) no-repeat left top;width:713px;height:53px;}
+
+.sub6_bgT	{background:url(../../images/wii/software/mariokartWii/sub6_bgT.jpg) no-repeat left top;width:713px;height:105px;}
+.sub6_bgT02	{background:url(../../images/wii/software/mariokartWii/sub6_btT02.jpg) no-repeat left top;width:713px;height:64px;font-size:0px;}
+.sub6_bgT03	{background:url(../../images/wii/software/mariokartWii/sub06_top_03.jpg) no-repeat left top;width:713px;height:49px;}
+.sub6_bgM	{background:url(../../images/wii/software/mariokartWii/sub6_mid.jpg) repeat-y left top;width:713px;}
+.sub6_bgB	{background:url(../../images/wii/software/mariokartWii/sub6_btm.jpg) no-repeat left top;width:713px;height:30px;}
+.sub6_bgB02	{background:url(../../images/wii/software/mariokartWii/sub6_btm02.jpg) no-repeat left top;width:713px;height:42px;}
+.aaa	{background:url(../../images/wii/software/mariokartWii/a.jpg) repeat-y left top;width:713px;}
+
+.boxT		{background:url(../../images/wii/software/mariokartWii/sub6_boxT.gif) no-repeat left top;width:662px;height:3px;}
+.boxM		{background-color:#eaeaea;}
+.boxB		{background:url(../../images/wii/software/mariokartWii/sub6_boxB.gif) no-repeat left top;width:662px;height:3px;}
+
+.ico{background:url(../../images/wii/software/mariokartWii/ico.gif) no-repeat left top;
+	padding-left:46px;padding-top:13px;font-size:12px;color:#0c90ce}
+.tx{font-size:12px;color:#0c90ce;font-weight:bold;padding:10px 12px 0 0;}
+.tx01{font-size:12px;color:#0c90ce;font-weight:bold;margin-right:12px;}
+.tx00{font-size:12px;color:#535353;margin-right:12px;}
+.tx02{font-size:12px;color:#535353;font-weight:bold;margin-right:12px;}
+.tx03{font-size:12px;color:#0c90ce;font-weight:bold;margin:0 12px 0 47px;}
+.tx04{font-size:12px;color:#535353;margin:4px 0 0 87px;}
+.tx05{font-size:12px;color:#0c90ce;font-weight:bold;margin-right:6px;}
+.tx06{font-size:12px;color:#0c90ce;font-weight:bold;margin:0 6px 0 47px;}
+.tx07{font-size:12px;color:#535353;margin:4px 0 0 81px;}
+.tx08{font-size:12px;color:#535353;margin:15px 0 0 87px;line-height:18px;}
+.tx09{font-size:12px;color:#535353;margin:4px 0 0 81px;line-height:18px;}
+.tx10{font-size:12px;color:#535353;margin:2px 0 0 87px;line-height:18px;}
+.tx11{font-size:12px;color:#535353;font-weight:bold;margin:15px 12px 0 0;}
+
+.tb	{border-left:2px solid #d3d3d3;border-right:2px solid #d3d3d3;width:659px;}
+.boxB02{background:url(../../images/wii/software/mariokartWii/sub02_boxB.gif) no-repeat left top;width:663px;height:2px;}
+
+.qna_btn{margin:5px 0 0 405px;}
+div.float div{float:left;text-align:left;margin:0;padding:0;font-size:0px;}
+.df{float:left;line-height:16px;}
+.L25{margin:0 0 10px 25px;}
+.p25{padding:0 0 10px 25px;}
+.L5{margin:-10px 0 10px 25px;}
+.m20{margin:-2px 0 20px 25px;}
+.m0{margin:-5px 0 0 25px;}
+.m10{margin:-11px 0 20px 25px;}
+.m25{margin:5px 0 0 25px;}
+
+/*메이드인 와리오*/
+.sub01_bg{background:url(../../images/wii/software/madeinwario/sub01_bg.jpg) no-repeat left top;width:713px;height:1598px;}
+.sub02_bg{background:url(../../images/wii/software/madeinwario/sub02_bg.jpg) no-repeat left top;width:713px;height:1050px;}
+
+.w_txt{color:#f94c08;font-size:12px;font-weight:bold;margin-top:12px;margin-left:3px;}
+.w_txt02{color:#e37600;font-size:12px;margin-top:4px;margin-left:3px;}
+.w_txt03{color:#323131;font-size:12px;line-height:18px;padding:7px 0 0 3px;}
+.w_txt04{color:#323131;font-size:12px;line-height:18px;padding:7px 0 0 7px;}
+.w_txt05{color:#323131;font-size:12px;line-height:18px;padding:7px 0 0 4x;}
+
+table.list td{padding-left:9px;padding-top:8px;}
+table.list td.none{padding-left:10px;padding-top:16px;}
+table.list02 td{padding-right:12px;padding-top:12px;}
+
+/*메이드인 와리오*/
+
+/* 바람의 크로노아 */
+.margin_t20{margin:19px 0 0 0;}
+.margin_t32{margin:32px 0 0 20px;}
+
+.padding_t13{padding:13px 0 0 0;text-align:center;}
+.padding_t34{padding:34px 0 0 26px;float:left;}
+.copyright{margin:15px 0 0 10px;}
+div.wind_smain{background:url(../../images/wii/software/windklonoa/submain_bg.jpg) no-repeat left top;width:713px;height:533px;}
+div.wind_smain div.sbtn{padding:472px 0 0 28px;}
+div.wind_smain div.sbtn div{margin-right:4px;float:left;}
+.windk_sub01_bg{background:url(../../images/wii/software/windklonoa/sub01_bg.jpg) no-repeat left top;width:713px;height:854px;}
+div.windk_sub01 {padding:20px 0 30px 55px;float:left;}
+div.windk_sub01 div{margin-bottom:8px;}
+.windk_sub01_box{background:url(../../images/wii/software/windklonoa/sub01_box.gif) no-repeat left top;width:605px;height:302px;clear:both;margin:0 0 0 55px;}
+.windk_top{margin:20px 0 0 604px;}
+.windk_top02{margin:15px 0 0 549px;}
+.windk_top03{margin:0 0 0 604px;}
+.windk_top04{margin:15px 0 0 604px;}
+.windk_sub02_bg{background:url(../../images/wii/software/windklonoa/sub02_01.jpg) no-repeat left top;width:713px;height:50px;}
+.windk_sub02_01_bg{background:url(../../images/wii/software/windklonoa/sub02_01_bg.jpg) no-repeat left top;width:713px;height:1526px;}
+.windk_sub02_01_bg div.wind_f{float:left;margin-bottom:6px;}
+.windk_sub02_02_bg{background:url(../../images/wii/software/windklonoa/sub02_02_bg.jpg) no-repeat left top;width:713px;height:1055px;}
+.windk_sub02_02_bg div.wind_f{float:left;margin-bottom:14px;}
+.wk_btm{background:url(../../images/wii/software/windklonoa/sub03_btm.jpg) no-repeat left top;width:713px;height:74px;}
+.wk_sub02_tit{padding:16px 0 0 55px;}
+.wk_sub02_tit02{padding:0 0 0 12px;}
+.windk_sub03_bg{background:url(../../images/wii/software/windklonoa/sub03_bg.jpg) no-repeat left top;width:713px;height:995px;}
+.wk_m{padding:15px 0 0 98px;}
+.wk_m02{margin:15px 0 0 0}
+.wk_m03{padding:17px 0 0 81px;_padding:14px 0 0 81px;height:33px;}
+.wk_m04{padding:17px 0 0 49px;_padding:14px 0 0 49px;height:43px;}
+.wk_m05{margin-bottom:12px;}
+.wk_m06{margin:10px 0 0 113px;}
+.wk_p06{padding:10px 0 0 113px;}
+.wk_m07{margin:10px 0 0 9px;}
+.wk_m08{margin:73px 0 0 82px;}
+.wk_m09{margin:30px 0 0 424px;}
+.wk_p09{padding:30px 0 0 424px;}
+.wk_td{margin:14px 0 0 0;font-size:12px;color:#3f0d00;line-height:18px;}
+.wk_td02{margin:0 0 16px 0;font-size:12px;color:#3f0d00;line-height:18px;}
+div.sub02_list {margin:15px 0 0 12px;}
+div.sub02_list div{margin:0 8px 7px 0;float:left;}
+div.sub02_list div.none{margin:0 8px 7px 0;}
+.pop_wk {background:url(../../images/wii/software/windklonoa/pop_01.jpg) no-repeat left top;width:593px;height:483px;padding:28px 0 0 40px;}
+.Dfloat{float:left;}
+.clear{clear:both;}
+
+.spm_p16{padding-bottom:10px;padding-top:10px;}
+/* 바람의 크로노아 */
+
+/* 마리오와 소닉 밴쿠버 동계올림픽™ start */
+/* ********************************************************************************
+ * flash
+ * ******************************************************************************** */
+
+body#olympicTop #flashMenu {
+	width: 768px;
+	height: 560px;
+	outline: none;
+}
+body#dreamTop #flashMenu {
+	width: 583px;
+	height: 290px;
+	outline: none;
+}
+#movie {
+	outline: none;
+}
+#fesMovie {
+	width: 488px;
+	height: 320px;
+	outline: none;
+}
+
+/* ********************************************************************************
+ * body#olympicTop
+ * ******************************************************************************** */
+
+body#olympicTop h2,
+body#dreamTop h2,
+body#mode h2 {
+	margin-top: 63px;
+}
+body#olympicTop p.tx01 {
+	margin: 25px 0 27px 0;
+}
+body#olympicTop p.tx02 {
+	position: absolute;
+	top: 228px;
+	right: 30px;
+	width: 188px;
+	height: 85px;
+}
+body#olympicTop p.tx03 {
+	margin: 15px 0 0 100px;
+}
+body#olympicTop #flashMenu ul li {
+	display: inline;
+}
+body#olympicTop ul#function {
+	margin-top: 34px;
+}
+body#olympicTop ul#function li {
+	display: inline;
+}
+
+/* ********************************************************************************
+ * body#olympicGame
+ * ******************************************************************************** */
+
+body#olympicGame h1,
+body#dreamGame h1 {
+	margin-bottom: 22px; 
+}
+body#olympicGame div#contentsInner {
+	width: 632px;
+	margin: 0 auto;
+}
+body#olympicGame h3 {
+	margin-bottom: 20px;
+}
+body#olympicGame h4 {
+	margin-top: 40px;
+}
+/**** div#movieInner ****/
+div#movieInner {
+	width: 768px;
+	height: 540px;
+}
+div#movieInner h2 {
+	margin-bottom:14px;
+	padding: 39px 0 0 40px;
+}
+
+/* ********************************************************************************
+ * body#dreamTop
+ * ******************************************************************************** */
+
+body#dreamTop p.tx01 {
+	margin: 25px 0;
+}
+body#dreamTop p.tx02 {
+	margin: 14px 0 0 127px;
+}
+body#dreamTop #flashMenu ul li {
+	display: inline;
+}
+
+/* ********************************************************************************
+ * body#dreamGame
+ * ******************************************************************************** */
+
+body#dreamGame div#contentsInner {
+	width: 632px;
+	margin: 0 auto 72px;
+}
+body#dreamGame h3 {
+	margin: 10px 0 20px;
+}
+body#dreamGame p.dreamCheck {
+	margin-top: 40px;
+}
+
+/* ********************************************************************************
+ * body#mode
+ * ******************************************************************************** */
+
+body#mode p.tx01 {
+	margin-top: 25px;
+}
+body#mode ul#modeMenu {
+	margin-top: 40px;
+}
+body#mode ul#modeMenu li {
+	display: inline;
+}
+body#mode div#contentsInner {
+	width: 688px;
+	margin: 0 auto 72px;
+}
+body#mode div#contentsInner2 {
+	width: 768px;
+	margin: 0 auto 72px;
+}
+body#mode p.catch {
+	margin: 21px 0 23px 0;
+}
+body#mode div.varietyBox {
+	width: 688px;
+	height: 188px;
+	margin: 0 auto 23px;
+}
+body#mode div.recordBox {
+	width: 768px;
+	margin: 0 auto 38px;
+}
+body#mode div.top {
+	margin-top: 31px;
+}
+
+/* ********************************************************************************
+ * div#subNavi
+ * ******************************************************************************** */
+
+/**** div#subNavi ****/
+div#subNavi {
+	width: 713px;
+	margin: 0 auto;
+	position: relative;
+}
+/**** p#btnList ****/
+p#btnList {
+	margin: 0 auto;
+	padding-top: 12px;
+	width: 118px;
+	height: 20px;
+	font-size: 0;
+}
+p#btnList a {
+	display: block;
+	width: 84x;
+	height: 24px;
+	background: url(../../images/wii/software/msvOlympic2010/btn_list.gif) left top no-repeat;
+	text-indent: -5000px;
+}
+p#btnList a:hover {
+	background-position: left bottom;
+}
+/**** p#btnBack ****/
+p#btnBack {
+	position: absolute;
+	left: 27;
+	top: 0;
+	width: 210px;
+	height: 47px;
+}
+body#dreamGame p#btnBack{
+	width: 242px;
+}
+/**** p#btnNext ****/
+p#btnNext {
+	position: absolute;
+	right: 27;
+	top: 0;
+	width: 210px;
+	height: 47px;
+}
+body#dreamGame p#btnNext{
+	width: 242px;
+}
+
+/* 마리오와 소닉 밴쿠버 동계올림픽™ end */
+
+/* 타운으로 놀러가요 동물의 숲 start */
+.ani_f01	{	color:#7e408c; font-weight:bold; line-height:18px;	}
+.ani_f02	{	color:#000000;  line-height:18px;	}
+.ani_view_body	{	background-image:url(../../images/wii/software/animal_crossing/view_body.gif);background-repeat:repeat-y; width:606px;  }
+.ani_t_body	{	background-image:url(../../images/wii/software/animal_crossing/sub_table_body.gif);background-repeat:repeat-y; width:674px; 		}
+.ani_t_body03	{	background-image:url(../../images/wii/software/animal_crossing/sub_table_body03.gif);background-repeat:repeat-y; width:674px; 		}
+.ani_bgM	{background:url(../../images/wii/software/animal_crossing/sub06_mid.jpg) repeat-y left top;width:713px;}
+
+/* 주민 대집합 */
+.ani_cha_top	{background:url(../../images/wii/software/animal_crossing/sub05_top_bg.jpg) no-repeat left top;width:713px;padding:0 0 0 0;line-height:18px;}
+.ani_cha_mid	{background:url(../../images/wii/software/animal_crossing/sub05_mid.jpg) repeat-y left top;width:713px;}
+.ani_cha_btm	{background:url(../../images/wii/software/animal_crossing/cha/sub05_btm_bg.jpg) no-repeat left top;width:713px;height:72px}
+.ani_cha_bodybg	{background-image:url(../../images/wii/software/animal_crossing/cha/sub05_cha_bg.gif);background-repeat:repeat-y; width:713px;}
+.ani_chaTab		{width:713px;padding:0;margin:0 0 30px 0;overflow:hidden;zoom:1;}
+.ani_chaTab li	{float:left;margin-right:70px;list-style:none;}
+.ani_chaTab li.m0{float:left;margin-right:0 !important;}
+.sub05if		{background:url(../../images/wii/software/animal_crossing/cha/sub05_img02.jpg) no-repeat left top;width:713px;padding:0;margin:0;line-height:18px;}
+
+.ani_cha02Tab		{width:713px;padding:0;margin:0 0 0 0;overflow:hidden;zoom:1;}
+.ani_cha02Tab li	{float:left;list-style:none;}
+.ani_cha02Tab li.m0{float:left;margin-right:0 !important;}
+.sub05_02if			{background:url(../../images/wii/software/animal_crossing/cha/sub05_02_img02.jpg) no-repeat left top;width:713px;padding:0;margin:0;line-height:18px;}
+
+/*.sub05if p{margin:0;padding:0;}
+.sub05if h1{margin:0px 0 18px 0;}
+.sub05if h2{margin:0 0 10px 0;}*/
+
+/* 타운으로 놀러가요 동물의 숲 end */
+
+/* software_end */
+
+/* wii */
+
+.bx_graylt{background:url(../../images/wii/wii/bx_gray_lt.gif);background-position:left top;background-repeat:no-repeat;width:2px;height:2px;}
+.bx_grayrt{background:url(../../images/wii/wii/bx_gray_rt.gif);background-position:right top;background-repeat:no-repeat;width:2px;height:2px;}
+.bx_graylb{background:url(../../images/wii/wii/bx_gray_lb.gif);background-position:left bottom;background-repeat:no-repeat;width:2px;height:2px;}
+.bx_grayrb{background:url(../../images/wii/wii/bx_gray_rb.gif);background-position:right bottom;background-repeat:no-repeat;width:2px;height:2px;}
+
+#bxgray ul {list-style:none; padding:15px 0;}	  
+#bxgray li {background: url(../../images/common/bu_square02.gif) no-repeat 0 45%;padding:2px 0 2px 8px;margin-left:18px;color:#7c7c7c;font-size:12px;}	
+
+#bxgray01 ul {list-style:none; padding:15px 0;}	  
+#bxgray01 li {padding:2px 0 2px 8px;margin-left:10px;color:#7c7c7c;font-size:12px;}	
+
+#bxgray02 ul {list-style:none; padding:15px 0;}	  
+#bxgray02 li {padding:2px 0 2px 8px;margin-left:18px;color:#7c7c7c;font-size:12px;}
+
+.gray_dot{background:url(../../images/common/line_dot.gif);height:1px;}
+.dot_height30{height:30px;}
+.wiitxt{color:#757575;}
+.wiitxt01{color:#9d9d9d;font-size:11px;}
+
+/* 사이트맵 */
+#sitemap ul {list-style: none;padding:9px 0 32px 0;}	  
+#sitemap li{padding:0 0 12px 0;margin-left:36px;color:#8c8c8c;font-size:12px;}	
+
+#sitemap	{color:#8c8c8c;}
+a.sitemap:link { color:#8c8c8c;text-decoration:none;}
+a.sitemap:visited { color:#8c8c8c;text-decoration:none;}
+a.sitemap:active { color:#8c8c8c;text-decoration:none;}
+a.sitemap:hover { color:#8c8c8c;text-decoration:none;}
+
+/* qna */
+.qna_box{background-color:#f8f8f8;}
+.qna_box02{background-color:#f0f0f0;}
+#qna ul {list-style: none;padding:10px 0;}
+#qna li{background: url(../../images/common/bu_circle01.gif) no-repeat 0 45%;padding:5px 5px 0px 13px;margin-left:27px;color:#7c7c7c;font-size:12px;}	
+#qna a {color:#7c7c7c;font-size:12px;text-decoration:none}
+
+#qna01 ul {list-style: none;padding:10px 0;}
+#qna01 li{background: url(../../images/common/bu_circle01.gif) no-repeat 0 28%;padding:5px 5px 0px 13px;margin-left:27px;color:#7c7c7c;font-size:12px;line-height:18px;}	
+
+
+/* 런칭 qna추가  */
+.bx_launchinglt{background:url(../../images/wii/Wii_launching/bx_launching_lt.gif);background-position:left top;width:5px;height:5px;}
+.bx_launchingtm{background:url(../../images/wii/Wii_launching/bx_launching_tm.gif);background-position:left top;width:1px;height:5px;}
+.bx_launchingrt{background:url(../../images/wii/Wii_launching/bx_launching_rt.gif);background-position:right top;width:5px;height:5px;}
+.bx_launchinglm{background:url(../../images/wii/Wii_launching/bx_launching_lm.gif);background-position:left top;width:5px;height:1px;}
+.bx_launchingrm{background:url(../../images/wii/Wii_launching/bx_launching_rm.gif);background-position:left top;width:5px;height:1px;}
+.bx_launchingbm{background:url(../../images/wii/Wii_launching/bx_launching_bm.gif);background-position:left bottom;width:1px;height:5px;}
+.bx_launchinglb{background:url(../../images/wii/Wii_launching/bx_launching_lb.gif);background-position:left bottom;width:5px;height:5px;}
+.bx_launchingrb{background:url(../../images/wii/Wii_launching/bx_launching_rb.gif);background-position:right bottom;width:5px;height:5px;}
+.bx_launching_content{width:895px;height:10px;}
+
+a.qna02:link, a.qna02:visited, a.qna02:active{text-decoration:underline;color:#7c7c7c;}
+a.qna02:hover{text-decoration:underline;color:#a5a5a5;}
+
+a.qna03:link, a.qna02:visited, a.qna02:active{text-decoration:none;color:#7c7c7c;}
+a.qna03:hover{text-decoration:underline;color:#a5a5a5;}
+
+/* inc/css/eng.css에서 사용되는 것 wii런칭 컨퍼런스 qna 사용으로 가져옴*/
+
+.pT2{padding-top:2px; }
+.pT6{padding-top:6px; }
+.fS11{font-size:11px; }
+
+/* 버추얼콘솔 상세 */
+.vconsol_detail_bg{background:url(../../images/wii/wii/vconsol/vconsol_detail_bg.gif);width:906px;background-position:left top;background-repeat:no-repeat;}
+#vconsol_info ul {list-style: none;padding:8px 0 4px 0;}	  
+#vconsol_info li{background: url(../../images/wii/common/bu_arrow02.gif) no-repeat 0 50%;padding:7px 0 4px 8px;margin-left:10px;color:#8c8c8c;font-size:12px;font-family:"돋움,Verdana, Geneva, Arial, Helvetica, sans-serif";}	 
+
+.vconsol_detail_subtitlebg{background:url(../../images/wii/wii/vconsol/vconsol_detail_subtitle_bg.gif);height:18px;background-repeat:x-repeat;}  
+.vconsol_detail_subtitlebg01{background:url(../../images/wii/wii/vconsol/vconsol_detail_subtitle_bg01.gif);height:38px;background-repeat:x-repeat;}  
+
+/* 팝업 */
+.bx_pop_top{background:url(../../images/wii/common/pop/bx_pop_top.gif);background-position:left top;width:414px;height:10px;}
+.bx_pop_mid{background:url(../../images/wii/common/pop/bx_pop_mid.gif);background-position:left top;width:414px;}
+.bx_pop_btm{background:url(../../images/wii/common/pop/bx_pop_btm.gif);background-position:left bottom;width:414px;height:10px;}
+
+.bx_pop01_top{background:url(../../images/wii/common/pop/bx_pop01_top.gif);background-position:left top;width:474px;height:10px;}
+.bx_pop01_mid{background:url(../../images/wii/common/pop/bx_pop01_mid.gif);background-position:left top;width:474px;}
+.bx_pop01_btm{background:url(../../images/wii/common/pop/bx_pop01_btm.gif);background-position:left bottom;width:474px;height:10px;}
+
+/*	라이센스  */
+
+.license_bg		{	background-image:url(../../images/license/product_bg01.gif);background-repeat:no-repeat;		}
+.view_bg		{	background-image:url(../../images/license/view_bg.gif);background-repeat:no-repeat;		}
+.view_bg02		{	background-image:url(../../images/license/view_body.gif);background-repeat:repeat-y;		}
+.li_td01			{	color:#000000;	padding-left:9px;	padding-top:11px;	padding-bottom:4px;	background-color:#FFFFFF;	}
+.li_td02			{	padding-left:9px;	padding-top:11px;	padding-bottom:4px;	background-color:#FFFFFF;}
+
+/* 일본어 폰트 */
+.style_wii_a {
+ font-family: "돋움,Dotum,Verdana, Geneva, Arial, Helvetica, sans-serif";
+ font-size: 12px;
+ line-height: 20px;
+ color: #7c7c7c;
+}
+
+
+a.no1:link {   color: #7c7c7c; text-decoration: none}
+a.no1:visited {  color: #7c7c7c; text-decoration: none}
+a.no1:active {  color: #7c7c7c; text-decoration: none}
+a.no1:hover {  color: #000000; text-decoration: none}
+
+a.line:link {color:#7b7b7b;font-size:12px; text-decoration: none}
+a.line:visited {color:#7b7b7b;font-size:12px; text-decoration: none}
+a.line:active {color:#7b7b7b;font-size:12px; text-decoration: none}
+a.line:hover {color:#7b7b7b;font-size:12px; text-decoration: underline}
+
