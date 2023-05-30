@@ -1,22 +1,34 @@
-// ¿À¸¥ÂÊ ¹öÆ° ±İÁö ¼Ò½º
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+// ì˜¤ë¥¸ìª½ ë²„íŠ¼ ê¸ˆì§€ ì†ŒìŠ¤
 document.onselectstart = function(){return false}
 document.oncontextmenu = function(){return false}
 
 
-/*¸µÅ©¸¦ ÇÔ¼ö·Î_start*/
+/*ë§í¬ë¥¼ í•¨ìˆ˜ë¡œ_start*/
 
-/* ¾ÈÀüÀ»À§ÇÑÁÖÀÇ»çÇ× _start*/
+/* ì•ˆì „ì„ìœ„í•œì£¼ì˜ì‚¬í•­ _start*/
 function caution(){location.href='http://www.nintendocaution.co.kr/';}
 function cautionDS(){location.href='http://www.nintendocaution.co.kr/DS/index.php';}
 function cautionDSi(){location.href='http://www.nintendocaution.co.kr/DSi/index.php';}
 function cautionWii(){location.href='http://www.nintendocaution.co.kr/Wii/index.php';}
 /*
-function caution(){alert('ÆäÀÌÁö Á¡°Ë ÁßÀÔ´Ï´Ù.   ');}
-function cautionDS(){alert('ÆäÀÌÁö Á¡°Ë ÁßÀÔ´Ï´Ù.   ');}
-function cautionDSi(){alert('ÆäÀÌÁö Á¡°Ë ÁßÀÔ´Ï´Ù.   ');}
-function cautionWii(){alert('ÆäÀÌÁö Á¡°Ë ÁßÀÔ´Ï´Ù.   ');}
+function caution(){alert('í˜ì´ì§€ ì ê²€ ì¤‘ì…ë‹ˆë‹¤.   ');}
+function cautionDS(){alert('í˜ì´ì§€ ì ê²€ ì¤‘ì…ë‹ˆë‹¤.   ');}
+function cautionDSi(){alert('í˜ì´ì§€ ì ê²€ ì¤‘ì…ë‹ˆë‹¤.   ');}
+function cautionWii(){alert('í˜ì´ì§€ ì ê²€ ì¤‘ì…ë‹ˆë‹¤.   ');}
 */
-/* ¾ÈÀüÀ»À§ÇÑÁÖÀÇ»çÇ× _end*/
+/* ì•ˆì „ì„ìœ„í•œì£¼ì˜ì‚¬í•­ _end*/
 
 function home(){location.href='/main.php';}
 
@@ -28,28 +40,28 @@ function homeDS(){location.href='/DS/main.php';}
 /* Wii */
 function homeWii(){location.href='/Wii/main.php';}
 
-/* ÀÎÀçÃ¤¿ë */
+/* ì¸ì¬ì±„ìš© */
 function employ(){location.href='/common/employ/employ.php';}
 function em_sub01(){location.href='/common/employ/em_sub01.php';}
 function em_sub02(){location.href='/common/employ/em_sub02.php';}
 
-/* ±â¾÷Á¤º¸ */
+/* ê¸°ì—…ì •ë³´ */
 /*function corporation(){window.open('/corporate/index_nintendo.html','_blank');}*/
 /*function corporation(){window.open('/corporate/nintendo.html','_blank');}*/
 function corporation(){window.open('/corporate/kr/kr01.html','_blank');}
 
-/* ÀÌ¿ë¾à°ü */
+/* ì´ìš©ì•½ê´€ */
 function account(){location.href='/common/account.php';}
 
-/* °³ÀÎÁ¤º¸ */
+/* ê°œì¸ì •ë³´ */
 function privacy(){location.href='/common/privacy.php';}
 
-/* °í°´ Áö¿ø */
+/* ê³ ê° ì§€ì› */
 /*function support(){location.href='http://support.nintendo.co.kr';}*/
 function support(){window.open('http://support.nintendo.co.kr','_blank');}
-/*function support(){alert('ÇöÀç ¼­ºñ½º Á¡°Ë ÁßÀÔ´Ï´Ù. \nÀÌ¿ë¿¡ ºÒÆíÀ» µå·Á ÁË¼ÛÇÕ´Ï´Ù. \nÁ¡°Ë½Ã°£: 04:00 ~ 04:10 \n(¿¬ÀåµÉ ¼ö ÀÖ½À´Ï´Ù.) ');}*/
+/*function support(){alert('í˜„ì¬ ì„œë¹„ìŠ¤ ì ê²€ ì¤‘ì…ë‹ˆë‹¤. \nì´ìš©ì— ë¶ˆí¸ì„ ë“œë ¤ ì£„ì†¡í•©ë‹ˆë‹¤. \nì ê²€ì‹œê°„: 04:00 ~ 04:10 \n(ì—°ì¥ë  ìˆ˜ ìˆìŠµë‹ˆë‹¤.) ');}*/
 
-/* ·±ÄªÄÁÆÛ·±½º */
+/* ëŸ°ì¹­ì»¨í¼ëŸ°ìŠ¤ */
 function ds_launching(){location.href='/DS/launching/launching_01.php';}
 function wii_launching(){location.href='/Wii/Wii_launching/launching02_01.php';}
 
@@ -57,23 +69,23 @@ function wii_launching(){location.href='/Wii/Wii_launching/launching02_01.php';}
 /*function PressRelease(){location.href='/PR/Release_List.php';}*/
 function PressRelease(){location.href='/PR/press.php';}
 
-/* Ã³À½ ¸¸³ª´Â ºĞµé°Ô */
+/* ì²˜ìŒ ë§Œë‚˜ëŠ” ë¶„ë“¤ê²Œ */
 function wii_first(){location.href='/Wii/wii/wii_first_intro.php';}
 
-/* ¸¶¸®¿À¿Í ¼Ò´Ğ µµÀü ¿µ»ó*/
+/* ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ë„ì „ ì˜ìƒ*/
 function msOlympic_intro_enjoy(){location.href='/common/msOlympic_intro_enjoy.php';}
 
-/* wii »ç¿ë¸Ş´º */
+/* wii ì‚¬ìš©ë©”ë‰´ */
 function wii(){location.href='/Wii/wii/thebody.php';}
 function wii_software(){location.href='/Wii/software/list_2015.php';}
 function wii_3rd_software(){location.href='/Wii/software/list_3rd_2015.php';}
 function wii_channel(){location.href='/Wii/wiichannel/channel.php';}
 function wii_tvcm(){location.href='/Wii/tvcm/tvcm_list.php';}
 function wii_purchsing(){location.href='/common/purchase/onlineWii_Wii.php';}
-/*function wii_purchsing(){alert('ÇöÀç ÀÛ¾÷ ÁßÀÔ´Ï´Ù.   ');}*/
+/*function wii_purchsing(){alert('í˜„ì¬ ì‘ì—… ì¤‘ì…ë‹ˆë‹¤.   ');}*/
 function wii_sitemap(){location.href='/Wii/sitemap.php';}
 
-/* 3DS »ç¿ë¸Ş´º */
+/* 3DS ì‚¬ìš©ë©”ë‰´ */
 function intro_3ds(){location.href='/3DS/intro/3DSXL_intro.php';}
 function software_3ds(){location.href='/3DS/software/list_2012.php';}
 function tvcm_3ds(){location.href='/3DS/tvcm/tvcm_list.php';}
@@ -83,9 +95,9 @@ function customer_3ds(){location.href='/3DS/customer/index.php';}
 function purchase_3ds(){location.href='/common/purchase/online3DS_3DS_jibanyan.php';}
 function download_3ds(){location.href='/3DS/eshop/eshop_download.php';}
 function event_3ds(){location.href='/3DS/event/event02.php';}
-/*function ds_purchsing(){alert('ÇöÀç ÀÛ¾÷ ÁßÀÔ´Ï´Ù.   ');}*/
+/*function ds_purchsing(){alert('í˜„ì¬ ì‘ì—… ì¤‘ì…ë‹ˆë‹¤.   ');}*/
 
-/* ds »ç¿ë¸Ş´º */
+/* ds ì‚¬ìš©ë©”ë‰´ */
 function ds_dslite(){location.href='/DS/intro/DSlite_intro1.php';}
 function ds_software(){location.href='/DS/soft/list_2012.php';}
 function ds_3rd_software(){location.href='/DS/soft/list_3rd_2013.php';}
@@ -94,9 +106,9 @@ function ds_tvcm(){location.href='/DS/tvcm/tvcm.php';}
 function ds_purchsing(){location.href='/common/purchase/online3DS_3DS.php';}
 function ds_event(){location.href='/DS/event/event.php';}
 function ds_customer(){location.href='/DS/customer/customer.php';}
-/*function ds_purchsing(){alert('ÇöÀç ÀÛ¾÷ ÁßÀÔ´Ï´Ù.   ');}*/
+/*function ds_purchsing(){alert('í˜„ì¬ ì‘ì—… ì¤‘ì…ë‹ˆë‹¤.   ');}*/
 
-/* 3DS ¸Ş´º ¸µÅ© */
+/* 3DS ë©”ë‰´ ë§í¬ */
 function color_3ds(){location.href='/3DS/intro/3DS_color.php';}
 function built_in_3ds(){location.href='/3DS/software/built-in/main.php';}
 function built_in_camera(){location.href='/3DS/software/built-in/camera.php';}
@@ -115,7 +127,7 @@ function movie02_3ds(){location.href='/3DS/intro/3DS_movie02.php';}
 function movie01_2ds(){location.href='/3DS/intro/2DS_movie01.php';}
 
 
-/* wii tvcm ¸µÅ© */
+/* wii tvcm ë§í¬ */
 function tvcm_remote(){location.href='/Wii/tvcm/tvcm_remote01.php';}
 function tvcm_remote02(){location.href='/Wii/tvcm/tvcm_remote02.php';}
 
@@ -163,7 +175,7 @@ function tvcm_supermario_cg(){location.href='/Wii/tvcm/tvcm_supermario_cg.php';}
 function tvcm_together_party02(){location.href='/Wii/tvcm/tvcm_together_party02.php';}*/
 function tvcm_together_partyhome(){location.href='/Wii/tvcm/tvcm_together_partyhome.php';}
 
-/* ¸¶¸®¿À tvcm */
+/* ë§ˆë¦¬ì˜¤ tvcm */
 function tvcm_marioparty8_01(){location.href='/Wii/tvcm/tvcm_marioparty8_01.php';}
 
 /* Wii Fit tvcm */
@@ -199,7 +211,7 @@ function tvcm_wiifit_v_synthesis(){location.href='/Wii/tvcm/tvcm_wiifit_v_synthe
 function tvcm_wiifit_training01(){location.href='/Wii/tvcm/tvcm_wiifit_training01.php';}
 function tvcm_wiifit_training02(){location.href='/Wii/tvcm/tvcm_wiifit_training02.php';}
 
-/* wii software list ¸µÅ© */
+/* wii software list ë§í¬ */
 function software_first(){location.href='/Wii/software/first/main.php';}
 function software_first_submain(){location.href='/Wii/software/first/submain.php';}
 function software_first_sub01(){location.href='/Wii/software/first/sub01.php';}
@@ -239,14 +251,14 @@ function software_msOlympic_intro(){location.href='/Wii/software/msOlympic/intro
 function software_msOlympic_explist(){location.href='/Wii/software/msOlympic/exp_list.php';}
 function software_msOlympic_expview(){location.href='/Wii/software/msOlympic/exp_view.php?fpath=ANI123457007.swf';}
 
-/* ¸¶¸®¿À Ã¼Çè,¼Ò°³¿µ»ó */
+/* ë§ˆë¦¬ì˜¤ ì²´í—˜,ì†Œê°œì˜ìƒ */
 function software_marioparty8_explist(){location.href='/Wii/software/marioparty8/exp_list.php';}
 function software_marioparty8_expview(){location.href='/Wii/software/marioparty8/exp_view.php?fpath=ANI123457007.swf';}
 
 function software_marioparty8_intro(){location.href='/Wii/software/marioparty8/intro.php';}
 
 
-/* ¸»¶û_start */
+/* ë§ë‘_start */
 function software_brain_classroom(){location.href='/Wii/software/brain_classroom/main.php';}
 function software_brain_classroom_submain(){location.href='/Wii/software/brain_classroom/submain.php';}
 function software_brain_classroom_sub01(){location.href='/Wii/software/brain_classroom/sub01.php';}
@@ -293,9 +305,9 @@ function software_brain_classroom_intro(){location.href='/Wii/software/brain_cla
 
 function software_brain_classroom_explist(){location.href='/Wii/software/brain_classroom/exp_list.php';}
 function software_brain_classroom_expview(){location.href='/Wii/software/brain_classroom/exp_view.php?fpath=ANI123457007.swf';}
-/* ¸»¶û_end */
+/* ë§ë‘_end */
 
-/* ¸¶¸®¿ÀÆÄÆ¼8_start */
+/* ë§ˆë¦¬ì˜¤íŒŒí‹°8_start */
 function software_marioparty8ds(){location.href='/DS/soft/mariopartyDS/main.php';}
 function software_marioparty8(){location.href='/Wii/software/marioparty8/main.php?nn=0';}
 function software_marioparty8_submain(){location.href='/Wii/software/marioparty8/main.php?nn=1';}
@@ -309,273 +321,273 @@ function software_marioparty8_sub03(){location.href='/Wii/software/marioparty8/s
 function software_marioparty8_sub04(){location.href='/Wii/software/marioparty8/sub04.php';}
 function software_marioparty8_sub05(){location.href='/Wii/software/marioparty8/sub05.php';}
 
-/* ¸¶¸®¿ÀÆÄÆ¼8_end */
+/* ë§ˆë¦¬ì˜¤íŒŒí‹°8_end */
 
 
-/* ½´ÆÛ¸¶¸®¿À°¶·°½Ã_start */
-function software_supermario(){location.href='/Wii/software/supermario/main.php?nn=0';}
-function software_supermario_submain(){location.href='/Wii/software/supermario/main.php?nn=1';}
-function software_supermario_sub01_01(){location.href='/Wii/software/supermario/sub01_01.php';}
-function software_supermario_sub01_02(){location.href='/Wii/software/supermario/sub01_02.php';}
-function software_supermario_sub01_03(){location.href='/Wii/software/supermario/sub01_03.php';}
-function software_supermario_sub01_04(){location.href='/Wii/software/supermario/sub01_04.php';}
+/* ìŠˆí¼ë§ˆë¦¬ì˜¤ê°¤ëŸ­ì‹œ_start */
+function software_supermario(){location.href='index.html';}
+function software_supermario_submain(){location.href='index2.html';}
+function software_supermario_sub01_01(){location.href='sub01_01.html';}
+function software_supermario_sub01_02(){location.href='sub01_02.html';}
+function software_supermario_sub01_03(){location.href='sub01_03.html';}
+function software_supermario_sub01_04(){location.href='sub01_04.html';}
 
-function software_supermario_sub02_01(){location.href='/Wii/software/supermario/sub02_01.php';}
-function software_supermario_sub02_02(){location.href='/Wii/software/supermario/sub02_02.php';}
-function software_supermario_sub02_03(){location.href='/Wii/software/supermario/sub02_03.php';}
+function software_supermario_sub02_01(){location.href='sub02_01.html';}
+function software_supermario_sub02_02(){location.href='sub02_02.html';}
+function software_supermario_sub02_03(){location.href='sub02_03.html';}
 
-function software_supermario_sub03_01(){location.href='/Wii/software/supermario/sub03_01.php';}
-function software_supermario_sub03_02(){location.href='/Wii/software/supermario/sub03_02.php';}
+function software_supermario_sub03_01(){location.href='sub03_01.html';}
+function software_supermario_sub03_02(){location.href='sub03_02.html';}
 
-function software_supermario_sub04_01(){location.href='/Wii/software/supermario/sub04_01.php';}
-function software_supermario_sub04_02(){location.href='/Wii/software/supermario/sub04_02.php';}
-function software_supermario_sub04_03(){location.href='/Wii/software/supermario/sub04_03.php';}
-function software_supermario_sub04_04(){location.href='/Wii/software/supermario/sub04_04.php';}
-function software_supermario_sub04_05(){location.href='/Wii/software/supermario/sub04_05.php';}
-function software_supermario_sub04_06(){location.href='/Wii/software/supermario/sub04_06.php';}
-function software_supermario_sub04_07(){location.href='/Wii/software/supermario/sub04_07.php';}
-function software_supermario_sub04_08(){location.href='/Wii/software/supermario/sub04_08.php';}
+function software_supermario_sub04_01(){location.href='sub04_01.html';}
+function software_supermario_sub04_02(){location.href='sub04_02.html';}
+function software_supermario_sub04_03(){location.href='sub04_03.html';}
+function software_supermario_sub04_04(){location.href='sub04_04.html';}
+function software_supermario_sub04_05(){location.href='sub04_05.html';}
+function software_supermario_sub04_06(){location.href='sub04_06.html';}
+function software_supermario_sub04_07(){location.href='sub04_07.html';}
+function software_supermario_sub04_08(){location.href='sub04_08.html';}
 
-function software_supermario_sub05_01(){location.href='/Wii/software/supermario/sub05_01.php';}
-function software_supermario_sub05_02(){location.href='/Wii/software/supermario/sub05_02.php';}
-function software_supermario_sub05_03(){location.href='/Wii/software/supermario/sub05_03.php';}
-function software_supermario_sub05_04(){location.href='/Wii/software/supermario/sub05_04.php';}
-function software_supermario_sub05_05(){location.href='/Wii/software/supermario/sub05_05.php';}
-function software_supermario_sub05_06(){location.href='/Wii/software/supermario/sub05_06.php';}
+function software_supermario_sub05_01(){location.href='sub05_01.html';}
+function software_supermario_sub05_02(){location.href='sub05_02.html';}
+function software_supermario_sub05_03(){location.href='sub05_03.html';}
+function software_supermario_sub05_04(){location.href='sub05_04.html';}
+function software_supermario_sub05_05(){location.href='sub05_05.html';}
+function software_supermario_sub05_06(){location.href='sub05_06.html';}
 
-function software_supermario_sub06_01(){location.href='/Wii/software/supermario/sub06_01.php';}
-function software_supermario_sub06_02(){location.href='/Wii/software/supermario/sub06_02.php';}
-function software_supermario_sub06_03(){location.href='/Wii/software/supermario/sub06_03.php';}
-function software_supermario_sub06_04(){location.href='/Wii/software/supermario/sub06_04.php';}
-function software_supermario_sub06_05(){location.href='/Wii/software/supermario/sub06_05.php';}
-function software_supermario_sub06_06(){location.href='/Wii/software/supermario/sub06_06.php';}
-function software_supermario_sub06_07(){location.href='/Wii/software/supermario/sub06_07.php';}
-function software_supermario_sub06_08(){location.href='/Wii/software/supermario/sub06_08.php';}
-function software_supermario_sub06_09(){location.href='/Wii/software/supermario/sub06_09.php';}
-function software_supermario_sub06_10(){location.href='/Wii/software/supermario/sub06_10.php';}
+function software_supermario_sub06_01(){location.href='sub06_01.html';}
+function software_supermario_sub06_02(){location.href='sub06_02.html';}
+function software_supermario_sub06_03(){location.href='sub06_03.html';}
+function software_supermario_sub06_04(){location.href='sub06_04.html';}
+function software_supermario_sub06_05(){location.href='sub06_05.html';}
+function software_supermario_sub06_06(){location.href='sub06_06.html';}
+function software_supermario_sub06_07(){location.href='sub06_07.html';}
+function software_supermario_sub06_08(){location.href='sub06_08.html';}
+function software_supermario_sub06_09(){location.href='sub06_09.html';}
+function software_supermario_sub06_10(){location.href='sub06_10.html';}
 
-function software_supermario_sub07_01(){location.href='/Wii/software/supermario/sub07_01.php';}
-function software_supermario_sub07_01_01(){location.href='/Wii/software/supermario/sub07_01_01.php';}
-function software_supermario_sub07_02(){location.href='/Wii/software/supermario/sub07_02.php';}
-function software_supermario_sub07_02_01(){location.href='/Wii/software/supermario/sub07_02_01.php';}
-function software_supermario_sub07_03(){location.href='/Wii/software/supermario/sub07_03.php';}
-function software_supermario_sub07_03_01(){location.href='/Wii/software/supermario/sub07_03_01.php';}
-function software_supermario_sub07_04(){location.href='/Wii/software/supermario/sub07_04.php';}
-function software_supermario_sub07_04_01(){location.href='/Wii/software/supermario/sub07_04_01.php';}
+function software_supermario_sub07_01(){location.href='sub07_01.html';}
+function software_supermario_sub07_01_01(){location.href='sub07_01_01.html';}
+function software_supermario_sub07_02(){location.href='sub07_02.html';}
+function software_supermario_sub07_02_01(){location.href='sub07_02_01.html';}
+function software_supermario_sub07_03(){location.href='sub07_03.html';}
+function software_supermario_sub07_03_01(){location.href='sub07_03_01.html';}
+function software_supermario_sub07_04(){location.href='sub07_04.html';}
+function software_supermario_sub07_04_01(){location.href='sub07_04_01.html';}
 
-function software_supermario_sub08(){location.href='/Wii/software/supermario/sub08.php';}
+function software_supermario_sub08(){location.href='sub08.html';}
 
-function software_supermario_sub09_01(){location.href='/Wii/software/supermario/sub09_01.php';}
-function software_supermario_sub09_02(){location.href='/Wii/software/supermario/sub09_02.php';}
+function software_supermario_sub09_01(){location.href='sub09_01.html';}
+function software_supermario_sub09_02(){location.href='sub09_02.html';}
 
-function software_supermario_sub09_03(){location.href='/Wii/software/supermario/sub09_03.php';}
-function software_supermario_sub09_04(){location.href='/Wii/software/supermario/sub09_04.php';}
-function software_supermario_sub09_05(){location.href='/Wii/software/supermario/sub09_05.php';}
-function software_supermario_sub09_06(){location.href='/Wii/software/supermario/sub09_06.php';}
-function software_supermario_sub09_07(){location.href='/Wii/software/supermario/sub09_07.php';}
-function software_supermario_sub09_08(){location.href='/Wii/software/supermario/sub09_08.php';}
+function software_supermario_sub09_03(){location.href='sub09_03.html';}
+function software_supermario_sub09_04(){location.href='sub09_04.html';}
+function software_supermario_sub09_05(){location.href='sub09_05.html';}
+function software_supermario_sub09_06(){location.href='sub09_06.html';}
+function software_supermario_sub09_07(){location.href='sub09_07.html';}
+function software_supermario_sub09_08(){location.href='sub09_08.html';}
 
-function software_supermario_intro(){location.href='/Wii/software/supermario/intro.php';}
-function software_supermario_explist(){location.href='/Wii/software/supermario/exp_list.php';}
-function software_supermario_expview(){location.href='/Wii/software/supermario/exp_view.php?fpath=ANI123457007.swf';}
+function software_supermario_intro(){location.href='intro.html';}
+function software_supermario_explist(){location.href='exp_list.html';}
+function software_supermario_expview(){location.href='exp_view.html?fpath=ANI123457007.swf';}
 
 /* pop */
 function software_supermario_sub03_01_pop01(){
-window.open("/Wii/software/supermario/pop/sub03_01_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_01_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_01_pop02(){
-window.open("/Wii/software/supermario/pop/sub03_01_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_01_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_01_pop03(){
-window.open("/Wii/software/supermario/pop/sub03_01_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_01_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_01_pop04(){
-window.open("/Wii/software/supermario/pop/sub03_01_pop04.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_01_pop04.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_02_pop01(){
-window.open("/Wii/software/supermario/pop/sub03_02_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_02_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_02_pop02(){
-window.open("/Wii/software/supermario/pop/sub03_02_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_02_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub03_02_pop03(){
-window.open("/Wii/software/supermario/pop/sub03_02_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub03_02_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub04_04_pop01(){
-window.open("/Wii/software/supermario/pop/sub04_04_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=483;")
+window.open("pop/sub04_04_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=483;")
 }
 
 function software_supermario_sub06_01_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_01_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_01_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_01_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_01_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_01_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_01_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_01_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_01_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_01_pop04(){
-window.open("/Wii/software/supermario/pop/sub06_01_pop04.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_01_pop04.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_02_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_02_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_02_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_02_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_02_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_02_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_02_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_02_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_02_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_02_pop04(){
-window.open("/Wii/software/supermario/pop/sub06_02_pop04.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_02_pop04.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_03_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_03_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_03_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_03_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_03_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_03_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_03_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_03_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_03_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_04_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_04_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_04_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_04_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_04_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_04_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_04_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_04_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_04_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_04_pop04(){
-window.open("/Wii/software/supermario/pop/sub06_04_pop04.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("pop/sub06_04_pop04.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_05_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_05_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_05_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_05_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_05_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_05_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_05_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_05_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_05_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_06_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_06_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_06_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_06_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_06_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_06_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_06_pop03(){
-window.open("/Wii/software/supermario/pop/sub06_06_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_06_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_06_pop04(){
-window.open("/Wii/software/supermario/pop/sub06_06_pop04.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_06_pop04.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_07_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_07_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_07_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_07_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_07_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_07_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_08_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_08_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_08_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_08_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_08_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_08_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_09_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_09_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_09_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_09_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_09_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_09_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub06_10_pop01(){
-window.open("/Wii/software/supermario/pop/sub06_10_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_10_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub06_10_pop02(){
-window.open("/Wii/software/supermario/pop/sub06_10_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub06_10_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub07_01_pop01(){
-window.open("/Wii/software/supermario/pop/sub07_01_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_01_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub07_01_pop02(){
-window.open("/Wii/software/supermario/pop/sub07_01_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_01_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub07_02_pop01(){
-window.open("/Wii/software/supermario/pop/sub07_02_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_02_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub07_03_pop01(){
-window.open("/Wii/software/supermario/pop/sub07_03_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_03_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub07_03_pop02(){
-window.open("/Wii/software/supermario/pop/sub07_03_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_03_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub07_04_pop01(){
-window.open("/Wii/software/supermario/pop/sub07_04_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub07_04_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_01_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_01_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_01_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_01_pop02(){
-window.open("/Wii/software/supermario/pop/sub09_01_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_01_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_02_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_02_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_02_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_03_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_03_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_03_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_04_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_04_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_04_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_04_pop02(){
-window.open("/Wii/software/supermario/pop/sub09_04_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_04_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_05_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_05_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_05_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_05_pop02(){
-window.open("/Wii/software/supermario/pop/sub09_05_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_05_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_06_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_06_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_06_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 
 function software_supermario_sub09_07_pop01(){
-window.open("/Wii/software/supermario/pop/sub09_07_pop01.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_07_pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_07_pop02(){
-window.open("/Wii/software/supermario/pop/sub09_07_pop02.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_07_pop02.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_sub09_07_pop03(){
-window.open("/Wii/software/supermario/pop/sub09_07_pop03.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
+window.open("sub09_07_pop03.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=639,height=406;")
 }
 function software_supermario_submain_pop(){
-window.open("/Wii/software/supermario/pop/submain_pop.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=659,height=573;")
+window.open("submain_pop.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=659,height=573;")
 }
 
 
 
-/* ½´ÆÛ¸¶¸®¿À°¶·°½Ã_end */
+/* ìŠˆí¼ë§ˆë¦¬ì˜¤ê°¤ëŸ­ì‹œ_end */
 
 /* Wii Fit_start */
 function software_wiifit(){location.href='/Wii/software/wiifit/main.php';}
@@ -632,7 +644,7 @@ window.open("/Wii/software/wiifit/pop04.html","","toolbar=0,menubar=0,scrollbars
 
 /* Wii Fit_end */
 
-/* ºÕºí·°½º start */
+/* ë¶ë¸”ëŸ­ìŠ¤ start */
 function software_boomblox(){location.href='/Wii/software/boomblox/main.php';}
 function software_boomblox_submain(){location.href='/Wii/software/boomblox/submain.php';}
 function software_boomblox_sub01(){location.href='/Wii/software/boomblox/sub01.php';}
@@ -643,9 +655,9 @@ function software_boomblox_intro(){location.href='/Wii/software/boomblox/intro.p
 
 function software_boomblox_produce(){location.href='/Wii/software/boomblox/produce.php';}
 
-/* ºÕºí·°½º end */
+/* ë¶ë¸”ëŸ­ìŠ¤ end */
 
-/* ½´ÆÛ ÆäÀÌÆÛ ¸¶¸®¿À start */
+/* ìŠˆí¼ í˜ì´í¼ ë§ˆë¦¬ì˜¤ start */
 function software_superpapermario(){location.href='/Wii/software/superpapermario/main.php';}
 function software_superpapermario_submain(){location.href='/Wii/software/superpapermario/submain.php';}
 function software_superpapermario_sub01(){location.href='/Wii/software/superpapermario/sub01.php';}
@@ -658,9 +670,9 @@ function software_superpapermario_intro(){location.href='/Wii/software/superpape
 
 function tvcm_superpapermario_01(){location.href='/Wii/tvcm/tvcm_superpapermario.php';}
 
-/* ½´ÆÛ ÆäÀÌÆÛ ¸¶¸®¿À end */
+/* ìŠˆí¼ í˜ì´í¼ ë§ˆë¦¬ì˜¤ end */
 
-/* ¸¶¸®¿À Ä«Æ® Wii start*/
+/* ë§ˆë¦¬ì˜¤ ì¹´íŠ¸ Wii start*/
 function software_mariokartWii(){location.href='/Wii/software/mariokartWii/main.php';}
 function software_mariokartWii_submain(){location.href='/Wii/software/mariokartWii/submain.php';}
 function software_mariokartWii_kartinfo(){location.href='#none';}
@@ -710,10 +722,10 @@ function software_mariokartWii_expview(){location.href='/Wii/software/mariokartW
 function check(){
 	window.open ("http://www.nintendo.co.kr/DS/soft/wifi/check_activex.html","","width=379,height=422,toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no");
 }
-/* ¸¶¸®¿À Ä«Æ® Wii end*/
+/* ë§ˆë¦¬ì˜¤ ì¹´íŠ¸ Wii end*/
 
 
-/* ÃãÃç¶ó ¸ŞÀÌµå ÀÎ ¿Í¸®¿À start */
+/* ì¶¤ì¶°ë¼ ë©”ì´ë“œ ì¸ ì™€ë¦¬ì˜¤ start */
 function software_madeinwario(){location.href='/Wii/software/madeinwario/main.php';}
 function software_madeinwario_submain(){location.href='/Wii/software/madeinwario/submain.php';}
 function software_madeinwario_sub01(){location.href='/Wii/software/madeinwario/sub01.php';}
@@ -727,9 +739,9 @@ function tvcm_madeinwario03() {location.href='/Wii/tvcm/tvcm_madeinwario03.php';
 function tvcm_madeinwario04() {location.href='/Wii/tvcm/tvcm_madeinwario04.php';}
 
 function software_madeinwario_explist() {location.href='/Wii/software/madeinwario/exp_list.php';}
-/* ÃãÃç¶ó ¸ŞÀÌµå ÀÎ ¿Í¸®¿À end */
+/* ì¶¤ì¶°ë¼ ë©”ì´ë“œ ì¸ ì™€ë¦¬ì˜¤ end */
 
-/* Á©´ÙÀÇ Àü¼³ È²È¥ÀÇ °øÁÖ start */
+/* ì ¤ë‹¤ì˜ ì „ì„¤ í™©í˜¼ì˜ ê³µì£¼ start */
 function software_zelda_tp(){location.href='/Wii/software/zelda_tp/main.php';}
 function software_zelda_tp_submain(){window.open('http://zelda.foomhj.kr/tp', '_blank');}
 function software_zelda_tp_intro(){location.href='/Wii/software/zelda_tp/intro.php';}
@@ -792,14 +804,14 @@ function zelda_tp_interview10_pop02(){
 function zelda_tp_interview10_pop03(){
 	window.open("/Wii/software/zelda_tp/movie13.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=490,height=420;")
 }
-/* Á©´ÙÀÇ Àü¼³ È²È¥ÀÇ °øÁÖ end */
+/* ì ¤ë‹¤ì˜ ì „ì„¤ í™©í˜¼ì˜ ê³µì£¼ end */
 
-/* Wii°¡ ÀÖ´Â »õ·Î¿î »ıÈ° start */
+/* Wiiê°€ ìˆëŠ” ìƒˆë¡œìš´ ìƒí™œ start */
 /*function tvcm_wii_newlife01(){location.href='/Wii/tvcm/tvcm_wii_newlife01.php';}
 function tvcm_wii_newlife02(){location.href='/Wii/tvcm/tvcm_wii_newlife02.php';}*/
-/* Wii°¡ ÀÖ´Â »õ·Î¿î »ıÈ° end */
+/* Wiiê°€ ìˆëŠ” ìƒˆë¡œìš´ ìƒí™œ end */
 
-/* ¸¶¸®¿À¿Í ¼Ò´Ğ ¹êÄí¹ö µ¿°è¿Ã¸²ÇÈ¢â start */
+/* ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ë°´ì¿ ë²„ ë™ê³„ì˜¬ë¦¼í”½â„¢ start */
 function software_msvOlympic2010(){location.href='/Wii/software/msvOlympic2010/main.php';}
 function software_msvOlympic2010_submain(){location.href='/Wii/software/msvOlympic2010/submain.php';}
 function software_msvOlympic2010_sub01(){location.href='/Wii/software/msvOlympic2010/olympic/game.php';}
@@ -815,7 +827,7 @@ function tvcm_software_msvOlympic2010_04(){location.href='/Wii/tvcm/tvcm_msvOlym
 
 function software_msOlympic_explist(){location.href='/Wii/software/msOlympic/exp_list.php';}
 function software_msOlympic_expview(){location.href='/Wii/software/msOlympic/exp_view.php?fpath=ANI123457007.swf';}
-/* ¸¶¸®¿À¿Í ¼Ò´Ğ ¹êÄí¹ö µ¿°è¿Ã¸²ÇÈ¢â end */
+/* ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ë°´ì¿ ë²„ ë™ê³„ì˜¬ë¦¼í”½â„¢ end */
 
 /* Wii Music start */
 function software_wiimusic(){location.href='/Wii/software/wiimusic/main.php?nn=0';}
@@ -842,7 +854,7 @@ function tvcm_wiimusic03(){location.href='/Wii/tvcm/tvcm_wiimusic_03.php';}
 function tvcm_wiimusic04(){location.href='/Wii/tvcm/tvcm_wiimusic_04.php';}
 /* Wii Music end */
 
-/* Å¸¿îÀ¸·Î ³î·¯°¡¿ä µ¿¹°ÀÇ ½£ start */
+/* íƒ€ìš´ìœ¼ë¡œ ë†€ëŸ¬ê°€ìš” ë™ë¬¼ì˜ ìˆ² start */
 function software_animal_crossing(){location.href='/Wii/software/animal_crossing/main.php';}
 function software_animal_crossing_submain(){location.href='/Wii/software/animal_crossing/submain.php';}
 function software_animal_crossing_sub01(){location.href='/Wii/software/animal_crossing/sub01.php';}
@@ -857,9 +869,9 @@ function tvcm_animal_crossing01(){location.href='/Wii/tvcm/tvcm_animal_crossing0
 function tvcm_animal_crossing02(){location.href='/Wii/tvcm/tvcm_animal_crossing02.php';}
 function tvcm_animal_crossing03(){location.href='/Wii/tvcm/tvcm_animal_crossing03.php';}
 function tvcm_animal_crossing04(){location.href='/Wii/tvcm/tvcm_animal_crossing04.php';}
-/* Å¸¿îÀ¸·Î ³î·¯°¡¿ä µ¿¹°ÀÇ ½£ end */
+/* íƒ€ìš´ìœ¼ë¡œ ë†€ëŸ¬ê°€ìš” ë™ë¬¼ì˜ ìˆ² end */
 
-/* ¸¶¸®¿À ÆÄ¿ö »çÄ¿ start */
+/* ë§ˆë¦¬ì˜¤ íŒŒì›Œ ì‚¬ì»¤ start */
 function software_mariopowersoccer(){location.href='/Wii/software/mariopowersoccer/main.php';}
 function software_mariopowersoccer_submain(){location.href='/Wii/software/mariopowersoccer/submain.php';}
 function software_mariopowersoccer_sub01(){location.href='/Wii/software/mariopowersoccer/sub01.php';}
@@ -872,9 +884,9 @@ function software_mariopowersoccer_sub07(){location.href='/Wii/software/mariopow
 
 function software_mariopowersoccer_intro(){location.href='/Wii/software/mariopowersoccer/intro.php';}
 function tvcm_mariopowersoccer(){location.href='/Wii/tvcm/tvcm_mariopowersoccer.php';}
-/* ¸¶¸®¿À ÆÄ¿ö »çÄ¿ end */
+/* ë§ˆë¦¬ì˜¤ íŒŒì›Œ ì‚¬ì»¤ end */
 
-/* ¹Ù¶÷ÀÇ Å©·Î³ë¾Æ start*/
+/* ë°”ëŒì˜ í¬ë¡œë…¸ì•„ start*/
 function software_windklonoa(){location.href='/Wii/software/windklonoa/main.php';}
 function software_windklonoa_submain(){location.href='/Wii/software/windklonoa/submain.php';}
 function software_windklonoa_sub01(){location.href='/Wii/software/windklonoa/sub01.php';}
@@ -1070,15 +1082,15 @@ function klonoa_pop06_10(){
 }
 
 function tvcm_windklonoa() {location.href='#none';}
-/* ¹Ù¶÷ÀÇ Å©·Î³ë¾Æ end*/
+/* ë°”ëŒì˜ í¬ë¡œë…¸ì•„ end*/
 
-/* Wii Ã¤³Î */
+/* Wii ì±„ë„ */
 function wii_pic_intro(){location.href='/Wii/wiichannel/pic_intro.php';}
 function wii_mii_intro(){location.href='/Wii/wiichannel/mii_intro.php';}
 function wii_mii_exp(){location.href='/Wii/wiichannel/exp_list.php';}
 function wii_shop_intro(){location.href='/Wii/wiichannel/wiishop_intro.php';}
 
-/* wiiÀÇ wii¸µÅ© */
+/* wiiì˜ wiië§í¬ */
 function wii_remote(){location.href='/Wii/wii/remote.php';}
 function wii_connect24(){location.href='/Wii/wii/connect24.php';}
 function wii_controler(){location.href='/Wii/wii/controler.php';}
@@ -1107,7 +1119,7 @@ function wii_channel_wiishopview(){location.href='/Wii/wiichannel/channel_wiisho
 function wii_channel_unseview(){location.href='/Wii/wiichannel/channel_unse.php';}
 function wii_channel_speakeview(){location.href='/Wii/wiichannel/channel_speake.php';}
 
-/* wii¸¦ Áñ±æ¶§¿¡´Â */
+/* wiië¥¼ ì¦ê¸¸ë•Œì—ëŠ” */
 function wii_enjoy(){location.href='/Wii/wii_enjoy.php';}
 
 function software_wii_exp(){location.href='/Wii/software/first/exp_view.php?fpath=ANI123457007.swf';}
@@ -1196,13 +1208,13 @@ function wii_qna_sub_wiifit04(){location.href='/Wii/customer/qna_sub_wiifit04.ph
 function wii_qna_sub_wiifit05(){location.href='/Wii/customer/qna_sub_wiifit05.php';}
 
 
-/* wii °ü·Ã Q&A */
+/* wii ê´€ë ¨ Q&A */
 function wii_internet01(){location.href='/Wii/customer/internet/howto_connect.php';}
 function wii_internet02(){location.href='/Wii/customer/internet/connect_image.php';}
 function wii_internet03(){location.href='/Wii/customer/internet/chart.php';}
 function wii_internet04(){location.href='/common/ap_list.php';}
 
-/* ¹öÃß¾óÄÜ¼Ö »ó¼¼ */
+/* ë²„ì¶”ì–¼ì½˜ì†” ìƒì„¸ */
 function wii_vc_zeldalegend(){location.href='/Wii/wii/vconsol/zeldalegend/zeldalegend_01.php';}
 function wii_vc_jmf(){location.href='/Wii/wii/vconsol/jmf/jmf_01.php';}
 function wii_vc_kirbyball(){location.href='/Wii/wii/vconsol/kirbyball/kirbyball_01.php';}
@@ -1244,7 +1256,7 @@ function wii_vc_antarctic(){location.href='/Wii/wii/vconsol/antarctic/antarctic_
 function wii_vc_gradius3(){location.href='/Wii/wii/vconsol/gradius3/gradius3_01.php';}
 function wii_vc_valken(){location.href='/Wii/wii/vconsol/valken/valken_01.php';}
 
-/* ¹öÃß¾óÄÜ¼Ö ÆË¾÷ */
+/* ë²„ì¶”ì–¼ì½˜ì†” íŒì—… */
 function wii_vc_zeldalegend_pop(){
 	window.open("/Wii/wii/vconsol/zeldalegend/infomovie_pop.php","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=100,left=100,width=490,height=530;")
 }
@@ -1380,11 +1392,11 @@ function wii_vc_pop(){
 }
 
 
-/* DS°ü·Ã */
+/* DSê´€ë ¨ */
 function DS_tvcm_msOlympic(){location.href='/DS/tvcm/msOlympic_tvcm01.php';}
 function DS_tvcm_brain2(){location.href='/DS/tvcm/brain2_tvcm01.php';}
 
-/* ÅäÀÍDS */
+/* í† ìµDS */
 function DS_toeicDS(){location.href='/DS/soft/toeicDS/main.php';}
 function DS_toeicDS_submain(){location.href='/DS/soft/toeicDS/submain.php';}
 function DS_toeicDS_sub01(){location.href='/DS/soft/toeicDS/sub01.php';}
@@ -1395,9 +1407,9 @@ function DS_toeicDS_sub04(){location.href='/DS/soft/toeicDS/sub04.php';}
 function DS_toeicDS_sub05(){location.href='/DS/soft/toeicDS/sub05.php';}
 
 function DS_toeicDS_intro(){location.href='/DS/soft/toeicDS/intro.php';}
-/* ÅäÀÍDS */
+/* í† ìµDS */
 
-/* Æ÷ÄÏ¸ó ºÒ°¡»çÀÇ ´øÀü ½Ã°£ÀÇ Å½Çè´ë ¡¤ ¾îµÒÀÇ Å½Çè´ë */
+/* í¬ì¼“ëª¬ ë¶ˆê°€ì‚¬ì˜ ë˜ì „ ì‹œê°„ì˜ íƒí—˜ëŒ€ Â· ì–´ë‘ ì˜ íƒí—˜ëŒ€ */
 function DS_PokemonDG_ex(){location.href='/DS/soft/PokemonDG_ex/main.php';}
 function DS_PokemonDG_ex_submain(){location.href='/DS/soft/PokemonDG_ex/submain.php';}
 function DS_PokemonDG_ex_sub01(){location.href='/DS/soft/PokemonDG_ex/sub01.php';}
@@ -1414,7 +1426,7 @@ function DS_PokemonDG_ex_pop01(){
 window.open("/DS/soft/PokemonDG_ex/pop01.html","","toolbar=0,menubar=0,scrollbars=no,resizable=no,top=0,left=0,width=643,height=671;")
 }
 
-/* È£ÅÚ´õ½ºÅ©ÀÇºñ¹Ğ*/
+/* í˜¸í…”ë”ìŠ¤í¬ì˜ë¹„ë°€*/
 function DS_hoteldusk_secret(){location.href='/DS/soft/hoteldusk_secret/main.php';}
 function DS_hoteldusk_secret_submain(){location.href='/DS/soft/hoteldusk_secret/submain.php';}
 function DS_hoteldusk_secret_sub01(){location.href='/DS/soft/hoteldusk_secret/sub01.php';}
@@ -1426,7 +1438,7 @@ function DS_hoteldusk_secret_tvcm(){location.href='/DS/tvcm/hoteldusk_secret_tvc
 
 function DS_hoteldusk_secret_intro(){location.href='/DS/soft/hoteldusk_secret/intro.php';}
 
-/*¸ÅÀÏ ¸ÅÀÏ DS µÎ³úÆ®·¹ÀÌ´×*/
+/*ë§¤ì¼ ë§¤ì¼ DS ë‘ë‡ŒíŠ¸ë ˆì´ë‹*/
 function DS_brain_tvcm(){location.href='/DS/tvcm/brain_tvcm.php';}
 function DS_brain_n_tvcm01(){location.href='/DS/tvcm/brain_n_tvcm01.php';}
 function DS_brain_n_tvcm02(){location.href='/DS/tvcm/brain_n_tvcm02.php';}
@@ -1434,7 +1446,7 @@ function DS_brain_n_tvcm03(){location.href='/DS/tvcm/brain_n_tvcm03.php';}
 function DS_brain_n_tvcm04(){location.href='/DS/tvcm/brain_n_tvcm04.php';}
 
 
-/*¸¶¹ıÃµÀÚDS*/
+/*ë§ˆë²•ì²œìDS*/
 function DS_magic_hanjaDS(){location.href='/DS/soft/magic_hanjaDS/main.php';}
 function DS_magic_hanjaDS_submain(){location.href='/DS/soft/magic_hanjaDS/submain.php';}
 function DS_magic_hanjaDS_sub01(){location.href='/DS/soft/magic_hanjaDS/sub01.php';}
@@ -1448,9 +1460,9 @@ function DS_magic_hanjaDS_tvcm02(){location.href='/DS/tvcm/magic_hanjaDS_tvcm02.
 function DS_magic_hanjaDS_tvcm03(){location.href='/DS/tvcm/magic_hanjaDS_tvcm03.php';}
 function DS_magic_hanjaDS_expview(){location.href='/DS/soft/magic_hanjaDS/exp_view01.php';}
 function DS_magic_hanjaDS_intro(){location.href='/DS/soft/magic_hanjaDS/intro.php';}
-/*¸¶¹ıÃµÀÚDS*/
+/*ë§ˆë²•ì²œìDS*/
 
-/*¶ó±×³ª·ÎÅ©*/
+/*ë¼ê·¸ë‚˜ë¡œí¬*/
 function DS_ragnarokDS(){location.href='/DS/soft/ragnarokDS/main.php';}
 function DS_ragnarokDS_submain(){location.href='/DS/soft/ragnarokDS/submain.php';}
 function DS_ragnarokDS_sub01(){location.href='/DS/soft/ragnarokDS/sub01.php';}
@@ -1463,9 +1475,9 @@ function DS_ragnarokDS_sub05(){location.href='/DS/soft/ragnarokDS/sub05.php';}
 function ragnarokDS(){window.open('http://www.ragnarok.co.kr/ds','_blank');}
 function DS_ragnarokDS_tvcm(){location.href='#none';}
 function DS_ragnarokDS_intro(){location.href='#none';}
-/*¶ó±×³ª·ÎÅ©*/
+/*ë¼ê·¸ë‚˜ë¡œí¬*/
 
-/*Æ÷ÄÏ¸ó½ºÅÍPt ±â¶óÆ¼³ª*/
+/*í¬ì¼“ëª¬ìŠ¤í„°Pt ê¸°ë¼í‹°ë‚˜*/
 function DS_PokemonPt(){location.href='/DS/soft/PokemonPt/main.php';}
 function DS_PokemonPt_submain(){location.href='/DS/soft/PokemonPt/submain.php';}
 function DS_PokemonPt_sub01(){location.href='/DS/soft/PokemonPt/sub01.php';}
@@ -1476,9 +1488,9 @@ function DS_PokemonPt_sub04(){location.href='/DS/soft/PokemonPt/sub04.php';}
 function DS_PokemonPt_tvcm01(){location.href='/DS/tvcm/PokemonPt_tvcm01.php';}
 function DS_PokemonPt_tvcm02(){location.href='/DS/tvcm/PokemonPt_tvcm02.php';}
 function DS_PokemonPt_intro(){location.href='/DS/soft/PokemonPt/intro.php';}
-/*Æ÷ÄÏ¸ó½ºÅÍPt ±â¶óÆ¼³ª*/
+/*í¬ì¼“ëª¬ìŠ¤í„°Pt ê¸°ë¼í‹°ë‚˜*/
 
-/*¼Ò´Ğ·¯½Ã*/
+/*ì†Œë‹‰ëŸ¬ì‹œ*/
 function DS_sonicrush(){location.href='/DS/soft/sonicrush/main.php';}
 function DS_sonicrush_submain(){location.href='/DS/soft/sonicrush/submain.php';}
 function DS_sonicrush_sub01(){location.href='/DS/soft/sonicrush/sub01.php';}
@@ -1492,9 +1504,9 @@ function DS_sonicrush_tvcm02(){location.href='/DS/tvcm/sonicrush_tvcm02.php';}
 
 function DS_sonicrush_intro(){location.href='/DS/soft/sonicrush/intro.php';}
 
-/*¼Ò´Ğ·¯½Ã*/
+/*ì†Œë‹‰ëŸ¬ì‹œ*/
 
-/* ¸®µë ¼¼»ó */
+/* ë¦¬ë“¬ ì„¸ìƒ */
 function DS_rhythm_world(){location.href='/DS/soft/rhythm_world/main.php';}
 function DS_rhythm_world_submain(){location.href='/DS/soft/rhythm_world/main.php?nn=1';}
 function DS_rhythm_world_sub01(){location.href='/DS/soft/rhythm_world/sub01.php';}
@@ -1510,9 +1522,9 @@ function DS_rhythm_world_tvcm04(){location.href='/DS/tvcm/rhythm_world_tvcm04.ph
 function DS_rhythm_world_exp(){location.href='/DS/soft/rhythm_world/exp_list.php';}
 
 function DS_rhythm_world_intro(){location.href='/DS/soft/rhythm_world/intro.php';}
-/* ¸®µë ¼¼»ó */
+/* ë¦¬ë“¬ ì„¸ìƒ */
 
-/* DS ¸¶¸®¿À¿Í ¼Ò´Ğ ¹êÄí¹ö µ¿°è¿Ã¸²ÇÈ¢â start */
+/* DS ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ë°´ì¿ ë²„ ë™ê³„ì˜¬ë¦¼í”½â„¢ start */
 function DS_msvOlympic2010(){location.href='/DS/soft/msvOlympic2010/main.php';}
 function DS_msvOlympic2010_submain(){location.href='/DS/soft/msvOlympic2010/submain.php';}
 function DS_msvOlympic2010_sub01(){location.href='/DS/soft/msvOlympic2010/olympic/game.php';}
@@ -1529,12 +1541,12 @@ function tvcm_DS_msvOlympic2010_04(){location.href='/Wii/tvcm/tvcm_msvOlympic201
 
 function DS_msOlympic_explist(){location.href='/Wii/software/msOlympic/exp_list.php';}
 function DS_msOlympic_expview(){location.href='/Wii/software/msOlympic/exp_view.php?fpath=ANI123457007.swf';}
-/* DS ¸¶¸®¿À¿Í ¼Ò´Ğ ¹êÄí¹ö µ¿°è¿Ã¸²ÇÈ¢â end */
+/* DS ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ë°´ì¿ ë²„ ë™ê³„ì˜¬ë¦¼í”½â„¢ end */
 
-/* Æ÷ÄÏ¸ó½ºÅÍ ÇÏÆ®°ñµå¡¤¼Ò¿ï½Ç¹ö start */
+/* í¬ì¼“ëª¬ìŠ¤í„° í•˜íŠ¸ê³¨ë“œÂ·ì†Œìš¸ì‹¤ë²„ start */
 function DS_Pokemon_hgss(){location.href='/DS/soft/pokemon_hgss/main.php';}
 function DS_Pokemon_hgss_tvcm(){location.href='/DS/tvcm/Pokemon_hgss_tvcm.php';}
-/* Æ÷ÄÏ¸ó½ºÅÍ ÇÏÆ®°ñµå¡¤¼Ò¿ï½Ç¹ö end */
+/* í¬ì¼“ëª¬ìŠ¤í„° í•˜íŠ¸ê³¨ë“œÂ·ì†Œìš¸ì‹¤ë²„ end */
 
 /* DS series start */
 function DS_series(){location.href='/DS/series.php';}
@@ -1554,17 +1566,17 @@ function point(){location.href='/common/point.php';}
 /* DS series end */
 
 
-/* ¸ŞÀÌÇÃ½ºÅä¸®DS start */
+/* ë©”ì´í”ŒìŠ¤í† ë¦¬DS start */
 //function DS_maplestoryDS(){location.href='/DS/soft/maplestoryDS/teaser.php';}
 function DS_maplestoryDS(){location.href='/DS/soft/maplestoryDS/main.php';}
 function DS_maplestoryDS_tvcm01(){location.href='/DS/tvcm/maplestoryDS_tvcm01.php';}
 function DS_maplestoryDS_tvcm02(){location.href='/DS/tvcm/maplestoryDS_tvcm02.php';}
 function DS_maplestoryDS_intro01(){location.href='/DS/soft/maplestoryDS/intro01.php';}
 function DS_maplestoryDS_intro02(){location.href='/DS/soft/maplestoryDS/intro02.php';}
-/* ¸ŞÀÌÇÃ½ºÅä¸®DS end */
+/* ë©”ì´í”ŒìŠ¤í† ë¦¬DS end */
 
 
-/* ¸¶¸®¿À&·çÀÌÁö RPG ½Ã°£ÀÇ ÆÄÆ®³Ê start */
+/* ë§ˆë¦¬ì˜¤&ë£¨ì´ì§€ RPG ì‹œê°„ì˜ íŒŒíŠ¸ë„ˆ start */
 function DS_mario_luigi_rpg(){location.href='/DS/soft/mario_luigi_rpg/main.php';}
 function DS_mario_luigi_rpg_submain(){location.href='/DS/soft/mario_luigi_rpg/submain.php';}
 function DS_mario_luigi_rpg_sub01(){location.href='/DS/soft/mario_luigi_rpg/sub01.php';}
@@ -1578,9 +1590,9 @@ function DS_mario_luigi_rpg_tvcm01(){location.href='/DS/tvcm/mario_luigi_rpg_tvc
 function DS_mario_luigi_rpg_tvcm02(){location.href='/DS/tvcm/mario_luigi_rpg_tvcm02.php';}
 function DS_mario_luigi_rpg_tvcm03(){location.href='/DS/tvcm/mario_luigi_rpg_tvcm03.php';}
 function DS_mario_luigi_rpg_intro(){location.href='/DS/soft/mario_luigi_rpg/intro.php';}
-/* ¸¶¸®¿À&·çÀÌÁö RPG ½Ã°£ÀÇ ÆÄÆ®³Ê end */
+/* ë§ˆë¦¬ì˜¤&ë£¨ì´ì§€ RPG ì‹œê°„ì˜ íŒŒíŠ¸ë„ˆ end */
 
-/* ³ª¸¸ÀÇ ÄÃ·º¼Ç Girls Style start */
+/* ë‚˜ë§Œì˜ ì»¬ë ‰ì…˜ Girls Style start */
 function DS_GirlsStyle(){location.href='/DS/soft/GirlsStyle/main.php';}
 function DS_GirlsStyle_submain(){location.href='/DS/soft/GirlsStyle/submain.php';}
 function DS_GirlsStyle_sub01_01(){location.href='/DS/soft/GirlsStyle/sub01_01.php';}
@@ -1596,9 +1608,9 @@ function DS_GirlsStyle_tvcm01(){location.href='/DS/tvcm/GirlsStyle_tvcm01.php';}
 function DS_GirlsStyle_tvcm02(){location.href='/DS/tvcm/GirlsStyle_tvcm02.php';}
 function DS_GirlsStyle_tvcm03(){location.href='/DS/tvcm/GirlsStyle_tvcm03.php';}
 function DS_GirlsStyle_intro(){location.href='/DS/soft/GirlsStyle/intro.php';}
-/* ³ª¸¸ÀÇ ÄÃ·º¼Ç Girls Style end */
+/* ë‚˜ë§Œì˜ ì»¬ë ‰ì…˜ Girls Style end */
 
-/*¼ûÀº ¼ÒÁúÀ» ±ú¿ì´Â ±×¸²±³½Ç*/
+/*ìˆ¨ì€ ì†Œì§ˆì„ ê¹¨ìš°ëŠ” ê·¸ë¦¼êµì‹¤*/
 function DS_picture_class(){location.href='/DS/soft/picture_class/main.php';}
 function DS_picture_class_sub01(){location.href='/DS/soft/picture_class/sub01.php';}
 function DS_picture_class_sub02(){location.href='/DS/soft/picture_class/sub02.php';}
@@ -1615,7 +1627,7 @@ function DS_picture_movie02(){location.href='/DS/soft/picture_class/picture_movi
 function DS_picture_movie03(){location.href='/DS/soft/picture_class/picture_movie03.php';}
 
 function DS_picture_class_intro(){location.href='/DS/soft/picture_class/intro.php';}
-/*¼ûÀº ¼ÒÁúÀ» ±ú¿ì´Â ±×¸²±³½Ç*/
+/*ìˆ¨ì€ ì†Œì§ˆì„ ê¹¨ìš°ëŠ” ê·¸ë¦¼êµì‹¤*/
 
 /* Pucca Power Up */
 function DS_PuccaPowerUp(){location.href='/DS/soft/PuccaPowerUp/main.php';}
@@ -1629,7 +1641,7 @@ function DS_PuccaPowerUp_intro(){location.href='/DS/soft/PuccaPowerUp/intro.php'
 /* Pucca Power Up */
 
 /* Wii Title */
-/* WII ´ë³­Åõ ½º¸Å½Ãºê¶ó´õ½ºX*/
+/* WII ëŒ€ë‚œíˆ¬ ìŠ¤ë§¤ì‹œë¸Œë¼ë”ìŠ¤X*/
 function software_smashbrosx(){location.href='/Wii/software/smashbrosx/main.php';}
 function software_smashbrosx_submain(){location.href='/Wii/software/smashbrosx/submain.php';}
 function software_smashbrosx_sub01(){location.href='/Wii/software/smashbrosx/sub01.php';}
@@ -1758,7 +1770,7 @@ function tvcm_nsmbwii06(){location.href='/Wii/tvcm/tvcm_nsmbwii06.php';}
 function tvcm_nsmbwii07(){location.href='/Wii/tvcm/tvcm_nsmbwii07.php';}
 /* WII New super mario bros */
 
-/* ¸µÅ©ÀÇ »ç°İ Æ®·¹ÀÌ´×+Wii ÀçÆÛ */
+/* ë§í¬ì˜ ì‚¬ê²© íŠ¸ë ˆì´ë‹+Wii ì¬í¼ */
 function software_link_shooting(){location.href='/Wii/software/link_shooting/main.php';}
 function software_link_shooting_submain(){location.href='/Wii/software/link_shooting/submain.php';}
 function software_link_shooting_sub01(){location.href='/Wii/software/link_shooting/sub01.php';}
@@ -1770,7 +1782,7 @@ function software_link_shooting_sub06(){location.href='/Wii/software/link_shooti
 
 function software_link_shooting_intro(){location.href='/Wii/software/link_shooting/intro.php';}
 function tvcm_link_shooting(){location.href='/Wii/tvcm/tvcm_link_shooting.php';}
-/* ¸µÅ©ÀÇ »ç°İ Æ®·¹ÀÌ´×+Wii ÀçÆÛ */
+/* ë§í¬ì˜ ì‚¬ê²© íŠ¸ë ˆì´ë‹+Wii ì¬í¼ */
 
 /* Wii Fit Plus */
 function wiifitplus_main() {location.href='/Wii/software/wiifitplus/main.php'};
@@ -1818,7 +1830,7 @@ function wii_wiifitplus_vol2_02(){location.href='/Wii/software/wiifitplus/interv
 function wii_wiifitplus_vol2_03(){location.href='/Wii/software/wiifitplus/interview_vol2_03.php';}
 /* Wii Fit Plus */
 
-/* ½´ÆÛ ¸¶¸®¿À Wii 2 °¶·°½Ã ¾îµåº¥Ã³ Åõ°Ô´õ */
+/* ìŠˆí¼ ë§ˆë¦¬ì˜¤ Wii 2 ê°¤ëŸ­ì‹œ ì–´ë“œë²¤ì²˜ íˆ¬ê²Œë” */
 function software_sm_galaxy2(){location.href='/Wii/software/sm_galaxy2/main.php';}
 function software_sm_galaxy2_submain(){location.href='/Wii/software/sm_galaxy2/submain.php';}
 function software_sm_galaxy2_sub01(){location.href='/Wii/software/sm_galaxy2/sub01.php';}
@@ -1831,9 +1843,9 @@ function software_sm_galaxy2_sub04(){location.href='/Wii/software/sm_galaxy2/sub
 function software_sm_galaxy2_intro(){location.href='/Wii/software/sm_galaxy2/intro.php';}
 function tvcm_sm_galaxy2_01(){location.href='/Wii/tvcm/tvcm_sm_galaxy2_01.php';}
 function tvcm_sm_galaxy2_02(){location.href='/Wii/tvcm/tvcm_sm_galaxy2_02.php';}
-/* ½´ÆÛ ¸¶¸®¿À Wii 2 °¶·°½Ã ¾îµåº¥Ã³ Åõ°Ô´õ */
+/* ìŠˆí¼ ë§ˆë¦¬ì˜¤ Wii 2 ê°¤ëŸ­ì‹œ ì–´ë“œë²¤ì²˜ íˆ¬ê²Œë” */
 
-/* ¸¶¹ıÃµÀÚDS 2 */
+/* ë§ˆë²•ì²œìDS 2 */
 function DS_magic_hanja2DS_main(){location.href='/DS/soft/magic_hanja2DS/main.php';}
 function DS_magic_hanja2DS_submain(){location.href='/DS/soft/magic_hanja2DS/submain.php';}
 function DS_magic_hanja2DS_sub01(){location.href='/DS/soft/magic_hanja2DS/sub01.php';}
@@ -1847,9 +1859,9 @@ function DS_magic_hanja2DS_sub07(){location.href='/DS/soft/magic_hanja2DS/sub07.
 function DS_magic_hanja2DS_tvcm01(){location.href='/DS/tvcm/magic_hanja2DS_tvcm01.php';}
 function DS_magic_hanja2DS_tvcm02(){location.href='/DS/tvcm/magic_hanja2DS_tvcm02.php';}
 function DS_magic_hanja2DS_intro(){location.href='/DS/soft/magic_hanja2DS/intro.php';}
-/* ¸¶¹ıÃµÀÚDS 2 */
+/* ë§ˆë²•ì²œìDS 2 */
 
-/* ¿Í¸®¿À·£µå ¼ÎÀÌÅ· */
+/* ì™€ë¦¬ì˜¤ëœë“œ ì…°ì´í‚¹ */
 function software_wariolandshaking_main() {location.href='/Wii/software/wariolandshaking/main.php';}
 function software_wariolandshaking_submain() {location.href='/Wii/software/wariolandshaking/submain.php';}
 function software_wariolandshaking_sub01() {location.href='/Wii/software/wariolandshaking/sub01.php';}
@@ -1870,15 +1882,15 @@ function tvcm_wariolandshaking_01(){location.href='/Wii/tvcm/tvcm_wariolandshaki
 function tvcm_wariolandshaking_02(){location.href='/Wii/tvcm/tvcm_wariolandshaking_02.php';}
 
 function wariolandshaking_event() {}
-/* ¿Í¸®¿À·£µå ¼ÎÀÌÅ· */
+/* ì™€ë¦¬ì˜¤ëœë“œ ì…°ì´í‚¹ */
 
-/* Æ÷ÄÏ¸ó½ºÅÍ ºí·¢ 2¡¤È­ÀÌÆ® 2 */
+/* í¬ì¼“ëª¬ìŠ¤í„° ë¸”ë™ 2Â·í™”ì´íŠ¸ 2 */
 function DS_Pokemon_BW2_main(){location.href='/DS/soft/Pokemon_BW2/index.html';}
 function DS_Pokemon_Black2_main(){location.href='/DS/soft/Pokemon_BW2/index.html';}
 function DS_Pokemon_White2_main(){location.href='/DS/soft/Pokemon_BW2/index.html';}
-/* Æ÷ÄÏ¸ó½ºÅÍ ºí·¢ 2¡¤È­ÀÌÆ® 2 */
+/* í¬ì¼“ëª¬ìŠ¤í„° ë¸”ë™ 2Â·í™”ì´íŠ¸ 2 */
 
-/* Æ÷ÄÏ¸ó½ºÅÍ ºí·¢¡¤È­ÀÌÆ® */
+/* í¬ì¼“ëª¬ìŠ¤í„° ë¸”ë™Â·í™”ì´íŠ¸ */
 function DS_Pokemon_BW_main(){location.href='/DS/soft/Pokemon_BW/main.php';}
 function DS_Pokemon_BW_submain(){location.href='/DS/soft/Pokemon_BW/submain.php';}
 function DS_Pokemon_BW_sub01(){location.href='/DS/soft/Pokemon_BW/sub01.php';}
@@ -1919,7 +1931,7 @@ function DS_Pokemon_BW_line(num){location.href='/DS/soft/Pokemon_BW/file'+num+'.
 function DS_Pokemon_BW_move(num){location.href='/DS/soft/Pokemon_BW/sub03_'+num+'.php';}
 function DS_Pokemon_BW_filemove(name){location.href='/DS/soft/Pokemon_BW/'+name+'.php';}
 function DS_Pokemon_BW_movelist(name){location.href='/DS/soft/Pokemon_BW/'+name+'.php';}
-/* Æ÷ÄÏ¸ó½ºÅÍ ºí·¢¡¤È­ÀÌÆ® */
+/* í¬ì¼“ëª¬ìŠ¤í„° ë¸”ë™Â·í™”ì´íŠ¸ */
 /*function DS_Pokemon_BW_main(){location.href='/DS/soft/Pokemon_BW/main.php';}
 function DS_Pokemon_BW_submain(){location.href='/DS/soft/Pokemon_BW/submain.php';}
 function DS_Pokemon_BW_sub01(){location.href='/DS/soft/Pokemon_BW/sub01.php';}
@@ -1936,7 +1948,7 @@ function DS_Pokemon_BW_tvcm01(){location.href='/DS/tvcm/Pokemon_BW_tvcm01.php';}
 function DS_Pokemon_BW_tvcm02(){location.href='/DS/tvcm/Pokemon_BW_tvcm02.php';}
 function DS_Pokemon_BW_tvcm03(){location.href='/DS/tvcm/Pokemon_BW_tvcm03.php';}
 function DS_Pokemon_BW_tvcm04(){location.href='/DS/tvcm/Pokemon_BW_tvcm04.php';}*/
-/* Æ÷ÄÏ¸ó½ºÅÍ ºí·¢¡¤È­ÀÌÆ® */
+/* í¬ì¼“ëª¬ìŠ¤í„° ë¸”ë™Â·í™”ì´íŠ¸ */
 
 /* Wii Party */
 function software_wiiparty_main() {location.href='/Wii/software/wiiparty/main.php';}
@@ -1963,7 +1975,7 @@ function tvcm_wiiparty03(){location.href='/Wii/tvcm/tvcm_wiiparty03.php';}
 function tvcm_wiiparty04(){location.href='/Wii/tvcm/tvcm_wiiparty04.php';}
 /* Wii Party */
 
-/* ¸¶¸®¿À&·çÀÌÁö RPG 3 ÄíÆÄ ¸ö¼Ó ´ë¸ğÇè start */
+/* ë§ˆë¦¬ì˜¤&ë£¨ì´ì§€ RPG 3 ì¿ íŒŒ ëª¸ì† ëŒ€ëª¨í—˜ start */
 function DS_mario_luigi_rpg3(){location.href='/DS/soft/mario_luigi_rpg3/main.php';}
 function DS_mario_luigi_rpg3_submain(){location.href='/DS/soft/mario_luigi_rpg3/submain.php';}
 function DS_mario_luigi_rpg3_sub01(){location.href='/DS/soft/mario_luigi_rpg3/sub01.php';}
@@ -1976,9 +1988,9 @@ function DS_mario_luigi_rpg3_sub06(){location.href='/DS/soft/mario_luigi_rpg3/su
 function DS_mario_luigi_rpg3_tvcm01(){location.href='/DS/tvcm/mario_luigi_rpg3_tvcm01.php';}
 function DS_mario_luigi_rpg3_tvcm02(){location.href='/DS/tvcm/mario_luigi_rpg3_tvcm02.php';}
 function DS_mario_luigi_rpg3_intro(){location.href='/DS/soft/mario_luigi_rpg3/intro.php';}
-/* ¸¶¸®¿À&·çÀÌÁö RPG 3 ÄíÆÄ ¸ö¼Ó ´ë¸ğÇè end */
+/* ë§ˆë¦¬ì˜¤&ë£¨ì´ì§€ RPG 3 ì¿ íŒŒ ëª¸ì† ëŒ€ëª¨í—˜ end */
 
-/* ÅĞ½Ç Ä¿ºñ ÀÌ¾ß±â */
+/* í„¸ì‹¤ ì»¤ë¹„ ì´ì•¼ê¸° */
 function software_kirby_yarn_main() {location.href='/Wii/software/kirby_yarn/main.php';}
 function software_kirby_yarn_submain() {location.href='/Wii/software/kirby_yarn/submain.php';}
 function software_kirby_yarn_sub01() {location.href='/Wii/software/kirby_yarn/sub01.php';}
@@ -1992,9 +2004,9 @@ function software_kirby_yarn_intro(){location.href='/Wii/software/kirby_yarn/int
 function tvcm_kirby_yarn01(){location.href='/Wii/tvcm/tvcm_kirby_yarn01.php';}
 function tvcm_kirby_yarn02(){location.href='/Wii/tvcm/tvcm_kirby_yarn02.php';}
 function tvcm_kirby_yarn03(){location.href='/Wii/tvcm/tvcm_kirby_yarn03.php';}
-/* ÅĞ½Ç Ä¿ºñ ÀÌ¾ß±â */
+/* í„¸ì‹¤ ì»¤ë¹„ ì´ì•¼ê¸° */
 
-/* ·¹ÀÌÆ° ±³¼ö¿Í ¾Ç¸¶ÀÇ »óÀÚ Start */
+/* ë ˆì´íŠ¼ êµìˆ˜ì™€ ì•…ë§ˆì˜ ìƒì Start */
 function DS_layton_box_main() {location.href='/DS/soft/layton_box/main.php';}
 function DS_layton_box_submain() {location.href='/DS/soft/layton_box/submain.php';}
 function DS_layton_box_sub01() {location.href='/DS/soft/layton_box/sub01.php';}
@@ -2009,9 +2021,9 @@ function DS_layton_box_tvcm01(){location.href='/DS/tvcm/layton_box_tvcm01.php';}
 function DS_layton_box_tvcm02(){location.href='/DS/tvcm/layton_box_tvcm02.php';}
 function DS_layton_box_tvcm03(){location.href='/DS/tvcm/layton_box_tvcm03.php';}
 function DS_layton_box_intro(){location.href='/DS/soft/layton_box/intro.php';}
-/* ·¹ÀÌÆ° ±³¼ö¿Í ¾Ç¸¶ÀÇ »óÀÚ End */
+/* ë ˆì´íŠ¼ êµìˆ˜ì™€ ì•…ë§ˆì˜ ìƒì End */
 
-/* ÇÇÅ©¹Î */
+/* í”¼í¬ë¯¼ */
 function software_pikmin_main() {location.href='/Wii/software/pikmin/main.php';}
 function software_pikmin_submain() {location.href='/Wii/software/pikmin/submain.php';}
 function software_pikmin_sub01() {location.href='/Wii/software/pikmin/sub01.php';}
@@ -2027,13 +2039,13 @@ function software_pikmin_sub03() {location.href='/Wii/software/pikmin/sub03.php'
 function software_pikmin_sub04() {location.href='/Wii/software/pikmin/sub04.php';}
 
 function software_pikmin_intro(){location.href='/Wii/software/pikmin/intro.php';}
-/* ÇÇÅ©¹Î */
+/* í”¼í¬ë¯¼ */
 
-/* Á©´ÙÀÇ Àü¼³ ½ºÄ«ÀÌ¿öµå ¼Òµå */
+/* ì ¤ë‹¤ì˜ ì „ì„¤ ìŠ¤ì¹´ì´ì›Œë“œ ì†Œë“œ */
 function software_zelda_sword_main() {location.href='/zelda25th/index.html';}
-/* Á©´ÙÀÇ Àü¼³ ½ºÄ«ÀÌ¿öµå ¼Òµå */
+/* ì ¤ë‹¤ì˜ ì „ì„¤ ìŠ¤ì¹´ì´ì›Œë“œ ì†Œë“œ */
 
-/* ¸ğ¿©¶ó Ä¿ºñ */
+/* ëª¨ì—¬ë¼ ì»¤ë¹„ */
 function DS_atsumete_kirby_main() {location.href='/DS/soft/atsumete_kirby/main.php';}
 function DS_atsumete_kirby_submain() {location.href='/DS/soft/atsumete_kirby/submain.php';}
 function DS_atsumete_kirby_sub01() {location.href='/DS/soft/atsumete_kirby/submain.php#/movie/';}
@@ -2046,7 +2058,7 @@ function DS_atsumete_kirby_intro(){location.href='/DS/soft/atsumete_kirby/intro.
 function DS_atsumete_kirby_tvcm(){location.href='/DS/tvcm/atsumete_kirby_tvcm01.php';}
 function DS_atsumete_kirby_tvcm02(){location.href='/DS/tvcm/atsumete_kirby_tvcm02.php';}
 function DS_atsumete_kirby_tvcm03(){location.href='/DS/tvcm/atsumete_kirby_tvcm03.php';}
-/* ¸ğ¿©¶ó Ä¿ºñ end */
+/* ëª¨ì—¬ë¼ ì»¤ë¹„ end */
 
 /* Just Dance 2 */
 function software_justdance2_main() {location.href='/Wii/software/justdance2/main.php';}
@@ -2059,7 +2071,7 @@ function software_justdance2_intro(){location.href='/Wii/software/justdance2/int
 function tvcm_justdance2(){location.href='/Wii/tvcm/tvcm_justdance2.php';}
 /* Just Dance 2 */
 
-/* Wii ¸®¸ğÄÁÇÃ·¯½º·Î Áñ±â´Â ¹ö¶óÀÌ¾îÆ¼ °ÔÀÓ ¹Ú½º */
+/* Wii ë¦¬ëª¨ì»¨í”ŒëŸ¬ìŠ¤ë¡œ ì¦ê¸°ëŠ” ë²„ë¼ì´ì–´í‹° ê²Œì„ ë°•ìŠ¤ */
 function software_wrv_main() {location.href='/Wii/software/wrv/main.php';}
 function software_wrv_submain() {location.href='/Wii/software/wrv/submain.php';}
 function software_wrv_sub01() {location.href='/Wii/software/wrv/sub01.php';}
@@ -2080,10 +2092,32 @@ function software_wrv_variety12() {location.href='/Wii/software/wrv/variety_dock
 function software_wrv_intro(){location.href='/Wii/software/wrv/intro.php';}
 function software_wrv_webcm01(){location.href='/Wii/software/wrv/webcm01.php';}
 function software_wrv_webcm02(){location.href='/Wii/software/wrv/webcm02.php';}
-/* Wii ¸®¸ğÄÁÇÃ·¯½º·Î Áñ±â´Â ¹ö¶óÀÌ¾îÆ¼ °ÔÀÓ ¹Ú½º */
+/* Wii ë¦¬ëª¨ì»¨í”ŒëŸ¬ìŠ¤ë¡œ ì¦ê¸°ëŠ” ë²„ë¼ì´ì–´í‹° ê²Œì„ ë°•ìŠ¤ */
 
-/* ¸¶¸®¿À¿Í ¼Ò´Ğ ·±´ø ¿Ã¸²ÇÈ¢â */
+/* ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ëŸ°ë˜ ì˜¬ë¦¼í”½â„¢ */
 function software_mslOlympic2012_main() {location.href='/Wii/software/mslOlympic2012/index.php';}
-/* ¸¶¸®¿À¿Í ¼Ò´Ğ ·±´ø ¿Ã¸²ÇÈ¢â */
+/* ë§ˆë¦¬ì˜¤ì™€ ì†Œë‹‰ ëŸ°ë˜ ì˜¬ë¦¼í”½â„¢ */
 
 function CloseWindow() {window.close();}
+
+}
+/*
+     FILE ARCHIVED ON 14:26:30 Apr 11, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:18:53 May 29, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 149.5
+  exclusion.robots: 0.064
+  exclusion.robots.policy: 0.055
+  RedisCDXSource: 0.651
+  esindex: 0.007
+  LoadShardBlock: 130.328 (3)
+  PetaboxLoader3.datanode: 118.295 (4)
+  load_resource: 2776.386
+  PetaboxLoader3.resolve: 2760.629
+*/

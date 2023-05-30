@@ -6,14 +6,14 @@
 	<meta name="keywords" content="Wii,소프트웨어, 슈퍼 마리오 Wii 갤럭시 어드벤처">
 	<meta name="description" content="Wii,소프트웨어, 슈퍼 마리오 Wii 갤럭시 어드벤처">
 	<link rel="stylesheet" href="ui/css/wii.css" type="text/css">
-	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+	<!--<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	<script type="text/javascript">
 		window.RufflePlayer.config = {
 	    "autoplay": "on",
 	    "unmuteOverlay": "hidden",
 	    "preloader": false,
 	};
-	</script>
+	</script>-->
 	<script type="text/javascript" src="ui/js/PrnFlash.js"></script>
 </head>
 
@@ -158,56 +158,13 @@ if ( plugin ) {
 		<!-- //Location -->
 		<table border="0" cellpadding="0" cellspacing="0">
         	<tr>
-				<td class="aside" id="aside" valign="top">
-				<!-- rightmenu -->
-				<!-- 상품정보 -->
-				<div class="soft_Pb20">
-				<table border="0" cellpadding="0" cellspacing="0">
-                	<tr><td class="bx_menuTop"></td></tr>
-                	<tr>
-                		<td class="bx_menuMid" valign="top">
-						<!-- goods -->
-
-							<div class="goods_P">
-	<img src="images/wii/software/supermario/goods_supermario.jpg" alt="" border="0">
-	<p style="margin-top:5px;"><img src="common/img/goods_supermario_txt.gif" alt="" border="0"></p>
-</div>
-<div id="goods_info">
-	<ul>
-		<li><span class="goods_txt01">타이틀명 : </span><span>슈퍼 마리오 Wii</span></li>
-		<li style="background:none;margin-left:69px;margin-top:-4px;">갤럭시 어드벤처</li>
-		<li style="margin-top:-4px;"><span class="goods_txt01">장르 : </span>3D 액션</li>		
-		<li style="margin-top:-4px;"><span class="goods_txt01">플레이 인원수 : </span>1~2명</li>	
-		<li style="margin-top:-4px;"><span class="goods_txt01">Nintendo Selects 발매일 : </span>2015년 04월 23일</li>	
-		<li style="margin-top:-4px;"><span class="goods_txt01">희망소비자가격 : </span><img src="common/img/price_txt.gif" alt="44,000원 →29,000원" /></li>
-		<li style="margin-left:23px;background:none;"><a href="WEB_S_RMGK_20150311.pdf" target="_blank"><img src="images/wii/software/supermario/supermario_pdf_btn.gif" /></a></li>
-		<li style="background:none;margin-top:8px;font-size:12px;">※<span style="font-size:11px;">2008년 9월 4일에 발매된 게임과 내용이 <br />&nbsp;&nbsp;&nbsp;동일합니다.</span></li>		
-	</ul>
-</div>	
-						<!-- //goods -->
-						</td>
-                	</tr>
-                	<tr><td class="bx_menuBtm"></td></tr>
-                </table>
-				</div>
-				<!-- //상품정보 -->
-
-				<!-- 메뉴 --><script language="JavaScript" type="text/javascript">sv = 0;</script>
-				<div class="soft_Pb20"><script language="JavaScript" type="text/javascript" src="ui/js/sub_menu.js"></script></div>
-				<!-- //메뉴 -->
-
-				                <div><a href="javascript:software_sm_galaxy2();" onFocus="blur();"><img src="images/wii/software/supermario/btn_Wii_sm_galaxy2.jpg" alt="" border="0" style="vertical-align:top"></a></div>
-
-				<!-- //rightmenu -->
-				</td>
-				<!-- content -->
+        		<!-- content -->
 				<script type="text/javascript">
 				var view_fg = '0';
 				if(plugin){
 					document.write('<td valign="top"><div><div style="width:990px;">');
 					PnFlash("swf02/supermario/main.swf?nn=0",990,711);
 					document.write('</div></div></td>');
-					document.getElementById('aside').style.display = 'none';
 				}else{
 					document.write('<td valign="top">');
 					if(view_fg == '0'){
@@ -217,51 +174,56 @@ if ( plugin ) {
 					}
 
 					document.write('</td>');
+					document.write('<td class="aside" id="aside" valign="top"><div class="soft_Pb20"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="bx_menuTop"></td></tr><tr><td class="bx_menuMid" valign="top"><div class="goods_P"><img src="images/wii/software/supermario/goods_supermario.jpg" alt="" border="0"><p style="margin-top:5px;"><img src="common/img/goods_supermario_txt.gif" alt="" border="0"></p></div><div id="goods_info"><ul><li><span class="goods_txt01">타이틀명 : </span><span>슈퍼 마리오 Wii</span></li><li style="background:none;margin-left:69px;margin-top:-4px;">갤럭시 어드벤처</li><li style="margin-top:-4px;"><span class="goods_txt01">장르 : </span>3D 액션</li>		<li style="margin-top:-4px;"><span class="goods_txt01">플레이 인원수 : </span>1~2명</li>	<li style="margin-top:-4px;"><span class="goods_txt01">Nintendo Selects 발매일 : </span>2015년 04월 23일</li>	<li style="margin-top:-4px;"><span class="goods_txt01">희망소비자가격 : </span><img src="common/img/price_txt.gif" alt="44,000원 →29,000원" /></li><li style="margin-left:23px;background:none;"><a href="WEB_S_RMGK_20150311.pdf" target="_blank"><img src="images/wii/software/supermario/supermario_pdf_btn.gif" /></a></li><li style="background:none;margin-top:8px;font-size:12px;">※<span style="font-size:11px;">2008년 9월 4일에 발매된 게임과 내용이 <br />&nbsp;&nbsp;&nbsp;동일합니다.</span></li>		</ul></div>	</td></tr><tr><td class="bx_menuBtm"></td></tr></table></div>');
+					document.write('<script language="JavaScript" type="text/javascript">sv = 0;\x3C/script><div class="soft_Pb20"><script language="JavaScript" type="text/javascript" src="ui/js/sub_menu.js">\x3C/script></div>')
+					document.write('<div><a href="javascript:software_sm_galaxy2();" onFocus="blur();"><img src="images/wii/software/supermario/btn_Wii_sm_galaxy2.jpg" alt="" border="0" style="vertical-align:top"></a></div>')
 				}
 				</script>
-				<!-- //content -->
+
+				<!-- //rightmenu -->
+				</td>
 <map name="main">
-    <area shape="rect" coords="  1,  1,712,292" href="/Wii/tvcm/tvcm_supermario_cg.php"			onFocus="blur();" alt="" />
-    <area shape="rect" coords="  9,323,701,476" href="/Wii/software/supermario/main.php?nn=1"	onFocus="blur();" alt="" />
-    <area shape="rect" coords=" 11,488,348,596" href="/Wii/tvcm/tvcm_supermario_cg.php"			onFocus="blur();" alt="" />
-    <area shape="rect" coords="363,489,702,595" href="/Wii/software/supermario/intro.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="752,322,971,351" href="/Wii/software/supermario/main.php?nn=1"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="763,369,813,386" href="/Wii/software/supermario/sub01_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="765,395,826,413" href="/Wii/software/supermario/sub02_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="764,422,849,440" href="/Wii/software/supermario/sub03_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="765,449,837,468" href="/Wii/software/supermario/sub04_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="764,475,859,494" href="/Wii/software/supermario/sub05_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="765,503,826,521" href="/Wii/software/supermario/sub06_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,529,858,548" href="/Wii/software/supermario/sub07_01.php"	onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,556,812,575" href="/Wii/software/supermario/sub08.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,582,874,602" href="/Wii/software/supermario/sub09_01.php"	onFocus="blur();" alt="" />
-	<area shape="rect" coords="730,616,987,674" href="/Wii/software/sm_galaxy2/main.php"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="  1,  1,712,292" href="Wii/tvcm/tvcm_supermario_cg.html"			onFocus="blur();" alt="" />
+    <area shape="rect" coords="  9,323,701,476" href="index2.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords=" 11,488,348,596" href="Wii/tvcm/tvcm_supermario_cg.html"			onFocus="blur();" alt="" />
+    <area shape="rect" coords="363,489,702,595" href="intro.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="752,322,971,351" href="index.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="763,369,813,386" href="sub01_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="765,395,826,413" href="sub02_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="764,422,849,440" href="sub03_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="765,449,837,468" href="sub04_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="764,475,859,494" href="sub05_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="765,503,826,521" href="sub06_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,529,858,548" href="sub07_01.html"	onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,556,812,575" href="sub08.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,582,874,602" href="sub09_01.html"	onFocus="blur();" alt="" />
+	<area shape="rect" coords="730,616,987,674" href="Wii/software/sm_galaxy2/main.html"		onFocus="blur();" alt="" />
 </map>
 <map name="submain">
     <area shape="rect" coords=" 68,286,245,348" href="javascript:software_supermario_submain_pop()"	onFocus="blur();" alt="" />
-    <area shape="rect" coords=" 47,394,244,443" href="/Wii/software/supermario/sub01_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="260,394,457,443" href="/Wii/software/supermario/sub02_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="471,394,668,443" href="/Wii/software/supermario/sub03_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords=" 48,455,245,504" href="/Wii/software/supermario/sub04_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="260,456,457,505" href="/Wii/software/supermario/sub05_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="470,454,667,503" href="/Wii/software/supermario/sub06_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords=" 48,512,245,561" href="/Wii/software/supermario/sub07_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="259,512,456,561" href="/Wii/software/supermario/sub08.php"			onFocus="blur();" alt="" />
-    <area shape="rect" coords="469,513,666,562" href="/Wii/software/supermario/sub09_01.php"		onFocus="blur();" alt="" />
+    <area shape="rect" coords=" 47,394,244,443" href="sub01_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="260,394,457,443" href="sub02_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="471,394,668,443" href="sub03_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords=" 48,455,245,504" href="sub04_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="260,456,457,505" href="sub05_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="470,454,667,503" href="sub06_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords=" 48,512,245,561" href="sub07_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="259,512,456,561" href="sub08.html"			onFocus="blur();" alt="" />
+    <area shape="rect" coords="469,513,666,562" href="sub09_01.html"		onFocus="blur();" alt="" />
 	<!--
 	<area shape="rect" coords="755,320,968,343" href=""												onFocus="blur();" alt="" />
     -->
-	<area shape="rect" coords="765,356,813,372" href="/Wii/software/supermario/sub01_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="763,379,827,397" href="/Wii/software/supermario/sub02_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="764,404,850,421" href="/Wii/software/supermario/sub03_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="765,429,836,447" href="/Wii/software/supermario/sub04_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="764,455,859,471" href="/Wii/software/supermario/sub05_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,479,828,497" href="/Wii/software/supermario/sub06_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,505,854,522" href="/Wii/software/supermario/sub07_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,530,811,546" href="/Wii/software/supermario/sub08.php"			onFocus="blur();" alt="" />
-    <area shape="rect" coords="766,554,874,571" href="/Wii/software/supermario/sub09_01.php"		onFocus="blur();" alt="" />
-    <area shape="rect" coords="730,596,989,642" href="/Wii/software/supermario/main.php?nn=0"		onFocus="blur();" alt="" />
-	<area shape="rect" coords="729,664,988,710" href="/Wii/software/sm_galaxy2/main.php"			onFocus="blur();" alt="" />
+	<area shape="rect" coords="765,356,813,372" href="sub01_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="763,379,827,397" href="sub02_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="764,404,850,421" href="sub03_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="765,429,836,447" href="sub04_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="764,455,859,471" href="sub05_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,479,828,497" href="sub06_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,505,854,522" href="sub07_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,530,811,546" href="sub08.html"			onFocus="blur();" alt="" />
+    <area shape="rect" coords="766,554,874,571" href="sub09_01.html"		onFocus="blur();" alt="" />
+    <area shape="rect" coords="730,596,989,642" href="index.html"		onFocus="blur();" alt="" />
+	<area shape="rect" coords="729,664,988,710" href="Wii/software/sm_galaxy2/main.html"			onFocus="blur();" alt="" />
 </map>
         	</tr>
         </table>

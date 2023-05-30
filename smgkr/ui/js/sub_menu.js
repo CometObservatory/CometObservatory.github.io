@@ -3,15 +3,15 @@ document.write('	<tr><td class="bx_menuTop"></td></tr>');
 document.write('	<tr>');
 document.write('		<td class="bx_menuMid" valign="top">');
 document.write('		<div style="padding-left:9px;margin-right:8px;"><table border="0" cellpadding="0" cellspacing="0">');					
-document.write('			<tr><td><div style="padding:10px 0 10px 0"><a href="javascript:software_supermario_submain();" onfocus="blur();"><img src="images/wii/software/supermario/menu_title.gif" alt="½´ÆÛ ¸¶¸®¿À Wii °¶·°½Ã ¾îµåº¥Ã³" title="½´ÆÛ ¸¶¸®¿À Wii °¶·°½Ã ¾îµåº¥Ã³" border="0"></a></div></td></tr>');		
+document.write('			<tr><td><div style="padding:10px 0 10px 0"><a href="javascript:software_supermario_submain();" onfocus="blur();"><img src="images/wii/software/supermario/menu_title.gif" alt="ìŠˆí¼ ë§ˆë¦¬ì˜¤ Wii ê°¤ëŸ­ì‹œ ì–´ë“œë²¤ì²˜" title="ìŠˆí¼ ë§ˆë¦¬ì˜¤ Wii ê°¤ëŸ­ì‹œ ì–´ë“œë²¤ì²˜" border="0"></a></div></td></tr>');		
 document.write('			<tr><td class="menutit_line01"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 1) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub01_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub01_on.gif" alt="ÇÁ·Ñ·Î±×" title="ÇÁ·Ñ·Î±×" border="0"></a></td>');	
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub01_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub01_on.gif" alt="í”„ë¡¤ë¡œê·¸" title="í”„ë¡¤ë¡œê·¸" border="0"></a></td>');	
 }
 else  { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub01_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub01.gif" alt="ÇÁ·Ñ·Î±×" title="ÇÁ·Ñ·Î±×"  onmouseover=this.src="images/wii/software/supermario/menu_sub01_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub01.gif" border="0"></a></td>');	
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub01_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub01.gif" alt="í”„ë¡¤ë¡œê·¸" title="í”„ë¡¤ë¡œê·¸"  onmouseover=this.src="images/wii/software/supermario/menu_sub01_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub01.gif" border="0"></a></td>');	
 
 }
 		
@@ -20,10 +20,10 @@ document.write('			<tr><td class="menu_dot"></td></tr>');
 document.write('			<tr>');
 
 if (sv == 2) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub02_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub02_on.gif" alt="¿ìÁÖ¸¦ ¸ðÇè" title="¿ìÁÖ¸¦ ¸ðÇè"  border="0"></a></td>');	
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub02_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub02_on.gif" alt="ìš°ì£¼ë¥¼ ëª¨í—˜" title="ìš°ì£¼ë¥¼ ëª¨í—˜"  border="0"></a></td>');	
 }
 else  { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub02_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub02.gif" alt="¿ìÁÖ¸¦ ¸ðÇè" title="¿ìÁÖ¸¦ ¸ðÇè" onmouseover=this.src="images/wii/software/supermario/menu_sub02_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub02.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub02_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub02.gif" alt="ìš°ì£¼ë¥¼ ëª¨í—˜" title="ìš°ì£¼ë¥¼ ëª¨í—˜" onmouseover=this.src="images/wii/software/supermario/menu_sub02_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub02.gif" border="0"></a></td>');			
 }
 
 document.write('			</tr>');
@@ -31,10 +31,10 @@ document.write('			<tr><td class="menu_dot"></td></tr>');
 document.write('			<tr>');
 
 if (sv == 3) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub03_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub03_on.gif" alt="¸ðÇèÀÇ ÁøÇà ¹æ¹ý" title="¸ðÇèÀÇ ÁøÇà ¹æ¹ý" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub03_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub03_on.gif" alt="ëª¨í—˜ì˜ ì§„í–‰ ë°©ë²•" title="ëª¨í—˜ì˜ ì§„í–‰ ë°©ë²•" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub03_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub03.gif" alt="¸ðÇèÀÇ ÁøÇà ¹æ¹ý" title="¸ðÇèÀÇ ÁøÇà ¹æ¹ý" onmouseover=this.src="images/wii/software/supermario/menu_sub03_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub03.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub03_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub03.gif" alt="ëª¨í—˜ì˜ ì§„í–‰ ë°©ë²•" title="ëª¨í—˜ì˜ ì§„í–‰ ë°©ë²•" onmouseover=this.src="images/wii/software/supermario/menu_sub03_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub03.gif" border="0"></a></td>');			
 }
 
 document.write('			</tr>');
@@ -42,60 +42,60 @@ document.write('			<tr><td class="menu_dot"></td></tr>');
 document.write('			<tr>');
 
 if (sv == 4) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub04_on.gif" alt="¸¶¸®¿ÀÀÇ ¾×¼Ç" title="¸¶¸®¿ÀÀÇ ¾×¼Ç" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub04_on.gif" alt="ë§ˆë¦¬ì˜¤ì˜ ì•¡ì…˜" title="ë§ˆë¦¬ì˜¤ì˜ ì•¡ì…˜" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub04.gif" alt="¸¶¸®¿ÀÀÇ ¾×¼Ç" title="¸¶¸®¿ÀÀÇ ¾×¼Ç" onmouseover=this.src="images/wii/software/supermario/menu_sub04_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub04.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub04.gif" alt="ë§ˆë¦¬ì˜¤ì˜ ì•¡ì…˜" title="ë§ˆë¦¬ì˜¤ì˜ ì•¡ì…˜" onmouseover=this.src="images/wii/software/supermario/menu_sub04_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub04.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 document.write('			<tr><td class="menu_dot"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 5) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub05_on.gif" alt="¸¶¸®¿ÀÀÇ º¯½Å ¾×¼Ç" title="¸¶¸®¿ÀÀÇ º¯½Å ¾×¼Ç" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub04_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub05_on.gif" alt="ë§ˆë¦¬ì˜¤ì˜ ë³€ì‹  ì•¡ì…˜" title="ë§ˆë¦¬ì˜¤ì˜ ë³€ì‹  ì•¡ì…˜" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub05_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub05.gif" alt="¸¶¸®¿ÀÀÇ º¯½Å ¾×¼Ç" title="¸¶¸®¿ÀÀÇ º¯½Å ¾×¼Ç" onmouseover=this.src="images/wii/software/supermario/menu_sub05_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub05.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub05_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub05.gif" alt="ë§ˆë¦¬ì˜¤ì˜ ë³€ì‹  ì•¡ì…˜" title="ë§ˆë¦¬ì˜¤ì˜ ë³€ì‹  ì•¡ì…˜" onmouseover=this.src="images/wii/software/supermario/menu_sub05_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub05.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 document.write('			<tr><td class="menu_dot"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 6) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub06_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub06_on.gif" alt="°¶·°½Ã Åõ¾î" title="°¶·°½Ã Åõ¾î" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub06_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub06_on.gif" alt="ê°¤ëŸ­ì‹œ íˆ¬ì–´" title="ê°¤ëŸ­ì‹œ íˆ¬ì–´" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub06_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub06.gif" alt="°¶·°½Ã Åõ¾î" title="°¶·°½Ã Åõ¾î" onmouseover=this.src="images/wii/software/supermario/menu_sub06_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub06.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub06_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub06.gif" alt="ê°¤ëŸ­ì‹œ íˆ¬ì–´" title="ê°¤ëŸ­ì‹œ íˆ¬ì–´" onmouseover=this.src="images/wii/software/supermario/menu_sub06_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub06.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 document.write('			<tr><td class="menu_dot"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 7) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub07_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub07_on.gif" alt="2¸íÀÌ Çù·Â ÇÃ·¹ÀÌ" title="2¸íÀÌ Çù·Â ÇÃ·¹ÀÌ" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub07_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub07_on.gif" alt="2ëª…ì´ í˜‘ë ¥ í”Œë ˆì´" title="2ëª…ì´ í˜‘ë ¥ í”Œë ˆì´" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub07_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub07.gif" alt="2¸íÀÌ Çù·Â ÇÃ·¹ÀÌ" title="2¸íÀÌ Çù·Â ÇÃ·¹ÀÌ" onmouseover=this.src="images/wii/software/supermario/menu_sub07_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub07.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub07_01();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub07.gif" alt="2ëª…ì´ í˜‘ë ¥ í”Œë ˆì´" title="2ëª…ì´ í˜‘ë ¥ í”Œë ˆì´" onmouseover=this.src="images/wii/software/supermario/menu_sub07_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub07.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 document.write('			<tr><td class="menu_dot"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 8) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub08_on.gif" alt="´Ù¿î·Îµå" title="´Ù¿î·Îµå" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub08_on.gif" alt="ë‹¤ìš´ë¡œë“œ" title="ë‹¤ìš´ë¡œë“œ" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub08.gif" alt="´Ù¿î·Îµå" title="´Ù¿î·Îµå" onmouseover=this.src="images/wii/software/supermario/menu_sub08_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub08.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub08.gif" alt="ë‹¤ìš´ë¡œë“œ" title="ë‹¤ìš´ë¡œë“œ" onmouseover=this.src="images/wii/software/supermario/menu_sub08_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub08.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 document.write('			<tr><td class="menu_dot"></td></tr>');				
 document.write('			<tr>');
 
 if (sv == 9) { 
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub09_08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub09_on.gif" alt="¸ðÇèÀÇ ¶Ç ´Ù¸¥ Áñ°Å¿ò" title="¸ðÇèÀÇ ¶Ç ´Ù¸¥ Áñ°Å¿ò" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub09_08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub09_on.gif" alt="ëª¨í—˜ì˜ ë˜ ë‹¤ë¥¸ ì¦ê±°ì›€" title="ëª¨í—˜ì˜ ë˜ ë‹¤ë¥¸ ì¦ê±°ì›€" border="0"></a></td>');			
 }
 else  {
-document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub09_08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub09.gif" alt="¸ðÇèÀÇ ¶Ç ´Ù¸¥ Áñ°Å¿ò" title="¸ðÇèÀÇ ¶Ç ´Ù¸¥ Áñ°Å¿ò" onmouseover=this.src="images/wii/software/supermario/menu_sub09_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub09.gif" border="0"></a></td>');			
+document.write('				<td style="padding:6px 0 6px 0;"><img src="images/wii/common/bu_arrow03.gif" alt="" border="0" style="margin-left:6px;margin-right:7px;" align="absmiddle"><a href="javascript:software_supermario_sub09_08();" onfocus="blur();"><img src="images/wii/software/supermario/menu_sub09.gif" alt="ëª¨í—˜ì˜ ë˜ ë‹¤ë¥¸ ì¦ê±°ì›€" title="ëª¨í—˜ì˜ ë˜ ë‹¤ë¥¸ ì¦ê±°ì›€" onmouseover=this.src="images/wii/software/supermario/menu_sub09_on.gif" onmouseout=this.src="images/wii/software/supermario/menu_sub09.gif" border="0"></a></td>');			
 }
 document.write('			</tr>');
 	
