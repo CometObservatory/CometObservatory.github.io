@@ -30,15 +30,15 @@ function cautionWii(){alert('페이지 점검 중입니다.   ');}
 */
 /* 안전을위한주의사항 _end*/
 
-function home(){location.href='/main.php';}
+function home(){location.href='https://www.nintendo.co.kr';}
 
 /* 3DS */
-function home3DS(){location.href='/3DS/main.php';}
+function home3DS(){location.href='https://www.nintendo.co.kr/software/3ds/';}
 function homeNew3DS(){location.href='/3DS/new/index.html';}
 /* DS */
-function homeDS(){location.href='/DS/main.php';}
+function homeDS(){location.href='https://www.nintendo.co.kr';}
 /* Wii */
-function homeWii(){location.href='/Wii/main.php';}
+function homeWii(){location.href='https://www.nintendo.co.kr';}
 
 /* 인재채용 */
 function employ(){location.href='/common/employ/employ.php';}
@@ -76,12 +76,12 @@ function wii_first(){location.href='/Wii/wii/wii_first_intro.php';}
 function msOlympic_intro_enjoy(){location.href='/common/msOlympic_intro_enjoy.php';}
 
 /* wii 사용메뉴 */
-function wii(){location.href='/Wii/wii/thebody.php';}
-function wii_software(){location.href='/Wii/software/list_2015.php';}
+function wii(){location.href='https://www.nintendo.co.kr';}
+function wii_software(){location.href='../smgkr';}
 function wii_3rd_software(){location.href='/Wii/software/list_3rd_2015.php';}
-function wii_channel(){location.href='/Wii/wiichannel/channel.php';}
-function wii_tvcm(){location.href='/Wii/tvcm/tvcm_list.php';}
-function wii_purchsing(){location.href='/common/purchase/onlineWii_Wii.php';}
+function wii_channel(){location.href='https://www.nintendo.co.kr';}
+function wii_tvcm(){location.href='tvcm_supermario_adven01.html';}
+function wii_purchsing(){location.href='https://www.nintendo.co.kr';}
 /*function wii_purchsing(){alert('현재 작업 중입니다.   ');}*/
 function wii_sitemap(){location.href='/Wii/sitemap.php';}
 
@@ -166,10 +166,10 @@ function tvcm_brain_classroom_child(){location.href='/Wii/tvcm/tvcm_brain_classr
 function tvcm_brain_classroom_friend(){location.href='/Wii/tvcm/tvcm_brain_classroom_friend.php';}
 function tvcm_brain_classroom_family(){location.href='/Wii/tvcm/tvcm_brain_classroom_family.php';}
 
-function tvcm_supermario_adven(){location.href='/Wii/tvcm/tvcm_supermario_adven.php';}
-function tvcm_supermario_adven01(){location.href='/Wii/tvcm/tvcm_supermario_adven01.php';}
-function tvcm_supermario_adven02(){location.href='/Wii/tvcm/tvcm_supermario_adven02.php';}
-function tvcm_supermario_cg(){location.href='/Wii/tvcm/tvcm_supermario_cg.php';}
+function tvcm_supermario_adven(){location.href='tvcm_supermario_adven.html';}
+function tvcm_supermario_adven01(){location.href='tvcm_supermario_adven01.html';}
+function tvcm_supermario_adven02(){location.href='tvcm_supermario_adven02.html';}
+function tvcm_supermario_cg(){location.href='tvcm_supermario_cg.html';}
 
 /*function tvcm_together_party01(){location.href='/Wii/tvcm/tvcm_together_party01.php';}
 function tvcm_together_party02(){location.href='/Wii/tvcm/tvcm_together_party02.php';}*/
@@ -325,7 +325,7 @@ function software_marioparty8_sub05(){location.href='/Wii/software/marioparty8/s
 
 
 /* 슈퍼마리오갤럭시_start */
-function software_supermario(){location.href='index.html';}
+function software_supermario(){location.href='../smgkr';}
 function software_supermario_submain(){location.href='index2.html';}
 function software_supermario_sub01_01(){location.href='sub01_01.html';}
 function software_supermario_sub01_02(){location.href='sub01_02.html';}
@@ -1126,7 +1126,7 @@ function software_wii_exp(){location.href='/Wii/software/first/exp_view.php?fpat
 function software_wii_exp2(){location.href='/Wii/software/first/exp_list.php';}
 
 /* wii Q&A */
-function wii_customer(){location.href='/Wii/customer/customer.php';}
+function wii_customer(){location.href='https://www.nintendo.co.kr/support/';}
 
 function wii_qna_list(){location.href='/Wii/customer/qna_list.php';}
 

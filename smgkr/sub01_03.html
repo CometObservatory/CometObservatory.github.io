@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>슈퍼 마리오 Wii 갤럭시 어드벤처</title>
 	<meta name="keywords" content="Wii,소프트웨어, 슈퍼 마리오 Wii 갤럭시 어드벤처">
-	<meta name="description" content="Wii,소프트웨어, 슈퍼 마리오 Wii 갤럭시 어드벤처">
+	<meta name="description" content="Wii,소프트웨어, 슈퍼 마리오 Wii 갤럭시 어드벤처">	
 	<link rel="stylesheet" href="ui/css/wii.css" type="text/css">
 	<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 	<script type="text/javascript">
@@ -13,7 +13,7 @@
 	    "unmuteOverlay": "hidden",
 	    "preloader": false,
 	};
-	</script>	
+	</script>
 	<script src="ui/js/PrnFlash.js"></script>
 <script type="text/javascript" src="ui/js/jquery.min.js"></script>
 <script type="text/javascript" src="ui/js/jquery.cycle.all.js"></script>
@@ -173,25 +173,25 @@ if ( plugin ) {
 
 					<div class="super_sub01_bg sub01_pd">
 						<div style="clear:both;width:524px;">
-						<p style="padding:0 0 13px 9px;margin:0"><script>
+						<script type="text/javascript">
 						if(plugin){
-							PnFlash('swf02/supermario/sub01/scene1.swf',506,177);
+							PnFlash('swf02/supermario/sub01/prologued.swf',524,354);
 						}else{
-							//document.write('<img src="common/img/sub01_01_01.jpg" border=0 alt="" width="506" height="177" style="margin:0 0 0 0>');
-							document.write('<div id="slide" style="margin:-10px 0 10px 0">');
-							document.write('<img src="common/img/sub01_01_01.jpg" alt="slide-pic01" border="0" width="506" height="177" />');
-							document.write('<img src="common/img/sub01_01_02.jpg" alt="slide-pic01" border="0" width="506" height="177" />');
-							document.write('<img src="common/img/sub01_01_03.jpg" alt="slide-pic01" border="0" width="506" height="177" />');
-							document.write('<img src="common/img/sub01_01_04.jpg" alt="slide-pic01" border="0" width="506" height="177" />');
-							document.write('<img src="common/img/sub01_01_05.jpg" alt="slide-pic01" border="0" width="506" height="177" />');
+							document.write('<div id="slide" style="margin:45px 0 50px 44px">');
+							document.write('<img src="common/img/sub01_03_01.jpg" alt="slide-pic01" border="0" />');
+							document.write('<img src="common/img/sub01_03_02.jpg" alt="slide-pic01" border="0" />');
+							document.write('<img src="common/img/sub01_03_03.jpg" alt="slide-pic01" border="0" />');
+							document.write('<img src="common/img/sub01_03_04.jpg" alt="slide-pic01" border="0" />');
+							document.write('<img src="common/img/sub01_03_05.jpg" alt="slide-pic01" border="0" />');
 							document.write('</div>');
 						}
-						</script></p>
-						<p style="padding:0 0 0 9px;margin:0"><img src="images/wii/software/supermario/sub01_01_txt.jpg" alt="" border="0"></p>
+						</script>
+
 						</div>
+
 						<div style="width:524px;clear:both;padding-top:31px;">
-						<div style="float:left;"></div>
-						<div style="float:right;"><a href="javascript:software_supermario_sub01_02();" onFocus="blur();"><img src="images/wii/software/supermario/sub01_next.jpg" alt="다음" border="0"></a></div>
+						<div style="float:left;"><a href="javascript:software_supermario_sub01_02();" onFocus="blur();"><img src="images/wii/software/supermario/sub01_pre.jpg" alt="이전" border="0"></a></div>
+						<div style="float:right;"><a href="javascript:software_supermario_sub01_04();" onFocus="blur();"><img src="images/wii/software/supermario/sub01_next.jpg" alt="다음" border="0"></a></div>
 						</div>
 					</div>
 
@@ -209,6 +209,7 @@ if ( plugin ) {
 	                	</tr>
 	                </table>
 					<!-- // -->
+
 					</div>
 
 
@@ -255,8 +256,7 @@ if ( plugin ) {
 				<!-- //메뉴 -->
 
 				<div><a href="javascript:software_supermario();" onFocus="blur();"><img src="images/wii/software/supermario/btn_maingo.gif" alt="" border="0" style="vertical-align:top"></a></div>
-                <div style="margin-top:10px;"><a href="javascript:software_sm_galaxy2();" onFocus="blur();"><img src="images/wii/software/supermario/btn_Wii_sm_galaxy2.jpg" alt="" border="0" style="vertical-align:top"></a></div>
-
+				<div style="margin-top:10px;"><a href="javascript:software_sm_galaxy2();" onFocus="blur();"><img src="images/wii/software/supermario/btn_Wii_sm_galaxy2.jpg" alt="" border="0" style="vertical-align:top"></a></div>
 				<!-- //rightmenu -->
 				</td>
         	</tr>
@@ -285,11 +285,15 @@ if ( plugin ) {
 	</tr>
 </table>
 
+
+
 		<!-- //footer -->
 		</td>
 	</tr>
 </table>
 </div>
+
+
 <script type="text/javascript">
 $(document).ready(function() {
 	$('#slide').cycle('fade');
@@ -302,8 +306,9 @@ $(document).ready(function() {
 		timeout:     1000
 	});
 });
-
 </script>
+
+
 
 </body>
 
